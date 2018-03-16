@@ -1,0 +1,56 @@
+%% LyX 2.0.6 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[12pt,british,12pt, round,comma,sort&compress]{article}
+\usepackage{mathptmx}
+\renewcommand{\familydefault}{\rmdefault}
+%\usepackage[T1]{fontenc}
+%\usepackage[latin9]{inputenc}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\setlength{\parskip}{\smallskipamount}
+\setlength{\parindent}{0pt}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{color}
+\newcommand{\nicefrac}[2]{\ensuremath ^{#1}\!\!/\!_{#2}}
+\usepackage { fancybox}
+
+\renewcommand{\floatpagefraction}{0.95}
+\renewcommand{\textfraction}{0}
+\renewcommand{\topfraction}{1}
+\renewcommand{\bottomfraction}{1}
+
+\usepackage{bibentry}
+\bibliographystyle{abbrvnat}
+\nobibliography{numerics}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\title{Literature review on Time-Stepping Schemes}
+\author{Hilary Weller}
+\maketitle
+
+\begin{itemize}
+\item \bibenry{LM04} \ \\
+Uses deferred correction rather than Strang splitting to achieve high order and avoids doing chemistry on a state that is out of balance
+
+\item \bibentry{PR05}
+\item \bibentry{ARS97}
+\item \bibentry{DB12}
+\item \bibentry{WLW13}
+\item \bibentry{LWW14}
+\item \bibentry{GS98} \ \\ \includegraphics[width=\linewidth]{notes/GS98.jpg}
+\item \bibentry{GST01} \ \\ \includegraphics[width=\linewidth]{notes/GST01.jpg}
+
+\end{itemize}
+
+\nobibliography{numerics}
+
+\end{document}

@@ -1,0 +1,101 @@
+PS One more thing. I presume that because we are proposing to use the dry mass flux components as the transporting velocities then, when we get to that stage,  we will need to use density x distance to evaluate the trajectories and areas/volumes (in the Gaussian weights calculation)? I think this is what you indicated by your Int {F dm} John??
+
+Nigel.
+
+-- 
+
+Nigel Wood  Head of Dynamics Research  (& Honorary Visiting Professor at Exeter University)
+
+Met Office  FitzRoy Road Exeter Devon EX1 3PB United Kingdom
+
+Tel:  44 (0)1392 886456  Fax:  44 (0)1392 885681
+
+E-mail: nigel.wood@metoffice.gov.uk  Website: http://www.metoffice.gov.uk/
+
+From: Wood, Nigel
+Sent: 30 January 2015 10:58
+To: 'moha zerroukat'; J.Thuburn@exeter.ac.uk; Pring, Stephen; h.weller@reading.ac.uk; Melvin, Thomas; Zerroukat, Mohamed
+Subject: RE: transport on cube-sphere
+
+Dear All,
+
+Following on from various discussion points of yesterday’s meeting I thought it worth comparing the pros and cons of the two principal approaches we discussed (and this appears to suggest an alternative, combined approach). For convenience I will refer to the Gaussian point/Hilary/swept volume scheme as the Swept Volume or SV scheme and the COSMIC-PPM scheme as CP.
+
+[Both schemes need trajectory calculations and I have not estimated the cost of that. SV needs (4 per face = 12) 3D trajectory calculations. CP could use the same or alternatively could use 1D versions. I think it needs 2 trajectories in each direction per cell (=6) for each advective update and 1 per face (=3) for the flux update. So these are probably comparable.]
+
+Flop cost
+
+SV: = 3 (faces) x 8 (Gauss points) x 1 tri-quadratic interpolation = 24 x [(3+1)*3+1] one dimensional quadratic interpolations = 312 one dimensional quadratic interpolations + 3 lots of evaluation of weights and linear combination to obtain estimated volume.
+
+CP: = 21 = [2(‘cos in advective form so have to do cell by cell not faces) for each of x, y, z to start with (X, Y, Z =3), then 2 (again advective) x 2 applied to each of those 3 (XY, XZ, YX, YZ, ZX, ZY =12)), and finally one flux form (so only one for each shared face) for each direction applied to the sum of pairs (X(YZ+ZY), Y(XZ+ZX), Z(XY+YX) = 3) ] x one dimensional quadratic evaluations + the evaluations of the integrals of those quadratics.
+
+So on the face of it at least an order of magnitude increase in FLOPS for SV cf. CP.
+
+Comms cost
+
+SV: = None (or at least whatever this needs to do CP will also need to do in addition to the estimate below)
+
+CP: = one for each horizontal direction from which a horizontal flux is evaluated, I think that that = 4 halo exchanges
+
+So on the face of it CP is a lot more expensive on the comms front. It is essentially like an R-K scheme but in space, or alternatively like a substepping.
+
+Which wins??
+
+Accuracy
+
+SV: This is only properly second order if the departure volume lies within the whole of a grid cell – then the tri-quadratic reconstruction used for the Gauss points is the function that we are trying to evaluate. If the departure volume spans more than one grid cell then the departure volume reconstruction that we would like to integrate over consists of (a number of) different bits of tri-quadratics. Then the Gauss integration will only be approximate.
+
+CP: In each direction this is exact to within the approximation of quadratic fit. The errors are in the splitting.
+
+Geometry
+
+SV: Seems to be quite generally applicable to prisms other than quad based ones (eg it can, with some complication, be applied to hexagons or triangles).
+
+CP: It seems less clear (to me at least) that this can be extended to eg hexagons etc.
+
+A judicious combination?
+
+Putting the above thoughts together then suggests that one should cherry pick the best bits from both approaches and combine. I.e. how about:
+
+We apply the COSMIC splitting in the form 0.5*( VH + HV) where V=vertical and H=horizontal and we use PPM for V (which can equally be considered to be a conservative 1D SL scheme) and SV (now strictly SA for swept area) for each Horizontal face.
+
+Flop cost: = 99 one dimensional quadratics = 1 advective vertical update (=2 x one-dimensional quadratic evaluations) followed by 1 SA (=2x2 (Gauss points) 2D quadratics = 16 one dimensional ones) per independent horizontal face (= 32) + 2 SA per horizontal face (as advective) + 1 flux vertical (=64+1)
+
+Comms cost: = 0 (I believe – the haloes will be dirty after the horizontal bits but we don’t have any horizontal followed by horizontal so no need for intermediate halo updates).
+
+Geometry: = has the good generality of SV.
+
+Accuracy: = In the vertical the scheme shares the good accuracy of the CP scheme (provided COSMIC really is handling the splitting well). In the horizontal there is still the same issue about SV but this should be reduced because of the Courant number limitation (but only eliminated if the backwards flow is strongly convergent and aligned with one axial direction).
+
+On that basis then the COSMIC-PPM-SA combination seems to me like the way to go...??? [And if we did go down this route then it would be conceptually straightforward to switch John’s swept area scheme in.]
+
+Finally, on another note, something that I forgot to mention on Wednesday is that the current thinking for phys-dyn coupling (that it would seem sensible for us to follow for transport coupling) is that for the higher-order spaces we would couple based on the subdivision of the larger cell (ie the higher-order scheme is grouping together a number of the model’s actual cells and reconstructing across that collection – physics and transport would operate on the actual cells not the grouped ones).
+
+Nigel.
+
+-- 
+
+Nigel Wood  Head of Dynamics Research  (& Honorary Visiting Professor at Exeter University)
+
+Met Office  FitzRoy Road Exeter Devon EX1 3PB United Kingdom
+
+Tel:  44 (0)1392 886456  Fax:  44 (0)1392 885681
+
+E-mail: nigel.wood@metoffice.gov.uk  Website: http://www.metoffice.gov.uk/
+
+From: moha zerroukat [mailto:mzerroukat@hotmail.com]
+Sent: 29 January 2015 12:20
+To: Wood, Nigel; J.Thuburn@exeter.ac.uk; Pring, Stephen; h.weller@reading.ac.uk; Melvin, Thomas
+Subject: transport on cube-sphere
+
+All,
+
+Yesterday I forgot to mention the following relevant paper:
+
+W. M. Putman  and Shian-Jiann Lin, Finite-volume transport on various cubed-sphere grids,  J.  Comput. Phys.  227  55–78 (2007).
+
+In this paper they basically applied the lin and rood splitting scheme (1d fluxes) on various cube-spheres and showed basically the method works and the non-orthogonolity of the grid is not an issue and their results are similar to long-lat and probably better on all the classical advection tests on the sphere.
+
+So we dont need to re-invent the wheel. Basically for the cube-sphere we can, in principle, apply the 1d-flux approach used on orthogonal grids on the cube sphere. It doesn't have to be lin-and-rood but my guess it that it can be done with any scheme and the non-orthogonality of the grid wont be an issue, especially if we stick with courant number less than 1.
+
+Mohamed.

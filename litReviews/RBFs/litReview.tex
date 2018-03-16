@@ -1,0 +1,93 @@
+%% LyX 2.0.6 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[12pt,british,12pt, round,comma,sort&compress]{article}
+\usepackage{mathptmx}
+\renewcommand{\familydefault}{\rmdefault}
+%\usepackage[T1]{fontenc}
+%\usepackage[latin9]{inputenc}
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\setlength{\parskip}{\smallskipamount}
+\setlength{\parindent}{0pt}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{color}
+\newcommand{\nicefrac}[2]{\ensuremath ^{#1}\!\!/\!_{#2}}
+\usepackage { fancybox}
+
+\renewcommand{\floatpagefraction}{0.95}
+\renewcommand{\textfraction}{0}
+\renewcommand{\topfraction}{1}
+\renewcommand{\bottomfraction}{1}
+
+\usepackage{bibentry}
+\bibliographystyle{abbrvnat}
+\nobibliography{numerics}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\title{Literature review of Radial Basis Functions}
+\author{Hilary Weller}
+\date{July 2014}
+\maketitle
+
+\section*{For interpolations}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+\item \bibentry{Wen98}
+\item \bibentry{Wen05}
+\item \bibentry{Boy92}
+\item \bibentry{PTK11} \ \\
+Nice description of why a load of different interpolation methods don't work
+\item \bibentry{FLF11}
+
+\item\bibentry{FP07} \ \\ How to avoid ill conditioning as RBF becomes increasingly flat
+
+\end{itemize}
+
+\section*{For solving PDEs}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+\item \bibentry{SDY08} \ \\ mesh-free. Compact support. Multi-quadric (since they have exponential convergence) with user-defined shape parameter. Nothing on conservation or monotonicity
+
+\item\bibentry{Cha04} \ \\ Nothing on boundedness, monotonicity or conservation.\\ Collocation better than multi-quadrics
+
+\item\bibentry{WGZ+13} \ \\
+RBFs used for calculating the tangential component of the wind from 4 surrounding normal components (neighbouring triangle edges). Inverse multi-quadric kernel $\psi(r)=1/\sqrt{1+(\varepsilon r)^2}$ with shape parameter $\varepsilon=2$. See \cite{BIM11} for details
+
+\item\bibentry{BIM11} \ \\
+Use multiquadric with $\varepsilon=1$. So how do you non-dimensionalise $r$? This is where the shape parameter comes in.\\
+Smoother results than RT0 on triangles
+
+\end{itemize}
+
+\section*{For advecion}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+\item\bibentry{FW07} \ \\ RBS as a spectral method (ie global support). But cubic convergence
+
+\item \bibentry{FP08} \ \\ Global and compact support (Wendland)
+
+\item \bibentry{BI02} \ \\ Not conservative
+
+\item \bibentry{BCB03} \ \\ Compare local and global RBF and FD. Mesh and mesh-free\\
+Wendland functions are strictly positive definite and can be constructed to have any desired amount of smoothness. Wendland functions are the most popular compactly supported RBFs. \\
+(Global) thin plate spline RBF does not introduce artificial diffusion or dispersion errors. Compact RBFs do not do so well. \\
+Nothing on conservation, boundedness or monotonicity
+
+\item\bibentry{ZDC00} \ \\
+Global RBFs. Thin plate spline (TPS) chosen since as accurate as the multiquadrics without needing to compute a shape parameter. However TPS uses $\log(r)$ and so you need to non-dimensionalise $r$ before you take a log. This is where the shape parameter would come in?
+
+\item\bibentry{ZPC98} \ \\
+Multiquadric is $C^\infty$ continuous while the thin plate spline (TPS) is $C^{2m-1}$ where $m$ is the order of the TPS. So for higher-order PD operators, need a high order TPS. For heat equation use $m=2$.
+\end{itemize}
+
+\nobibliography{numerics}
+
+\end{document}

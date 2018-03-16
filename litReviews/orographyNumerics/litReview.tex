@@ -1,0 +1,96 @@
+%% LyX 2.0.6 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[12pt,british,12pt, round,comma,sort&compress]{article}
+\usepackage{mathptmx}
+\renewcommand{\familydefault}{\rmdefault}
+%\usepackage[T1]{fontenc}
+%\usepackage[latin9]{inputenc}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\setlength{\parskip}{\smallskipamount}
+\setlength{\parindent}{0pt}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{color}
+\newcommand{\nicefrac}[2]{\ensuremath ^{#1}\!\!/\!_{#2}}
+\usepackage { fancybox}
+
+\renewcommand{\floatpagefraction}{0.95}
+\renewcommand{\textfraction}{0}
+\renewcommand{\topfraction}{1}
+\renewcommand{\bottomfraction}{1}
+
+\usepackage{bibentry}
+\bibliographystyle{abbrvnat}
+\nobibliography{numerics}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\title{Literature review relevant for Numerical Representation of Orography}
+\author{Hilary Weller}
+\maketitle
+
+\begin{itemize}
+
+\item \bibentry{SZS15}
+\item \bibentry{BKLL04}\ \\
+hydrostatic reconstructions using discrete Archimides principle. No
+reference state\\
+No spurious vertical velocities for $\theta=$const. Otherwise max
+w of \textasciitilde{}1e-2 for their test case
+
+\item \bibentry{RCB05} \ \\
+Boundary fitted coord systems lead to eqns with metric terms that
+become singular over steep orography
+
+Need vertical discretisation aligned with gravity for simple representation
+of related physical processes (eg moist convection and sediment transport)
+
+Mostly about SWEs, trajectories, RBFs. Also hydrostatic flow over
+hill with cut cells vs terrain following. Not conclusive 
+
+\item \bibentry{GGLR13}
+\item \bibentry{GK00} \ \\
+Hill test cases. Terrain following versus step orography. Gravity
+waves 
+\item \bibentry{Kle11} \ \\
+STF coordinate - better than SLEVE. Resting atmosphere test case
+
+\item \bibentry{KSF03} \ \\
+Introduces flow with gravity waves over Schar hills
+
+\item \bibentry{LBC+12} \ \\
+Lit review on small-cell problem. Approach of this paper is to use
+a small time-step
+
+\item \bibentry{SBMB02} \ \\
+Problems with step orography
+
+\item \bibentry{Zan12}\ \\
+The best horizontal pressure gradient
+
+\item \bibentry{SLF+02} \ \\
+
+\item \bibentry{Wym96} \ \\
+Fig 2a shows what eta cordinates look like
+
+\item \bibentry{MJN+88}
+\item \bibentry{Rus07}
+\item \bibentry{MCG+12}
+\item \bibentry{Egg72} \ \\
+This was cited by \cite{MJN+88}. Uses a blend between sigma and
+eta. Cannot get hold of it. Inter-library loan?
+
+
+\end{itemize}
+
+\nobibliography{numerics}
+
+\end{document}

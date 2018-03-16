@@ -1,0 +1,60 @@
+Numerical consistency of metric terms in terrain-following coordinates
+Klemp, JB; Skamarock, WC; Fuhrer, O
+MONTHLY WEATHER REVIEW   131(7):1229-1239   Published: JUL 2003
+
+In numerically integrating the equations of motion in
+terrain-following coordinates, care must be taken in treating the
+metric terms that arise due to the sloping coordinate surfaces. In
+particular, metric terms that appear in the advection and
+pressure-gradient operators should be represented in a manner such
+that they exactly cancel when transformed back to Cartesian
+coordinates. Noncancellation of these terms can lead to spurious
+forcing at small scales on the numerical grid. This effect is
+demonstrated for a mountain wave flow problem through analytic
+solutions to the linear finite-difference equations. Further
+confirmation is provided through numerical simulations with a
+two-dimensional prototype version of the Weather Research and
+Forecasting (WRF) model, and with the Canadian Mesoscale Compressible
+Community (MC2) model.
+
+1. Introduction
+Terrain-following coordinates - truncation errors arise in computing the
+horizontal pressure-gradient force in terrain-following
+coordinates, particularly in the presence of steep terrain
+
+distortion arises when the metric terms
+in the coordinate transformation are computed using numerics
+that are not consistent with the numerical
+schemes used for other terms in the equations,
+
+artificial contributions to the linear
+wave solution that may be particularly significant for
+terrain features that have horizontal length scales similar
+to the Scorer parameter
+
+2. Linear analytic mountain-wave solution
+
+Remove reference pressure profile to reduce errors
+
+3. Example linear solutions
+
+4. Nonlinear numerical model simulations
+
+5. Dependence on horizontal scale
+
+6. Consistent metrics in a semi-Lagrangian model
+
+7. Summary
+
+An alternative approach for achieving accurate representation
+of horizontal derivatives in terrain-following
+coordinates is to avoid using the metrics by computing
+the derivatives in physical space
+
+Removing a reference profile from the
+Lagrangian integration of the thermodynamic variable
+may reduce the distortion caused by metric inconsistency
+in the trajectory calculation if the reference profile
+is close to the actual mean state; however, in many
+nonlinear or real weather applications, deviations from
+any specified reference state will be significant.

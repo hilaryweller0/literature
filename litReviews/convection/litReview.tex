@@ -1,0 +1,227 @@
+%% LyX 2.0.6 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[12pt,british,12pt, round,comma,sort&compress]{article}
+\usepackage{mathptmx}
+\renewcommand{\familydefault}{\rmdefault}
+%\usepackage[T1]{fontenc}
+%\usepackage[latin9]{inputenc}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\setlength{\parskip}{\smallskipamount}
+\setlength{\parindent}{0pt}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{color}
+\newcommand{\nicefrac}[2]{\ensuremath ^{#1}\!\!/\!_{#2}}
+\usepackage { fancybox}
+
+\renewcommand{\floatpagefraction}{0.95}
+\renewcommand{\textfraction}{0}
+\renewcommand{\topfraction}{1}
+\renewcommand{\bottomfraction}{1}
+
+\usepackage{bibentry}
+\bibliographystyle{abbrvnat}
+\nobibliography{numerics}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\title{Some Convection Parameterization Papers}
+\author{Hilary Weller}
+\maketitle
+
+\subsection*{Convection parameterisation is a problem}
+\begin{itemize}
+
+\item 
+Revcon proposal: \\
+``in constructing a reliable and accurate parameterization underlie many current model deficiencies [IPCC, Ch. 8,10,12, K12, S10].''
+
+\item \bibentry{IPCC5_WG1} \\
+7.2.3.3 ``improved simulations of the Madden--Julian Oscillation, tropical convectively coupled waves and mean rain-fall patterns in some models ... but usually at the expense of a degraded simulation of the mean state.''
+
+Other improvements since AR4. 
+
+\item \bibentry{KS12} \\
+Does not mention convection
+
+\item \bibentry{SLF+10} \\
+``The accumulations
+from the four general circulation models that employ more
+traditional parameterization of moist physics tend to produce
+too much precipitation over the tropical oceans compared
+to observations.''
+
+The version of CAM with a traditional parameterization ``produces too much light rainfall that occurs as soon as the boundary layer energizes''.
+
+\item \bibentry{HPB+14} \\
+``Atmospheric convection is arguably the biggest current
+obstacle to the improvement of global weather and
+climate prediction (e.g. Sherwood et al., 2014).''
+
+``Short-term forecasts of
+global convection remain poor, with biases that have not
+been removed by increasing resolution in current oper-
+ational forecast models (Lin et al., 2012)''
+
+\item \bibentry{SAB+13} \\
+``Physical processes not well resolved by climate models continue to limit confidence in detailed predictions of climate change. The representation of cloud and convection-related processes dominates the model spread in global climate sensitivity, and affects the simulation of important aspects of the present-day climate especially in the tropics.''
+
+\item \bibentry{ipcc41} \\
+Chapter 8: Problems with MJO and TCs due to convection parametrization
+
+\item \bibentry{LCD+08} \\
+``It is shown that the 4- and 1-km-gridlength models often give more realistic-looking precipitation fields because convection is represented
+explicitly rather than parameterized. However, the 4-km model representation suffers from large convective cells and delayed initiation because the grid length is too long to correctly reproduce the convection explicitly.''
+
+\end{itemize}
+
+\subsection*{Others}
+\begin{itemize}
+\item \bibentry{GR90}
+\item \bibentry{AS74} \ \\ See notes in \url{notes/AS74.pdf}
+\item \bibentry{KF90}
+\item \bibentry{Kai04}
+\item \bibentry{LR01} \\
+Demonstrates the equivalence between using a higher order closure and predicting $w^\prime w^\prime$ and $w^\prime w^\prime w^\prime$ with predicting mass flux and area fraction, $\sigma$. Transfer terms not clear
+
+\item \bibentry{LR01b} \ \\
+Gives the entrainment and detrainment rates for the the previous paper. 
+
+\item \bibentry{KH17} \ \\
+\includegraphics[angle=90, width=\linewidth]{notes/KH17.jpg}
+
+\end{itemize}
+
+\subsection*{Recommended by Alan Grant on conditional averaging}
+\begin{itemize}
+
+\item \bibentry{SST07}\ \\
+"(EDMF) is proposed for the dry
+convective boundary layer. It is shown that the EDMF approach follows naturally from a decomposition of
+the turbulent fluxes into 1) a part that includes strong organized updrafts, and 2) a remaining turbulent field.
+At the basis of the EDMF approach is the concept that nonlocal subgrid transport due to the strong updrafts
+is taken into account by the MF approach, while the remaining transport is taken into account by an ED closure."
+
+"we define this strong updraft as a fixed fractional
+area $a_u$ , say a few percent of the horizontal domain
+under consideration, that contains the strongest upward
+vertical velocities."
+
+"convective mass flux can be defined as $M\equiv a_u (w_u - w)$. If we now
+make use of the fact that $a_u << 1$.
+
+\end{itemize}
+
+\subsection*{Others on Convection}
+\begin{itemize}
+
+\item \bibentry{BFM16}\ \\
+\begin{quote}
+Observational studies show a strong correlation between large-scale wind convergence and precipitation. However, using this as a convective closure assumption to determine the total precipitation in a numerical model typically leads to deleterious wave-CISK behavior such as grid-scale noise
+\end{quote}
+
+\item \bibentry{KB08}\ \\
+HYMACS -- hybrid mass flux convection scheme -- only convective updrafts and downdrafts are parameterised. Compesating subsidence transferred to the grid scale equations. Implemented in COSMO.\\
+Model is $100\times 36\times35$ grid points with $\Delta x=7$km and $\Delta t=40$s. Convection scheme called every 400s
+
+\item \bibentry{KGB07}\ \\
+Convection scheme that alters density -- passes tendency to continuity eqn
+
+\item \bibentry{GG05} \ \\
+Prognostic equations for $w_u$ and $\sigma_u$ and lots of discussion of non-equilibrium but not clear how mass is actually transported. $\sigma_u$ is assumed uniform in the vertical.
+
+\item \bibentry{Ger07}
+\item \bibentry{AW13} \ \\
+\includegraphics[scale=0.5,angle=90]{notes/AW13notes.jpg}
+
+\item \bibentry{Par14} \ \\
+no mass transport \\
+UNICON simulates all dry–moist, forced–free, and shallow–deep convection within a single framework in a seamless, consistent, and unified way.
+
+diagnoses the vertical profiles of the macrophysics (fractional area,
+plume radius, and number density) as well as the microphysics (production and evaporation rates of convective
+precipitation) and the dynamics (mass flux and vertical velocity) of multiple convective updraft and
+downdraft plumes
+
+successfully simulates, eg diurnal cycle and MJO
+
+\item \bibentry{SMST04} \ \\
+Looks like it includes useful closures. See also \url{http://adsabs.harvard.edu/abs/2014AGUFM.A13J3309T}
+
+\item \bibentry{Yano14} \ \\ assume vanishing fractional area occupied by convection
+
+\item \bibentry{YL14}
+\item \bibentry{YRGB05}
+\item \bibentry{BHL93}
+\item \bibentry{BWF03}
+\item \bibentry{Ger07}
+\item \bibentry{GB99}
+\item \bibentry{Kai04}
+\item \bibentry{KF93}
+\item \bibentry{KP12}
+\item \bibentry{PC08}
+\item \bibentry{PR98}
+\item \bibentry{SP04}
+\item \bibentry{WG10}
+\item \bibentry{YP12}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+
+\section*{Multi-phase flows and Conditional Averaging}
+
+\item \bibentry{KSP04} \ \\Uses conditional averaging
+\item \bibentry{LB91} \ \\ Includes conditionally averaged momentum equation in advective form. Discusses interfacial momentum transfer
+
+\item \bibentry{MTP99} \ \\ ``defnition and interpretation of average pressure in an incompressible disperse two-phase flow''
+
+\item \bibentry{ZP97}  \ \\
+%\includegraphics[width=\linewidth]{notes/ZP97.jpg}
+
+\item \bibentry{Dopa77} \ \\
+%\includegraphics[width=\linewidth]{notes/Dopa77.jpg}
+
+\item \bibentry{ZP94a} \ \\
+%\includegraphics[width=\linewidth]{notes/ZP94a.jpg}
+
+\item \bibentry{ZP94b}
+
+\item \bibentry{Wor03} \ \\
+%\includegraphics[width=\linewidth]{notes/Wor03.jpg}
+
+\item \bibentry{Wel05}  \ \\
+%\includegraphics[width=\linewidth]{notes/openFoamCondAve.jpg}
+
+%\item \bibentry{}
+
+\end{itemize}
+
+\nobibliography{numerics}
+
+\end{document}

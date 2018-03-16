@@ -1,0 +1,163 @@
+%% LyX 2.0.6 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[12pt,british,12pt, round,comma,sort&compress]{article}
+\usepackage{mathptmx}
+\renewcommand{\familydefault}{\rmdefault}
+%\usepackage[T1]{fontenc}
+%\usepackage[latin9]{inputenc}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\setlength{\parskip}{\smallskipamount}
+\setlength{\parindent}{0pt}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{color}
+\newcommand{\nicefrac}[2]{\ensuremath ^{#1}\!\!/\!_{#2}}
+\usepackage { fancybox}
+
+\renewcommand{\floatpagefraction}{0.95}
+\renewcommand{\textfraction}{0}
+\renewcommand{\topfraction}{1}
+\renewcommand{\bottomfraction}{1}
+
+\usepackage{bibentry}
+\bibliographystyle{abbrvnat}
+\nobibliography{numerics}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\title{Physics Dynamics Coupling}
+\author{Hilary Weller}
+\maketitle
+
+\begin{itemize}
+
+\item \bibentry{CLZ98} \ \\
+\includegraphics[width=\textwidth]{notes/CLZ98.jpg}
+\item \bibentry{Wil02} \ \\
+\includegraphics[width=\textwidth]{notes/Wil02.jpg}
+
+\item \bibentry{CS03} \ \\
+``Implicit ... are not practical because of the nonlinear switching present in most parametrization schemes''
+\item \bibentry{BBK+04}
+
+
+\item \bibentry{GWR+16}
+\item \bibentry{NRC+10}
+
+\item \bibentry{DWS04}
+\item \bibentry{DWS05}
+\item \bibentry{DWS06}
+
+%Bacmeister, J., P. Lauritzen, A. Dai, and J. Truesdale (2012),
+%Assessing possible dynamical effects of condensate in high resolution climate models, Geophys. Res. Lett., 39, L04,806.
+
+%Beare, R. J., and M. J. P. Cullen (2015), Convergence to Ekman-
+%balanced states: a test of physics-dynamics coupling, Quar-
+%terly Journal of the Royal Meteorological Society, submitted.
+
+
+%Staniforth, A., N. Wood, and J. Cˆot ́e (2002a), Analysis of the
+%numerics of physics-dynamics coupling, Quarterly Journal of
+%the Royal Meteorological Society, 128 (586), 2779–2799, doi:
+%10.1256/qj.02.25.
+
+%Staniforth, A., N. Wood, and J. Cˆot ́e (2002b), A simple com-
+%parison of four physics dynamics coupling schemes, Monthly
+%Weather Review, 130 (12), 3129–3135, doi:10.1175/1520-
+%0493(2002)130¡3129:ASCOFP¿2.0.CO;2.
+
+%Wedi, N. (1999), The numerical coupling of the physical param-
+%eterizations to the ”dynamical” equations in a forecast model,
+%Technical Memorandum 274, ECMWF, Reading, U.K.
+
+
+\item \bibentry{WBK+08} \ \\
+PC2 -- prognostic cloud fraction and prognostic condensate scheme \\
+-- $q_v$ and $q_\ell$ and $q_i$ and $T$ are prognostic
+
+
+\item \bibentry{KR03} \ \\
+``The prognostic thermodynamical variables of the
+model are the liquid water/ice moist static energy, total
+nonprecipitating water (vapor 1 cloud water 1 cloud
+ice), and total precipitating water (rain 1 snow 1 graupel). The liquid water/ice moist static energy is, by definition, conserved during the moist adiabatic processes
+including the freezing/melting of precipitation. The
+cloud condensate (cloud water 1 cloud ice) is diagnosed
+using the so-called ''all-or-nothing`` approach, so that
+no supersaturation of water vapor is allowed''
+
+$h_L$ is liquid/ice water static energy\\
+$h_L = c_p T + g z + L_c (q_c + q_r) - L_s(q_i + q_s + q_g)$
+
+\item \bibentry{LEB14} \ \\
+UM BL scheme has prognostic variables\\
+$\theta_\ell = T_L + \frac{g}{c_p}z
+= T - \frac{L}{c_p}q_\ell - \frac{L_s}{c_p}q_f + \frac{g}{c_p}z$ \\
+$q_t = q_v + q_\ell + q_f$
+
+\item \bibentry{Smi90}\ \\
+Prognostic variable, total cloud water content $q_C$ which includes liquid and ice, dependent on the temperature. Also temperature and specific humidity. \\
+Turbulence scheme uses cloud conserved variables -- total water content and liquid--frozen water temperature:\\
+$T_L = T - (L_C/c_p)q_L - (L_C+L_F)$
+
+\item \bibentry{YM79} \ \\
+Prognostic variables of total water mixing ratio and wet bulb potential temperature
+
+\item \bibentry{RH83b} \ \\
+They cite \cite{YA79} for formula for condenstation rate
+
+\item \bibentry{YA79}\ \\
+They cite \cite{Asai65} for formula for condenstation rate
+
+\item \bibentry{Asai65}\ \\
+The condensation rate is limited by the amount that can condense in one time-step given the temperature change.
+
+\item \bibentry{DWD06}\ \\
+boundary layer coupling can produce two-time-step ocillations which using preditor-corrector approach (Kalnay and Kanmitsu)\\
+New scheme -- unconditional stability and 2nd order accuracy for linear or mildly nonlinear problems. 
+
+\item \bibentry{KK88}\ \\
+Vertical diffusion acts as a strongly non-linear damping terms. This can lead to unreaslistic oscillations in time. Dependent variable (eg temperature) needs to be treated implicitly but for simplicity, coefficients are treated explicitly (with predictor-corrector).
+
+\item \bibentry{WDS07}\ \\
+Makes assumptions about the non-linearity of the diffusion coefficient when updating the diffusion coefficient using a predictor-corrector approach and an implicit scheme for the linearised diffusion equation.
+
+\item \bibentry{BC16}\ \\
+Asymptotic methods to validate boundary layer -- dynamics coupling and expose the weakness of implicit methods that do not treat the non-linear diffusion coefficient accurately. 
+
+\item \bibentry{Thu17}\ \\
+``The thermodynamics of moist processes is complicated, and in typical atmospheric models
+numerous approximations are made. However, they are not always made in a self-consistent
+way, which could lead to spurious sources or sinks of energy and entropy. One way to
+ensure self-consistency is to derive all thermodynamic quantities from a thermodynamic
+potential such as the Gibbs function. Approximations may be made to the Gibbs function;
+these approximations are inherited by all derived quantities in a way that guarantees
+self-consistency.''
+
+Entropy, $\eta = C_p \ln \theta + \text{const}$
+
+The Gibbs function is defined by\\
+$g(p,R,q) = e + \alpha p - \eta T$\\
+where $e$ is specific internal energy and $\alpha = 1/\rho$ is specific volume. Eqns of state to use in a model are\\
+$1/\rho - g_p(p,T,q) = 0$\\
+$\eta + g_T(p,T,q) = 0$\\
+
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+
+\end{itemize}
+
+\nobibliography{numerics}
+
+\end{document}

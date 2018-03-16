@@ -1,0 +1,27 @@
+Toward the Ultimate Conservative Scheme:
+           Following the Quest
+                  R. Abgrall
+Journal of Computational Physics 167, 277–315 (2001)
+
+triangular ﬁnite element meshes
+steady transonic flows
+blending between a first-order and a second-order
+realized from entropy considerations
+formally second-order accurate at steady state.
+
+1. Introduction
+
+ We ﬁrst give some generalities on fluctuation splitting schemes. In particular, we connect them to ﬁnite volume schemes and show why they offer more flexibility.
+
+2. The Fluctuation Splitting Schemes
+
+Uses dual cells
+
+3. DESIGN PRINCIPLES
+3 design principles (up-winding, the linear preserving
+property, and a monotonicity condition)
+
+9. Conclusions
+
+Less diffusive than MUSL
+stencil more compact

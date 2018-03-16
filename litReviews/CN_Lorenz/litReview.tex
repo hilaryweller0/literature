@@ -1,0 +1,78 @@
+%% LyX 2.0.6 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[12pt,british,12pt, round,comma,sort&compress]{article}
+\usepackage{mathptmx}
+\renewcommand{\familydefault}{\rmdefault}
+%\usepackage[T1]{fontenc}
+%\usepackage[latin9]{inputenc}
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\setlength{\parskip}{\smallskipamount}
+\setlength{\parindent}{0pt}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{color}
+\newcommand{\nicefrac}[2]{\ensuremath ^{#1}\!\!/\!_{#2}}
+\usepackage { fancybox}
+
+\renewcommand{\floatpagefraction}{0.95}
+\renewcommand{\textfraction}{0}
+\renewcommand{\topfraction}{1}
+\renewcommand{\bottomfraction}{1}
+
+\usepackage{bibentry}
+\bibliographystyle{abbrvnat}
+\nobibliography{numerics}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\title{Literature review of Charney--Phillips and Lorenz staggering}
+\author{Hilary Weller}
+\date{May 2015}
+\maketitle
+
+\begin{itemize}
+
+\item \bibentry{HTW13a} \ \\
+Charney Philips even best when including a boundary layer. But energy conservation is a bit more difficult
+\item \bibentry{HTW13b}
+\item \bibentry{AK96} \ \\
+Description of the grids in $\sigma$ coordinates\\
+Vertical slice test cases to excite computational modes\\
+Baroclinic instability test case shows problems with Lorenz grid
+\item \bibentry{AL77}
+\item \bibentry{AM88} \ \\
+The Lorenz grid can lead to spurious Baroclinic instability. CP better
+
+\item \bibentry{CP53}
+\item \bibentry{Thu06} \ \\
+Optimal configuration: $\theta$ averaaged to $(u,v)$ levels to calculate $p$. Leads to errors in the $\rho$ structure of gravity and Rossby modes but not their frequency. Then $p$ averaged to $w$ levels to compute the bouyancy term. 
+
+Sub optimal: $\rho$ is averaged to $w$ levels. This smoothes and damps the buoyancy term leading to retardation of Rossby modes
+
+\item \bibentry{TW05} \ \\
+A height coordinate, an isentropic coordinate, and a terrain-following mass-based coordinate are considered. Minor sensitivity to advective or flux form equations. Got to have right number of DOFs. Therefore CP best and Lorenz has comp mode
+
+\item \bibentry{Fox94} \ \\
+time-vertically staggered
+\item \bibentry{KA97} \ \\
+blended isentropic coordinate and terrain following \\
+Straightforward to use CP grid with an isentropic coordinate
+
+\item \bibentry{Tok78} \ \\
+Charney Phillips best for fixed height and $\sigma$ levels (all analysis). 
+
+\item \bibentry{ZS03} \ \\
+3 layer hurricane model. CP better than Lorenz
+
+\end{itemize}
+
+\nobibliography{numerics}
+
+\end{document}

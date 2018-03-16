@@ -1,0 +1,318 @@
+%% LyX 2.0.6 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[12pt,british,12pt, round,comma,sort&compress]{article}
+\usepackage{mathptmx}
+\renewcommand{\familydefault}{\rmdefault}
+%\usepackage[T1]{fontenc}
+%\usepackage[latin9]{inputenc}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\setlength{\parskip}{\smallskipamount}
+\setlength{\parindent}{0pt}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{color}
+\newcommand{\nicefrac}[2]{\ensuremath ^{#1}\!\!/\!_{#2}}
+\usepackage { fancybox}
+
+\renewcommand{\floatpagefraction}{0.95}
+\renewcommand{\textfraction}{0}
+\renewcommand{\topfraction}{1}
+\renewcommand{\bottomfraction}{1}
+
+\usepackage{bibentry}
+\bibliographystyle{abbrvnat}
+\nobibliography{numerics}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\title{Literature review relevant for moving meshes proposal}
+\author{Hilary Weller}
+\maketitle
+
+\begin{itemize}
+
+\item \bibentry{DL06} \ \\
+So I think that this could somehow be related to how I might choose the under-relaxation factor?
+
+\item \bibentry{LV10} \ \\
+I'm afraid that I am unable to understand this paper or see the relevance to my work
+
+\item \bibentry{FOS1x} \ \\
+I niaive discretistation of the Hessian leads to a non-monotone scheme because of the off-diagonal terms of the determinant. A quadratic equation is descretised which has 2 solutions, the 2-convex solution and the negative of this. These become mixed which leads to the instability. No mechanism to pick the right solution. Instead, rotate the coordinate system so that the Hessian is diagonal.
+
+Stencils are very wide - 27, 99 and 291 points
+
+Monotone scheme is less accurate.
+
+\item \bibentry{LTZ01} \ \\
+A moving mesh method does not need interpolation
+
+\item \bibentry{HRR94} \ \\
+Only compares moving mesh methods. No PDEs solved on the moving meshes
+\end{itemize}
+
+\section*{Solumtion of PDEs on moving meshes}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+\item \bibentry{LY15}
+\end{itemize}
+
+\section*{Optimal Transport Theory}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+\item \bibentry{Sei12} \ \\
+Gives a definition of c-convexity (cost convexity)
+
+\item \bibentry{Erb11} \ \\
+Gives Jacobian determinant on the sphere
+
+\item \bibentry{Vil09} \ \\
+Definition of C-convexity (cost convexity)
+
+\item \bibentry{McC01} \ \\
+Uses c-convexity
+\end{itemize}
+
+
+\section*{Solving Monge-Amp\'ere}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+
+\item \bibentry{Fro12}
+\item \bibentry{SAK1x}
+Fourth order CD for the 2nd derivative of u. 2nd order FD for theta. Or spectral with FFTs
+
+\item \bibentry{FroeseThesis2012} \ \\
+Consideration of MA equation of the form:
+\[det(D^2(u(x)) = F(x, \nabla u(x))\]
+standard centred differences are not monotone. Therefore use a wide stencil and calculate differences in all the directions. 
+
+\item \bibentry{BW09}
+\item \bibentry{BRW15}
+\item \bibentry{BBPC14}
+\item \bibentry{CS11}
+\item \bibentry{CSC14}
+
+Newton-Krylov and Newton method
+
+\item \bibentry{BFO10} \ \\
+Method 2: use the fact that, in 2D,
+$|H(u)| = \frac{1}{2}(\Delta u)^2 - \frac{u_{xx}^2+u_{yy}^2}{2}-u_{xy}^2$. Solve the Poission equation implicitly with fixed point iterations to solve Monge-Amp\'ere.
+
+Hilary: Given this, can we put more of the Hessian into the Laplacian?
+
+many of the newly proposed methods converge only for solutions which are in $\mathbf{H}^2(\Omega)$, which is more regularity than is generally
+available for solutions of the equation.
+
+Require $u$ (the dependent variable) is convex, required the the MA eqn to be elliptic.
+
+The equation is fully nonlinear, so weak solutions must be interpreted using
+either geometric solutions or viscosity solutions.
+
+equation is not in divergence form, so there is no natural weak interpretation
+
+The weak solutions of the equation can be quite singular. Specifically, they
+are not in $\mathbf{H}^2(\Omega)$. In fact, they may be only Lipschitz continuous
+
+monotone methods for this equation requires the use of wide stencils, which come with an additional consistency error related to the directional resolution of the stencil
+
+Feng and Neilan [13, 14], solve second order equations (including MA) by adding a small multiple of the bilaplacian.
+
+Lots of examples but not clear if examples are defined in this paper or elsewhere
+
+\item\bibentry{Obe08}
+
+Prove that wide stencil FD solution converges to solution of MA without any regularity requirement.
+
+Convex functions satisfy $\lambda_-\ge0$, and concave functions satisfy $\lambda_+\le0$ in the viscosity sense [17].
+
+Monotonicity, along with consistency and stability is sufficient for convergence of finite difference schemes to the unique viscosity solution of a nonlinear, possibly degenerate elliptic PDE.
+
+See "V. I. Oliker and L. D. Prussner",  Numer. Math., 54(3):271–293, 1988.
+
+\item\bibentry{FO11}
+
+terrific review
+
+\includegraphics[width=0.33\linewidth]{handNotes/FO11notes/page1.pdf}
+\includegraphics[width=0.33\linewidth]{handNotes/FO11notes/page2.pdf}
+\includegraphics[width=0.33\linewidth]{handNotes/FO11notes/page3.pdf}\\
+\includegraphics[width=0.33\linewidth]{handNotes/FO11notes/page4.pdf}
+\includegraphics[width=0.33\linewidth]{handNotes/FO11notes/page5.pdf}
+
+see notes at \url{/home/hilary/latex/lit/litReviews/movingMesh/handNotes/FO11notes}
+
+\item\bibentry{FN09}
+
+MA eqn: $\det(D^2 u^0) = f (>0)$\\
+approximated by 4th order quasi-Linear eqn:\\
+$\varepsilon \Delta^2 u^\varepsilon + \det D^2 u^\varepsilon = f$\\
+The solution $u^\varepsilon$ converges to the unique viscosity solution, $u^0$ of the Dirichlet problem for the MA equation, allowing use of mixed FEM for regularised 4th order problem. Use fixed-point iterations
+
+\item\bibentry{DG06}
+
+and
+
+\bibentry{DG06b}
+
+Mixed finite-elements for spatial discretisation
+
+\end{itemize}
+
+\section*{h-Adatpive Meshes}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+\item \bibentry{BO84}
+\item \bibentry{SM78} \ \\
+variable, orthogonal, fixed resolution using structured rectangles
+
+\item \bibentry{SK93}
+\item \bibentry{KCH+13}
+\item \bibentry{Wel09}
+\item \bibentry{HCPB08} \ \\
+operational use of AMR (Tsumami prediction)
+\end{itemize}
+
+\section*{r-Adatpive Meshes}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{itemize}
+
+\item\bibentry{Hua01}\ \\
+Adapting a mesh to try to get equidistributution and isotropy
+
+\item\bibentry{CL11}
+
+\end{itemize}
+
+Variational approaches use tensorial monitor functions
+
+\begin{itemize}
+
+\item\bibentry{WQZ15} \ \\ 
+Meshes with holes in and angle interpolation. Cannot do this with OT?
+
+\item\bibentry{Sub15} \ \\
+Uses equi-ditribution. Mentions Chris's work but does not say how they make the problem well defined. Uses the "equation is derived as MMPDE6 in Huang et al."
+
+\item\bibentry{Win66} \ \\
+Variable diffusion method. finite-difference method using a nonuniform triangle mesh to solve non-linear Poisson equation
+
+\item\bibentry{CHR03} \ \\
+Winslow's method has no theoretical results on the quantitative relation between the monitor function and the mesh density. Winslow's method does not lead to equi-distribution. But possible less non-orthogonality?
+
+\item \bibentry{FT93} \ \\
+equidistribution based on a scalar weight function based on buoyancy. Iterative solution. Applied to a thermal in 3d.\\
+"Consider a line of thunderstorms stretching across a model domain. CDGA would not offer much improvement in the resolution of the structure along the line, though it could be successful in resolving the structure across the line. 
+
+\item\bibentry{HRR94} \ \\
+Moving mesh PDEs have a source term that measures the level of equidistribution. Different techniques with different likelihood of mesh tangling
+
+\item \bibentry{DD92}
+\item \bibentry{VG02}
+6th order with 10th order low pass filter to inhibit spurious oscillations due to nonsmooth meshes\\
+metric terms treated correctly to ensure freestream preservation (preserve uniform fields)\\
+lots of tests on artificially wavy and distorted meshes
+\item \bibentry{KSD12} \ \\
+can achieve same level of monotonicity when moving the mesh
+\item \bibentry{HR10}
+equidistribution, PDEs on moving meshes, Monitor function tensor, variational methods, velocity based methods\\
+spring dynamics - discretisation of Laplaces equation with a variable diffusion function. Can be generalised in include an anisotropic diffusion matrix\\
+equidistribution, MMPDEs\\
+Discretisation of PDEs on moving meshes using coordinate transforms and FE, monitor functions, variational methods, velocity based methods
+
+\item\bibentry{CH01}
+
+\item\bibentry{HAC97} \ \\
+B-grid staggering. \\
+If the mesh moves too far in any time-step, iterations are needed to avoid instability\\
+conservation of mass, energy and energy due to exchanges between moving cells
+
+\item\bibentry{FDC08} \ \\
+Cite instead:
+\item\bibentry{DCF+08} \ \\
+Solve MA for grid generation -- no free parameters \\
+Newton Krylov with multigrid preconditioning \\
+problem with variational approaches -- grid properties compete and so none are satisfied exactly \\
+Winslow -- equipotential method -- elliptic
+
+{\bf Monge-Kantorovich optimisation}. Solve MA equation for $\phi$:\\
+$\nabla^2\phi + \phi_{xx}\phi_{yy} - \phi_{xy}^2=\frac{\phi(x,y)}{\rho^\prime(x^\prime,y^\prime)} - 1$\\
+Newton iterations
+
+\item\bibentry{BCW13}
+Solving the Eady problem using C-P grid using time-varying curvilinear coordinates
+
+\item\bibentry{PC11}
+
+moving meshes introduced operational in data assimilation to reduce errors in 
+forecasting fog and icy roads
+
+\item\bibentry{Pra75}
+
+\end{itemize}
+
+\section*{Motivation for adaptivity}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+\item \bibentry{BT78}
+very rapid `trigger' phase due to interaction between the frontal layer and the Alps
+\item \bibentry{SG80} \ \\
+extratropical cyclones which deepen very rapidly occur downsteam of a mibile 500mb trough, within or poleward of the maximum westerlies and within or ahead of the planetary-scale troughs
+
+\item \bibentry{MOWC02} \ \\
+Decreasing grid spacing in mesoscale models to less than 10–15 km generally
+improves the realism of the results but does not necessarily significantly improve the objectively scored accuracy of the forecasts.
+
+more realistic mesoscale structures and evolutions as grid spacing decreases into the single digits (km)
+
+transitioning from 36- to 12-km grid spacing allows the definition of the major mesoscale topographic features of the region and their corresponding atmospheric circulations, producing a beneficial effect on the verifications.
+\end{itemize}
+
+\section*{Problems with AMR}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{itemize}
+\item \bibentry{MCF11} \ \\
+Conservative, bounded mapping between meshes
+\item \bibentry{FPP+09} \ \\
+Conservative, bounded mapping between meshes
+\item \bibentry{MF12} \ \\
+Conservative, bounded mapping between meshes
+\item \bibentry{Vic87}
+\item \bibentry{LT11}
+\item \bibentry{PHP+14}
+AMR is expensive
+\end{itemize}
+
+\section*{Mesh Optimisation}
+
+\begin{itemize}
+\item \bibentry{RPH+13}
+\item \bibentry{RJG08}
+\item \bibentry{TTSG01}
+\item \bibentry{TSG02}
+
+\item \bibentry{PABG11} \ \\
+Solve Poisson equation using linear finite elements and adapt the mesh so that it is anisotropic to improve accuracy and convergence
+
+\item \bibentry{HWC15} \ \\
+Read this paper! I think they solve the MA equation to speed of Lloyd's algorithm
+
+\item \bibentry{JGR+13} \ \\
+Cost of one Lloyd iteration proportional to the number of points
+
+\item \bibentry{DFG99} \ \\
+Number of Lloyd iterations linearly dependent on the number of points in 1d
+\end{itemize}
+
+\nobibliography{numerics}
+
+\end{document}

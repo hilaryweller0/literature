@@ -1,0 +1,904 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{color}
+\newcommand{\nicefrac}[2]{\ensuremath ^{#1}\!\!/\!_{#2}}
+\usepackage { fancybox}
+
+\renewcommand{\floatpagefraction}{0.95}
+\renewcommand{\textfraction}{0}
+\renewcommand{\topfraction}{1}
+\renewcommand{\bottomfraction}{1}
+
+\usepackage{bibentry}
+\bibliographystyle{abbrvnat}
+\nobibliography{numerics}
+\end_preamble
+\options 12pt, round,comma,sort&compress
+\use_default_options true
+\maintain_unincluded_children false
+\language british
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics dvipdf
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 5
+\tocdepth 5
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{Bon00}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+staircase orography but with 
+\begin_inset Quotes eld
+\end_inset
+
+piecewise linear slopes implicitly taken into account in the finite volume
+ discretization of the pressure equation
+\begin_inset Quotes erd
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+Fixed point iteration procedure proven to converge to the discrete solution
+ at each timestep under suitable assumptions.
+\end_layout
+
+\begin_layout Standard
+Fully compressible eqns in advective form:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\frac{d\log\rho}{dt}+\nabla\cdot\mathbf{v}=0$
+\end_inset
+
+, 
+\begin_inset Formula $\log\rho=\frac{c_{v}}{R}\log\pi-\log\theta+\log\frac{p_{0}}{R}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Hydrostatic reference profiles 
+\begin_inset Formula $\Pi$
+\end_inset
+
+, 
+\begin_inset Formula $\Theta$
+\end_inset
+
+ so that 
+\begin_inset Formula $c_{p}\Theta\frac{d\Pi}{dz}=-g$
+\end_inset
+
+.
+ substitute into 
+\begin_inset Formula $w$
+\end_inset
+
+ eqn gives 
+\begin_inset Formula $\frac{dw}{dt}=-c_{p}\Theta\frac{\partial\tilde{\pi}}{\partial z}+g\frac{\theta}{\Theta}-c_{p}\theta\frac{\partial\tilde{\pi}}{\partial z}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+CP staggering with coupling between the buoyancy term in the 
+\begin_inset Formula $w$
+\end_inset
+
+ eqn and the vertical advection term in the eqn for 
+\begin_inset Formula $\theta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Convergence of the non-linear, fixed point iterations provided that 
+\begin_inset Formula $\Pi_{k}<\Delta z_{i,j,k}$
+\end_inset
+
+ and 
+\begin_inset Formula $|\tilde{\pi}_{i,j,k}^{n}|<\Pi_{k}/2$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Single fixed point iteration sufficient per timestep
+\end_layout
+
+\begin_layout Standard
+No comparisons between terrain following and height coords
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{Cul90}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Extension of 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "TW76"
+
+\end_inset
+
+ SI scheme to treat gravity waves implicitly.
+ Then time step limited by advective Courant number rather than by 
+\begin_inset Formula $N\Delta t<1$
+\end_inset
+
+.
+ 
+\begin_inset Formula $\pi$
+\end_inset
+
+ and 
+\begin_inset Formula $\theta$
+\end_inset
+
+ written as deviations from steady hydrostatic balance.
+ Extract linearised version of sound and gravity wave equations.
+ Basic state extracted must be more stable than real state for stability.
+ 
+\begin_inset Formula $\therefore$
+\end_inset
+
+ use isothermal basic state.
+ Von Neumann stability analysis.
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{DCM+05}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+describes SISL with implicit gravity waves, time-varying basic state, 
+\end_layout
+
+\begin_layout Standard
+everything substituted into linearised eqn of state
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{DK83}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+sound waves with a smaller time-step.
+ Terrain following
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{JGN01}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Include non-hydrostatic motions in hydrostatic NWP model using 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ coords.
+ Extra 20% cost.
+ More robust and smoother solutions.
+\end_layout
+
+\begin_layout Standard
+Eliminate all unknowns except 
+\begin_inset Formula $p^{n+1}$
+\end_inset
+
+, solving the resulting system and back-substituting to obtain 
+\begin_inset Formula $T$
+\end_inset
+
+, 
+\begin_inset Formula $\Phi$
+\end_inset
+
+, 
+\begin_inset Formula $w$
+\end_inset
+
+ and 
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+ (
+\begin_inset Formula $\therefore$
+\end_inset
+
+ implicit only in the vertical?)
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{Kle09}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+anelastic - suppres 
+\begin_inset Formula $\partial_{t}\rho$
+\end_inset
+
+ in continuity eqn (and modify gravity term)
+\end_layout
+
+\begin_layout Standard
+pseudo-incompressible - suppress 
+\begin_inset Formula $\partial_{t}p$
+\end_inset
+
+ from pressure eqn
+\end_layout
+
+\begin_layout Standard
+Neither model can be derived from low-Mach number assumption
+\end_layout
+
+\begin_layout Standard
+2nd order FV projection model proposed.
+ various test cases (bubble and wave breaking)
+\end_layout
+
+\begin_layout Standard
+Archimedes' principle - represent the gravity term by the gradient of a
+ locally reconstructed hydrostatic pressure.
+ Turns out we need 
+\begin_inset Formula $1/\theta_{f}=1/2\left(1/\theta_{i}+1/\theta_{i+1}\right)$
+\end_inset
+
+.
+ I've tried this for the resting atmosphere case and it makes no difference
+ in comparison to mid-point.
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{Kon14}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Unified sysytem - filters vertcially propagating acoustic waves
+\end_layout
+
+\begin_layout Standard
+Lorenz grid.
+ No reference state
+\end_layout
+
+\begin_layout Standard
+Density, Exner and theta split up into quasi-hydrostatic and nonhydrostatic
+ components.
+ Predicted separately.
+ Non-hydrostatic Exner obtained by solving elliptic equation.
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{KR71}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Implicit acoustic waves - model runs 4 times faster than explicit model.
+ Gravity waves explicit.
+ Solve incompressible primitive eqns.
+ Time step of 10min for explicit model, 60min for semi-implicit model.
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{KSD07}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Dispersion ananlysis to determine which terms to solve on small acoustic
+ time steps.
+\end_layout
+
+\begin_layout Standard
+Time-invariant reference state
+\end_layout
+
+\begin_layout Standard
+Solves for rho theta instead of pressure or exner
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\nabla p=\gamma R_{d}\pi\Pi\nabla\left(\rho\theta\right)$
+\end_inset
+
+ where 
+\begin_inset Formula $\Pi=\left(p/p_{0}\right)^{\kappa}$
+\end_inset
+
+, 
+\begin_inset Formula $\kappa=R_{d}/c_{p}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Acoustic mode filtering
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{GBC06}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+acoustic waves implicit.
+ Anelastic dynamics semi-implicit.
+ Gravity waves explicit
+\end_layout
+
+\begin_layout Standard
+solve for 
+\begin_inset Formula $\rho$
+\end_inset
+
+ and 
+\begin_inset Formula $p$
+\end_inset
+
+.
+ Perturbation variables.
+ Solve Helmholtz eqn.
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{MDW+10}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Vertical slice test cases.
+ 
+\end_layout
+
+\begin_layout Standard
+Describes construction of Helmholtz eqn
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{QSS98}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Height based followwing 
+\begin_inset Formula $\sigma$
+\end_inset
+
+ coordinates
+\end_layout
+
+\begin_layout Standard
+Complete Navier Stokes with time step up to one hour
+\end_layout
+
+\begin_layout Standard
+Solve for 
+\begin_inset Formula $q=\ln p/p_{0}$
+\end_inset
+
+ and 
+\begin_inset Formula $T$
+\end_inset
+
+.
+ Add advective form with CP staggering and isotherm al mean state
+\end_layout
+
+\begin_layout Standard
+Helmholtz - eliminate u,v,w,T to obtain elliptic eqn for q
+\end_layout
+
+\begin_layout Standard
+pages and pages of eqns with metric terms, departure points, pertubation
+ quantities etc.
+ Apparently very complicated
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{SHSB03}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Excellent review of NY model formulations, grids and vertical coords, split
+ explicit vs semi-implicit, solvers, advection schemes.
+ Mostly on SI for acoustic waves
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{SKD+12}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+fully compressible eqns with time-split.
+ Perturbation thermo variables from a hydrostacally-balanced state that
+ is a function only of height.
+ Reduces 
+\begin_inset Formula $\partial p/\partial x$
+\end_inset
+
+ errors.
+ Gravity and horizontally propagating acoustic waves on smaller explicit
+ sub-step within the 3-step RK time integration.
+ Vertically propagating acoustic waves implicit.
+ Lorenz staggering.
+ Messing around with kinetic energy because of Hollingsworth instability
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{SMT+08}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+3.5km global model with 
+\begin_inset Formula $O\left(10^{9}\right)$
+\end_inset
+
+ computational nodes
+\end_layout
+
+\begin_layout Standard
+Lorenz grid.
+ Colocated in horizontal.
+ 
+\begin_inset Formula $w$
+\end_inset
+
+ staggered in vertical
+\end_layout
+
+\begin_layout Standard
+Split explicit with vertically propagating waves implicit
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{SMW01}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+semi-implicit, anelastic model.
+ Anelastic - Boussinesq linearization of the pressure gradient forces and
+ mass fluxes and infinite speed of sound.
+ Gravity waves treated implicitly.
+ Not much model detail.
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{SS11}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+anelastic and pseudo-incompressilbe systems.
+ Implicit gravity waves
+\end_layout
+
+\begin_layout Standard
+deviations from hydrostatic reference states
+\end_layout
+
+\begin_layout Standard
+BVP: Poisson problem: 
+\begin_inset Formula $\frac{1}{\rho}\nabla\cdot\rho\left(\mathbf{v}-\mathcal{C}\nabla\phi\right)=0$
+\end_inset
+
+.
+ Division by 
+\begin_inset Formula $\rho$
+\end_inset
+
+ has been introduced arbitrarily to mitigate problem stiffness and to assure
+ uniform solution accuracy in flows with large density contrasts.
+\end_layout
+
+\begin_layout Standard
+Substitute 
+\begin_inset Formula $\theta^{\prime}=\hat{\theta}^{\prime}-\delta tw\partial_{z}\theta_{e}$
+\end_inset
+
+ into 
+\begin_inset Formula $w=\hat{w}-\delta_{h}t\Theta\partial_{z}\phi^{\prime}+\delta_{h}t\beta\theta^{\prime}$
+\end_inset
+
+ in order to eliminate 
+\begin_inset Formula $\theta^{\prime}$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{TRL90}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Solution of fully compressible nonhydrostatic equations with little computationa
+l overhead over hydrostatic equations.
+\end_layout
+
+\begin_layout Standard
+Both gravity and acoustic modes (first time) - check
+\end_layout
+
+\begin_layout Standard
+Thermodynamic variables T and 
+\begin_inset Formula $q=\ln\left(p/p_{0}\right)$
+\end_inset
+
+.
+ 3d Helmholtz eqn for 
+\begin_inset Formula $q^{\prime}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Isothermal mean state
+\end_layout
+
+\begin_layout Standard
+Substitute everything into temperature equation
+\end_layout
+
+\begin_layout Standard
+Vertical advection treated explicitly
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{TW76}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Horizontal and vertical sound waves treated implicitly.
+ When the atmosphere is stably stratified, the stability criterion for sound
+ waves depends on 
+\begin_inset Formula $N$
+\end_inset
+
+ but not on grid length.
+ This is also sufficient for the stability of gravity waves.
+\end_layout
+
+\begin_layout Standard
+Awesome description of waves in the intro:
+\end_layout
+
+\begin_layout Standard
+Lamb waves are horizontally propagating acoustic waves trapped near the
+ earth's surface by the density lapse with altitude.
+ They travel at the speed of sound.
+ The hydrostatic assumption eliminates acoustic waves but not Lamb waves.
+ Non-hydrostatic atmospheres - upper bound 
+\begin_inset Formula $N$
+\end_inset
+
+ to frequency of gravity waves.
+ Non-hydrostatic atmospheres - if 
+\begin_inset Formula $N$
+\end_inset
+
+ non-uniform, wave energy can become trapped in layers for certain ranges
+ of waves numbers - resonant waves in the lee of mountains.
+ 
+\end_layout
+
+\begin_layout Standard
+Semi-implicit technique - perturbations from neutrally stable state.
+ Gravity waves explicit.
+ Time step restriction 
+\begin_inset Formula $0\le N^{2}\Delta t^{2}\le1$
+\end_inset
+
+.
+ 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "numerics"
+options "abbrvnat"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

@@ -1,0 +1,7 @@
+BP97
+Title:Hybridization between sigma- and z-co-ordinates for improving the internal pressure gradient calculation in marine models with steep bottom slopes
+Author(s): Burchard, H; Petersen, O
+Source: INTERNATIONAL JOURNAL FOR NUMERICAL METHODS IN FLUIDS 25 (9):1003-1023 1997
+Times Cited: 11
+Abstract: It is discussed in this paper how the pressure gradient error in general vertical co-ordinate models (in which the sigma-transformation is a special case) can be reduced by means of hybrid models. For a better understanding, the derivation of such a general vertical co-ordinate model from the Cartesian co-ordinate model is given. Two types of hybridization between sigma- and z-co-ordinate models, each using one parameter specifying the degree of hydridization, are presented: (i) the mixed layer transformation with a constant number of layers which are refined near the surface and (ii) the z/sigma-transformation which introduces steps near the bottom. In order to achieve good results with the models using other than sigma-co-ordinates, a profile-conserving momentum advection discretization is developed. The different co-ordinate transformations are tested with 2D barotropic and baroclinic flows over a topographic bump. Those models with nearly horizontal co-ordinate surfaces in the stratified area give the best correspondence with an isopycnal reference solution. (C) 1997 John Wiley & Sons, Ltd.
+ISSN: 0271-2091

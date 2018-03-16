@@ -1,0 +1,35 @@
+\def\<{(}
+\def\>{)}
+\def\citesep{, }
+
+\def\thebibliography#1{\section*{\refname
+  \@mkboth{\refname}{\refname}}\parindent \z@
+  \immediate\write\@auxout{\begingroup\string\paractive}\list
+ {\relax}{\itemsep=0pt \parsep=0pt
+ \usecounter{enumiv}\leftmargin=1em\itemindent=-\leftmargin}%
+ \def\newblock{\hskip .11em plus .33em minus -.07em}%
+ \sloppy
+ \sfcode`\.=1000\relax}
+
+\def\endthebibliography{%
+  \immediate\write\@auxout{\endgroup}%
+  \def\@noitemerr{\@warning{Empty 'thebibliography' environment}}%
+  \endlist}
+
+\def\@citex[#1]#2{\if@filesw\immediate\write\@auxout{\string\citation{#2}}\fi
+  \def\@citea{}\@cite{\@for\@citeb:=#2\do
+    {\@citea\def\@citea{\citesep}\@ifundefined
+       {b@\@citeb}{{\bf ?}\@warning
+       {Citation '\@citeb' on page \thepage \space undefined}}%
+{\csname b@\@citeb\endcsname}}}{#1}}
+
+\def\paractive{\catcode`\(=\active \catcode`\)=\active }
+
+{\paractive
+\gdef\@cite#1#2{{\paractive\if@tempswa
+   \<#2\def({,\ }\let)=\relax#1\> %no option
+  \else
+   \gdef({\ \<}\def){\>}#1\fi}}   %with option
+}
+
+\def\@biblabel#1{\hfill}

@@ -1,0 +1,97 @@
+\documentclass[12pt,british, round,comma,sort&compress]{article}
+\usepackage{mathptmx}
+\renewcommand{\familydefault}{\rmdefault}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
+\setlength{\parskip}{\smallskipamount}
+\setlength{\parindent}{0pt}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{color}
+\newcommand{\nicefrac}[2]{\ensuremath ^{#1}\!\!/\!_{#2}}
+
+\usepackage{bibentry}
+\bibliographystyle{abbrvnat}
+\nobibliography{numerics}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\title{Advection Test Cases}
+\author{Hilary Weller}
+\maketitle
+
+\begin{itemize}
+
+\item \bibentry{NJ08}
+\item \bibentry{JHP+06}
+\item \bibentry{LSPT12}
+
+\item \bibentry{KNK15}
+
+Both scheme central-upwind finite-volume (CUFV)\\
+1d scheme - 5th order WENO reconstruction - special treatment of cube edges\\
+2d scheme - 4th order reconstruction\\
+RK time-stepping\\
+Both schemes are competitive
+
+``A major concern with the dimension-by-dimension approach, the resulting FV scheme suffers from reduction in formal order of accuracy, and this issue might be more severe in non-orthogonal curvilinear grid such as cubed-sphere grid''
+
+CUFV - Riemann solvers, semi-discritized (spatial only), RK in time
+
+Test cases - solid body rotation and deformtaional flow (moving vortices and slotted cyliners)
+
+``the dimension-by-dimension approach may cause reduction in the formal order of accuracy of the resulting 2D scheme to second order.'' However, in practice KL schemes maintain an order of accuracy between the second and fourth order''.
+
+\item \bibentry{KUJ14}\ \\
+3D advection tests on the sphere:
+\begin{enumerate}
+    \item a horizontal advection over orography (solid-body rotatation)
+    \item 3d deformational flow
+    \item Hadley-like global flow
+\end{enumerate}
+
+\item \bibentry{LUJ+14}\ \\
+Descriptions of many advection schemes as well as test cases\\
+Gaussian hills and cosine bells - convergences for many models\\
+Minimum resolution and convergence rates\\
+cubed-sphere grids, icosahedral grids, lat-lon\\
+filament preservation\\
+slotted cylynder\\
+deformation\\
+Mixing diagnostics
+
+Skamarock and Gassmann (2011) - (MOL) Taylor series approach (RK3)
+
+Swept area approach - incremental remapping
+                    - semi-Lagrangian flux-form finite-volume
+                - Euler forward time differencing (two-time-level schemes)
+                eg CSLAM
+    ICON - just one velocity vector at the centre of each edge to trace flux area -> swept area is a rhomboid - 1st order accurate in space
+
+CLAW - Wave-propagation algorithm
+     - advective form used in this paper
+
+Dimensional splitting approach - formal accuracy,
+however, is limited to second-order with the splitting
+
+Semi-Lagrangian finite volume - cell-integrated
+    eg CSLAM (can also be cast in flux form) but Lagrangian form more efficient
+    
+Flow-dependent dimensional splitting - also a cascade scheme
+
+\item \bibentry{SLF+02}
+
+\item \bibentry{BS92}\ \\
+Describes slotted cylinder test case
+\item \bibentry{Pri93}\ \\
+Describes slotted cylinder test case
+\end{itemize}
+
+\nobibliography{numerics}
+
+\end{document}

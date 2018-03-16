@@ -1,0 +1,8 @@
+KKS03
+Title: Finite volume method on unstructured grids in 3D with applications to the simulation of gravity waves
+Author(s): Klassen, L; Kroner, D; Schott, P
+Source: METEOROLOGY AND ATMOSPHERIC PHYSICS 82 (1-4):259-270 Art No. 10.1007/s00703-001-0589-4|ISSN 0177-7971 2003
+Times Cited: 1
+Abstract:A code for the simulation of atmospheric flows in 3D is presented. The underlying mathematical model is fully compressible, it takes gravity into account but Coriolis forces, turbulence and viscosity are neglected. The general numerical code consists of a finite volume discretization on unstructured hexahedral grids in 3D. The code is presently being investigated on applications to the calculation of atmospheric gravity waves on a mesh which has a structured type and is locally refined near the orography. We develop two schemes, the main difference between them lies in the different discretizations for the mass fluxes. We show that both schemes resolve typical structures of gravity waves in potential flow, linear hydrostatic motion and nonlinear non-hydrostatic regime. We compare advantages and disadvantages of the developed schemes.
+
+ locally refined near the orography (smooth grading)

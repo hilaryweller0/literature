@@ -1,0 +1,498 @@
+#LyX 2.0 created this file. For more info see http://www.lyx.org/
+\lyxformat 413
+\begin_document
+\begin_header
+\textclass article
+\begin_preamble
+\usepackage{color}
+\newcommand{\nicefrac}[2]{\ensuremath ^{#1}\!\!/\!_{#2}}
+\usepackage { fancybox}
+
+\renewcommand{\floatpagefraction}{0.95}
+\renewcommand{\textfraction}{0}
+\renewcommand{\topfraction}{1}
+\renewcommand{\bottomfraction}{1}
+
+\usepackage{bibentry}
+\bibliographystyle{abbrvnat}
+\nobibliography{numerics}
+\end_preamble
+\options 12pt, round,comma,sort&compress
+\use_default_options true
+\maintain_unincluded_children false
+\language british
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+
+\graphics dvipdf
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4paper
+\use_geometry true
+\use_amsmath 1
+\use_esint 1
+\use_mhchem 1
+\use_mathdots 1
+\cite_engine natbib_authoryear
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 5
+\tocdepth 5
+\paragraph_separation skip
+\defskip smallskip
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+
+\series bold
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{WSL+14}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+says no reference profile but defines equations in terms of one
+\end_layout
+
+\begin_layout Standard
+explicit gravity wave terms
+\end_layout
+
+\begin_layout Standard
+re-formulates pressure gradient term in terms of 
+\begin_inset Formula $\Pi\nabla\theta$
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Standard
+substitutes momentum into 
+\begin_inset Formula $\theta$
+\end_inset
+
+ equation to get a Helmholtz equation for 
+\begin_inset Formula $\theta$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{GGLR13}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Rising bubble over orography test case.
+ Variation of 
+\begin_inset CommandInset citation
+LatexCommand citet
+key "BF02"
+
+\end_inset
+
+ test case
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{SH12}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+HORMONIE - same dynamical core as ECMWF and ALADIN
+\end_layout
+
+\begin_layout Standard
+cubic finite elements in the vertical, height-based vertical coordinates,
+ spectral in the horizontal
+\end_layout
+
+\begin_layout Standard
+coordinate-independent formulation
+\end_layout
+
+\begin_layout Standard
+linearization around a horizontally homogeneous and constant in time reference
+ atmosphere in hydrostatic equilibrium, isothermal
+\end_layout
+
+\begin_layout Standard
+prognostic variables - contravariant components of the velocity (in contrast
+ to the use of velocity components expressed on a local Cartesian basis)
+\end_layout
+
+\begin_layout Standard
+no staggering in horizontal or vertical
+\end_layout
+
+\begin_layout Standard
+I am pretty sure that this includes implicit treatment of gravity waves
+\end_layout
+
+\begin_layout Standard
+not found any computational modes and numerical and analytic dispersion
+ relations are as good as the optimal cases from Thuburn and Woolings (not
+ shown)
+\end_layout
+
+\begin_layout Standard
+semi-Lagrangian advection - covariant
+\end_layout
+
+\begin_layout Standard
+stable only for off centering of 
+\begin_inset Formula $\varepsilon=0.1$
+\end_inset
+
+.
+ Not stable for 
+\begin_inset Formula $\varepsilon=0$
+\end_inset
+
+ .
+\end_layout
+
+\begin_layout Standard
+Diffusion used only for warm and cold bubble tests (can't see warm bubble
+ results)
+\end_layout
+
+\begin_layout Standard
+Hydrostatic mountain cases uses 
+\begin_inset Formula $N\Delta t=1.8$
+\end_inset
+
+.
+ Also Schar mountain results presented
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{SD08}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+solving Durran's compressible Boussinesq equation (in flux form) with Eulag
+\end_layout
+
+\begin_layout Standard
+linear elliptic probels solved using a preconditioned generalised conjugate-resi
+dual solver
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\theta$
+\end_inset
+
+ in pressure gradient and Coriolis lagged
+\end_layout
+
+\begin_layout Standard
+advection uses MPDATA
+\end_layout
+
+\begin_layout Standard
+Durran's model - inertial-gravity waves propagate energy too quickly in
+ the vertical and barolclinic eddies grow too quickly
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{NNS11}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Flux-based Characteristic Semi-Lagrangian (FBCSL) - characteristic variables
+ (built from interface flux vectors) are integrated upstream from interfaces
+ along their trajectories to compute time-averaged fluxes over a time-step.
+\end_layout
+
+\begin_layout Standard
+WENO
+\end_layout
+
+\begin_layout Standard
+Stability for CFL>1.
+ unacceptable accruace for CFL>2 but run with CFL=7
+\end_layout
+
+\begin_layout Standard
+CFL based on acoustic waves speed
+\end_layout
+
+\begin_layout Standard
+eigen vectors and eigen values of flux Jacobian found
+\end_layout
+
+\begin_layout Standard
+test cases including warm bubble.
+ Variety of grid spacings.
+ looks quite diffuse?
+\end_layout
+
+\begin_layout Standard
+Using max Courant number of 0.98, 
+\begin_inset Formula $|V|+c_{s}\approx349m/s$
+\end_inset
+
+.
+ For 
+\begin_inset Formula $\Delta x=125m$
+\end_inset
+
+, 
+\begin_inset Formula $\Delta t=0.35$
+\end_inset
+
+s
+\end_layout
+
+\begin_layout Standard
+Also run with 
+\begin_inset Formula $\Delta t$
+\end_inset
+
+=31.25m, 62.5m, 250m and with CFL=1.96
+\end_layout
+
+\begin_layout Standard
+time-series of max 
+\begin_inset Formula $\theta$
+\end_inset
+
+ and 
+\begin_inset Formula $w$
+\end_inset
+
+ - useful to compare
+\end_layout
+
+\begin_layout Standard
+fully discrete - one-step, one-stage
+\end_layout
+
+\begin_layout Standard
+communication becoming the dominant limitation for many schemes
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{JKW11}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+cut cells - small cells problems - partially implicit - implicit for all
+ terms in the cut cells (linearly implicit) semi-implicit in non-cut cells
+ (acoustic terms implicit)
+\end_layout
+
+\begin_layout Standard
+In cut cells the Jacobian incorporates advectionl diffusion and acoustics
+\end_layout
+
+\begin_layout Standard
+uses a spatially homogeneous reference profile and deviations from this
+ profile - only possible for small domains
+\end_layout
+
+\begin_layout Standard
+rising bubble test case with a mean horizontal wind 
+\begin_inset Formula $\implies$
+\end_inset
+
+ bubbles are asymmetric
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $\Delta x=125m$
+\end_inset
+
+, 
+\begin_inset Formula $\Delta t$
+\end_inset
+
+=7s, max wind speed 29m/s, max CFL 1.6
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{SKW14}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+forward in time transport
+\end_layout
+
+\begin_layout Standard
+buoyant and rotational terms treated implicitly
+\end_layout
+
+\begin_layout Standard
+equations in perturbation form: 
+\begin_inset Formula $d\mathbf{u}/dt=-c_{p}\theta\nabla\pi^{\prime}-\mathbf{g}\theta^{\prime}/\theta_{e}-\mathbf{f}\times\left(\mathbf{u}-\theta/\theta_{e}\mathbf{u}_{e}\right)$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+non-linear terms lagged
+\end_layout
+
+\begin_layout Standard
+co-located
+\end_layout
+
+\begin_layout Standard
+comparison between fully compressible, pseudo-incompressible and anelastic
+ 
+\end_layout
+
+\begin_layout Standard
+baroclinically unstable wave - anelastic solution different
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage clearpage
+\end_inset
+
+
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "numerics"
+options "abbrvnat"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

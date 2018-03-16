@@ -1,0 +1,114 @@
+%% LyX 2.0.6 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[12pt,british,12pt, round,comma,sort&compress]{article}
+\usepackage{mathptmx}
+\renewcommand{\familydefault}{\rmdefault}
+%\usepackage[T1]{fontenc}
+%\usepackage[latin9]{inputenc}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\setlength{\parskip}{\smallskipamount}
+\setlength{\parindent}{0pt}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{color}
+\newcommand{\nicefrac}[2]{\ensuremath ^{#1}\!\!/\!_{#2}}
+\usepackage { fancybox}
+
+\renewcommand{\floatpagefraction}{0.95}
+\renewcommand{\textfraction}{0}
+\renewcommand{\topfraction}{1}
+\renewcommand{\bottomfraction}{1}
+
+\usepackage{bibentry}
+\bibliographystyle{abbrvnat}
+\nobibliography{numerics}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\title{Literature review relevant for Advection}
+\author{Hilary Weller}
+\maketitle
+
+\begin{itemize}
+
+\item \bibentry{KNK15}\ \\
+4th order, 2D scheme versus 5th order 1d WENO scheme. No discussion of how the splitting is done - but it formally limits the scheme to 2nd order. Although results for both schemes are ~3-4th order in test cases
+
+\item \bibentry{ZWS06}
+\item \bibentry{XL01}
+\item \bibentry{Smo82}
+\item \bibentry{LR05b}\ \\
+\includegraphics[width=0.49\linewidth]{handNotes/LR05b_1.jpg}
+\includegraphics[width=0.49\linewidth]{handNotes/LR05b_2.jpg}
+
+
+\item \bibentry{LLM96}\\
+\includegraphics[scale=0.5]{handNotes/LLM96.jpg}
+
+\item \bibentry{SP92}\\
+Convergence criterion for SL:
+$||\partial\mathbf{v}/\partial\mathbf{x}||\Delta t < 1$
+
+\item \bibentry{PS84}\\
+A sufficient condition for convergence is
+$\Delta t \max(|u_x|, |u_y|, |v_x|, |v_y|) < 1$
+
+\item \bibentry{LLM95}
+
+\item \bibentry{CW84}\\
+PPM in 1d, variable resolution. Reconstruct quartic polynomial over each cell using cell area values. Then limit the end points to avoid over-shoots and undershoots. Semi-Lagrangian in nature, predicting cell average values rather than fluxes. If solution is smooth, 4th order accurate. 3rd order otherwise\\
+\includegraphics[width=0.49\linewidth]{handNotes/CW84_1.jpg}
+\includegraphics[width=0.49\linewidth]{handNotes/CW84_2.jpg}
+
+\item \bibentry{BS99}\\
+\includegraphics[scale=0.5]{handNotes/BS99.jpg}
+
+\item \bibentry{PL07}\\
+Direction splitting to extend PPM no a non-orthogonal cubed-sphere grid. Uses co-variant and contra-variant velocity components. Final scheme comes out as 2nd order\\
+\includegraphics[scale=0.5]{handNotes/PL07.jpg}
+
+\item \bibentry{Thu96b}
+\item \bibentry{Miu07b}\ \\
+\includegraphics[scale=0.33]{handNotes/Miu07b}
+\item \bibentry{Miu13}\ \\
+\includegraphics[scale=0.33]{handNotes/Miu13}
+\item \bibentry{LR96}\\
+Direction splitting to use PPM on a lat-lon grid\\
+
+\item \bibentry{Nor14}
+\item \bibentry{IMBO14}
+\item \bibentry{HAQ12}
+\item \bibentry{CLSX14}
+\item \bibentry{CCN+07}
+\item \bibentry{BS14}
+\item \bibentry{Lau07} \ \\
+\includegraphics[scale=0.5]{handNotes/Lau07.jpg}
+
+\item \bibentry{Zal79}
+\item \bibentry{SM10}\ \\
+\includegraphics[scale=0.5]{handNotes/SM10.jpg}\\
+\includegraphics[scale=0.5]{handNotes/SM10_2.jpg}
+
+\item \bibentry{SG11}\ \\
+\includegraphics[scale=0.5]{handNotes/SG11.jpg}
+
+\item \bibentry{Bott10}\ \\
+\includegraphics[scale=0.33,angle=270]{handNotes/Bott10.jpg}
+
+\item \bibentry{LML93}\ \\
+Multi-dimensional flux limiters\\
+Flow in a constant direction oblique to a grid is more difficult that around in a circle.
+
+\end{itemize}
+
+\nobibliography{numerics}
+
+\end{document}

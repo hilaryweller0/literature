@@ -1,0 +1,74 @@
+Record 1 of 9
+Title: A new large-eddy simulation model for simulating air flow and warm clouds above highly complex terrain. Part I: The dry model
+Author(s): Reinert, D; Wirth, V; Eichhorn, J; Panhans, WG
+Source: BOUNDARY-LAYER METEOROLOGY 125109-132 Art No. 10.1007/s10546-007-9183-8|ISSN 0006-8314 2007
+Times Cited: 0
+Record 2 of 9
+Title: Forecasts of valley circulations using the terrain-following and step-mountain vertical coordinates in the Meso-Eta Model
+Author(s): Fast, JD
+Source: WEATHER AND FORECASTING 18 (6):1192-1206 2003
+Times Cited: 1
+ISSN: 0882-8156
+Record 3 of 9
+Title: Finite volume method on unstructured grids in 3D with applications to the simulation of gravity waves
+Author(s): Klassen, L; Kroner, D; Schott, P
+Source: METEOROLOGY AND ATMOSPHERIC PHYSICS 82 (1-4):259-270 Art No. 10.1007/s00703-001-0589-4|ISSN 0177-7971 2003
+Times Cited: 1
+Record 4 of 9
+Title: Nonhydrostatic atmospheric normal modes on beta-planes
+Author(s): Qian, JH; Kasahara, A
+Source: PURE AND APPLIED GEOPHYSICS 160 (7):1315-1358 2003
+Times Cited: 3
+ISSN: 0033-4553
+Record 5 of 9
+Title: A new terrain-following vertical coordinate formulation for atmospheric prediction models
+Author(s): Schar, C; Leuenberger, D; Fuhrer, O; Luthi, D; Girard, C
+Source: MONTHLY WEATHER REVIEW 130 (10):2459-2480 2002
+Times Cited: 28
+ISSN: 0027-0644
+Record 6 of 9
+Title: A semi-implicit semi-Lagrangian scheme using the height coordinate for a nonhydrostatic and fully elastic model of atmospheric flows
+Author(s): Bonaventura, L
+Source: JOURNAL OF COMPUTATIONAL PHYSICS 158 (2):186-213 2000
+Times Cited: 13
+ISSN: 0021-9991
+Record 7 of 9
+Title: Behavior of flow over step orography
+Author(s): Gallus, WA; Klemp, JB
+Source: MONTHLY WEATHER REVIEW 128 (4):1153-1164 2000
+Times Cited: 21
+ISSN: 0027-0644
+Record 8 of 9
+Title: The NCEP mesoscale spectral model: A revised version of the nonhydrostatic regional spectral model
+Author(s): Juang, HMH
+Source: MONTHLY WEATHER REVIEW 128 (7):2329-2362 Part 2 2000
+Times Cited: 13
+ISSN: 0027-0644
+Record 9 of 9
+Title: Normal modes of a global nonhydrostatic atmospheric model
+Author(s): Kasahara, A; Qian, JH
+Source: MONTHLY WEATHER REVIEW 128 (10):3357-3375 2000
+Times Cited: 7
+ISSN: 0027-0644
+
+Record 1 of 4
+Title: Finite element ocean circulation model based on triangular prismatic elements, with application in studying the effect of topography representation
+Author(s): Wang, Q; Danilov, S; Schroter, J
+Source: JOURNAL OF GEOPHYSICAL RESEARCH-OCEANS 113 (C5): Art No. C05015 2008
+Times Cited: 0
+Record 2 of 4
+Title: Comparison of entrainment in overflows simulated by z-coordinate, isopycnal and non-hydrostatic models
+Author(s): Legg, S; Hallberg, RW; Girton, JB
+Source: OCEAN MODELLING 11 (1-2):69-97 Art No. 10.1016/j.ocemod.2004.11.006|ISSN 1463-5003 2006
+Times Cited: 17
+Record 3 of 4
+Title: On vertical advection truncation errors in terrain-following numerical models: Comparison to a laboratory model for upwelling over submarine canyons
+Author(s): Allen, SE; Dinniman, MS; Klinck, JM; Gorby, DD; Hewett, AJ; Hickey, BM
+Source: JOURNAL OF GEOPHYSICAL RESEARCH-OCEANS 108 (C1): Art No. 3003 2003
+Times Cited: 9
+Record 4 of 4
+Title: Hybridization between sigma- and z-co-ordinates for improving the internal pressure gradient calculation in marine models with steep bottom slopes
+Author(s): Burchard, H; Petersen, O
+Source: INTERNATIONAL JOURNAL FOR NUMERICAL METHODS IN FLUIDS 25 (9):1003-1023 1997
+Times Cited: 11
+ISSN: 0271-2091

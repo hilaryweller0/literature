@@ -1,0 +1,327 @@
+%Thesis Committee Report, December 1999.
+
+\documentclass[11pt,a4paper]{article}
+
+\topmargin=-21mm
+\textwidth=161mm
+\textheight=242mm
+\oddsidemargin=0mm
+\parindent=0mm
+\parskip=3mm
+
+\usepackage{natbib,psfig}
+\bibstyle{danny}
+
+
+\title{\textbf{\Large{Thesis Committee Report, December 1999.}}}
+\author{Brenda Cohen}
+\date{\textbf{Convective Scaling Theories}}
+
+\begin{document}
+
+\maketitle
+
+Supervisor: Dr G. Craig\\
+Thesis Committee Members: Dr G. Craig, Dr C. Thorncroft, Dr J. Thuburn
+
+\section{Introduction}
+The concept of the existence of a radiative-convective equilibrium has
+proved a very instructive tool for attempting to understand convection and
+its interaction with the large-scale atmosphere, particularly in the
+tropics. This situation is assumed to exist when the destabilisation
+of the atmosphere by radiative cooling and the consequent convective
+stabilisation is constrained to be balanced by fluxes of heat and
+moisture from the surface.
+
+Whilst the radiative-convective equilibrium model is an attractively
+simple view of the convective atmosphere, the approach to that
+equilibrium after a perturbation in the external conditions is
+somewhat less well-defined, and has rather more conceptual
+subtleties. In particular, the adjustment does not occur over one
+single timescale, but involves several variables adjusting at
+different rates. The final equilibrium state can only be reached on
+the slowest of these timescales. For example, the mass flux reaches a
+very fast equilibrium with the forcing, the adjustment timescale being
+of the order of two hours. (The timescale for this is probably
+governed by the time it takes for a gravity wave to travel the
+distance between the clouds.) On the other hand, the water vapour
+adjustment is much slower, and full equilibrium is only achieved after
+around twenty to thirty days. This timescale is related to the time it
+takes for water vapour to be transported in the subsiding air between
+the clouds, and is thus set by the radiative cooling rate. Thus, on
+timescales shorter than this, the atmosphere can only be considered
+to be in a \textit{partial} equilibrium (so-called
+`quasi-equilibrium').
+
+\section{Theory}
+\subsection{The Scaling Relations}
+In an attempt to quantify the behaviour of the equilibrium state, many
+people (\cite{renno}, \cite{robe}, \cite{emanuel}, \cite{craig}, \cite{shutts}) have developed the idea of treating the convective system as a
+heat engine, which transports heat from the sea surface to some lower
+characteristic atmospheric temperature, and uses the work generated to
+maintain the convective motions against frictional dissipation. Some
+simple budgets for the equilibrium system are then used to generate
+scaling relations.\\
+\begin{figure}[ht!!]
+\center
+\mbox{\psfig{file=/home/swr98bgc/thesiscommittees/schem.eps,height=5cm,width=8cm}}
+\caption{\it{Schematic of Equilibrium Convective System as a Heat
+Engine}}
+\end{figure}
+
+The first budget that is invoked is an \textit{energy budget} over
+the convective layer (from some reference layer, $z_b$, to a height above
+the cloud tops, $z_t$). This is:
+\begin{equation}
+\frac{dE}{dt} + \int \Delta (flux \, of \, energy)^{z_t}_{z_b} \, dxdy = 0,
+\end{equation}
+\begin{tabbing}
+where \= $E$ is the total volume-integrated energy, and the flux of
+energy has a component, $F_{ext}$,\\
+where \>$\int \Delta
+F_{ext} \, dxdy \equiv$ imposed energy sink due to cooling $ =
+ \int_{z_b}^{z_t} \rho C_p \dot{T} \, dz$
+\end{tabbing}
+In equilibrium there is a steady-state and, assuming the flux of
+energy at $z_t$ is negligible, we have the relation:
+\begin{equation}
+F_{ext} = M_c \Delta MSE,
+\end{equation}
+\begin{tabbing}
+where \= $M_c$ is the updraught mass flux, $MSE$ is the moist static energy = $C_pT+gz+L_vq$ \\
+and \> $\Delta MSE = MSE_{up} - MSE_{down}$ at height $z_b$. 
+\end{tabbing}
+The second budget is an \textit{entropy budget}. Here, the sources and
+sinks of entropy in the convective heat engine must
+balance \textit{in equilibrium}. Two contributions to this budget come from the radiative cooling (sink of entropy) and the surface heat
+fluxes (source), and their values are well-defined. This, though, leaves a
+shortfall in the budget, and so there must
+be other sources of entropy in the system. The most important of these
+has been conjectured to be an irreversible source due to turbulent
+dissipation of kinetic energy within the convective layer (\cite{emanuel}). 
+
+A variable, D, describing the rate of conversion of kinetic energy to
+heat is introduced, which can be used in the budget equation to
+generate the relation:
+\begin{equation}
+D = \eta F_{ext},
+\end{equation}
+where $\eta$ is the efficiency of the heat engine. 
+
+Defining $D \equiv M_c \,CAPE = $ work done by undiluted convective mass
+transfer, leads to the expression:
+\begin{equation}
+CAPE \propto \Delta MSE
+\end{equation}  
+The last theoretical argument is the introduction of some measure of a
+\textit{characteristic dissipation velocity}, $w_*$. This has
+sometimes been related simply to the $CAPE$ (e.g. \cite{craig}, \cite{emanuel}), but
+some (\cite{shutts}) have related it to a characteristic timescale for the dissipation
+of kinetic energy by turbulence. It is unclear, though,
+whether this dissipation of kinetic energy should occur simply within
+the clouds, or whether gravity wave propagation ensures that the
+dissipation occurs over the whole convective region. If the first is
+true, then the convective velocity, $w_c$, can be found to be independent of the forcing, while
+if kinetic energy dissipation occurs throughout the convective region,
+then $w_c$ has a dependence on $F_{ext}$. The fractional area occupied
+by convection,
+$\sigma$, can also be deduced. 
+
+i.e., \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Within Clouds \ \
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ Throughout Convective Layer 
+\begin{equation}
+\sigma \propto \rho^{-1} {\Delta
+MSE}^{-\frac{3}{2}} F_{ext} , \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \  \sigma \propto \frac{{(Fext/\overline{\rho}})^\frac{2}{3}} {\Delta
+MSE}
+\end{equation} 
+and 
+\begin{equation}
+w_c \propto {\Delta MSE}^\frac{1}{2}, \ \ \ \ \ \ \ \
+\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ w_c \propto \sigma^\frac{1}{2} \, {CAPE}^\frac{1}{2}
+\end{equation}
+
+\subsection{The Fluctuation-Dissipation Theorem}
+Another interesting idea concerns the relationship between the
+approach of the mass flux towards equilibrium, and also the
+fluctuations around that equilibrium state. In particular, there
+is a theory used often within the field of statistical mechanics, which says that the
+adjustment timescale of a variable in a system towards equilibrium
+after an applied perturbation, is the same as the autocorrelation
+function of random fluctuations around that equilibrium, as long as
+the applied perturbation can be considered small.
+
+In terms of equations, this fluctuation-dissipation theorem says:
+\begin{equation}
+\frac{\Delta \overline{A}(t)}{\Delta \overline{A}(0)} = \frac{C(t)}{C(0)},
+\end{equation}
+where $A(t)$ is a dynamical variable (here the mass flux), $\Delta
+\overline{A}(t) = \overline{A(t)}-\langle A \rangle$,
+($\overline{A}(t)$ is the\\
+ non-equilibrium ensemble average of
+A, $\langle A \rangle$ is the equilibrium ensemble average), \\
+and $C(t)$ is the autocorrelation function =  $\langle \delta A(0) \delta A(t) \rangle$ = $\langle A(0)A(t) -
+\langle A \rangle ^2 \rangle$, \\
+($\delta A(t)=A(t)-\langle A \rangle$).
+
+The criterion that the perturbation to the equilibrium must be small,
+is a statement that the theory is only valid in the \textit{linear
+response region}, where the deviations from equilibrium are linearly
+related to the perturbations which remove the system from its
+equilibrium.
+\section{Proposed Experiments}
+\subsection{The Scaling Relations}
+I hope to use a three-dimensional cloud-resolving model (CRM) to test
+out these equilibrium theories, and the scaling relations they
+suggest. 
+
+Before outlining the series of experiments proposed, I must point out some slightly more subtle aspects which are
+presently not well-understood, and which can be tested by such
+a study. One of the biggest unknowns is the dependence of $\Delta
+MSE$ on the forcing. It is well-known that the convective mass flux
+adjusts to a perturbation to the forcing on a very short timescale
+(around two hours), while the domain-averaged $MSE$ (governed most
+strongly by the slow water vapour adjustment) shows \textit{only} a
+very slow adjustment towards equilibrium (\mbox{\cite{adrian}}).\\
+\begin{figure}[ht!!]
+\center
+\mbox{\psfig{file=/home/swr98bgc/thesiscommittees/MSEtot.eps,height=5cm,width=8cm}}
+\caption{\it{Timeseries of Domain-Averaged Moist Static Energy}}
+\end{figure}
+ But the adjustment of
+$\Delta MSE$ is a little less clear-cut. This adjustment is likely to
+be quite closely tied to the response of the boundary layer $MSE$,
+since the updraughts transport boundary layer air upwards within clouds.
+
+This possible dependence of $\Delta MSE$ on the forcing has important
+consequences for the nature of the partial equilibrium state. If it
+does \textit{not} show a rapid adjustment then, from equations 2 and 4,
+it would be expected that $M_c$ would be directly proportional to the
+forcing, and $CAPE$ independent of it. If the opposite were true,
+$M_c$ and $\Delta MSE$ would be correlated on the short convective
+timescale, and their equilibrium values would depend in some more
+complicated way on $F_{ext}$.
+
+Another point concerning $\Delta MSE$ is the precise definition of
+the downdraught $MSE$. Most people have assumed that the contribution of
+penetrative downdraughts to $\Delta MSE$ can be considered negligible,
+and the downdraught $MSE$ is therefore taken as the $MSE$ of the
+slowly subsiding air around each cloud. Of course, it is convenient to
+be able to ignore these downdraughts for the purposes of convective
+parameterization schemes; it would be difficult to find a closure on
+the downdraught $MSE$, while the downdraught mass flux is usually
+crudely assumed to be $0.2$ times that of the updraught. However, it
+seems likely that such a neglect must be unjustified, certainly in
+regions of convective organisation.
+
+Another issue to be investigated is that of the vertical level at
+which the scaling relations hold. Shutts and Gray derived their
+relations at the top of the shallow convective layer, which is assumed
+to be the MSE minimum (see Figure 3), but it is unclear whether this is a correct definition, or
+whether the scaling relations hold at different heights (e.g. others
+assume they should be taken at the top of the sub-cloud layer).
+
+With these questions in mind, a set of experiments is envisaged:
+\begin{itemize}
+\item A series of perturbation experiments will be run, in which $F_{ext}$ and
+$\Delta MSE$ are varied independently. Three or four variations of
+each parameter will be chosen. The dependences of $M_c$, $CAPE$, $w_c$
+and $\sigma$ will be investigated, in comparison with the relations
+outlined in section 2.1.
+\item The timeseries of $M_c$ and $\Delta MSE$ after perturbations have
+been applied can be plotted, to check whether a rapid adjustment is
+seen in both.
+\item The vertical profiles of $MSE_u$, $MSE_d$ and $MSE_s$ and also
+their associated mass fluxes can be plotted for all the different
+forcings. The scaling of downdraught mass flux with the updraught
+value can be investigated, and some feel for a possible closure on
+$MSE_d$ can perhaps be found.
+\item The values of the quantities in the scaling relations can be
+calculated at different vertical levels, to ascertain the height(s) at
+which these relations hold.\\
+\end{itemize}
+\begin{figure}[h!!]
+\center
+\mbox{\psfig{file=/home/swr98bgc/thesiscommittees/MSEhgt.eps,height=5.2cm,width=7.8cm}}
+\caption{\it{Vertical profile of Total Moist Static Energy}}
+\end{figure}
+\subsection{The Fluctuation-Dissipation Theorem}
+Some obvious questions arise from the fluctuation-dissipation theorem,
+which should also be verifiable within the set of experiments already proposed:
+\begin{itemize}
+\item Can this fluctuation-dissipation theorem hold true for the partial
+equilibrium system being considered here? If so, for what range of
+values of perturbation can the linear regime be said to exist? The
+perturbation experiments to $F_{ext}$ can be used to compute
+separately the changes
+in relaxation time back to equilibrium and the autocorrelation function.
+\item Is this theory valid at all vertical heights separately? Or will
+it only be satisfied when domain-averages are considered? 
+\item It would be interesting to see whether any physical explanation
+can be attached to the adjustment timescale. It is wondered whether
+this adjustment is related to the cloud-spacing or to the cloud
+lifetime. If it were related to the cloud-spacing, it would be
+interesting to see how the adjustment timescale varied with the
+fractional area occupied by convection.
+\end{itemize}
+
+\section{Experimental Issues}
+I have managed to set up the CRM and have added most of the
+diagnostics which will be required. 
+
+However, there are some very important practical issues which must be
+addressed. Firstly, all the relations being tested are valid only for
+idealised ensemble averages. Because of computational
+limitations, however, this ensemble average will never be obtained; in practice, it will be essential to take a combined spatial and
+temporal average, to ensure a sufficient number of clouds are included. The range over which the time average may be taken
+must be considered carefully: if it is, say, less than two
+hours, the averaging will be over strongly correlated fields and will
+yield no truly independent measurements. If, however, the averaging
+period is greater than around twelve hours, the
+background $MSE$ may have drifted significantly enough to have altered
+the true equilibrium average mass flux value.
+
+Sensitivity tests must be done to assess the convergence to the
+equilibrium average, by plotting the distribution of cloud mass
+fluxes, which should form a Gaussian around the ensemble average. In
+this limit, $\langle M_c \Delta MSE \rangle$ should be
+well-approximated by $\langle M_c \rangle \langle \Delta MSE \rangle$,
+which is an assumption used in the derivation of the scaling
+relations. If the domain used is too small, problems will occur, and
+so a larger domain (or at least a higher cooling rate, to pack the
+clouds closer) must be used.
+
+A final point is that to test the fluctuation-dissipation theorem
+requires an instantaneous spatial average to be taken in the approach
+to equilibrium (and also for the autocorrelation). This sets a lower
+limit to the horizontal domain size possible.
+
+The perturbation experiments must also be designed carefully. In
+particular, it is suggested that the model be spun up into an
+equilibrium state for around fifteen to twenty days, to ensure that
+the water vapour field has adjusted from its initial homogeneous unrealistic
+distribution to a more realistic one. After this spin up, the
+perturbations are then applied and the model is allowed to adjust on
+the short two hour timescale before the scaling relations can be
+tested. Meanwhile, the relaxation towards equilibrium must be used to
+test the fluctuation-dissipation theorem.
+
+Finally, the varying of $F_{ext}$ and $\Delta MSE$ independently must
+be considered. Varying $F_{ext}$ simply requires changing the
+radiative cooling rate, but adjusting $\Delta MSE$ is harder. It is
+suggested that to adjust $RH^* - RH$ by a fixed amount at every
+grid-point except within clouds (where $RH \equiv RH^*$) would be a
+suitable way to effect the perturbation.
+
+Thus, it would seem that the main experiments should be carried out on
+a large domain at quite high resolution. The exact numbers must still
+be checked, but it would seem prudent to run the model on a grid at
+least $256 \times 256\, km$ with a resolution of at least $1\, km$
+(perhaps even $500\, m$; the sensitivity to resolution can be
+checked). Because of the long spin up time, it will perhaps be
+necessary to run the approach to equilibrium on a much smaller, coarse
+resolution grid, and then copy the domain several times and
+interpolate down before adding the perturbations.
+
+\bibliographystyle{natbib}
+\bibliography{tcd99}   
+\end{document}

@@ -1,0 +1,7 @@
+Bon00
+Title:A semi-implicit semi-Lagrangian scheme using the height coordinate for a nonhydrostatic and fully elastic model of atmospheric flows
+Author(s): Bonaventura, L
+Source: JOURNAL OF COMPUTATIONAL PHYSICS 158 (2):186-213 2000
+Times Cited: 13
+Abstract: A semi-implicit, semi-lagrangian algorithm suitable for the simulation of the dry, adiabatic, nonhydrostatic atmospheric dynamics is introduced and analysed. Height is used as vertical coordinate, without the customary terrain following normalization, thus resulting in a stable, robust, and efficient numerical scheme which allows for applications to mesoscale flows over complex orography. Results of simulations in typical lee waves test cases are presented, which show good agreement with the corresponding analytical solutions. (C) 2000 Academic Press.
+ISSN: 0021-9991
