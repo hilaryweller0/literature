@@ -1,0 +1,686 @@
+#LyX 2.1 created this file. For more info see http://www.lyx.org/
+\lyxformat 474
+\begin_document
+\begin_header
+\textclass beamer
+\begin_preamble
+\usepackage{animate}
+
+% hack to get natbib working with beamer
+\renewcommand{\newblock}{}
+
+% list modifications
+\setlength{\leftmargini}{0em}
+\setlength{\leftmarginii}{1em}
+
+% make $\times$, $+$, $-$ and $=$ use less space
+\newcommand{\tims}{\negthinspace \times \negthinspace}
+\newcommand{\eq}{\negthinspace = \negthinspace}
+\newcommand{\plus}{\negthinspace + \negthinspace}
+\newcommand{\minus}{\text{-}}
+\newcommand{\smallcdot}{\negthinspace \cdot \negthinspace}
+
+\newcommand{\nicefrac}[2]{\ensuremath ^{#1}\!\!/\!_{#2}}
+\newcommand{\half}{\nicefrac{1}{2}}
+\usepackage{fancybox}
+
+\setlength{\tabcolsep}{2pt}
+
+\newcommand{\AMMMdir}{/home/hilary/OpenFOAM/hilary-dev/AMMM/run/advection/advectionOTFoam/runAll}
+
+\usepackage{bibentry}
+\nobibliography*
+\end_preamble
+\options serif
+\use_default_options false
+\maintain_unincluded_children false
+\language british
+\language_package none
+\inputencoding auto
+\fontencoding global
+\font_roman times
+\font_sans default
+\font_typewriter default
+\font_math auto
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100
+\font_tt_scale 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 10
+\spacing single
+\use_hyperref false
+\pdf_bookmarks true
+\pdf_bookmarksnumbered false
+\pdf_bookmarksopen false
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder false
+\pdf_colorlinks false
+\pdf_backref section
+\pdf_pdfusetitle true
+\papersize default
+\use_geometry true
+\use_package amsmath 2
+\use_package amssymb 2
+\use_package cancel 1
+\use_package esint 2
+\use_package mathdots 2
+\use_package mathtools 1
+\use_package mhchem 2
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation skip
+\defskip 0bp
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle plain
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\begin_inset VSpace -1.5cm
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{TKP+18}
+\end_layout
+
+\end_inset
+
+
+\begin_inset VSpace -0.5cm
+\end_inset
+
+
+\end_layout
+
+\begin_layout Author
+Presentation by Hilary Weller 
+\end_layout
+
+\begin_layout Date
+\begin_inset VSpace -1cm
+\end_inset
+
+
+\begin_inset Tabular
+<lyxtabular version="3" rows="1" columns="3">
+<features rotate="0" tabularvalignment="middle">
+<column alignment="center" valignment="top" width="33text%">
+<column alignment="center" valignment="top" width="33text%">
+<column alignment="center" valignment="top" width="33text%">
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+May 2018
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename /home/hilary/graphics/MetLogo.png
+	lyxscale 20
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Aims of Extended EDMF
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Non-equilibrium
+\end_layout
+
+\begin_layout Itemize
+Unified parameterisation for BL turbulence, shallow and deep convection
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+explicit time-dependence and memory of subgrid-scale variables
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Separate TKE budgets for plumes and environment
+\end_layout
+
+\begin_layout Itemize
+Prognostic equation for updraft area fraction
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Deficiencies with Existing Schemes
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+BL turbulence, shallow and deep convection all separate and sometimes inconsiste
+nt
+\end_layout
+
+\begin_layout Itemize
+CLUBB not suitable for deep convection because joint PDFs for 
+\begin_inset Formula $w$
+\end_inset
+
+ and scalars are local in the vertical ?!? whereas vertically coherent updrafts
+ and downdrafts are crucial
+\end_layout
+
+\begin_layout Itemize
+UNICON
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+explicitly parameterizes updafts and downdrafts but BL turbulence is separate
+\end_layout
+
+\begin_layout Itemize
+diagnostic formulation of updafts and downdrafts
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Required Extensions of EDMF
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Prognostic plume
+\end_layout
+
+\begin_layout Itemize
+Include downdrafts
+\end_layout
+
+\begin_layout Itemize
+Plume cross-sectional areas variable and more flexible
+\end_layout
+
+\begin_layout Itemize
+Partitioning second-order turbulent moments between plumes and environment
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Notation
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Formula $n+1$
+\end_inset
+
+ subdomains (or partitions, or fluids)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $a_{i}$
+\end_inset
+
+ : area fraction of domain 
+\begin_inset Formula $i$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+For variable 
+\begin_inset Formula $\phi$
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\overline{\phi_{i}}$
+\end_inset
+
+ : mean of 
+\begin_inset Formula $\phi$
+\end_inset
+
+ over domain 
+\begin_inset Formula $i$
+\end_inset
+
+ (volume or Reynolds averaging?)
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\phi_{i}^{\prime}=\phi_{i}-\overline{\phi_{i}}$
+\end_inset
+
+ : turbulent fluctuations of 
+\begin_inset Formula $\phi$
+\end_inset
+
+ in domain 
+\begin_inset Formula $i$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $<\phi>$
+\end_inset
+
+ : mean over all domains 
+\begin_inset Formula $=\sum_{i}a_{i}\overline{\phi_{i}}$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $\phi^{*}=\phi-<\phi>$
+\end_inset
+
+ : fluctuations about the total mean
+\end_layout
+
+\begin_layout Itemize
+Covariances 
+\begin_inset Formula $<\phi^{*}\psi^{*}>=\sum_{i}a_{i}\left(\overline{\phi_{i}^{*}}\ \overline{\psi_{i}^{*}}+\overline{\phi_{i}^{\prime}\psi_{i}^{\prime}}\right)$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Assumptions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+\begin_inset Formula $\rho_{i}=\rho\ \forall\ i\ge0$
+\end_inset
+
+ except in calculating 
+\begin_inset Formula $Dw/Dt$
+\end_inset
+
+ (subdomain-averaged anelastic)
+\end_layout
+
+\begin_layout Enumerate
+BL approximation -- horizontal variations of SGS statistics neglected
+\end_layout
+
+\begin_layout Enumerate
+\begin_inset Formula $\mathbf{u}_{hi}=\mathbf{u}_{h}\ \forall\ i\ge0$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Enumerate
+Mean-field approximation -- mass exchanged between subdomains carries mean
+ properties with it
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Subdomain Equations
+\end_layout
+
+\end_inset
+
+ (screen capture)
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Graphics
+	filename figures/eqns4-6.png
+	lyxscale 50
+	width 100line%
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+More Assumptions
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+There are only turbulent fluctuations in the environment, 
+\begin_inset Formula $i=0$
+\end_inset
+
+ ?!?!?
+\end_layout
+
+\begin_layout Enumerate
+Turbulent fluxes are diffusive:
+\begin_inset Formula 
+\[
+\overline{w_{0}^{\prime}\phi_{0}^{\prime}}=-K\frac{\partial\overline{\phi_{0}}}{\partial z}
+\]
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\color red
+\begin_inset Quotes eld
+\end_inset
+
+We assume that mass fluxes in plume and the environment compensate each
+ other within a grid box
+\begin_inset Quotes erd
+\end_inset
+
+
+\color inherit
+ !?!!?!
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+Boundary Conditions at the Ground
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Surface fluxes set by Monin-Obukhov similarity theory
+\end_layout
+
+\begin_layout Itemize
+TKE and scalar covariances prescribed at lowest level
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Formula $a_{0}=0.9$
+\end_inset
+
+, 
+\begin_inset Formula $a_{1}=0.1$
+\end_inset
+
+ at the ground
+\end_layout
+
+\begin_layout Itemize
+Assume that 
+\begin_inset Formula $\theta_{\ell}$
+\end_inset
+
+ and 
+\begin_inset Formula $q_{t}$
+\end_inset
+
+ are positively correlated and normally distributed so that domain 1 contains
+ the most buoyant air
+\end_layout
+
+\begin_layout Standard
+THERE IS NO OTHER CLOUD BASED MASS FLUX
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+More on Closure
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+Formulae for turbulent entrainment and detrainment are given
+\end_layout
+
+\begin_layout Itemize
+Differences between non-hydrostatic domain pressure gradient and non-hydrostatic
+ mean pressure gradient is modelled as a drag term: (screen capture)
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename figures/dragEqn.png
+	scale 50
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+This is a sink of momentum and a source of TKE
+\end_layout
+
+\end_deeper
+\begin_layout Separator
+
+\end_layout
+
+\begin_layout Frame
+\begin_inset Argument 4
+status open
+
+\begin_layout Plain Layout
+References
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+
+\size tiny
+\color black
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+bibfiles "numerics"
+options "plainnat"
+
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\end_body
+\end_document

@@ -1,0 +1,103 @@
+%% LyX 2.1.4 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\documentclass[10pt,serif]{beamer}
+\usepackage{mathptmx}
+\renewcommand{\familydefault}{\rmdefault}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\pagestyle{plain}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\setlength{\parskip}{0bp}
+\setlength{\parindent}{0pt}
+\usepackage{array}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{mathdots}
+\usepackage{graphicx}
+\PassOptionsToPackage{version=3}{mhchem}
+\usepackage{mhchem}
+\usepackage{esint}
+\usepackage[authoryear]{natbib}
+
+\makeatletter
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
+%% Because html converters don't know tabularnewline
+\providecommand{\tabularnewline}{\\}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Textclass specific LaTeX commands.
+ % this default might be overridden by plain title style
+ \newcommand\makebeamertitle{\frame{\maketitle}}%
+ % (ERT) argument for the TOC
+ \AtBeginDocument{%
+   \let\origtableofcontents=\tableofcontents
+   \def\tableofcontents{\@ifnextchar[{\origtableofcontents}{\gobbletableofcontents}}
+   \def\gobbletableofcontents#1{\origtableofcontents}
+ }
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{animate}
+
+% hack to get natbib working with beamer
+\renewcommand{\newblock}{}
+
+% list modifications
+\setlength{\leftmargini}{0em}
+\setlength{\leftmarginii}{1em}
+
+% make $\times$, $+$, $-$ and $=$ use less space
+\newcommand{\tims}{\negthinspace \times \negthinspace}
+\newcommand{\eq}{\negthinspace = \negthinspace}
+\newcommand{\plus}{\negthinspace + \negthinspace}
+\newcommand{\minus}{\text{-}}
+\newcommand{\smallcdot}{\negthinspace \cdot \negthinspace}
+
+\newcommand{\nicefrac}[2]{\ensuremath ^{#1}\!\!/\!_{#2}}
+\newcommand{\half}{\nicefrac{1}{2}}
+\usepackage{fancybox}
+
+\setlength{\tabcolsep}{2pt}
+
+\newcommand{\AMMMdir}{/home/hilary/OpenFOAM/hilary-dev/AMMM/run/advection/advectionOTFoam/runAll}
+
+\usepackage{bibentry}
+\nobibliography*
+
+\makeatother
+
+\begin{document}
+
+\title{\vspace{-1.5cm}
+\\
+\bibentry{TKP+18}\vspace{-0.5cm}
+}
+
+
+\author{Presentation by Hilary Weller }
+
+
+\date{\vspace{-1cm}
+\begin{tabular}{>{\centering}p{0.33\textwidth}>{\centering}p{0.33\textwidth}>{\centering}p{0.33\textwidth}}
+ & May 2018 & \includegraphics[scale=0.2]{/home/hilary/graphics/MetLogo}\tabularnewline
+\end{tabular}}
+\makebeamertitle
+\begin{frame}{hmm}
+
+
+hmm\protect{\bibentry{TKP+18}}
+
+\end{frame}
+
+\begin{frame}
+
+\end{frame}
+
+\begin{frame}{References}
+
+
+\textcolor{black}{\tiny{}\bibliographystyle{plainnat}
+\bibliography{numerics}
+}{\tiny \par}\end{frame}
+
+\end{document}

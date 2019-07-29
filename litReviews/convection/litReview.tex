@@ -17,7 +17,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
 \usepackage{color}
 \newcommand{\nicefrac}[2]{\ensuremath ^{#1}\!\!/\!_{#2}}
-\usepackage { fancybox}
+\usepackage{fancybox}
 
 \renewcommand{\floatpagefraction}{0.95}
 \renewcommand{\textfraction}{0}
@@ -43,6 +43,11 @@
 \item 
 Revcon proposal: \\
 ``in constructing a reliable and accurate parameterization underlie many current model deficiencies [IPCC, Ch. 8,10,12, K12, S10].''
+
+``There are many differences in existing parameterizations but the
+basic structure of many of our current operational methods has remained unchanged for decades
+as highlighted in recent reviews [e.g. A04, H14, R13] and as highlighted by the RevCon project
+subtitle.''
 
 \item \bibentry{IPCC5_WG1} \\
 7.2.3.3 ``improved simulations of the Madden--Julian Oscillation, tropical convectively coupled waves and mean rain-fall patterns in some models ... but usually at the expense of a degraded simulation of the mean state.''
@@ -71,6 +76,10 @@ global convection remain poor, with biases that have not
 been removed by increasing resolution in current oper-
 ational forecast models (Lin et al., 2012)''
 
+\item \bibentry{Ran13} \\
+Work on conventional parameterizations has been about entrainment \\
+Superparameterization have succeeded in simulation the MJO and the diurnal cycle of convection. Global high resolutions for resolved convection not feasible.
+
 \item \bibentry{SAB+13} \\
 ``Physical processes not well resolved by climate models continue to limit confidence in detailed predictions of climate change. The representation of cloud and convection-related processes dominates the model spread in global climate sensitivity, and affects the simulation of important aspects of the present-day climate especially in the tropics.''
 
@@ -81,11 +90,20 @@ Chapter 8: Problems with MJO and TCs due to convection parametrization
 ``It is shown that the 4- and 1-km-gridlength models often give more realistic-looking precipitation fields because convection is represented
 explicitly rather than parameterized. However, the 4-km model representation suffers from large convective cells and delayed initiation because the grid length is too long to correctly reproduce the convection explicitly.''
 
+\item \bibentry{Ara04} \\
+``The current trend in posing cumulus parameterization is away from deterministic diagnostic closures, including instantaneous adjustments, toward prognostic or nondeterministic closures, including relaxed
+and/or triggered adjustments.'' \\
+``Major  practical  and  conceptual  problems  in  the  conventional  approach  of  cumulus  parameterization, which
+include  artificial  separations  of  processes  and  scales''
+
 \end{itemize}
 
 \subsection*{Others}
 \begin{itemize}
 \item \bibentry{GR90}
+\item \bibentry{Tied89} \ \\
+Moisture convergence for deep and mid-level convection \\
+Surface evaportation for shallow convection
 \item \bibentry{AS74} \ \\ See notes in \url{notes/AS74.pdf}
 \item \bibentry{KF90}
 \item \bibentry{Kai04}
@@ -97,6 +115,29 @@ Gives the entrainment and detrainment rates for the the previous paper.
 
 \item \bibentry{KH17} \ \\
 \includegraphics[angle=90, width=\linewidth]{notes/KH17.jpg}
+
+\item \bibentry{SBB+03} \ \\
+In LES simulations -- prescribe the surfaces fluxes with observations. These are balanced by vertically integrating the prescribed large-scale forcing.\\
+Spinup period of 2 hours where there is no resolved-scale turbulence to generate sufficient variability to create clouds. \\
+One eddy turnover time approx 30 mins \\
+Cloud cover 10-15\%\\
+$\theta_v = \theta(1+0.61 q_v - q_\ell)$ \\
+Two types of conditionally sampled files:\\
+a) averaged over grid points with non-zero liquid water \\
+b) non-zero liquid water and positively buoyant w.r.t. slab average \\
+approx 50\% of the clouds are positively buoyant. \\
+dowwdrafts play a minor role - appro\ 90\% of the cloud is in an updraft\\
+The mass flux approximatin represents 80\%-90\% of the turbulent fluxes for the moist conserved variables $q_t$ and $\theta_\ell$ \\
+Model setup -- the most important forcing is due to the subsidence - $\overline{w}$
+
+\item \bibentry{SW69} \ \\
+Gives PDE for dw/dt as a balance between buoyancy and drag and entrainment. Drag is
+$\frac{3}{8}C_D \frac{w^2}{R}$.
+
+\item \bibentry{RC15} \ \\
+``algorithm is used to extract thousands of cloud thermals from a large-eddy simulation of deep and tropical maritime convection.'' \\
+``Cloud thermals rise with a nearly constant speed determined by their buoyancy and the standard drag law with a drag coefficient of 0.6.'' \\
+$F_{drag} = 0.5 c_d A w^2$.
 
 \end{itemize}
 
@@ -123,6 +164,39 @@ make use of the fact that $a_u << 1$.
 \subsection*{Others on Convection}
 \begin{itemize}
 
+\item\bibentry{DWB+13}\ \\
+Recommended by reviewer:\\
+``the mass diffusion and the divergence regulators are related to the turbulent and dynamical entrainment and detrainment) respectively''
+
+``lateral entrainment is the dominant mixing mechanism in comparison with the cloud-top entrainment in shallow cumulus convection''
+
+``Observational evidence (e.g. Jonas, 1990; Rodts et al., 2003) as well as an
+LES study (Heus and Jonker, 2008) reveal the existence of a descending shell with properties significantly different from the average environment (section 3.8).''
+
+``extensive variety of parametrisations has been developed for $\varepsilon$ and $\delta$ without a sign of any convergence''
+
+\item\bibentry{DSJD12}\ \\
+Recommended by reviewer:\\
+``the momentum drag regulator is related to the pressure perturbation''
+
+From the abstract: \\
+``an analysis is presented of the full vertical budget equation for shallow cumulus clouds obtained from large eddy simulations of three different Global Energy and Water Cycle Experiment (GEWEX) Cloud System Study (GCSS) intercomparison cases. It is found that the pressure gradient term is the dominant sink term in the vertical velocity budget, whereas the entrainment term only gives a small contribution. This result is at odds with the parameterized vertical velocity equation in the literature as it employs the entrainment
+term as the major sink term''
+
+``most moist convection schemes use a vertical velocity
+equation in which the in-cloud vertical velocity $w_c$ is controlled by the in-cloud buoyancy excess with respect to the
+environment of the cloud $B_c$ , and a sink term that is often
+taken proportionally to the fractional entrainment rate $\epsilon$:
+\[
+\frac{1}{2}\frac{\partial w_c^2}{\partial z} = aB_c - -b\epsilon w_c^2
+\]
+The effects of nonhydrostatic
+pressure perturbations and subplume fluctuations are
+believed to be taken into account by a reduction of the
+buoyancy term ($a<1$) and by a lateral entrainment term
+multiplied by a proportionality factor $b$.
+
+
 \item \bibentry{BFM16}\ \\
 \begin{quote}
 Observational studies show a strong correlation between large-scale wind convergence and precipitation. However, using this as a convective closure assumption to determine the total precipitation in a numerical model typically leads to deleterious wave-CISK behavior such as grid-scale noise
@@ -144,7 +218,7 @@ Prognostic equations for $w_u$ and $\sigma_u$ and lots of discussion of non-equi
 
 \item \bibentry{Par14} \ \\
 no mass transport \\
-UNICON simulates all dry–moist, forced–free, and shallow–deep convection within a single framework in a seamless, consistent, and unified way.
+UNICON simulates all dry-moist, forced-free, and shallow-deep convection within a single framework in a seamless, consistent, and unified way.
 
 diagnoses the vertical profiles of the macrophysics (fractional area,
 plume radius, and number density) as well as the microphysics (production and evaporation rates of convective
@@ -196,13 +270,31 @@ Looks like it includes useful closures. See also \url{http://adsabs.harvard.edu/
 
 \section*{Multi-phase flows and Conditional Averaging}
 
-\item \bibentry{KSP04} \ \\Uses conditional averaging
-\item \bibentry{LB91} \ \\ Includes conditionally averaged momentum equation in advective form. Discusses interfacial momentum transfer
+\item \bibentry{GBB+07} \\
+``interfacial transfer terms, which
+are taken into account only if they act as return-to-
+equilibrium terms and are easy to derive.'' \\
+single pressure \\
+First order upwind for advecting volume fraction
 
-\item \bibentry{MTP99} \ \\ ``defnition and interpretation of average pressure in an incompressible disperse two-phase flow''
+
+\item \bibentry{KSP04} \ \\Uses conditional averaging
+
+\item \bibentry{LB91} \ \\ Includes conditionally averaged momentum equation in advective form. Discusses interfacial momentum transfer\\
+Uses drag on bubbles
+
+\item \bibentry{MTP99} \ \\ ``definition and interpretation of average pressure in an incompressible disperse two-phase flow'' \\
+``The definition and interpretation of average pressure in an incompressible disperse two-phase  ̄ow are
+ambiguous and have been the object of debate in the literature. For example, the physical meaning of
+definitions involving an internal `pressure' inside rigid particles is unclear.''
 
 \item \bibentry{ZP97}  \ \\
 %\includegraphics[width=\linewidth]{notes/ZP97.jpg}
+
+``We consider an ensemble of macroscopically identical suspensions of N spherical particles in a
+fluid continuous phase.''
+
+All theory, no numerical solutions
 
 \item \bibentry{Dopa77} \ \\
 %\includegraphics[width=\linewidth]{notes/Dopa77.jpg}
@@ -218,7 +310,13 @@ Looks like it includes useful closures. See also \url{http://adsabs.harvard.edu/
 \item \bibentry{Wel05}  \ \\
 %\includegraphics[width=\linewidth]{notes/openFoamCondAve.jpg}
 
-%\item \bibentry{}
+\item \bibentry{HK86a}
+\item \bibentry{HK86b}
+
+\item \bibentry{HK84} \ \\
+``The standard therory of ideal single-pressure multiphase fluid dynamics, which is know to be ill-posed, is regularized via the hamiltonian formalism by extending the noncanical Poisson brackets for the standard single-pressure equations to the case of multiple pressures. This formalism is used to find Lyapunov stability conditions for the regularized system''
+
+Single pressure system has complex speed of sound - not hyperbolic. Two pressures regularises it.
 
 \end{itemize}
 
