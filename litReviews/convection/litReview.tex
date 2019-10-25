@@ -6,7 +6,7 @@
 %\usepackage[T1]{fontenc}
 %\usepackage[latin9]{inputenc}
 \usepackage[a4paper]{geometry}
-\usepackage{graphicx}
+\usepackage{graphicx,amsmath}
 \geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
 \setcounter{secnumdepth}{5}
 \setcounter{tocdepth}{5}
@@ -49,15 +49,15 @@ basic structure of many of our current operational methods has remained unchange
 as highlighted in recent reviews [e.g. A04, H14, R13] and as highlighted by the RevCon project
 subtitle.''
 
-\item \bibentry{IPCC5_WG1} \\
+\item \bibentry{IPCC5_WG1} \ \\
 7.2.3.3 ``improved simulations of the Madden--Julian Oscillation, tropical convectively coupled waves and mean rain-fall patterns in some models ... but usually at the expense of a degraded simulation of the mean state.''
 
 Other improvements since AR4. 
 
-\item \bibentry{KS12} \\
+\item \bibentry{KS12} \ \\
 Does not mention convection
 
-\item \bibentry{SLF+10} \\
+\item \bibentry{SLF+10} \ \\
 ``The accumulations
 from the four general circulation models that employ more
 traditional parameterization of moist physics tend to produce
@@ -66,7 +66,7 @@ to observations.''
 
 The version of CAM with a traditional parameterization ``produces too much light rainfall that occurs as soon as the boundary layer energizes''.
 
-\item \bibentry{HPB+14} \\
+\item \bibentry{HPB+14} \ \\
 ``Atmospheric convection is arguably the biggest current
 obstacle to the improvement of global weather and
 climate prediction (e.g. Sherwood et al., 2014).''
@@ -76,21 +76,21 @@ global convection remain poor, with biases that have not
 been removed by increasing resolution in current oper-
 ational forecast models (Lin et al., 2012)''
 
-\item \bibentry{Ran13} \\
+\item \bibentry{Ran13} \ \\
 Work on conventional parameterizations has been about entrainment \\
 Superparameterization have succeeded in simulation the MJO and the diurnal cycle of convection. Global high resolutions for resolved convection not feasible.
 
-\item \bibentry{SAB+13} \\
+\item \bibentry{SAB+13} \ \\
 ``Physical processes not well resolved by climate models continue to limit confidence in detailed predictions of climate change. The representation of cloud and convection-related processes dominates the model spread in global climate sensitivity, and affects the simulation of important aspects of the present-day climate especially in the tropics.''
 
-\item \bibentry{ipcc41} \\
+\item \bibentry{ipcc41} \ \\
 Chapter 8: Problems with MJO and TCs due to convection parametrization
 
-\item \bibentry{LCD+08} \\
+\item \bibentry{LCD+08} \ \\
 ``It is shown that the 4- and 1-km-gridlength models often give more realistic-looking precipitation fields because convection is represented
 explicitly rather than parameterized. However, the 4-km model representation suffers from large convective cells and delayed initiation because the grid length is too long to correctly reproduce the convection explicitly.''
 
-\item \bibentry{Ara04} \\
+\item \bibentry{Ara04} \ \\
 ``The current trend in posing cumulus parameterization is away from deterministic diagnostic closures, including instantaneous adjustments, toward prognostic or nondeterministic closures, including relaxed
 and/or triggered adjustments.'' \\
 ``Major  practical  and  conceptual  problems  in  the  conventional  approach  of  cumulus  parameterization, which
@@ -107,11 +107,8 @@ Surface evaportation for shallow convection
 \item \bibentry{AS74} \ \\ See notes in \url{notes/AS74.pdf}
 \item \bibentry{KF90}
 \item \bibentry{Kai04}
-\item \bibentry{LR01} \\
+\item \bibentry{LR01} \ \\
 Demonstrates the equivalence between using a higher order closure and predicting $w^\prime w^\prime$ and $w^\prime w^\prime w^\prime$ with predicting mass flux and area fraction, $\sigma$. Transfer terms not clear
-
-\item \bibentry{LR01b} \ \\
-Gives the entrainment and detrainment rates for the the previous paper. 
 
 \item \bibentry{KH17} \ \\
 \includegraphics[angle=90, width=\linewidth]{notes/KH17.jpg}
@@ -129,10 +126,6 @@ approx 50\% of the clouds are positively buoyant. \\
 dowwdrafts play a minor role - appro\ 90\% of the cloud is in an updraft\\
 The mass flux approximatin represents 80\%-90\% of the turbulent fluxes for the moist conserved variables $q_t$ and $\theta_\ell$ \\
 Model setup -- the most important forcing is due to the subsidence - $\overline{w}$
-
-\item \bibentry{SW69} \ \\
-Gives PDE for dw/dt as a balance between buoyancy and drag and entrainment. Drag is
-$\frac{3}{8}C_D \frac{w^2}{R}$.
 
 \item \bibentry{RC15} \ \\
 ``algorithm is used to extract thousands of cloud thermals from a large-eddy simulation of deep and tropical maritime convection.'' \\
@@ -164,37 +157,6 @@ make use of the fact that $a_u << 1$.
 \subsection*{Others on Convection}
 \begin{itemize}
 
-\item\bibentry{DWB+13}\ \\
-Recommended by reviewer:\\
-``the mass diffusion and the divergence regulators are related to the turbulent and dynamical entrainment and detrainment) respectively''
-
-``lateral entrainment is the dominant mixing mechanism in comparison with the cloud-top entrainment in shallow cumulus convection''
-
-``Observational evidence (e.g. Jonas, 1990; Rodts et al., 2003) as well as an
-LES study (Heus and Jonker, 2008) reveal the existence of a descending shell with properties significantly different from the average environment (section 3.8).''
-
-``extensive variety of parametrisations has been developed for $\varepsilon$ and $\delta$ without a sign of any convergence''
-
-\item\bibentry{DSJD12}\ \\
-Recommended by reviewer:\\
-``the momentum drag regulator is related to the pressure perturbation''
-
-From the abstract: \\
-``an analysis is presented of the full vertical budget equation for shallow cumulus clouds obtained from large eddy simulations of three different Global Energy and Water Cycle Experiment (GEWEX) Cloud System Study (GCSS) intercomparison cases. It is found that the pressure gradient term is the dominant sink term in the vertical velocity budget, whereas the entrainment term only gives a small contribution. This result is at odds with the parameterized vertical velocity equation in the literature as it employs the entrainment
-term as the major sink term''
-
-``most moist convection schemes use a vertical velocity
-equation in which the in-cloud vertical velocity $w_c$ is controlled by the in-cloud buoyancy excess with respect to the
-environment of the cloud $B_c$ , and a sink term that is often
-taken proportionally to the fractional entrainment rate $\epsilon$:
-\[
-\frac{1}{2}\frac{\partial w_c^2}{\partial z} = aB_c - -b\epsilon w_c^2
-\]
-The effects of nonhydrostatic
-pressure perturbations and subplume fluctuations are
-believed to be taken into account by a reduction of the
-buoyancy term ($a<1$) and by a lateral entrainment term
-multiplied by a proportionality factor $b$.
 
 
 \item \bibentry{BFM16}\ \\
@@ -246,8 +208,82 @@ Looks like it includes useful closures. See also \url{http://adsabs.harvard.edu/
 \item \bibentry{SP04}
 \item \bibentry{WG10}
 \item \bibentry{YP12}
-%\item \bibentry{}
-%\item \bibentry{}
+
+\section*{Entrainment and Detrainment}
+
+\item\bibentry{DBF+13}\ \\
+Recommended by reviewer:\\
+``the mass diffusion and the divergence regulators are related to the turbulent and dynamical entrainment and detrainment) respectively''
+
+``lateral entrainment is the dominant mixing mechanism in comparison with the cloud-top entrainment in shallow cumulus convection''
+
+``Observational evidence (e.g. Jonas, 1990; Rodts et al., 2003) as well as an
+LES study (Heus and Jonker, 2008) reveal the existence of a descending shell with properties significantly different from the average environment (section 3.8).''
+
+``extensive variety of parametrisations has been developed for $\varepsilon$ and $\delta$ without a sign of any convergence''
+
+\item\bibentry{DSJD12}\ \\
+Recommended by reviewer:\\
+``the momentum drag regulator is related to the pressure perturbation''
+
+From the abstract: \\
+``an analysis is presented of the full vertical budget equation for shallow cumulus clouds obtained from large eddy simulations of three different Global Energy and Water Cycle Experiment (GEWEX) Cloud System Study (GCSS) intercomparison cases. It is found that the pressure gradient term is the dominant sink term in the vertical velocity budget, whereas the entrainment term only gives a small contribution. This result is at odds with the parameterized vertical velocity equation in the literature as it employs the entrainment
+term as the major sink term''
+
+``most moist convection schemes use a vertical velocity
+equation in which the in-cloud vertical velocity $w_c$ is controlled by the in-cloud buoyancy excess with respect to the
+environment of the cloud $B_c$ , and a sink term that is often
+taken proportionally to the fractional entrainment rate $\epsilon$:
+\[
+\frac{1}{2}\frac{\partial w_c^2}{\partial z} = aB_c - -b\epsilon w_c^2
+\]
+The effects of nonhydrostatic
+pressure perturbations and subplume fluctuations are
+believed to be taken into account by a reduction of the
+buoyancy term ($a<1$) and by a lateral entrainment term
+multiplied by a proportionality factor $b$.
+
+\item \bibentry{LR01b} \ \\
+Gives the entrainment and detrainment rates for the \cite{LR01}. 
+
+\item \bibentry{SW69} \ \\
+Gives PDE for dw/dt as a balance between buoyancy and drag and entrainment. Drag is
+$\frac{3}{8}C_D \frac{w^2}{R}$.
+
+
+\item \bibentry{TEB19} \ \\
+
+``Mass flux schemes are known to be particlularly sensitive to the parameterization of entrainment and detrainment (e.g. Romps 2016, and references therein). EDMF schemes for the convective boundary layer have used a variety of forms for the fractional entrainment per unit depth $\varepsilon$ , including a constant value (Angevine 2005), a specified function of normalized depth (Soares et al. 2004; Siebesma et al. 2007), a rate inversely proportional to updraft speed (Neggers et al. 2009), and a rate inversely proportional to a
+diagnosed turbulence length scale (Witek et al. 2011b).
+
+Many EDMF schemes prescribe the vertical profile of mass flux or of updraft volume fraction within the boundary layer or subcloud layer. When this is done the vertical profile of detrainment is implied by the updraft mass budget and so does not need to be explicitly parameterized. The scheme of Angevine (2005), Angevine et al. (2010) is one example that does explicitly parameterize detrainment; the fractional detrainment rate per unit depth $\delta$ is a simple profile of $z$ that, in the absence of condensation, peaks at the
+boundary layer top.''
+
+``From Cheinet (2003):
+\begin{equation*}
+\varepsilon = \max\big(\frac{w_*}{z_* w_2}, \frac{c_\varepsilon}{z}\big)
+\end{equation*}
+with $c_\varepsilon = 0.4$.''
+
+For the dry convective BL, need to ``prevent the build-up of a large volume fraction of fluid 2 at the boundary layer top''. Derived from Siebesma et al (2007):
+\[
+\delta = \frac{1}{2}\frac{1}{z_* - z}
+\]
+
+\item \bibentry{AK67} \ \\
+
+\item \bibentry{HC51} \ \\
+Entrainment is a necessary dynamic consequence of vertical acceleration
+
+
+\item \bibentry{LJ1x} \ \\
+DNS simulations. Entrainment is only weakly related to Reynolds number. More closely related to 1/r, following theory.
+
+entrainment rate = e/r (units 1/distance)\\
+e is 0.36, 0.47, 0.75, 0.5 in different experiments\\
+Entrainment leads to ``mixing drag'' \\
+Thermals increase in radius as they rise
+
 %\item \bibentry{}
 %\item \bibentry{}
 %\item \bibentry{}
@@ -270,7 +306,7 @@ Looks like it includes useful closures. See also \url{http://adsabs.harvard.edu/
 
 \section*{Multi-phase flows and Conditional Averaging}
 
-\item \bibentry{GBB+07} \\
+\item \bibentry{GBB+07} \ \\
 ``interfacial transfer terms, which
 are taken into account only if they act as return-to-
 equilibrium terms and are easy to derive.'' \\

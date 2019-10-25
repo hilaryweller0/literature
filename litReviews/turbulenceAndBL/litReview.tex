@@ -47,6 +47,30 @@ Transport equations fo turbulence co-variances, $\overline{u_i u_k}$, $\overline
 
 \end{itemize}
 
+\section*{Convection Related}
+
+\begin{itemize}
+\item \bibentry{SRLV19} \ \\
+From the abstract: \\
+``The ability of three parametrizations—the traditional K-gradient model
+of Cuxart et al. (CBR), the Smagorinsky formulation, and the Moeng approach
+(MOENG) based on the horizontal gradients of the resolved variables -- to reproduce
+the thermodynamical and dynamical fluxes was assessed in an offline configuration via a comparison with the reference fields. MOENG was the most appropriate
+scheme to represent the vertical and horizontal heat fluxes at all grid spacings in the
+clouds and their environment over the entire cloud life cycle, including the appropriate representation of countergradient areas.''
+
+CBW uses TKE as a prognostic then has algebraic expressions for turbulent momentum, heat and moisture fluxes as a function of TKE and mean gradients. 
+
+Smagorinsky just uses mean gradients
+
+``mixing length of Bougeault and Lacarrere (1989),
+which is equivalent to the distance a parcel of air with an initial kinetic energy $e(z)$ given by its altitude can travel before
+it is stopped by buoyancy effects.'' An algebraic equation.
+
+``Moeng (2014) parametrized the turbulent fluxes based on
+products of the horizontal gradients of the resolved variables.''
+
+\end{itemize}
 
 \section*{Reynolds-Averaged Modelling}
 
