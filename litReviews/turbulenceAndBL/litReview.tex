@@ -39,8 +39,6 @@
 
 \begin{itemize}
 
-\item \bibentry{CHB+06
-\item \bibentry{Duy88}
 \item \bibentry{Wyn75} \ \\
 second moments -- `higher-order-closure'. \\
 Transport equations fo turbulence co-variances, $\overline{u_i u_k}$, $\overline{\theta^2}$ and $\overline{\theta u_i}$
@@ -75,7 +73,9 @@ products of the horizontal gradients of the resolved variables.''
 \section*{Reynolds-Averaged Modelling}
 
 \begin{itemize}
-\item \url{https://www.sharcnet.ca/Software/Ansys/16.2.3/en-us/help/cfx_thry/i1302321.html}
+\item Tennekes and Lumley, 1972 
+
+\item \url{https://www.sharcnet.ca/Software/Ansys/16.2.3/en-us/help/cfx\_thry/i1302321.html}
 \item \url{https://www.hindawi.com/journals/isrn/2012/428671/}
 \item \url{www3.nd.edu/~gtryggva/CFD-Course/2011-Lecture-35.pdf}
 \item \url{http://www.cham.co.uk/phoenics/d\_polis/d\_lecs/general/turb.htm}
@@ -98,6 +98,18 @@ Cited in OpenFOAM for buoyantKEpsilon turbulence model
 \section*{Boundary Layer Parameterization}
 
 \begin{itemize}
+\item \bibentry{CHB+06} \ \\
+Include $k-\varepsilon$ models: \\
+Duynkerke’s formulation (1988) \\ 
+Mauritsen et al., 2004
+
+\item \bibentry{Duy88} \ \\
+Gives 1D $k$ and $\varepsilon$ equations with buoyancy production term, $B$. $B$ is not always present in the $\varepsilon$ equation. Closure for $B$ is gradient transport.
+
+\item \bibentry{MSEZ04} \ \\
+Prognistic equaitons for TKE and potential temperature variance.
+
+
 \item \bibentry{LBB+00}
 \item \bibentry{SvH06}
 \item \bibentry{HP96}
