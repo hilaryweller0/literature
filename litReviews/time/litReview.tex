@@ -1,36 +1,13 @@
-%% LyX 2.0.6 created this file.  For more info, see http://www.lyx.org/.
-%% Do not edit unless you really know what you are doing.
-\documentclass[12pt,british,12pt, round,comma,sort&compress]{article}
-\usepackage{mathptmx}
-\renewcommand{\familydefault}{\rmdefault}
-%\usepackage[T1]{fontenc}
-%\usepackage[latin9]{inputenc}
-\usepackage[a4paper]{geometry}
+\documentclass[12pt]{article}
+\usepackage[a4paper, tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm]{geometry}
 \usepackage{graphicx}
-\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
-\setcounter{secnumdepth}{5}
-\setcounter{tocdepth}{5}
 \setlength{\parskip}{\smallskipamount}
 \setlength{\parindent}{0pt}
-
-\makeatletter
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
-\usepackage{color}
-\newcommand{\nicefrac}[2]{\ensuremath ^{#1}\!\!/\!_{#2}}
-\usepackage { fancybox}
-
-\renewcommand{\floatpagefraction}{0.95}
-\renewcommand{\textfraction}{0}
-\renewcommand{\topfraction}{1}
-\renewcommand{\bottomfraction}{1}
 
 \usepackage{bibentry}
 \bibliographystyle{abbrvnat}
 \nobibliography{numerics}
 
-\makeatother
-
-\usepackage{babel}
 \begin{document}
 
 \title{Literature review on Time-Stepping Schemes}
@@ -38,17 +15,30 @@
 \maketitle
 
 \begin{itemize}
-\item \bibenry{LM04} \ \\
+\item \bibentry{VSR+19} \ \\
+``The standard strategy of using fully implicit methods for integrating numerically stiff equations can be a computational burden in operational models (Evans et al., 2017; Lott et al., 2015)''
+\item \bibentry{LM04} \ \\
 Uses deferred correction rather than Strang splitting to achieve high order and avoids doing chemistry on a state that is out of balance
-
+\item \bibentry{WLW13}
 \item \bibentry{PR05}
 \item \bibentry{ARS97}
 \item \bibentry{DB12}
 \item \bibentry{WLW13}
 \item \bibentry{LWW14}
+\item \bibentry{IGG18}
 \item \bibentry{GS98} \ \\ \includegraphics[width=\linewidth]{notes/GS98.jpg}
 \item \bibentry{GST01} \ \\ \includegraphics[width=\linewidth]{notes/GST01.jpg}
+\item \bibentry{FS08} \ \\ Defines SDIRK \\
+Strongly stable SDIRK methods have the order barrier $p\le 4$.
+\item \bibentry{KMG09} \ \\
+``We consider methods up to order six (the maximal order of SSP Runge–Kutta methods) and up to eleven stages. The
+numerically optimal methods found are all diagonally implicit, leading us to conjecture that optimal implicit SSP Runge-Kutta
+methods are diagonally implicit. These methods allow a larger SSP timestep, compared to explicit methods of the same order and
+number of stages.'' \\
+``Result 1. Any Runge-Kutta method of order $p > 1$ has a finite radius of absolute monotonicity'' \\
+``Result 7. An SDIRK method with positive radius of absolute monotonicity $R(\mathbf{K}) > 0$ must have order $p \le 4$.
 
+\item \bibentry{BD15} \ \\ ``Two hybrid variants of TR-BDF2 are proposed, that reduce the formal order of accuracy and maximize the absolute monotonicity radius''
 \end{itemize}
 
 \nobibliography{numerics}

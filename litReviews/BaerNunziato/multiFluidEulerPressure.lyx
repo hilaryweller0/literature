@@ -806,6 +806,54 @@ where
  is compaction viscosity.
 \end_layout
 
+\begin_layout Subsubsection*
+Including mass transfers
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{equation}
+\rho_{a}^{\prime}=-\rho_{a}\frac{\partial v_{a}}{\partial x}+c_{a}^{+}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $c_{a}^{+}$
+\end_inset
+
+ is the mass exchange between phases due to chemical reactions.
+ Ignoring the contact force, 
+\begin_inset Formula $\beta_{S}$
+\end_inset
+
+, the equation for the solid volume fractio, 
+\begin_inset Formula $\alpha_{S}$
+\end_inset
+
+ is
+\begin_inset Formula 
+\begin{equation}
+\frac{\partial\alpha_{S}}{\partial t}+v_{S}\frac{\partial\alpha_{S}}{\partial x}=\frac{\alpha_{S}\alpha_{G}}{\mu_{c}}\left(p_{S}-p_{G}\right)+\frac{c_{S}^{+}}{\gamma_{S}}
+\end{equation}
+
+\end_inset
+
+where 
+\begin_inset Formula $\alpha_{G}=1-\alpha_{S}$
+\end_inset
+
+ and 
+\begin_inset Formula $\gamma_{S}$
+\end_inset
+
+ is the phase density and 
+\begin_inset Formula $\mu_{c}$
+\end_inset
+
+ is compaction viscosity.
+\end_layout
+
 \begin_layout Subsection*
 Equations from 
 \begin_inset CommandInset citation

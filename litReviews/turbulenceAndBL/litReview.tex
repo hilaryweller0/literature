@@ -12,6 +12,7 @@
 \setcounter{tocdepth}{5}
 \setlength{\parskip}{\smallskipamount}
 \setlength{\parindent}{0pt}
+\usepackage{mathrsfs}
 
 \makeatletter
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
@@ -39,9 +40,12 @@
 
 \begin{itemize}
 
+\item \bibentry{ZWX20} \ \\
+Includes a buoyancy production term for $\varepsilon$ equation.
+
 \item \bibentry{Wyn75} \ \\
 second moments -- `higher-order-closure'. \\
-Transport equations fo turbulence co-variances, $\overline{u_i u_k}$, $\overline{\theta^2}$ and $\overline{\theta u_i}$
+Transport equations for turbulence co-variances, $\overline{u_i u_k}$, $\overline{\theta^2}$ and $\overline{\theta u_i}$
 
 \end{itemize}
 
@@ -73,11 +77,13 @@ products of the horizontal gradients of the resolved variables.''
 \section*{Reynolds-Averaged Modelling}
 
 \begin{itemize}
+\item \bibentry{LS74}
+
 \item Tennekes and Lumley, 1972 
 
 \item \url{https://www.sharcnet.ca/Software/Ansys/16.2.3/en-us/help/cfx\_thry/i1302321.html}
 \item \url{https://www.hindawi.com/journals/isrn/2012/428671/}
-\item \url{www3.nd.edu/~gtryggva/CFD-Course/2011-Lecture-35.pdf}
+\item \url{www3.nd.edu/\~{ }gtryggva/CFD-Course/2011-Lecture-35.pdf}
 \item \url{http://www.cham.co.uk/phoenics/d\_polis/d\_lecs/general/turb.htm}
 \item \url{https://en.wikipedia.org/wiki/K-epsilon\_turbulence\_model}
 \item \url{cfd.mace.manchester.ac.uk/twiki/pub/Main/TimCraftNotes\_All.../flmsc-rathermal.pdf}
@@ -89,9 +95,125 @@ Gives a closure for buoyancy production in TKE equation
 \item \bibentry{HvH91} \ \\
 Cited in OpenFOAM for buoyantKEpsilon turbulence model
 
-%\item \bibentry{}
-%\item \bibentry{}
-%\item \bibentry{}
+\item \bibentry{Reyn76} \ \\
+Review of zero, one and two equations models, Reynods stress modelling and LES.\\
+
+The momentum equation \\
+\includegraphics[width=\linewidth]{notes/Rey76_Ueqn.png}
+
+The TKE equation \\
+\includegraphics[width=\linewidth]{notes/Rey76_TKEeqn.png}
+
+Closing the TKE equation \\
+\includegraphics[width=\linewidth]{notes/Rey76_closingTKE.png}
+
+Dissipation equation \\
+\includegraphics[width=\linewidth]{notes/Rey76_dissiEqn.png}
+
+
+\item \bibentry{Wil91} \ \\
+k-omega is older than k-epsilon and has advantages\\
+More accurate in adverse pressure gradients, through the sub-layer and in low Reynolds number. Boussinesq
+
+\item \bibentry{Mironov09}
+
+\item \bibentry{MGLZ99} \ \\
+``Abdella and McFarlane (1997, henceforth AM97)
+have proposed a second-order turbulence closure
+scheme for the planetary boundary layer. The scheme
+contains a prognostic equation for the turbulence kinetic
+energy and algebraic expressions for the other second-
+order moments. The expressions for the potential temperature flux and the temperature variance incorporate
+nonlocal eddy diffusivity and countergradient terms.
+These expressions are derived through the use of an
+advanced parameterization of the third-order moments
+based on convective mass-flux arguments. Remarkably,
+the AM97 parameterizations for the flux of potential
+temperature flux, $\overline{w^{\prime 2}\theta^\prime}$, and the flux of potential temperature variance, $\overline{w^\prime \theta^{\prime 2}}$, do not have a traditional downgradient diffusion form.''
+...
+doesn't contain the necessary symmetry.
+We ``develop a parameterization that
+possesses necessary physical properties and verify it
+against large-eddy simulation (LES) and observational
+data.''
+
+\item \bibentry{MGM+00} \ \\
+``The pressure transport term in the turbulence kinetic‐energy budget becomes more important as the rotation rate increases, whereas the contribution of the third‐order transport term is reduced. All terms in the buoyancy variance budget grow in amplitude as the rotation rate increases. The mean‐gradient term and the turbulent transport term are both gains that are offset by a loss to dissipation in the bulk of the CBL.''
+
+\item \bibentry{Miro01} \ \\
+``the relative importance of
+the buoyancy contribution to the pressure-gradient-potential-temperature covariance decreases with increasing
+rotation rate.'' \\
+``the Coriolis contribution becomes more important as the rotation rate increases.'' \\
+``underestimation of the pressure term in the flux budget equation and may lead to an erroneous prediction of the
+vertical potential-temperature flux in convection with rotation. ''
+
+\item \bibentry{UB03} \ \\
+$k-\varepsilon$ and Mellor-Yamada are special cases.
+\\
+``Umlauf et al. (2003) extended the $k-\omega$
+model of Wilcox (1988) ... to buoyancy affected flows''
+
+Second equation for \\
+\[
+\psi - (c_\mu^0)^p k^m l^n
+\]
+
+\item \bibentry{UBH03} \ \\
+Compared with $k-\varepsilon$ and M-Y. \\
+``$k-\omega$ model computes correct decay rates for turbulent quantities under breaking waves'' \\
+requires ``buoyancy term in the second equation is appropriately weighted''\\
+Suggestion to buoyancy affected and rotating flows.
+
+Buoyancy production term in $k$ equation is $G=-\nu_t ^\theta N^2$.
+
+\[
+\dot{\omega} = \mathscr{D}_\omega + \frac{\omega}{k}
+\bigl(
+    c_{\omega 1} P + c_{\omega 3} G - c_{\omega 2}\frac{f_{c\omega}}{f_{c\mu}} \varepsilon
+\bigr)
+\]
+$c_{\varepsilon 3} = c_{\omega 3} + 1$
+
+\item \bibentry{MY82} \ \\
+``The master length scale equation we use is quite empirical'' \\
+``we believe the equation we use is much to be preferred relative to the transport equation for dissipation'' \\
+Level 4 model has prognostic equations for Reynolds stress, turbulent heat transport and theta variance. \\
+$q^2$ is 2 TKE \\
+Level 3 model, scale ``all terms in the model equations as a product of $q*3/\Gamma$ and powers of $\mathbf{a}$'' where $\Gamma$ is a length scale and $\mathbf{a}$ is a measure of anisotropy. \\
+$\varepsilon=q^3/\Gamma_1$ \\
+
+Level 2.5 neglect the material derivative and diffusion terms in prognostic equations for temperature variance. \\
+Level 2 ``neglects all material derivatives and diffusion terms''
+
+Prognostic equation for $q^2 \ell$ given.
+
+Level 2.5 recommended: solutions of equations for $q^2$ and $q^2 \ell$. \\
+Equation for $q^2 \ell$ performs better than algebraic expression for $\ell$ in level 2 model.
+
+\item \bibentry{CIL96} \ \\
+``Several illustrative applications are provided including the downward directed warm jet, the stratified mixing layer and buoyancy affected grid-turbulence decay.'' \\
+Prognostic equation for $\varepsilon$ including buoyancy generation.
+
+``Others adopt the so-called algebraic second-moment (ASM) closures
+among whom Rodi (1982) has made extensive explorations of buoyancy-driven
+flows. These economical approaches all work adequately when diffusion is of little
+importance in the overall second-moment budget.''
+
+\item \bibentry{BD03} \ \\
+Gives $k$ and $\varepsilon$ equations with buoyancy generation term. Buoyancy generation term parameterised in terms of pressure gradients. 4 different versions of buoyancy production term given in terms of density gradients. All 4 have advantages and disadvantages.
+
+\item \bibentry{DH70}
+
+\item \bibentry{XDW00} \ \\
+Solves TKE equation in the BL. Model cited by \cite{CHB+06}.\\
+TKE equation not given but instead refers to Moeng (1984)
+\item \bibentry{XDW+01} \ \\
+Not about the TKE scheme
+
+\item \bibentry{Moen84} \ \\
+Gives TKE model solved for sub-grid-scale turbulence therefore mixing lengths are small
+
 
 \end{itemize}
 
@@ -106,16 +228,30 @@ Mauritsen et al., 2004
 \item \bibentry{Duy88} \ \\
 Gives 1D $k$ and $\varepsilon$ equations with buoyancy production term, $B$. $B$ is not always present in the $\varepsilon$ equation. Closure for $B$ is gradient transport.
 
-\item \bibentry{MSEZ04} \ \\
+\item \bibentry{MSE+04} \ \\
 Prognistic equaitons for TKE and potential temperature variance.
 
+\item \bibentry{TE20} \ \\
+\\If the effects of turbulence are modeled as an eddy viscosity and
+diffusivity, then an idealized analysis based on the hypothesis predicts a well-known scaling for the magnitude of the eddy viscosity and diffusivity. It also predicts that the marginally stable modes should have vertical and horizontal scales comparable to the boundary layer depth.''
 
 \item \bibentry{LBB+00}
 \item \bibentry{SvH06}
 \item \bibentry{HP96}
 \item \bibentry{KK88}
-%\item \bibentry{CS03}
-%\item \bibentry{DWS06}
+\item \bibentry{CS03}
+\item \bibentry{DWS06}
+\item \bibentry{BCA76}
+\item \bibentry{Loui79}
+
+\item \bibentry{MY74}\ \\
+The friction velocity is obtained from $U$ at the second level (above $z_0$). Then the heat flux at the surface is computed from MO theory. The boundary values of the turbulent moments are obtained from the TKE. Boundary values of $U$, $V$ and $\Theta$ are obtained from MO theory at first model level (above $z_0$).
+
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
+%\item \bibentry{}
 %\item \bibentry{}
 
 \end{itemize}

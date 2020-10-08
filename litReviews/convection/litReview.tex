@@ -40,8 +40,11 @@
 \subsection*{Convection parameterisation is a problem}
 \begin{itemize}
 
-\item 
-Revcon proposal: \\
+\item \bibentry{LKB20} \ \\
+Excellent intro on problem of convection and net mass transport. See references.\\
+HYMACS not actually implemented in ICON yet. This is just about the necessary ``adaptions to the dynamical core'' which is a ``revised numerical filter'' with ``compatibility to local mass sources''.
+
+\item Revcon proposal: \\
 ``in constructing a reliable and accurate parameterization underlie many current model deficiencies [IPCC, Ch. 8,10,12, K12, S10].''
 
 ``There are many differences in existing parameterizations but the
@@ -63,6 +66,8 @@ from the four general circulation models that employ more
 traditional parameterization of moist physics tend to produce
 too much precipitation over the tropical oceans compared
 to observations.''
+
+``models produce precipitation approximately twice as often as that observed and make rainfall far too lightly''
 
 The version of CAM with a traditional parameterization ``produces too much light rainfall that occurs as soon as the boundary layer energizes''.
 
@@ -96,10 +101,47 @@ and/or triggered adjustments.'' \\
 ``Major  practical  and  conceptual  problems  in  the  conventional  approach  of  cumulus  parameterization, which
 include  artificial  separations  of  processes  and  scales''
 
+\item \bibentry{BM01} \ \\
+``study using Mesoscale
+Compressible Community model integrations at 2-, 6-, 18-, and 50-km resolution
+With convection parameterization:'' \\
+``precipitation and internal structures associated with the squall line are thus not well represented at this resolution''
+
+\item \bibentry{MVS+18}
+\begin{quote}
+Convection schemes are not required for reasonable climatological precipitation. However, they are essential for reasonable daily precipitation and constraining extreme daily precipitation that otherwise develops. Systematic effects on lapse rate and humidity are likewise modest compared with the intermodel spread. Without parameterized convection Kelvin waves are more realistic.
+\end{quote}
+
+\item \bibentry{MS08} \ \\
+includes idealised model of a squall line
+
 \end{itemize}
 
 \subsection*{Others}
 \begin{itemize}
+
+\item \bibentry{GLC02} \ \\
+Part I desripes the joint pdf model - bi Gaussians for sub-grid-scale variablility.\\
+1st, 2nd and 3rd order moments of the whole grid box are used to estimate two means and SD of the bi-Gaussians. \\
+Differs from \cite{LR01} in that it uses a double Gaussian as the joint PDF.
+\item \bibentry{GLC02b} \ \\
+Part II compares a single column model with observations
+
+\item \bibentry{LG05} \ \\ CLUBB beginnings but CLUBB not mentioned.\\
+``closures for several third- and fourth-order moments. To derive the closures, the
+moments are assumed to be consistent with a particular PDF family, namely, a mixture of two trivariate
+Gaussians.'' \\
+``low-order moments are
+extracted from the LES and treated as givens that are input into the closures.''
+
+\item \bibentry{LSW+12} \ \\ First paper about CLUBB \\
+``Although PDF-based parameterizations are more complex and computationally expensive than
+many other parameterizations, in principle PDF parameterizations have several advantages. For instance,
+they ensure consistency of liquid (cloud) water and cloud fraction; they avoid using separate parameteriza-
+tions for different cloud types such as cumulus and stratocumulus; and they have an appropriate formulation
+in the ``terra incognita'' in which updrafts are marginally resolved.''\\
+Comparisons of SAM (System for Atmospheric Modeling) with and without CLUBB.
+
 \item \bibentry{GR90}
 \item \bibentry{Tied89} \ \\
 Moisture convergence for deep and mid-level convection \\
@@ -107,8 +149,30 @@ Surface evaportation for shallow convection
 \item \bibentry{AS74} \ \\ See notes in \url{notes/AS74.pdf}
 \item \bibentry{KF90}
 \item \bibentry{Kai04}
+
+\item \bibentry{WY94} \ \\
+
 \item \bibentry{LR01} \ \\
+``new kind of model that combines HOC and MFC'' (MFC - mass flux closure)\\
+``assumed joint probability distribution for the variables of interest, and the equations typically used in HOC models can be derived by integrating over the distribution''
+``Assumed-Distribution Higher-Order Closure (ADHOC)''.\\
+
+``For example, the convergence of air as a downdraft approaches the
+surface creates high pressure, which acts to slow the air
+down and ‘‘splash’’ it out to the side. Conversely, up-
+draft air near the surface creates a low pressure wake
+behind it. In current mass-flux models, the pressure
+terms are most often entirely neglected (although there
+are some exceptions, e.g., Wu and Yanai 1994).''
+
 Demonstrates the equivalence between using a higher order closure and predicting $w^\prime w^\prime$ and $w^\prime w^\prime w^\prime$ with predicting mass flux and area fraction, $\sigma$. Transfer terms not clear
+
+Needs high resolution across boundary layer top
+
+Prognose $\overline{w^\prime w^\prime}$ and  $\overline{w^\prime w^\prime w^\prime}$ diagnose $\sigma$ and $M_c=\rho \sigma w_{up}$ from them.
+
+\item \bibentry{WY94} \ \\
+``A cumulus momentum prameterization including the convective-scale pressure gradient force is formulated. The pressure gradient force is related to teh vertical wind shear, cloud mass flux and orientation of organised convection. The parameterization is capable of reproducing both the upgradient and downgradient transports of horizontal momentum, provided the mode of organisation of cumulus is known.''
 
 \item \bibentry{KH17} \ \\
 \includegraphics[angle=90, width=\linewidth]{notes/KH17.jpg}
@@ -155,12 +219,54 @@ vertical velocities."
 "convective mass flux can be defined as $M\equiv a_u (w_u - w)$. If we now
 make use of the fact that $a_u << 1$.
 
+\item Soares, P. M. M., P. M. A. Miranda, A. P. Siebesma, and J. Teix-
+eira, 2004: An eddy-diffusivity/mass-flux parameterization
+for dry and shallow cumulus convection. Quart. J. Roy. Me-
+teor. Soc., 130, 3365–3384.
+
 \end{itemize}
 
 \subsection*{Others on Convection}
 \begin{itemize}
 
+\item \bibentry{AJ11} \ \\
+\begin{quote}
+ROUTE I unifies the cumulus parameterization in
+conventional GCMs and the cloud microphysics parameterization in CRMs. A key to construct
+such a unified parameterization is to reformulate the vertical eddy transport due to subgrid-
+scale moist convection in such a way that it vanishes when the resolution is sufficiently high.
+\end{quote}
+\begin{quote}
+ROUTE II for the unification follows the MMF approach based on a coupled GCM/CRM,
+originally known as the ``super-parameterization''.
+\end{quote}
+\begin{quote}
+Many mass-flux based parameterizations (e.g., AS,
+Tiedtke, 1989; Kain and Fritsch, 1990; Gregory and Rowntree,
+1990; Emanuel, 1991; Zhang and McFarlane, 1995) assume,
+at least implicitly, that convective clouds cover only a small
+portion of the GCM grid cell.
+\end{quote}
 
+For Route I, $\sigma$ is calulated from the difference between resolved and cloud variables. The eddy transport does not feed back onto the continuity equation. Not implemented.
+
+\begin{quote}
+While the performance of the proto-
+type MMF presented in these papers is promising, it has the
+following inherent limits:\\
+(i) The CRM component completely neglects three-
+dimensionality, while the circulation associated with
+clouds is three-dimensional especially when the back-
+ground flow has vertical shear;\\
+(ii) The CRM must a priori choose a particular direction for
+its orientation while the background flow predicted by
+the GCM component can be in any direction;\\
+(iii) Each CRM is embedded within a GCM grid cell, and
+thus CRMs in neighboring GCM grid cells can commu-
+nicate only indirectly through the GCM.
+\end{quote}
+
+\item \bibentry{AJW11}
 
 \item \bibentry{BFM16}\ \\
 \begin{quote}
@@ -249,6 +355,10 @@ multiplied by a proportionality factor $b$.
 \item \bibentry{LR01b} \ \\
 Gives the entrainment and detrainment rates for the \cite{LR01}. 
 
+\item \bibentry{LR01c} \ \\
+Single column solutions
+
+
 \item \bibentry{SW69} \ \\
 Gives PDE for dw/dt as a balance between buoyancy and drag and entrainment. Drag is
 $\frac{3}{8}C_D \frac{w^2}{R}$.
@@ -272,6 +382,8 @@ For the dry convective BL, need to ``prevent the build-up of a large volume frac
 \[
 \delta = \frac{1}{2}\frac{1}{z_* - z}
 \]
+
+\item \bibentry{CLJ+20}
 
 \item \bibentry{AK67} \ \\
 

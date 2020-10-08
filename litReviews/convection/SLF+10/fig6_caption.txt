@@ -1,0 +1,7 @@
+Comparison of the observed global distributions of frequency of occurrence of precipitation from (top) CloudSat to those from three different models, (left) the 7 km NCAM model, (center) version CY35R1 of the ECMWF integrated forecast system, and (right) the CAM3 climate model. Also shown are zonally averaged differences between model and observations.
+
+It looks as though the original Figure 6 was split into two and part of it lost without changing the caption, probably a final change after the reviews.
+
+The original Figure 6 is attached below, for which the caption makes more sense (NICAM on the left, IFS in the middle and CAM on the right). The CloudSat plots are different, as the resolution (3x grid resolution) is different for each model and the frequency of occurrence is very sensitive to this.
+
+In the paper, the profiles for the three models are moved to Figure 7 but the NICAM plots in Fig 6 removed in the process. 

@@ -1,0 +1,34 @@
+\documentclass[12pt]{article}
+\usepackage[a4paper, tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm]{geometry}
+\usepackage{graphicx}
+\setlength{\parskip}{\smallskipamount}
+\setlength{\parindent}{0pt}
+
+\usepackage{bibentry}
+\bibliographystyle{abbrvnat}
+\nobibliography{papers}
+
+\begin{document}
+
+\title{Literature review on Time-Stepping Schemes}
+\author{Hilary Weller}
+\maketitle
+
+\begin{itemize}
+\item \bibentry{LM04} \ \\
+Uses deferred correction rather than Strang splitting to achieve high order and avoids doing chemistry on a state that is out of balance
+\item \bibentry{WLW13}
+\item \bibentry{PR05}
+\item \bibentry{ARS97}
+\item \bibentry{DB12}
+\item \bibentry{WLW13}
+\item \bibentry{LWW14}
+\item \bibentry{GS98} \ \\ \includegraphics[width=\linewidth]{notes/GS98.jpg}
+\item \bibentry{GST01} \ \\ \includegraphics[width=\linewidth]{notes/GST01.jpg}
+\item \bibentry{FS08} \ \\ Defines SDIRK \\
+Strongly stable SDIRK methods have the order barrier $p\le 4$.
+
+\end{itemize}
+
+\nobibliography{papers}
+\end{document}
