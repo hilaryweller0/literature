@@ -1,0 +1,53 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: litReview.aux
+The style file: abbrvnat.bst
+Database file #1: numerics.bib
+Warning--empty year in HL21
+Warning--empty year in HL21
+Warning--empty booktitle in KSP04
+Warning--empty title in IPCC5_WG1
+Warning--empty year in WDL21
+Warning--empty year in WDL21
+You've used 87 entries,
+            2773 wiz_defined-function locations,
+            1235 strings with 18718 characters,
+and the built_in function-call counts, 42796 in all, are:
+= -- 3769
+> -- 2598
+< -- 61
++ -- 877
+- -- 785
+* -- 3664
+:= -- 6604
+add.period$ -- 264
+call.type$ -- 87
+change.case$ -- 522
+chr.to.int$ -- 82
+cite$ -- 180
+duplicate$ -- 1789
+empty$ -- 3421
+format.name$ -- 962
+if$ -- 8996
+int.to.chr$ -- 6
+int.to.str$ -- 1
+missing$ -- 84
+newline$ -- 444
+num.names$ -- 350
+pop$ -- 906
+preamble$ -- 1
+purify$ -- 435
+quote$ -- 0
+skip$ -- 1415
+stack$ -- 0
+substring$ -- 1917
+swap$ -- 138
+text.length$ -- 6
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 952
+warning$ -- 6
+while$ -- 335
+width$ -- 0
+write$ -- 1139
+(There were 6 warnings)

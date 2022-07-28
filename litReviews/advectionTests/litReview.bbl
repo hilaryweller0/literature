@@ -1,0 +1,49 @@
+\begin{thebibliography}{6}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Jablonowski et~al.(2006)Jablonowski, Herzog, Penner, Oehmke, Stout,
+  van Leer, and Powell]{JHP+06}
+C.~Jablonowski, M.~Herzog, J.~Penner, R.~Oehmke, Q.~Stout, B.~van Leer, and
+  K.~Powell.
+\newblock Block-structured adaptive grids on the sphere: Advection experiments.
+\newblock \emph{Mon. Wea. Rev.}, 134\penalty0 (12):\penalty0 3691--3713, 2006.
+
+\bibitem[Kent et~al.(2014)Kent, Ullrich, and Jablonowski]{KUJ14}
+J.~Kent, P.~Ullrich, and C.~Jablonowski.
+\newblock Dynamical core model intercomparison project: Tracer transport test
+  cases.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 140\penalty0 (681):\penalty0
+  1279--1293, Apr 2014.
+
+\bibitem[Lauritzen et~al.(2012)Lauritzen, Skamarock, Prather, and
+  Taylor]{LSPT12}
+P.~H. Lauritzen, W.~C. Skamarock, M.~J. Prather, and M.~A. Taylor.
+\newblock A standard test case suite for two-dimensional linear transport on
+  the sphere.
+\newblock \emph{Geosci. Model Dev.}, 5\penalty0 (3):\penalty0 887--901, 2012.
+
+\bibitem[Lauritzen et~al.(2014)Lauritzen, Ullrich, Jablonowski, and
+  Co-authors]{LUJ+14}
+P.~H. Lauritzen, P.~A. Ullrich, C.~Jablonowski, and Co-authors.
+\newblock A standard test case suite for two-dimensional linear transport on
+  the sphere: results from a collection of state-of-the-art schemes.
+\newblock \emph{Geosci. Model Dev.}, 7\penalty0 (1):\penalty0 105--145, 2014.
+
+\bibitem[Nair and Jablonowski(2008)]{NJ08}
+R.~Nair and C.~Jablonowski.
+\newblock Moving vortices on the sphere: A test case for horizontal advection
+  problems.
+\newblock \emph{Mon. Wea. Rev.}, 136:\penalty0 699--711, 2008.
+
+\bibitem[Sch{\"{a}}r et~al.(2002)Sch{\"{a}}r, Leuenberger, Fuhrer, L{\"{u}}thi,
+  and Girard]{SLF+02}
+C.~Sch{\"{a}}r, D.~Leuenberger, O.~Fuhrer, D.~L{\"{u}}thi, and C.~Girard.
+\newblock A new terrain-following vertical coordinate formulation for
+  atmospheric prediction models.
+\newblock \emph{Mon. Wea. Rev.}, 130\penalty0 (10):\penalty0 2459--2480, 2002.
+
+\end{thebibliography}

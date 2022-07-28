@@ -39,15 +39,51 @@
 
 \begin{itemize}
 
+\item \bibentry{NdFG22} \ \\
+
+\item \bibentry{Gass21} \ \\
+
 \item \bibentry{SM98} \ \\
 Sign preserving rather than monotone.\\
 ``MPDATA effectively limits the magnitude of the vector velocity''\\
 ``most common complaints are that the basic MPDATA is too diffusive, and enhanced MPDATA is too expensive.''
 
+\item \bibentry{KS17} \ \\
+``pseudo-velocity of the scheme to rely only on face-normal advective fluxes
+to the dual cells, in contrast to the full vector employed in previous implementations''
+\\
+``earlier developments, such as the nonoscillatory option, the infinite-
+gauge variant, and moving curvilinear meshes''
+
+\item \bibentry{SG90} \ \\
+``merges the flux-corrected transport (FCT) methodology of Boris and Book [4-S] and Zalesak [7] with the iterative formalism of MPDATA.''
+
+\item \bibentry{SC86} \ \\
+Adding a constant to the tracer makes it more accurate
+
 \item\bibentry{Smol83}
+
+\item \bibentry{MS06}
 
 \item \bibentry{KNK15}\ \\
 4th order, 2D scheme versus 5th order 1d WENO scheme. No discussion of how the splitting is done - but it formally limits the scheme to 2nd order. Although results for both schemes are ~3-4th order in test cases
+
+\item \bibentry{SM89} \ \\
+non-negative results for $c>1$ and high accuracy for $c<1$. \\
+Zalesak's flux limiter \\
+HO fluxes are 4th order time, space-centred.\\
+FD. Cheaper than explicit for $c>1$. 1D results
+
+\item \bibentry{Kuz09} \ \\
+``In order to reduce the cost of flux correction, the raw antidiffusive fluxes
+are linearized about an auxiliary solution computed by a high- or low-order scheme. By virtue of this linearization, the costly computation of solution-dependent correction factors is to be performed just once per time step'' \\
+``Three FEM-FCT schemes based on the Runge–Kutta, Crank–Nicolson, and backward Euler time-stepping''. \\
+Tests with Courant number up to 6.4
+
+For $\theta$ method there are restrictions on the time step related to the Courant number and $\theta$.\\
+Explicict TVD RK methods have no negative coefficients.
+
+\item \bibentry{VBV08} \ \\
 
 \item \bibentry{ZWS06}
 \item \bibentry{XL01}
@@ -95,7 +131,7 @@ Direction splitting to use PPM on a lat-lon grid\\
 \item \bibentry{HAQ12}
 \item \bibentry{CLSX14}
 \item \bibentry{CCN+07}
-\item \bibentry{BS14}
+%\item \bibentry{BS14}
 \item \bibentry{Lau07} \ \\
 \includegraphics[scale=0.5]{handNotes/Lau07.jpg}
 
@@ -113,6 +149,62 @@ Direction splitting to use PPM on a lat-lon grid\\
 \item \bibentry{LML93}\ \\
 Multi-dimensional flux limiters\\
 Flow in a constant direction oblique to a grid is more difficult that around in a circle.
+
+\item \bibentry{vanSlin07} \ \\
+Defines a local theta scheme
+
+\item \bibentry{GST01} \ \\
+``construction of optimal explicit SSP linear Runge-Kutta methods'' \\
+``SSP property of implicit Runge-Kutta and multistep methods'' \\
+``It is a common practice in solving time-dependent partial differential equations (PDEs) to first discretize the spatial variables to obtain a semidiscrete method of lines scheme. This is then an ordinary differential equation (ODE) system in the time variable, which can be discretized by an ODE solve.''\\
+SSP equivalent to TVD.\\
+``m-stage, mth-order SSP Runge-Kutta method can have, at most, CFL coefficient
+c = 1'' \\
+``version of Harten's lemma [8] for the TVD property of implicit backward Euler
+method'' (First-order upwind in space, backward Euler is TVD).
+``nonexistence of SSP implicit Runge-Kutta or multistep methods of order higher than 1''.
+
+\item \bibentry{YWH85} \ \\
+``guaranteed not to generate spurious oscillations for a nonlinear scalar equation and a constant coefficient system''
+This papers applies Harten's implicit TVD schemes to steady state calculations.\\
+``backward Euler TVD schemes for the initial value problem. ... This is the only unconditionally stable TVD scheme belonging to the one-parameter family of TVD schemes considered in [3].'' \\
+``review the proof that the backward Euler scheme is unconditionally TVD.'' \\
+``Truncation error analysis shows that the first-order accurate scheme (2.12) is a
+second-order accurate approximation to solutions of the modified equation''\\
+``Linearized Version of the implicit TVD Scheme''\\
+``The nonlinear, spatially second-order accurate, unconditionally stable implicit
+TVD scheme in a linearized nonconservative form has been applied to obtain
+steady-state solutions for the one-dimensional compressible inviscid equations of
+gas dynamics.''\\
+``only conservative after the solution reaches steady state''
+
+\item \bibentry{Hart83} \ \\
+Actually this is all about explicit schemes.
+
+\item \bibentry{YWH82} \ \\
+This is the technical report about implicit TVD schemes.
+
+\item \bibentry{Yee87} \ \\
+``when steady-state calculations are sought, the numerical solution is independent
+of the time step.''\\
+For constant coefficients, slope limiters and flux limiters are equivalent.\\
+``symmetric (or non-upwind) TVD scheme''\\
+``As of this writing, the conservative linearlized form (3.30) has not been proven to be TVD. Yet numerical study shows that for moderate CFL numbers, (3.30) produces high-resolution shocks and nonoscillatory solutions.''\\
+
+\item \bibentry{LZ22} \ \\
+``the adaptively implicit advection algorithm allows a larger time step in the presence of certain extreme conditions featured by strong vertical velocity. This benefits the use of higher vertical resolutions and relatively larger time-step choice''\\
+``slightly more diffusive than the fully explicit advection''\\
+``reduce the strength of certain maximum rainfall''.\\
+``Because we focus on moist tracer transport, for which monotonicity is highly desirable, only the first-order upwind scheme is used for the discretization of
+the numerical flux of the implicit component.''\\
+GRIST model -- 2 dimensionally unstructured C-grid.\\
+Test cases:\\
+Hadley‑like meridional circulation\\
+Three‑dimensional deformational flow\\
+Splitting supercell test case\\
+Tracer-tracer correlations\\
+Real-world global simulations\\
+
 
 \end{itemize}
 

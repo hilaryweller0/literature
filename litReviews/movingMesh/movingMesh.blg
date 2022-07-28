@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: movingMesh.aux
+The style file: abbrvnat.bst
+Database file #1: numerics.bib
+You've used 64 entries,
+            2773 wiz_defined-function locations,
+            1072 strings with 15028 characters,
+and the built_in function-call counts, 29507 in all, are:
+= -- 2615
+> -- 1615
+< -- 37
++ -- 549
+- -- 483
+* -- 2476
+:= -- 4550
+add.period$ -- 195
+call.type$ -- 64
+change.case$ -- 349
+chr.to.int$ -- 62
+cite$ -- 128
+duplicate$ -- 1312
+empty$ -- 2494
+format.name$ -- 591
+if$ -- 6224
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 64
+newline$ -- 331
+num.names$ -- 256
+pop$ -- 612
+preamble$ -- 1
+purify$ -- 289
+quote$ -- 0
+skip$ -- 988
+stack$ -- 0
+substring$ -- 1351
+swap$ -- 87
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 694
+warning$ -- 0
+while$ -- 247
+width$ -- 0
+write$ -- 837

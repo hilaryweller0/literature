@@ -1,0 +1,406 @@
+\begin{thebibliography}{64}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Benamou et~al.(2010)Benamou, Froese, and Oberman]{BFO10}
+J.-D. Benamou, B.~Froese, and A.~Oberman.
+\newblock Two numerical methods for the elliptic {Monge-Amp\'ere} equation.
+\newblock \emph{ESAIM: Mathematical Modelling and Numerical Analysis},
+  44\penalty0 (4):\penalty0 737--758, 2010.
+
+\bibitem[Berger and Oliger(1984)]{BO84}
+M.~Berger and J.~Oliger.
+\newblock Adaptive mesh refinement for hyperbolic partial differential
+  equations.
+\newblock \emph{J. Comput. Phys.}, 53:\penalty0 484--512, 1984.
+
+\bibitem[Browne et~al.(2014)Browne, Budd, Piccolo, and Cullen]{BBPC14}
+P.~Browne, C.~Budd, C.~Piccolo, and M.~Cullen.
+\newblock Fast three dimensional r-adaptive mesh redistribution.
+\newblock \emph{J. Comput. Phys.}, 2014.
+
+\bibitem[Budd and Williams(2009)]{BW09}
+C.~Budd and J.~Williams.
+\newblock Moving mesh generation using the parabolic {Monge-Amp{\`e}re}
+  equation.
+\newblock \emph{SIAMjsc}, 31\penalty0 (5):\penalty0 3438--3465, 2009.
+
+\bibitem[Budd et~al.(2013)Budd, Cullen, and Walsh]{BCW13}
+C.~Budd, M.~Cullen, and E.~Walsh.
+\newblock Monge-{A}mp\'{e}re based moving mesh methods for numerical weather
+  prediction, with applications to the {Eady} problem.
+\newblock \emph{J. Comput. Phys.}, 236\penalty0 (247-270), 2013.
+
+\bibitem[Budd et~al.(2015)Budd, Russell, and Walsh]{BRW15}
+C.~Budd, R.~Russell, and E.~Walsh.
+\newblock The geometry of r-adaptive meshes generated using optimal transport
+  methods.
+\newblock \emph{J. Comput. Phys.}, 282:\penalty0 113--137, 2015.
+
+\bibitem[Buzzi and Tibaldi(1978)]{BT78}
+A.~Buzzi and S.~Tibaldi.
+\newblock Cyclogenesis in the lee of the {Alps}: A case study.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 104\penalty0 (440):\penalty0
+  271–287, 1978.
+
+\bibitem[Cao et~al.(2003)Cao, Huang, and Russell]{CHR03}
+W.~Cao, W.~Huang, and R.~Russell.
+\newblock Approaches for generating moving adaptive meshes: location versus
+  velocity.
+\newblock \emph{Applied Numerical Mathematics}, 47:\penalty0 121--138, 2003.
+
+\bibitem[Ceniceros and Hou(2001)]{CH01}
+H.~Ceniceros and T.~Hou.
+\newblock An efficient dynamically adaptive mesh for potentially singular
+  solutions.
+\newblock \emph{J. Comput. Phys.}, 172:\penalty0 609--639, 2001.
+
+\bibitem[Clancy and Lynch(2011)]{CL11}
+C.~Clancy and P.~Lynch.
+\newblock Laplace transform integration of the shallow-water equations. part
+  {II: Semi-Lagrangian} formulation and orographic resonance.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 2011.
+
+\bibitem[Cossette et~al.(2014)Cossette, Smolarkiewicz, and Charbonneau]{CSC14}
+J.-F. Cossette, P.~Smolarkiewicz, and P.~Charbonneau.
+\newblock The {Monge-Amp\'{e}re} trajectory correction for semi-{Lagrangian}
+  schemes.
+\newblock \emph{J. Comput. Phys.}, 274:\penalty0 208--229, 2014.
+
+\bibitem[Cossetts and Smolarkiewicz(2011)]{CS11}
+J.-F. Cossetts and P.~Smolarkiewicz.
+\newblock A {Monge-A}mp\`{e}re enhancement for semi-{L}agrangian methods.
+\newblock \emph{Computers and Fluids}, 46:\penalty0 180--185, 2011.
+
+\bibitem[Dean and Glowinski(2006{\natexlab{a}})]{DG06}
+E.~Dean and R.~Glowinski.
+\newblock Numerical methods for fully nonlinear elliptic equations of the
+  {Monge-Amp{\'er}e} type.
+\newblock \emph{Computer methods in applied mechanics and engineering},
+  195\penalty0 (13):\penalty0 1344--1386, 2006{\natexlab{a}}.
+
+\bibitem[Dean and Glowinski(2006{\natexlab{b}})]{DG06b}
+E.~Dean and R.~Glowinski.
+\newblock An augmented {Lagrangian} approach to the numerical solution of the
+  {Dirichlet} problem for the elliptic {Monge-Amp{\'e}re} equation in two
+  dimensions.
+\newblock \emph{Electronic Transactions on Numerical Analysis}, 22:\penalty0
+  71--96, 2006{\natexlab{b}}.
+
+\bibitem[Delanoe and Loeper(2006)]{DL06}
+P.~Delanoe and G.~Loeper.
+\newblock Gradient estimates for potentials of invertible gradient-mappings on
+  the sphere.
+\newblock \emph{Calculus of Variations and Partial Differential Equations},
+  26\penalty0 (3):\penalty0 297--311, 2006.
+
+\bibitem[Delzanno et~al.(2008)Delzanno, Chac\'on, Finn, Chung, and
+  Lapenta]{DCF+08}
+G.~Delzanno, L.~Chac\'on, J.~Finn, Y.~Chung, and G.~Lapenta.
+\newblock An optimal robust equidistribution method for two-dimensional grid
+  adaptation based on {Monge–Kantorovich} optimization.
+\newblock \emph{J. Comput. Phys.}, 2008.
+
+\bibitem[Dietachmayer and Droegemeier(1992)]{DD92}
+G.~Dietachmayer and K.~Droegemeier.
+\newblock Application of continuous dynamic grid adaption techniques to
+  meteorological modeling. {P}art {I}: Basic formulation and accuracy.
+\newblock \emph{Mon. Wea. Rev.}, 120\penalty0 (8):\penalty0 1675--1706, 1992.
+
+\bibitem[Du et~al.(1999)Du, Faber, and Gunzburger]{DFG99}
+Q.~Du, V.~Faber, and M.~Gunzburger.
+\newblock Centroidal {V}oronoi tessellations: Applications and algorithms.
+\newblock \emph{SIAM Review}, 41\penalty0 (4):\penalty0 637--676, 1999.
+
+\bibitem[Erb(2011)]{Erb11}
+W.~Erb.
+\newblock \emph{Uncertainty Principles on {Riemannian} Manifolds}.
+\newblock PhD thesis, Technische Universit\"{a}t M\"{u}nchen, 2011.
+
+\bibitem[Farrell et~al.(2009)Farrell, Piggott, Pain, Gorman, and
+  Wilson]{FPP+09}
+P.~Farrell, M.~Piggott, C.~Pain, G.~Gorman, and C.~Wilson.
+\newblock Conservative interpolation between unstructured meshes via supermesh
+  construction.
+\newblock \emph{Comput. Methods Appl. Mech. Eng.}, 198:\penalty0 2632--2642,
+  2009.
+
+\bibitem[Feng and Neilan(2009)]{FN09}
+X.~Feng and M.~Neilan.
+\newblock Mixed finite element methods for the fully nonlinear
+  {Monge-Amp{\'er}e} equation based on the vanishing moment method.
+\newblock \emph{SIAM Journal on Numerical Analysis}, 47\penalty0 (2):\penalty0
+  1226--1250, 2009.
+
+\bibitem[Fiedler and Trapp(1993)]{FT93}
+B.~Fiedler and R.~J. Trapp.
+\newblock A fast dynamic grid adaption scheme for meteorological flows.
+\newblock \emph{Mon. Wea. Rev.}, 121\penalty0 (10):\penalty0 2879--2888, 1993.
+
+\bibitem[Finn et~al.(2008)Finn, Delzanno, and Chac\`{o}n]{FDC08}
+J.~Finn, G.~Delzanno, and L.~Chac\`{o}n.
+\newblock Grid generation and adaptation by {Monge-Kantorovich} optimization in
+  two and three dimensions.
+\newblock \emph{Proceedings of the 17th International Meshing Roundtable},
+  pages 551--568, 2008.
+
+\bibitem[Froese(2012{\natexlab{a}})]{FroeseThesis2012}
+Froese.
+\newblock \emph{Numerical Methods for the Elliptic {Monge-A}mp\`{e}re Equation
+  and Optimal Transport}.
+\newblock PhD thesis, Simon Fraser University, 2012{\natexlab{a}}.
+
+\bibitem[Froese(2012{\natexlab{b}})]{Fro12}
+B.~Froese.
+\newblock A numerical method for the elliptic {Monge-A}mp\`{e}re equation with
+  transport boundary conditions.
+\newblock \emph{SIAM J. Sci. Comp.}, 34\penalty0 (3):\penalty0 A1432--A1459,
+  2012{\natexlab{b}}.
+
+\bibitem[Froese and Oberman(2011)]{FO11}
+B.~Froese and A.~Oberman.
+\newblock Convergent finite difference solvers for viscosity solutions of the
+  elliptic {Monge-Amp{\'e}re} equation in dimensions two and higher.
+\newblock \emph{SIAM Journal on Numerical Analysis}, 49\penalty0 (4):\penalty0
+  1692--1714, 2011.
+
+\bibitem[Froese et~al.(2015)Froese, Oberman, and Salvador]{FOS1x}
+B.~Froese, A.~Oberman, and T.~Salvador.
+\newblock Numerical methods for the {2-Hessian} elliptic partial differential
+  equation.
+\newblock \emph{arXiv:1502.04969}, 2015.
+
+\bibitem[Harig et~al.(2008)Harig, Chaeroni, Pranowo, and Behrens]{HCPB08}
+S.~Harig, Chaeroni, W.~Pranowo, and J.~Behrens.
+\newblock Tsunami simulations on several scales.
+\newblock \emph{Ocean Dynamics}, 58\penalty0 (5-6):\penalty0 429--440, 2008.
+
+\bibitem[Hateley et~al.(2015)Hateley, Wei, and Chen]{HWC15}
+J.~Hateley, H.~Wei, and L.~Chen.
+\newblock Fast methods for computing centroidal {Voronoi} tessellations.
+\newblock \emph{J. Sci. Comp.}, pages 185--212, 2015.
+
+\bibitem[Hirt et~al.(1997)Hirt, Amsden, and Cook]{HAC97}
+C.~Hirt, A.~Amsden, and J.~Cook.
+\newblock An arbitrary {Lagrangian-Eulerian} computing method for all flow
+  speeds.
+\newblock \emph{J. Comput. Phys.}, 135\penalty0 (2):\penalty0 203--216, 1997.
+\newblock ISSN 0021-9991.
+\newblock \doi{http://dx.doi.org/10.1006/jcph.1997.5702}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0021999197957028}.
+
+\bibitem[Huang(2001)]{Hua01}
+W.~Huang.
+\newblock Variational mesh adaption: {Isotropy} and equidistribution.
+\newblock \emph{J. Comput. Phys.}, 174\penalty0 (2):\penalty0 903--924, 2001.
+
+\bibitem[Huang and Russell(2010)]{HR10}
+W.~Huang and R.~Russell.
+\newblock \emph{Adaptive Moving Mesh Methods}.
+\newblock Springer, 2010.
+
+\bibitem[Huang et~al.(1994)Huang, Ren, and Russell]{HRR94}
+W.~Huang, Y.~Ren, and R.~Russell.
+\newblock Moving mesh partial differential equations {(MMPDES)} based on the
+  equidistribution principle.
+\newblock \emph{SIAM Journal of Numerical Analysis}, 31\penalty0 (3):\penalty0
+  709--730, 1994.
+
+\bibitem[Jacobsen et~al.(2013)Jacobsen, Gunzburger, Ringler, Burkardt, and
+  Peterson]{JGR+13}
+D.~Jacobsen, M.~Gunzburger, T.~Ringler, J.~Burkardt, and J.~Peterson.
+\newblock Parallel algorithms for planar and spherical {Delaunay} construction
+  with an application to centroidal {Voronoi} tessellations.
+\newblock \emph{Geosci. Model Dev.}, 6:\penalty0 1353--1365, 2013.
+
+\bibitem[Kimura et~al.(2013)Kimura, Candy, Holland, Piggott, and
+  Jenkins]{KCH+13}
+S.~Kimura, A.~Candy, P.~Holland, M.~Piggott, and A.~Jenkins.
+\newblock Adaptation of an unstructured-mesh, finite-element ocean model to the
+  simulation of ocean circulation beneath ice shelves.
+\newblock \emph{Ocean Model.}, 67:\penalty0 39--51, 2013.
+
+\bibitem[K\"{u}hnlein et~al.(2012)K\"{u}hnlein, Smolarkiewicz, and
+  D\"{o}rnbrack]{KSD12}
+C.~K\"{u}hnlein, P.~Smolarkiewicz, and A.~D\"{o}rnbrack.
+\newblock Modelling atmospheric flows with adaptive moving meshes.
+\newblock \emph{J. Comput. Phys.}, 231\penalty0 (7):\penalty0 2741--2763, 2012.
+
+\bibitem[Li et~al.(2001)Li, Tang, and Zhang]{LTZ01}
+R.~Li, T.~Tang, and P.~Zhang.
+\newblock Moving mesh methods in multiple dimensions based on harmonic maps.
+\newblock \emph{J. Comput. Phys.}, 170:\penalty0 562--588, 2001.
+
+\bibitem[Loeper and Villani(2010)]{LV10}
+G.~Loeper and C.~Villani.
+\newblock Regularity of optimal transport in curved geometry: the nonfocal
+  case.
+\newblock \emph{Duke Mathematical Journal}, 151\penalty0 (3):\penalty0
+  431--485, 2010.
+
+\bibitem[Long and Thuburn(2011)]{LT11}
+D.~Long and J.~Thuburn.
+\newblock Numerical wave propagation on non-uniform one-dimensional staggered
+  grids.
+\newblock \emph{J. Comput. Phys.}, 230:\penalty0 2643--2659, 2011.
+
+\bibitem[Maddison et~al.(2011)Maddison, Cotter, and Farrell]{MCF11}
+J.~Maddison, C.~Cotter, and P.~Farrell.
+\newblock Geostrophic balance preserving interpolation in mesh adaptive
+  linearised shallow-water ocean modelling.
+\newblock \emph{Ocean Model.}, 37\penalty0 (1-2):\penalty0 35--48, 2011.
+
+\bibitem[Maddison and Farrell(2012)]{MF12}
+J.~R. Maddison and P.~E. Farrell.
+\newblock Directional integration on unstructured meshes via supermesh
+  construction.
+\newblock \emph{J. Comput. Phys.}, 231\penalty0 (12):\penalty0 4422--4432,
+  2012.
+
+\bibitem[Mass et~al.(2002)Mass, Ovens, Westrick, and Colle]{MOWC02}
+C.~Mass, D.~Ovens, K.~Westrick, and B.~Colle.
+\newblock Does increasing horizontal resolution produce more skillful
+  forecasts?
+\newblock \emph{Bull. Amer. Meteor. Soc.}, 83:\penalty0 407--430, 2002.
+
+\bibitem[McCann(2001)]{McC01}
+R.~McCann.
+\newblock Polar factorization of maps on {Riemannian} manifolds.
+\newblock \emph{Geometric \& Functional Analysis GAFA}, 11\penalty0
+  (3):\penalty0 589--608, 2001.
+
+\bibitem[Oberman(2008)]{Obe08}
+A.~Oberman.
+\newblock Wide stencil finite difference schemes for the elliptic
+  {Monge-Amp{\'e}re} equation and functions of the eigenvalues of the
+  {Hessian}.
+\newblock \emph{Discrete Contin. Dyn. Syst. Ser. B}, 10\penalty0 (1):\penalty0
+  221--238, 2008.
+
+\bibitem[Parkinson et~al.(2014)Parkinson, Hill, Piggott, and Allison]{PHP+14}
+S.~Parkinson, J.~Hill, M.~D. Piggott, and P.~A. Allison.
+\newblock Direct numerical simulations of particle-laden density currents with
+  adaptive, discontinuous finite elements.
+\newblock \emph{Geosci. Model Dev. Discuss.}, 7:\penalty0 3219--3264, 2014.
+
+\bibitem[Picasso et~al.(2011)Picasso, Alauzet, Borouchaki, and George]{PABG11}
+M.~Picasso, F.~Alauzet, H.~Borouchaki, and P.~George.
+\newblock A numerical study of some {Hessian} recovery techniques on isotropic
+  and anisotropic meshes.
+\newblock \emph{{SIAM Journal on Scientific Computing}}, 33\penalty0
+  (3):\penalty0 1058--1076, 2011.
+
+\bibitem[Piccolo and Cullen(2011)]{PC11}
+C.~Piccolo and M.~Cullen.
+\newblock Adaptive mesh method in the {Met-Office} variational data
+  assimilation system.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 137\penalty0 (656):\penalty0
+  631--640, 2011.
+
+\bibitem[Pracht(1975)]{Pra75}
+W.~Pracht.
+\newblock Calculating three-dimensional fluid flows at all speeds with an
+  {Eulerian-Lagrangian} computing mesh.
+\newblock \emph{J. Comput. Phys.}, 17:\penalty0 132--159, 1975.
+
+\bibitem[Ringler et~al.(2008)Ringler, Ju, and Gunzburger]{RJG08}
+T.~Ringler, L.~Ju, and M.~Gunzburger.
+\newblock A multiresolution method for climate system modeling: applications of
+  spherical centroidal {V}oronoi tessellations.
+\newblock \emph{Ocean Dynamics}, 58\penalty0 (5-6):\penalty0 475--498, 2008.
+
+\bibitem[Ringler et~al.(2013)Ringler, Petersen, Higdon, Jacobsen, Jones, and
+  Maltrud]{RPH+13}
+T.~Ringler, M.~Petersen, R.~Higdon, D.~Jacobsen, P.~Jones, and M.~Maltrud.
+\newblock A multi-resolution approach to global ocean modeling.
+\newblock \emph{Ocean Model.}, 2013.
+
+\bibitem[Sanders and Gyakum(1980)]{SG80}
+F.~Sanders and J.~Gyakum.
+\newblock Synoptic-dynamic climatology of the bomb.
+\newblock \emph{Mon. Wea. Rev.}, 108\penalty0 (10):\penalty0 1589--1606, 1980.
+
+\bibitem[Saumier et~al.(2015)Saumier, Agueh, and Khouider]{SAK1x}
+L.-P. Saumier, M.~Agueh, and B.~Khouider.
+\newblock An efficient numerical algorithm for the {L2} optimal transport
+  problem with applications to image processing.
+\newblock \emph{submitted}, 2015.
+
+\bibitem[Sei(2012)]{Sei12}
+T.~Sei.
+\newblock A {J}acobian inequality for gradient maps on the sphere and its
+  application to directional statistics.
+\newblock \emph{Communications in Statistics - Theory and Methods},
+  42:\penalty0 2525--2542, 2012.
+
+\bibitem[Skamarock and Klemp(1993)]{SK93}
+W.~Skamarock and J.~Klemp.
+\newblock Adaptive grid refinement for two-dimensional and three-dimensional
+  nonhydrostatic atmospheric flow.
+\newblock \emph{Mon. Wea. Rev.}, 121\penalty0 (3):\penalty0 788--804, 1993.
+
+\bibitem[Staniforth and Mitchell(1978)]{SM78}
+A.~Staniforth and H.~Mitchell.
+\newblock Variable-resolution finite-element technique for regional forecasting
+  with primitive equations.
+\newblock \emph{Mon. Wea. Rev.}, 106\penalty0 (4):\penalty0 439--447, 1978.
+
+\bibitem[Subich(2015)]{Sub15}
+C.~Subich.
+\newblock A robust moving mesh method for spectral collocation solutions of
+  time-dependent partial differential equations.
+\newblock \emph{J. Comput. Phys.}, 294\penalty0 (0):\penalty0 297--311, 2015.
+
+\bibitem[Tomita et~al.(2001)Tomita, Tsugawa, Satoh, and Goto]{TTSG01}
+H.~Tomita, M.~Tsugawa, M.~Satoh, and K.~Goto.
+\newblock Shallow water model on a modified icosahedral geodesic grid by using
+  spring dynamics.
+\newblock \emph{J. Comput. Phys.}, 174\penalty0 (2):\penalty0 579--613, 2001.
+
+\bibitem[Tomita et~al.(2002)Tomita, Satoh, and Goto]{TSG02}
+H.~Tomita, M.~Satoh, and K.~Goto.
+\newblock {An optimization of the icosahedral grid modified by spring
+  dynamics}.
+\newblock \emph{J. Comput. Phys.}, 183\penalty0 (1):\penalty0 307--331, 2002.
+
+\bibitem[Vichnevetsky(1987)]{Vic87}
+R.~Vichnevetsky.
+\newblock Wave propagation and reflection in irregular grids for hyperbolic
+  equations.
+\newblock \emph{Applied Numerical Mathematics}, 3:\penalty0 133--166, 1987.
+
+\bibitem[Villani(2009)]{Vil09}
+C.~Villani.
+\newblock \emph{Optimal transport old and new}.
+\newblock Springer, 2009.
+
+\bibitem[Visbal and Gaitonde(2002)]{VG02}
+M.~Visbal and D.~Gaitonde.
+\newblock On the use of higher-order finite-difference schemes on curvilinear
+  and deforming meshes.
+\newblock \emph{J. Comput. Phys.}, 181\penalty0 (1):\penalty0 155--185, 2002.
+
+\bibitem[Wang et~al.(2015)Wang, Qin, and Zhao]{WQZ15}
+Y.~Wang, N.~Qin, and N.~Zhao.
+\newblock Delaunay graph and radial basis function for fast quality mesh
+  deformation.
+\newblock \emph{J. Comput. Phys.}, 294\penalty0 (0):\penalty0 149--172, 2015.
+
+\bibitem[Weller(2009)]{Wel09}
+H.~Weller.
+\newblock Predicting mesh density for adaptive modelling of the global
+  atmosphere.
+\newblock \emph{Phil. Trans. R. Soc. A}, 367\penalty0 (1907):\penalty0
+  4523--4542, 28 Nov 2009.
+
+\bibitem[Winslow(1966)]{Win66}
+A.~Winslow.
+\newblock Numerical solution of the quasilinear {Poisson} equation in a
+  nonuniform triangle mesh.
+\newblock \emph{J. Comput. Phys.}, 1\penalty0 (2):\penalty0 149--172, 1966.
+
+\end{thebibliography}

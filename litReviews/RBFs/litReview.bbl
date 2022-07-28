@@ -1,0 +1,118 @@
+\begin{thebibliography}{15}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Behrens and Iske(2002)]{BI02}
+J.~Behrens and A.~Iske.
+\newblock {Grid-free adaptive semi-Lagrangian advection using radial basis
+  functions}.
+\newblock \emph{Computers and Mathematics with Applications}, 43\penalty0
+  (3-5):\penalty0 319--327, 2002.
+\newblock ISSN 0898-1221.
+
+\bibitem[Bonaventura et~al.(2011)Bonaventura, Iske, and Miglio]{BIM11}
+L.~Bonaventura, A.~Iske, and E.~Miglio.
+\newblock Kernel-based vector field reconstruction in computational fluid
+  dynamic models.
+\newblock \emph{Int. J. Numer. Meth. Fluids}, 66\penalty0 (6), 2011.
+\newblock ISSN 1097-0363.
+
+\bibitem[Boyd(1992)]{Boy92}
+J.~Boyd.
+\newblock Defeating the runge phenomenon for equispaced polynomial
+  interpolation via {Tikhonov} regularization.
+\newblock \emph{Applied Mathematics Letters}, 5\penalty0 (6):\penalty0 57--59,
+  1992.
+
+\bibitem[Boztosun et~al.(2003)Boztosun, Charafi, and Boztosun]{BCB03}
+I.~Boztosun, A.~Charafi, and D.~Boztosun.
+\newblock \emph{Meshfree Methods for Partial Differential Equations}, chapter
+  On the Numerical Solution of Linear Advection-Diffusion Equation using
+  Compactly Supported Radial Basis Functions, pages 63--73.
+\newblock Lecture Notes in Computational Science and Engineering. Springer,
+  2003.
+
+\bibitem[Chantasiriwan(2004)]{Cha04}
+S.~Chantasiriwan.
+\newblock Cartesian grid methods using radial basis functions for solving
+  {Poisson, Helmholtz}, and diffusion–convection equations.
+\newblock \emph{Engineering Analysis with Boundary Elements}, 28\penalty0
+  (12):\penalty0 1417--1425, 2004.
+\newblock ISSN 0955-7997.
+\newblock \doi{http://dx.doi.org/10.1016/j.enganabound.2004.08.004}.
+\newblock URL
+  \url{http://www.sciencedirect.com/science/article/pii/S0955799704001262}.
+
+\bibitem[Flyer and Wright(2007)]{FW07}
+N.~Flyer and G.~Wright.
+\newblock Transport schemes on a sphere using radial basis functions.
+\newblock \emph{J. Comput. Phys.}, 226:\penalty0 1059--1084, 2007.
+
+\bibitem[Fornberg and Piret(2007)]{FP07}
+B.~Fornberg and C.~Piret.
+\newblock A stable algorithm for flat radial basis functions on a sphere.
+\newblock \emph{SIAM J. Sci. Comput.}, 30\penalty0 (1):\penalty0 60--80, 2007.
+
+\bibitem[Fornberg and Piret(2008)]{FP08}
+B.~Fornberg and C.~Piret.
+\newblock On choosing a radial basis function and a shape parameter when
+  solving a convective {PDE} on a sphere.
+\newblock \emph{J. Comput. Phys.}, 227\penalty0 (5):\penalty0 2758--2780, 2008.
+\newblock ISSN 0021-9991.
+
+\bibitem[Fornberg et~al.(2011)Fornberg, Larsson, and Flyer]{FLF11}
+B.~Fornberg, E.~Larsson, and N.~Flyer.
+\newblock Stable computations with {Gaussian} radial basis functions.
+\newblock \emph{SIAM J. Sci. Comput.}, 33\penalty0 (2):\penalty0 869--892,
+  2011.
+
+\bibitem[Platte et~al.(2011)Platte, Trefethen, and Kuijlaars]{PTK11}
+R.~Platte, L.~Trefethen, and A.~Kuijlaars.
+\newblock Impossibility of fast stable approximation of analytic functions from
+  equispaced samples.
+\newblock \emph{SIAM Review}, 53\penalty0 (2):\penalty0 308--318, 2011.
+
+\bibitem[Shu et~al.(2003)Shu, Ding, and Yeo]{SDY08}
+C.~Shu, H.~Ding, and K.~Yeo.
+\newblock Local radial basis function-based differential quadrature method and
+  its application to solve two-dimensional incompressible {Navier–Stokes}
+  equations.
+\newblock \emph{Computer Methods in Applied Mechanics and Engineering},
+  192\penalty0 (7-8):\penalty0 941--954, 2003.
+\newblock ISSN 0045-7825.
+
+\bibitem[Wan et~al.(2013)Wan, Giorgetta, Z\"angl, Restelli, Majewski,
+  Bonaventura, Fr\"ohlich, Reinert, R\'ipodas, Kornblueh, and
+  F\"orstner]{WGZ+13}
+H.~Wan, M.~Giorgetta, G.~Z\"angl, M.~Restelli, D.~Majewski, L.~Bonaventura,
+  K.~Fr\"ohlich, D.~Reinert, P.~R\'ipodas, L.~Kornblueh, and J.~F\"orstner.
+\newblock The {ICON-1.2} hydrostatic atmospheric dynamical core on triangular
+  grids -- {Part} 1: {F}ormulation and performance of the baseline version.
+\newblock \emph{Geosci. Model Dev.}, 6:\penalty0 735--763, 2013.
+
+\bibitem[Wendland(2005)]{Wen05}
+H.~Wendland.
+\newblock \emph{Scattered Data Approximation}.
+\newblock Cambridge Monographs on Applied and Computational Mathematics.
+  Cambridge University Press, 2005.
+
+\bibitem[Zerroukat et~al.(1998)Zerroukat, Power, and Chen]{ZPC98}
+M.~Zerroukat, H.~Power, and C.~S. Chen.
+\newblock A numerical method for heat transfer problems using collocation and
+  radial basis functions.
+\newblock \emph{Int. J. Numer. Meth. Engineering}, 42\penalty0 (7):\penalty0
+  1263--1278, 1998.
+\newblock ISSN 1097-0207.
+\newblock
+  \doi{10.1002/(SICI)1097-0207(19980815)42:7<1263::AID-NME431>3.0.CO;2-I}.
+
+\bibitem[Zerroukat et~al.(2000)Zerroukat, Djidjeli, and Charafi]{ZDC00}
+M.~Zerroukat, K.~Djidjeli, and A.~Charafi.
+\newblock Explicit and implicit meshless methods for linear
+  advection-diffusion-type partial differential equations.
+\newblock \emph{Int. J. Numer. Meth. Engineering}, 48:\penalty0 19--35, 2000.
+
+\end{thebibliography}

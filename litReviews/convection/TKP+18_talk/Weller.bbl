@@ -1,0 +1,15 @@
+\begin{thebibliography}{1}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Tan et~al.(2018)Tan, Kaul, Pressel, Cohen, Schneider, and
+  Teixeira]{TKP+18}
+Z.~Tan, C.M. Kaul, K.G. Pressel, Y.~Cohen, T.~Schneider, and J.~Teixeira.
+\newblock An extended eddy-diffusivity mass-flux scheme for unified
+  representation of subgrid-scale turbulence and convection.
+\newblock \emph{JAMES}, 10\penalty0 (3):\penalty0 770--800, 2018.
+
+\end{thebibliography}

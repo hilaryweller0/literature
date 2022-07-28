@@ -1,0 +1,83 @@
+\begin{thebibliography}{12}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Arakawa and Konor(1996)]{AK96}
+A.~Arakawa and C.~Konor.
+\newblock Vertical differencing of the primitive equations based on the
+  {C}harney-{P}hillips grid in hybrid $\sigma-p$ vertical coordinates.
+\newblock \emph{Mon. Wea. Rev.}, 124\penalty0 (3):\penalty0 511--528, 1996.
+
+\bibitem[Arakawa and Lamb(1977)]{AL77}
+A.~Arakawa and V.~Lamb.
+\newblock Computational design of the basic dynamical processes of the {UCLA}
+  general circulation model.
+\newblock \emph{{Methods in Computational Physics}}, 17:\penalty0 173--265,
+  1977.
+
+\bibitem[Arakawa and Moorthi(1988)]{AM88}
+A.~Arakawa and S.~Moorthi.
+\newblock Baroclinic instability in vertically discrete systems.
+\newblock \emph{J. of Atmos Sci.}, 45\penalty0 (11):\penalty0 1688--1707, 1988.
+
+\bibitem[Charney and Phillips(1953)]{CP53}
+J.~Charney and N.~Phillips.
+\newblock Numerical integration of the quasi-geostrophic equations for
+  barotropic and simple baroclinic flows.
+\newblock \emph{J. Meteor.}, 10:\penalty0 71--99, 1953.
+
+\bibitem[Fox-Rabinovitz(1994)]{Fox94}
+M.~Fox-Rabinovitz.
+\newblock Computational dispersion properties of vertically staggered grids for
+  atmospheric models.
+\newblock \emph{Mon. Wea. Rev.}, 122\penalty0 (2):\penalty0 377--392, 1994.
+
+\bibitem[Holdaway et~al.(2013{\natexlab{a}})Holdaway, Thuburn, and
+  Wood]{HTW13a}
+D.~Holdaway, J.~Thuburn, and N.~Wood.
+\newblock {Comparison of Lorenz and Charney-Philips vertical discretisations
+  for dynamics-boundary layer coupling. Part I: Steady states}.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 139, 2013{\natexlab{a}}.
+
+\bibitem[Holdaway et~al.(2013{\natexlab{b}})Holdaway, Thuburn, and
+  Wood]{HTW13b}
+D.~Holdaway, J.~Thuburn, and N.~Wood.
+\newblock {Comparison of Lorenz and Charney-Philips vertical discretisations
+  for dynamics-boundary layer coupling. Part II: Transients}.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 139, 2013{\natexlab{b}}.
+
+\bibitem[Konor and Arakawa(1997)]{KA97}
+C.~Konor and A.~Arakawa.
+\newblock Design of an atmospheric model based on a generalized vertical
+  coordinate.
+\newblock \emph{Mon. Wea. Rev.}, 125\penalty0 (7):\penalty0 1649--1673, 1997.
+
+\bibitem[Thuburn(2006)]{Thu06}
+J.~Thuburn.
+\newblock Vertical discretizations giving optimal representation of normal
+  modes: Sensitivity to the form of the pressure-gradient term.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 132\penalty0 (621 {P}art
+  B):\penalty0 2809--2825, 2006.
+
+\bibitem[Thuburn and Woollings(2005)]{TW05}
+J.~Thuburn and T.~Woollings.
+\newblock Vertical discretizations for compressible {E}uler equation
+  atmospheric models giving optimal representation of normal modes.
+\newblock \emph{J. Comput. Phys.}, 203\penalty0 (2):\penalty0 386--404, March
+  2005.
+
+\bibitem[Tokioka(1978)]{Tok78}
+T.~Tokioka.
+\newblock Some considerations on vertical differencing.
+\newblock \emph{J. Meteor. Soc, Japan}, 56\penalty0 (2):\penalty0 98--111,
+  1978.
+
+\bibitem[Zhu and Smith(2003)]{ZS03}
+H.~Zhu and R.~Smith.
+\newblock Effects of vertical differencing in a minimal hurricane model.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 129:\penalty0 1051--1069, 2003.
+
+\end{thebibliography}

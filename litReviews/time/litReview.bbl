@@ -1,0 +1,67 @@
+\begin{thebibliography}{9}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ascher et~al.(1997)Ascher, Ruuth, and Spiteri]{ARS97}
+U.~Ascher, S.~Ruuth, and R.~Spiteri.
+\newblock {Implicit-Explicit Runge-Kutta} methods for time-dependent partial
+  differential equations.
+\newblock \emph{Applied Numerical Mathematics}, 25\penalty0 (2-3):\penalty0
+  151--167, 1997.
+\newblock \doi{{10.1016/S0168-9274(97)00056-1}}.
+\newblock {Workshop on Innovative Time Integrators, CTR MATH \& COMP SCI,
+  AMSTERDAM, NETHERLANDS, OCT 30-NOV 01, 1996}.
+
+\bibitem[Durran and Blossey(2012)]{DB12}
+D.~Durran and P.~Blossey.
+\newblock Implicit-explicit multistep methods for fast-wave--slow-wave
+  problems.
+\newblock \emph{Mon. Wea. Rev.}, 140\penalty0 (4):\penalty0 1307--1325, 2012.
+\newblock \doi{{10.1175/MWR-D-11-00088.1}}.
+
+\bibitem[Ferracina and Spijker(2008)]{FS08}
+L.~Ferracina and M.~Spijker.
+\newblock Strong stability of singly-diagonally-implicit {Runge-Kutta} methods.
+\newblock \emph{Applied Numerical Mathematics}, 58:\penalty0 1675--1686, 2008.
+
+\bibitem[Gottlieb and Shu(1998)]{GS98}
+S.~Gottlieb and C.-W. Shu.
+\newblock Total variation diminishing {Runge-Kutta} schemes.
+\newblock \emph{Mathematics of Computation}, 67\penalty0 (221):\penalty0
+  73--85, 1998.
+
+\bibitem[Gottlieb et~al.(2001)Gottlieb, Shu, and Tadmor]{GST01}
+S.~Gottlieb, C.-W. Shu, and E.~Tadmor.
+\newblock Strong stability-preserving high-order time discretization methods.
+\newblock \emph{SIAM review}, 43\penalty0 (1):\penalty0 89--112, 2001.
+
+\bibitem[Layton and Minion(2004)]{LM04}
+A.~T. Layton and M.~L. Minion.
+\newblock Conservative multi-implicit spectral deferred correction methods for
+  reacting gas dynamics.
+\newblock \emph{J. Comput. Phys.}, 194\penalty0 (2):\penalty0 697--715, 2004.
+
+\bibitem[Lock et~al.(2014)Lock, Wood, and Weller]{LWW14}
+S.~Lock, N.~Wood, and H.~Weller.
+\newblock Numerical analyses of {Runge-Kutta} implicit-explicit schemes for
+  horizontally-explicit vertically-implicit solutions of atmospheric models.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 140\penalty0 (682):\penalty0
+  1654--1669, 2014.
+
+\bibitem[Pareschi and Russo(2005)]{PR05}
+L.~Pareschi and G.~Russo.
+\newblock Implicit-explicit {Runge--Kutta} schemes and application to
+  hyperbolic systems with relaxation.
+\newblock \emph{J. Sci. Comp.}, 25\penalty0 (1/2):\penalty0 129--155, 2005.
+\newblock \doi{10.1007/s10915-004-4636-4}.
+
+\bibitem[Weller et~al.(2013)Weller, Lock, and Wood]{WLW13}
+H.~Weller, S.-J. Lock, and N.~Wood.
+\newblock {Runge-Kutta IMEX} schemes for the horizontally explicit/vertically
+  implicit ({HEVI}) solution of wave equations.
+\newblock \emph{J. Comput. Phys.}, 252:\penalty0 365--381, 2013.
+
+\end{thebibliography}

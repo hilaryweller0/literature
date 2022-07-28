@@ -1,0 +1,130 @@
+This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
+Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+The top-level auxiliary file: refs.aux
+The style file: alpha.bst
+Database file #1: numerics.bib
+Reallocated field_info (elt_size=4) to 10014 items from 5000.
+Repeated entry---line 8361 of file numerics.bib
+ : @article{RK08
+ :              ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 10483 of file numerics.bib
+ : @article{SS09
+ :              ,
+I'm skipping whatever remains of this entry
+Reallocated str_pool (elt_size=1) to 130000 items from 65000.
+Repeated entry---line 11715 of file numerics.bib
+ : @article{RGF+09
+ :                ,
+I'm skipping whatever remains of this entry
+Reallocated field_info (elt_size=4) to 15028 items from 10014.
+Repeated entry---line 12679 of file numerics.bib
+ : @article{BHR96
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 12707 of file numerics.bib
+ : @incollection{BP03
+ :                   ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 15573 of file numerics.bib
+ : @article{FP07
+ :              ,
+I'm skipping whatever remains of this entry
+Reallocated field_info (elt_size=4) to 20042 items from 15028.
+Repeated entry---line 18525 of file numerics.bib
+ : @article{FLF11
+ :               ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 18607 of file numerics.bib
+ : @article{GTU+14
+ :                ,
+I'm skipping whatever remains of this entry
+Repeated entry---line 18627 of file numerics.bib
+ : @article{Ull14
+ :               ,
+I'm skipping whatever remains of this entry
+Reallocated cite_list (elt_size=4) to 1500 items from 750.
+Reallocated type_list (elt_size=4) to 1500 items from 750.
+Reallocated entry_exists (elt_size=4) to 1500 items from 750.
+Reallocated cite_info (elt_size=4) to 1500 items from 750.
+Reallocated str_pool (elt_size=1) to 195000 items from 130000.
+Name 1 in "Carpenter, R.L., K.K. Droegemeier, P.R. Woodward, and C.E. Hane" has a comma at the end for entry CDWH90
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "Carpenter, R.L., K.K. Droegemeier, P.R. Woodward, and C.E. Hane" for entry CDWH90
+while executing---line 1185 of file alpha.bst
+Name 1 in "Carpenter, R.L., K.K. Droegemeier, P.R. Woodward, and C.E. Hane" has a comma at the end for entry CDWH90
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "Carpenter, R.L., K.K. Droegemeier, P.R. Woodward, and C.E. Hane" for entry CDWH90
+while executing---line 1185 of file alpha.bst
+Warning--to sort, need author, editor, or key in DF0x
+Name 1 in "Akoh, R, and Ii, S. and Xiao, F." has a comma at the end for entry AIX10
+while executing---line 1185 of file alpha.bst
+Name 1 in "Akoh, R, and Ii, S. and Xiao, F." has a comma at the end for entry AIX10
+while executing---line 1185 of file alpha.bst
+Warning--to sort, need author, editor, or key in ECMWF_IFS
+Warning--to sort, need author or key in LT12
+Too many commas in name 1 of "Leonard, BP, Macvean, MK and Lock, AP" for entry LML93
+while executing---line 1185 of file alpha.bst
+Too many commas in name 1 of "Leonard, BP, Macvean, MK and Lock, AP" for entry LML93
+while executing---line 1185 of file alpha.bst
+Warning--empty school in ahmad2004
+Name 1 in "Akoh, R, and Ii, S. and Xiao, F." has a comma at the end for entry AIX10
+while executing---line 1250 of file alpha.bst
+Name 1 in "Carpenter, R.L., K.K. Droegemeier, P.R. Woodward, and C.E. Hane" has a comma at the end for entry CDWH90
+while executing---line 1250 of file alpha.bst
+Too many commas in name 1 of "Carpenter, R.L., K.K. Droegemeier, P.R. Woodward, and C.E. Hane" for entry CDWH90
+while executing---line 1250 of file alpha.bst
+Warning--empty booktitle in DD98
+Warning--empty author and editor in DF0x
+Warning--empty author and editor in ECMWF_IFS
+Warning--empty chapter and pages in ECMWF_IFS
+Warning--empty booktitle in KSP04
+Too many commas in name 1 of "Leonard, BP, Macvean, MK and Lock, AP" for entry LML93
+while executing---line 1250 of file alpha.bst
+Warning--empty author in LT12
+Warning--empty journal in Thuxx
+Warning--empty journal in Mad15
+Warning--can't use both author and editor fields in Mes00
+Warning--empty title in IPCC5_WG1
+You've used 835 entries,
+            2543 wiz_defined-function locations,
+            5172 strings with 134395 characters,
+and the built_in function-call counts, 353784 in all, are:
+= -- 34710
+> -- 19099
+< -- 234
++ -- 6923
+- -- 6640
+* -- 28459
+:= -- 59690
+add.period$ -- 2526
+call.type$ -- 835
+change.case$ -- 5778
+chr.to.int$ -- 804
+cite$ -- 852
+duplicate$ -- 11903
+empty$ -- 24155
+format.name$ -- 7538
+if$ -- 70936
+int.to.chr$ -- 32
+int.to.str$ -- 0
+missing$ -- 805
+newline$ -- 4186
+num.names$ -- 2497
+pop$ -- 3935
+preamble$ -- 1
+purify$ -- 6633
+quote$ -- 0
+skip$ -- 10107
+stack$ -- 0
+substring$ -- 21795
+swap$ -- 1018
+text.length$ -- 234
+text.prefix$ -- 186
+top$ -- 0
+type$ -- 6590
+warning$ -- 14
+while$ -- 3008
+width$ -- 842
+write$ -- 10819
+(There were 21 error messages)

@@ -1,0 +1,107 @@
+\begin{thebibliography}{16}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Botta et~al.(2004)Botta, Klein, Langenberg, and
+  L\"utzenkirchen]{BKLL04}
+N.~Botta, R.~Klein, S.~Langenberg, and S.~L\"utzenkirchen.
+\newblock Well balanced finite volume methods for nearly hydrostatic flows.
+\newblock \emph{J. Comput. Phys.}, 196:\penalty0 539--565, 2004.
+
+\bibitem[Egger(1972)]{Egg72}
+J.~Egger.
+\newblock Numerical experiments on the cyclogenisis in the {Gulf of Genoa}.
+\newblock \emph{Neitr. Phys. Atmos.}, 45:\penalty0 320--346, 1972.
+
+\bibitem[Gallus and Klemp(2000)]{GK00}
+W.~Gallus and J.~Klemp.
+\newblock Behavior of flow over step orography.
+\newblock \emph{Mon. Wea. Rev.}, 128\penalty0 (4):\penalty0 1153--1164, 2000.
+
+\bibitem[Good et~al.(2013)Good, Gadian, Lock, and Ross]{GGLR13}
+B.~Good, A.~Gadian, S.-J. Lock, and A.~Ross.
+\newblock Performance of the cut-cell method of representing orography in
+  idealized simulations.
+\newblock \emph{Atmos. Sci. Lett.}, 2013.
+
+\bibitem[Klemp(2011)]{Kle11}
+J.~Klemp.
+\newblock A terrain-following coordinate with smoothed coordinate surfaces.
+\newblock \emph{Mon. Wea. Rev.}, 139:\penalty0 2163--2169, 2011.
+
+\bibitem[Klemp et~al.(2003)Klemp, Skamarock, and Fuhrer]{KSF03}
+J.~Klemp, W.~Skamarock, and O.~Fuhrer.
+\newblock Numerical consistency of metric terms in terrain-following
+  coordinates.
+\newblock \emph{Mon. Wea. Rev.}, 131\penalty0 (7):\penalty0 1229--1239, 2003.
+
+\bibitem[Lock et~al.(2012)Lock, Bitzer, Coals, Gadian, and Mobbs]{LBC+12}
+S.-J. Lock, H.-W. Bitzer, A.~Coals, A.~Gadian, and S.~Mobbs.
+\newblock Demonstration of a cut-cell representation of {3D} orography for
+  studies of atmospheric flows over very steep hills.
+\newblock \emph{Mon. Wea. Rev.}, 140\penalty0 (2):\penalty0 411--424, 2012.
+
+\bibitem[Mesinger et~al.(1988)Mesinger, Janji\'c, Ni\v{c}kovi\'{c}, Gavrilov,
+  and Deaven]{MJN+88}
+F.~Mesinger, Z.~Janji\'c, S.~Ni\v{c}kovi\'{c}, D.~Gavrilov, and D.~Deaven.
+\newblock The step-mountain coordinate: model description and performance for
+  cases of alpine lee cyclogenesis and for a case of an appalachian
+  redevelopment.
+\newblock \emph{Mon. Wea. Rev.}, 116:\penalty0 1493--1518, 1988.
+
+\bibitem[Mesinger et~al.(2012)Mesinger, Chou, Gomes, Jovic, Bastos, Bustamante,
+  Lazic, Lyra, Morelli, Ristic, and Veljovic]{MCG+12}
+F.~Mesinger, S.~Chou, J.~Gomes, D.~Jovic, P.~Bastos, J.~Bustamante, L.~Lazic,
+  A.~Lyra, S.~Morelli, I.~Ristic, and K.~Veljovic.
+\newblock An upgraded version of the eta model.
+\newblock \emph{Meteorology and Atmospheric Physics}, 116\penalty0
+  (3-4):\penalty0 63--79, 2012.
+
+\bibitem[Rosatti et~al.(2005)Rosatti, Cesari, and Bonaventura]{RCB05}
+G.~Rosatti, D.~Cesari, and L.~Bonaventura.
+\newblock {Semi-implicit, semi-Lagrangian modelling for environmental problems
+  on staggered Cartesian grids with cut cells}.
+\newblock \emph{J. Comput. Phys.}, 204\penalty0 (1):\penalty0 353--377, 2005.
+
+\bibitem[Russell(2007)]{Rus07}
+G.~Russell.
+\newblock Step-mountain technique applied to an atmospheric {C}-grid model, or
+  how to improve precipitation near mountains.
+\newblock \emph{Mon. Wea. Rev.}, 135\penalty0 (12):\penalty0 4060--4076, 2007.
+
+\bibitem[Sch{\"{a}}r et~al.(2002)Sch{\"{a}}r, Leuenberger, Fuhrer, L{\"{u}}thi,
+  and Girard]{SLF+02}
+C.~Sch{\"{a}}r, D.~Leuenberger, O.~Fuhrer, D.~L{\"{u}}thi, and C.~Girard.
+\newblock A new terrain-following vertical coordinate formulation for
+  atmospheric prediction models.
+\newblock \emph{Mon. Wea. Rev.}, 130\penalty0 (10):\penalty0 2459--2480, 2002.
+
+\bibitem[Steppeler et~al.(2002)Steppeler, Bitzer, Minotte, and
+  Bonaventura]{SBMB02}
+J.~Steppeler, H.~Bitzer, M.~Minotte, and L.~Bonaventura.
+\newblock Non-hydrostatic atmospheric modelling using a z-coordinate
+  representation.
+\newblock \emph{Mon. Wea. Rev.}, 130\penalty0 (8):\penalty0 2143--2149, 2002.
+
+\bibitem[Szmelter et~al.(2015)Szmelter, Zhang, and Smolarkiewicz]{SZS15}
+J.~Szmelter, Z.~Zhang, and P.~Smolarkiewicz.
+\newblock An unstructured-mesh atmospheric model for nonhydrostatic dynamics:
+  Towards optimal mesh resolution.
+\newblock \emph{J. Comput. Phys.}, 294\penalty0 (0):\penalty0 363 -- 381, 2015.
+
+\bibitem[Wyman(1996)]{Wym96}
+B.~Wyman.
+\newblock A step-mountain coordinate general circulation model: Description and
+  validation of medium-range forecasts.
+\newblock \emph{Mon. Wea. Rev.}, 124:\penalty0 102--121, 1996.
+
+\bibitem[Z\"angl(2012)]{Zan12}
+G.~Z\"angl.
+\newblock Extending the numerical stability limit of terrain-following
+  coordinate models over steep slopes.
+\newblock \emph{Mon. Wea. Rev.}, 140:\penalty0 3722--3733, 2012.
+
+\end{thebibliography}

@@ -1,0 +1,559 @@
+\begin{thebibliography}{87}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Arakawa(2004)]{Ara04}
+A.~Arakawa.
+\newblock The cumulus parameterization problem: Past, present, and future.
+\newblock \emph{J. Climate}, 17:\penalty0 2493--2525, 2004.
+
+\bibitem[Arakawa and Jung(2011)]{AJ11}
+A.~Arakawa and J.-H. Jung.
+\newblock Multiscale modeling of the moist-convective atmosphere -- a review.
+\newblock \emph{Atmospheric Research}, 102\penalty0 (3):\penalty0 263--285,
+  2011.
+
+\bibitem[Arakawa and Schubert(1974)]{AS74}
+A.~Arakawa and W.~Schubert.
+\newblock Interaction of a cumulus cloud ensemble with the large-scale
+  environment, {Part I}.
+\newblock \emph{J. of Atmos Sci.}, 31:\penalty0 674--701, 1974.
+
+\bibitem[Arakawa and Wu(2013)]{AW13}
+A.~Arakawa and C.-M. Wu.
+\newblock A unified representation of deep moist convection in numerical
+  modeling of the atmosphere. part {I}.
+\newblock \emph{J. of Atmos Sci.}, 70:\penalty0 1977--1992, 2013.
+
+\bibitem[Arakawa et~al.(2011)Arakawa, Jung, and Wu]{AJW11}
+A.~Arakawa, J.-H. Jung, and C.-M. Wu.
+\newblock Toward unification of the multiscale modeling of the atmosphere.
+\newblock \emph{Atmospheric Chemistry and Physics}, 11\penalty0 (8):\penalty0
+  3731--3742, 2011.
+
+\bibitem[Asai and Kasahara(1967)]{AK67}
+T.~Asai and A.~Kasahara.
+\newblock A theoretical study of the compensating downward motions associated
+  with cumulus clouds.
+\newblock \emph{J. of Atmos Sci.}, 24:\penalty0 487--496, 1967.
+
+\bibitem[B\'elair and Mailhot(2001)]{BM01}
+S.~B\'elair and J.~Mailhot.
+\newblock Impact of horizontal resolution on the numerical simulation of a
+  midlatitude squall line: Implicit versus explicit condensation.
+\newblock \emph{Mon. Wea. Rev.}, 129\penalty0 (9):\penalty0 2362--2376, 2001.
+
+\bibitem[Berkooz et~al.(1993)Berkooz, Holmes, and Lumley]{BHL93}
+G.~Berkooz, P.~Holmes, and J.~Lumley.
+\newblock The proper orthogonal decomposition in the analysis of turbulent
+  flows.
+\newblock \emph{Annual Review of Fluid Mechanics}, 25\penalty0 (1):\penalty0
+  539--575, 1993.
+
+\bibitem[Brenowitz et~al.(2016)Brenowitz, Frenkel, and Majda]{BFM16}
+N.~Brenowitz, Y.~Frenkel, and A.~Majda.
+\newblock Non-local convergence coupling in a simple stochastic convection
+  model.
+\newblock \emph{Dynamics of Atmospheres and Oceans}, 74:\penalty0 30--49, 2016.
+
+\bibitem[Bryan et~al.(2003)Bryan, Wyngaard, and Fritsch]{BWF03}
+G.~Bryan, J.~Wyngaard, and J.~Fritsch.
+\newblock Resolution requirements for the simulation of deep moist convection.
+\newblock \emph{Mon. Wea. Rev.}, 131:\penalty0 2394--2416, 2003.
+
+\bibitem[Chill\'a and Schumacher(2012)]{CS12b}
+F.~Chill\'a and J.~Schumacher.
+\newblock New perspectives in turbulent {Rayleigh-B\'enard} convection.
+\newblock \emph{Eur. Phys. J. E}, 35\penalty0 (58), 2012.
+
+\bibitem[Cohen et~al.(2020)Cohen, Lopez-Gomez, Jaruga, He, Kaul, and
+  Schneider]{CLJ+20}
+Y.~Cohen, I.~Lopez-Gomez, A.~Jaruga, J.~He, C.~Kaul, and T.~Schneider.
+\newblock Unified entrainment and detrainment closures for extended
+  eddy-diffusivity mass-flux schemes.
+\newblock \emph{J. Advances in Modeling Earth Systems}, 2020.
+
+\bibitem[De~Roode et~al.(2012)De~Roode, Siebesma, Jonker, and De~Voogd]{DSJD12}
+S.~De~Roode, A.~Siebesma, H.~Jonker, and Y.~De~Voogd.
+\newblock Parameterization of the vertical velocity equation for shallow
+  cumulus clouds.
+\newblock \emph{Mon. Wea. Rev.}, 140\penalty0 (8):\penalty0 2424--2436, 2012.
+
+\bibitem[de~Rooy et~al.(2013)de~Rooy, Bechtold, Froehlich, Hohenegger, Jonker,
+  Mironov, Siebesma, Teixeira, and Yano]{DBF+13}
+W.~de~Rooy, P.~Bechtold, K.~Froehlich, C.~Hohenegger, H.~Jonker, D.~Mironov,
+  A.~Siebesma, J.~Teixeira, and J.-I. Yano.
+\newblock Entrainment and detrainment in cumulus convection: an overview.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 139\penalty0 ({670, A}):\penalty0
+  1--19, 2013.
+
+\bibitem[Dopazo(1977)]{Dopa77}
+C.~Dopazo.
+\newblock On conditioned averages for intermittent turbulent flows.
+\newblock \emph{J. Fluid Mechanics}, 81:\penalty0 433--438, 7 1977.
+
+\bibitem[Gerard(2007)]{Ger07}
+L.~Gerard.
+\newblock An integrated package for subgrid convection, clouds and
+  precipitation compatible with the mesogamma scales.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 133:\penalty0 711--730, 2007.
+
+\bibitem[Gerard and Geleyn(2005)]{GG05}
+L.~Gerard and J.-F. Geleyn.
+\newblock Evolution of a subgrid deep convection parametrization in a
+  limited-area model with increasing resolution.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 131:\penalty0 2293--2312, 2005.
+
+\bibitem[Golaz et~al.(2002{\natexlab{a}})Golaz, Larson, and Cotton]{GLC02}
+J.-C. Golaz, V.~Larson, and W.~Cotton.
+\newblock A {PDF}-based model for boundary layer clouds. {Part I}: Method and
+  model description.
+\newblock \emph{J. of Atmos Sci.}, 59\penalty0 (24):\penalty0 3540--3551,
+  2002{\natexlab{a}}.
+
+\bibitem[Golaz et~al.(2002{\natexlab{b}})Golaz, Larson, and Cotton]{GLC02b}
+J.-C. Golaz, V.~Larson, and W.~Cotton.
+\newblock A {PDF}-based model for boundary layer clouds. {Part II}: Model
+  results.
+\newblock \emph{J. of Atmos Sci.}, 59\penalty0 (24):\penalty0 3552--3571,
+  2002{\natexlab{b}}.
+
+\bibitem[Grant and Brown(1999)]{GB99}
+A.~Grant and A.~Brown.
+\newblock A similarity hypothesis for shallow-cumulus transports.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 125\penalty0 (558):\penalty0
+  1913--1936, 1999.
+
+\bibitem[Gregory and Rowntree(1990)]{GR90}
+D.~Gregory and P.~Rowntree.
+\newblock A mass flux convection scheme with representation of cloud ensemble
+  charateristics and stability-dependent closure.
+\newblock \emph{Mon. Wea. Rev.}, 118:\penalty0 1483--1506, 1990.
+
+\bibitem[Grossmann and Lohse(2004)]{GL04}
+S.~Grossmann and D.~Lohse.
+\newblock Fluctuations in turbulent {Rayleigh-B\'enard} convection: The role of
+  plumes.
+\newblock \emph{Physics of Fluids}, 16\penalty0 (12):\penalty0 4462--4472,
+  2004.
+
+\bibitem[Guelfi et~al.(2007)Guelfi, Bestion, Boucker, Boudier, Fillion,
+  Grandotto, H\'erard, Hervieu, and P\'eturaud]{GBB+07}
+A.~Guelfi, D.~Bestion, M.~Boucker, P.~Boudier, P.~Fillion, M.~Grandotto, J.-M.
+  H\'erard, E.~Hervieu, and P.~P\'eturaud.
+\newblock {NEPTUNE}: A new software platform for advanced nuclear thermal
+  hydraulics.
+\newblock \emph{Nuclear Science and Engineering}, 156:\penalty0 281--324, 2007.
+
+\bibitem[Guichard and Couvreux(2017)]{GC17}
+F.~Guichard and F.~Couvreux.
+\newblock A short review of numerical cloud-resolving models.
+\newblock \emph{Tellus A}, 69\penalty0 (1):\penalty0 1373578, 2017.
+
+\bibitem[Hanley and Lean()]{HL21}
+K.~Hanley and H.~Lean.
+\newblock Elucidating the causes of errors in 2.2 km {Met Office Unified Model}
+  simulations of a convective case over the {US Great Plains}.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, n/a\penalty0 (n/a).
+
+\bibitem[Holloway and authors and(2014)]{HPB+14}
+C.~Holloway and C.~authors and.
+\newblock Understanding and representing atmospheric convection across scales:
+  recommendations from the meeting held at {Dartington Hall, Devon, UK, 28-30
+  January 2013}.
+\newblock \emph{Atmos. Sci. Lett.}, 15\penalty0 (4):\penalty0 348--353, 2014.
+
+\bibitem[Holm and Kupershmidt(1984)]{HK84}
+D.~Holm and B.~Kupershmidt.
+\newblock Multipressure regularizatoin for multiphase flow.
+\newblock \emph{Physics Letters}, 106A\penalty0 (4):\penalty0 165--168, 1984.
+
+\bibitem[Holm and Kupershmidt(1986{\natexlab{a}})]{HK86a}
+D.~Holm and B.~Kupershmidt.
+\newblock Hamiltonian structure and {Lyapunov} stability of a hyperbolic system
+  of two-phase flow equations including surface tension.
+\newblock \emph{The Physics of Fluids}, 29\penalty0 (4):\penalty0 986--991,
+  1986{\natexlab{a}}.
+
+\bibitem[Holm and Kupershmidt(1986{\natexlab{b}})]{HK86b}
+D.~Holm and B.~Kupershmidt.
+\newblock Multipressure regularizatoin for multiphase flow.
+\newblock \emph{International Journal of Multiphase Flow}, 12\penalty0
+  (4):\penalty0 681--697, 1986{\natexlab{b}}.
+
+\bibitem[Hong and Pan(1998)]{HP98}
+S.-Y. Hong and H.-L. Pan.
+\newblock Convective trigger function for a mass-flux cumulus parameterization
+  scheme.
+\newblock \emph{Mon. Wea. Rev.}, 126\penalty0 (10):\penalty0 2599--2620, 1998.
+
+\bibitem[Houghton and Cramer(1951)]{HC51}
+H.~Houghton and H.~Cramer.
+\newblock A theory of entrainment in convective currents.
+\newblock \emph{Journal of Meteorology}, 8\penalty0 (2):\penalty0 95--102,
+  1951.
+
+\bibitem[Kain(2004)]{Kai04}
+J.~Kain.
+\newblock The {Kain-Fritsch} convective parameterization: an update.
+\newblock \emph{J. Appl. Meteor.}, 43:\penalty0 170--181, 2004.
+
+\bibitem[Kain and Fritsch(1990)]{KF90}
+J.~Kain and J.~Fritsch.
+\newblock A one-dimensional entraining/detraining plume model and its
+  application in convective parameterization.
+\newblock \emph{J. of Atmos Sci.}, 47\penalty0 (23):\penalty0 2784--2802, 1990.
+
+\bibitem[Kain and Fritsch(1993)]{KF93}
+J.~Kain and J.~Fritsch.
+\newblock Convective parameterization for mesoscale models: {The Kain-Fritsch}
+  scheme.
+\newblock In K.~A. Emanuel and D.~J. Raymond, editors, \emph{The Representation
+  of Cumulus Convection in Numerical Models}, Meteorological Monographs, pages
+  165--170. American Meteorological Society, 1993.
+
+\bibitem[Kaufmann et~al.(2004)Kaufmann, Simonin, and Poinsot]{KSP04}
+A.~Kaufmann, O.~Simonin, and T.~Poinsot.
+\newblock Direct numerical simulation of particle-laden homogeneous isotropic
+  turbulent flows using a two-fluid model formulation.
+\newblock Number 5th in International Conference on Multiphase Flow. ICMF, June
+  2004.
+
+\bibitem[Keane and Plant(2012)]{KP12}
+R.~Keane and R.~Plant.
+\newblock Large-scale length and time-scales for use with stochastic convective
+  parametrization.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 138\penalty0 (666):\penalty0
+  1150--1164, 2012.
+
+\bibitem[Knutti and Sedl\'a\v{c}ek(2012)]{KS12}
+R.~Knutti and J.~Sedl\'a\v{c}ek.
+\newblock Robustness and uncertainties in the new {CMIP5} climate model
+  projections.
+\newblock \emph{Nature Climate Change}, 3\penalty0 (369), 2012.
+
+\bibitem[Kuell and Bott(2008)]{KB08}
+V.~Kuell and A.~Bott.
+\newblock A hybrid convection scheme for use in non-hydrostatic numerical
+  weather prediction models.
+\newblock \emph{Meteorologische Zeitschrift}, 17\penalty0 (6):\penalty0
+  775--783, 2008.
+
+\bibitem[Kuell et~al.(2007)Kuell, Gassmann, and Bott]{KGB07}
+V.~Kuell, A.~Gassmann, and A.~Bott.
+\newblock Towards a new hybrid cumulus parametrization scheme for use in
+  non-hydrostatic weather prediction models.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 133\penalty0 (623):\penalty0
+  479--490, 2007.
+
+\bibitem[Kwon and Hong(2017)]{KH17}
+Y.~Kwon and S.-Y. Hong.
+\newblock A mass-flux cumulus parameterization scheme across gray-zone
+  resolutions.
+\newblock \emph{Mon. Wea. Rev.}, 145\penalty0 (2):\penalty0 583--598, 2017.
+
+\bibitem[Lance and Bataille(1991)]{LB91}
+M.~Lance and J.~Bataille.
+\newblock Turbulence in the liquid phase of a uniform bubbly air-water flow.
+\newblock \emph{Journal of Fluid Mechanics}, 222:\penalty0 95--118, 1 1991.
+
+\bibitem[Langguth et~al.(2020)Langguth, Kuell, and Bott]{LKB20}
+M.~Langguth, V.~Kuell, and A.~Bott.
+\newblock Implementing the {HYbrid MAss} flux convection scheme {(HYMACS)} in
+  {ICON} -- first idealized tests and adaptions to the dynamical core for
+  local mass sources.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 146\penalty0 (731):\penalty0
+  2689--2716, 2020.
+
+\bibitem[Lappen and Randall(2001{\natexlab{a}})]{LR01}
+C.-L. Lappen and D.~Randall.
+\newblock Toward a unified parameterization of the boundary layer and moist
+  convection. {Part I}: A new type of mass-flux model.
+\newblock \emph{J. of Atmos Sci.}, 58\penalty0 (15):\penalty0 2021--2036,
+  2001{\natexlab{a}}.
+
+\bibitem[Lappen and Randall(2001{\natexlab{b}})]{LR01b}
+C.-L. Lappen and D.~Randall.
+\newblock Toward a unified parameterization of the boundary layer and moist
+  convection. {Part II}: Lateral mass exchanges and subplume-scale fluxes.
+\newblock \emph{J. of Atmos Sci.}, 58\penalty0 (15):\penalty0 2037--2051,
+  2001{\natexlab{b}}.
+
+\bibitem[Lappen and Randall(2001{\natexlab{c}})]{LR01c}
+C.-L. Lappen and D.~Randall.
+\newblock Toward a unified parameterization of the boundary layer and moist
+  convection. {Part III}: Simulations of clear and cloudy convection.
+\newblock \emph{J. of Atmos Sci.}, 58\penalty0 (15):\penalty0 2052--2072,
+  2001{\natexlab{c}}.
+
+\bibitem[Larson and Golaz(2005)]{LG05}
+V.~Larson and J.-C. Golaz.
+\newblock Using probability density functions to derive consistent closure
+  relationships among higher-order moments.
+\newblock \emph{Mon. Wea. Rev.}, 133\penalty0 (4):\penalty0 1023--1042, 2005.
+
+\bibitem[Larson et~al.(2012)Larson, Schanen, Wang, Ovchinnikov, and
+  Ghan]{LSW+12}
+V.~Larson, D.~Schanen, M.~Wang, M.~Ovchinnikov, and S.~Ghan.
+\newblock {PDF} parameterization of boundary layer clouds in models with
+  horizontal grid spacings from 2 to 16 km.
+\newblock \emph{Mon. Wea. Rev.}, 140\penalty0 (1):\penalty0 285--306, 2012.
+
+\bibitem[Lean et~al.(2008)Lean, Clark, Dixon, Roberts, Fitch, Forbes, and
+  Halliwell]{LCD+08}
+H.~Lean, P.~Clark, M.~Dixon, N.~Roberts, A.~Fitch, R.~Forbes, and C.~Halliwell.
+\newblock Characteristics of high-resolution versions of the {Met Office
+  Unified Model} for forecasting convection over the {United Kingdom}.
+\newblock \emph{Mon. Wea. Rev.}, 136:\penalty0 3408--3424, 2008.
+
+\bibitem[Lecoanet and Jeevanjee(2019)]{LJ1x}
+D.~Lecoanet and N.~Jeevanjee.
+\newblock Entrainment in resolved, dry thermals.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, submitted, 2019.
+\newblock URL \url{arXiv:1804.09326}.
+
+\bibitem[Lopez-Gomez et~al.(2020)Lopez-Gomez, Cohen, He, Jaruga, and
+  Schneider]{LCH+20}
+I.~Lopez-Gomez, Y.~Cohen, J.~He, A.~Jaruga, and T.~Schneider.
+\newblock A generalized mixing length closure for eddy-diffusivity mass-flux
+  schemes of turbulence and convection.
+\newblock \emph{J. Advances in Modeling Earth Systems}, page e2020MS002161,
+  2020.
+
+\bibitem[Maher et~al.(2018)Maher, Vallis, Sherwood, Webb, and Sansom]{MVS+18}
+P.~Maher, G.~Vallis, S.~Sherwood, M.~Webb, and P.~Sansom.
+\newblock The impact of parameterized convection on climatological
+  precipitation in atmospheric global climate models.
+\newblock \emph{Geophys. Res. Lett.}, 45\penalty0 (8):\penalty0 3728--3736,
+  2018.
+
+\bibitem[Majda and Stechmann(2008)]{MS08}
+A.~Majda and S.~Stechmann.
+\newblock Stochastic models for convective momentum transport.
+\newblock \emph{Proc. Natl. Acad. Sci. U.S.A.}, 105\penalty0 (46):\penalty0
+  17614--17619, 2008.
+
+\bibitem[Marchioro et~al.(1999)Marchioro, Tanksley, and Prosperetti]{MTP99}
+M.~Marchioro, M.~Tanksley, and A.~Prosperetti.
+\newblock Mixture pressure and stress in disperse two-phase flow.
+\newblock \emph{Int. J. Multiphase Flow}, 25:\penalty0 1395--1429, 1999.
+
+\bibitem[Morrison et~al.(2021)Morrison, Peters, and Sherwood]{MPS21}
+H.~Morrison, J.~Peters, and S.~Sherwood.
+\newblock Comparing growth rates of simulated moist and dry convective
+  thermals.
+\newblock \emph{J. of Atmos Sci.}, 78\penalty0 (3), 2021.
+
+\bibitem[Pan and Randall(1998)]{PR98}
+D.-M. Pan and D.~Randall.
+\newblock A cumulus parameterization with a prognostic closure.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 124\penalty0 (547):\penalty0
+  949--981, 1998.
+
+\bibitem[Park(2014)]{Par14}
+S.~Park.
+\newblock A unified convection scheme ({UNICORN}). {P}art {I}: formulation.
+\newblock \emph{J. of Atmos Sci.}, 71\penalty0 (11):\penalty0 3902--3930, 2014.
+
+\bibitem[Pauluis and Schumacher(2011)]{PS11}
+O.~Pauluis and J.~Schumacher.
+\newblock Self-aggregation of clouds in conditionally unstable moist
+  convection.
+\newblock \emph{Proc. Natl. Acad. Sci. U.S.A.}, 108\penalty0 (31):\penalty0
+  12623--12628, 2011.
+
+\bibitem[Plant and Craig(2008)]{PC08}
+R.~Plant and G.~Craig.
+\newblock A stochastic parameterization for deep convection based on
+  equilibrium statistics.
+\newblock \emph{J. of Atmos Sci.}, 65:\penalty0 87--105, 2008.
+
+\bibitem[Randall(2013)]{Ran13}
+D.~Randall.
+\newblock Beyond deadlock.
+\newblock \emph{Geophys. Res. Lett.}, 40\penalty0 (22):\penalty0 5970--5976,
+  2013.
+
+\bibitem[Romps and Charn(2015)]{RC15}
+D.~Romps and A.~Charn.
+\newblock Sticky thermals: Evidence for a dominant balance between buoyancy and
+  drag in cloud updrafts.
+\newblock \emph{J. of Atmos Sci.}, 72\penalty0 (8):\penalty0 2890--2901, 2015.
+
+\bibitem[Satoh et~al.(2019)Satoh, Stevens, Judt, Khairoutdinov, Lin, Putman,
+  and D\"uben]{SSJ+19}
+M.~Satoh, B.~Stevens, F.~Judt, M.~Khairoutdinov, S.-J. Lin, W.~Putman, and
+  P.~D\"uben.
+\newblock Global cloud-resolving models.
+\newblock \emph{Current Climate Change Reports}, 5:\penalty0 172--184, 2019.
+
+\bibitem[Sherwood et~al.(2013)Sherwood, Alexander, Brown, McFarlane, Gerber,
+  Feingold, Scaife, and Grabowski]{SAB+13}
+S.~Sherwood, M.~Alexander, A.~Brown, N.~McFarlane, E.~Gerber, G.~Feingold,
+  A.~Scaife, and W.~Grabowski.
+\newblock \emph{{Climate Science for Serving Society}}, chapter Climate
+  Processes: Clouds, Aerosols and Dynamics.
+\newblock Springer, Dordrecht, 2013.
+
+\bibitem[Shutts and Gray(1994)]{SG94}
+G.~Shutts and M.~Gray.
+\newblock A numerical modelling study of the geostrophic adjustment process
+  following deep convection.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 120\penalty0 (519):\penalty0
+  1145--1178, 1994.
+
+\bibitem[Siebesma et~al.(2003)Siebesma, Bretherton, Brown, Chlond, Cuxart,
+  Duynkerke, Jiang, Khairoutdinov, Lewellen, Moeng, Sanchez, Stevens, and
+  Stevens]{SBB+03}
+A.~Siebesma, C.~Bretherton, A.~Brown, A.~Chlond, J.~Cuxart, P.~Duynkerke,
+  H.~Jiang, M.~Khairoutdinov, D.~Lewellen, C.-H. Moeng, E.~Sanchez, B.~Stevens,
+  and D.~Stevens.
+\newblock A {Large Eddy Simulation} intercomparison study of shallow cumulus
+  convection.
+\newblock \emph{J. of Atmos Sci.}, 60\penalty0 (10):\penalty0 1201--1219, 2003.
+
+\bibitem[Siebesma et~al.(2007)Siebesma, Soares, and Teixeira]{SST07}
+A.~Siebesma, P.~Soares, and J.~Teixeira.
+\newblock A combined eddy-diffusivity mass-flux approach for the convective
+  boundary layer.
+\newblock \emph{J. of Atmos Sci.}, 64:\penalty0 1230--1248, 2007.
+
+\bibitem[Simpson and Wiggert(1969)]{SW69}
+J.~Simpson and V.~Wiggert.
+\newblock Models of precipitating cumulus towers.
+\newblock \emph{Mon. Wea. Rev.}, 97\penalty0 (7):\penalty0 471--489, 1969.
+
+\bibitem[Soares et~al.(2004)Soares, Miranda, Siebesma, and Teixeira]{SMST04}
+P.~Soares, P.~Miranda, A.~Siebesma, and J.~Teixeira.
+\newblock An eddy-diffusivity/mass-flux parametrization for dry and shallow
+  cumulus convection.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 130\penalty0 (604):\penalty0
+  3365--3383, 2004.
+
+\bibitem[Solomon et~al.(2007)Solomon, Qin, Manning, Chen, Marquis, Averyt,
+  Tignor, and Miller]{ipcc41}
+S.~Solomon, D.~Qin, M.~Manning, Z.~Chen, M.~Marquis, K.~Averyt, M.~Tignor, and
+  H.~Miller.
+\newblock {IPCC}, 2007: Climate change 2007: The physical science basis.
+\newblock Technical report, Intergovernmental Panel on Climate Change, 2007.
+\newblock Contribution of Working Group 1 to the Fourth Assessment Report.
+
+\bibitem[Stephens et~al.(2010)Stephens, L'Ecuyer, Forbes, Gettelmen, Golaz,
+  Bodas-Salcedo, Suzuki, Gabriel, and Haynes]{SLF+10}
+G.~Stephens, T.~L'Ecuyer, R.~Forbes, A.~Gettelmen, J.-C. Golaz,
+  A.~Bodas-Salcedo, K.~Suzuki, P.~Gabriel, and J.~Haynes.
+\newblock Dreary state of precipitation in global models.
+\newblock \emph{J. Geophys. Res. - Atmos.}, 115\penalty0 (D24211), 2010.
+
+\bibitem[Stirling and Petch(2004)]{SP04}
+A.~Stirling and J.~Petch.
+\newblock The impacts of spatial variability on the development of convection.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 130:\penalty0 3189--3216, 2004.
+
+\bibitem[Stocker et~al.(2013)Stocker, Qin, Plattner, Tignor, Allen, Boschung,
+  Nauels, Xia, Bex, and Midgley]{IPCC5_WG1}
+T.~Stocker, D.~Qin, G.-K. Plattner, M.~Tignor, S.~Allen, J.~Boschung,
+  A.~Nauels, Y.~Xia, V.~Bex, and P.~Midgley.
+\newblock Technical Report~5, IPCC, 2013.
+
+\bibitem[Thuburn et~al.(2019)Thuburn, Efstathiou, and Beare]{TEB19}
+J.~Thuburn, G.~Efstathiou, and R.~Beare.
+\newblock A two-fluid single-column model of the dry, shear-free, convective
+  boundary layer.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 145\penalty0 (721):\penalty0
+  1535--1550, 2019.
+
+\bibitem[Tiedtke(1989)]{Tied89}
+M.~Tiedtke.
+\newblock A comprehensive mass flux scheme for cumulus parameterization in
+  large-scale models.
+\newblock \emph{Mon. Wea. Rev.}, 117\penalty0 (8):\penalty0 1779--1800, 1989.
+
+\bibitem[Vallis et~al.(2019)Vallis, Parker, and Tobias]{VPT19}
+G.~Vallis, D.~Parker, and S.~Tobias.
+\newblock A simple system for moist convection: the {Rainy-B\'enard} model.
+\newblock \emph{J. Fluid Mechanics}, 862:\penalty0 162--199, 2019.
+
+\bibitem[Wagner and Graf(2010)]{WG10}
+T.~Wagner and H.~Graf.
+\newblock An ensemble cumulus convection parameterization with explicit cloud
+  treatment.
+\newblock \emph{J. of Atmos Sci.}, 67:\penalty0 3854--3869, 2010.
+
+\bibitem[Waller et~al.()Waller, Dance, and Lean]{WDL21}
+J.~Waller, S.~Dance, and H.~Lean.
+\newblock Evaluating errors due to unresolved scales in convection-permitting
+  numerical weather prediction.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, online.
+
+\bibitem[Weidauer et~al.(2010)Weidauer, Pauluis, and Schumacher]{WPS10}
+T.~Weidauer, O.~Pauluis, and J.~Schumacher.
+\newblock Cloud patterns and mixing properties in shallow moist
+  {Rayleigh-B\'enard} convection.
+\newblock \emph{New J. Phys.}, 2010.
+
+\bibitem[Weller(2005)]{Wel05}
+H.~G. Weller.
+\newblock Derivation, modelling and solution of the conditionally averaged
+  two-phase flow equations.
+\newblock Technical report, OpenFOAM, {\url{http://www.openfoam.org}}, Feb
+  2005.
+
+\bibitem[W\"orner(2003)]{Wor03}
+M.~W\"orner.
+\newblock A compact introduction to the numerical modelling of multiphase
+  flows.
+\newblock Technical Report FZKA 6932, Forschungszentrum Karlsruhe in der
+  Helmholtz-Gemienschaft, 2003.
+
+\bibitem[Wu and Yanai(1994)]{WY94}
+X.~Wu and M.~Yanai.
+\newblock Effects of vertical wind shear on the cumulus transport of momentum:
+  Observations and parameterization.
+\newblock \emph{J. of Atmos Sci.}, 51\penalty0 (12):\penalty0 1640--1660, 1994.
+
+\bibitem[Yano and Plant(2012)]{YP12}
+J.~Yano and R.~Plant.
+\newblock Finite departure from convective quasi-equilibrium: periodic cycle
+  and discharge-recharge mechanism.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 138:\penalty0 626--637, 2012.
+
+\bibitem[Yano(2014)]{Yano14}
+J.-I. Yano.
+\newblock Formulation structure of the mass-flux convection parameterization.
+\newblock \emph{Dynamics of Atmospheres and Oceans}, 67:\penalty0 1--28, 2014.
+
+\bibitem[Yano and Lane(20014)]{YL14}
+J.-I. Yano and T.~Lane.
+\newblock Convectively generated gravity waves simulated by nam-sca.
+\newblock \emph{J. Geophys. Res. - Atmos.}, 119:\penalty0 9267--9289, 20014.
+
+\bibitem[Yano et~al.(2005)Yano, Redelsperger, Guichard, and Bechtold]{YRGB05}
+J.-I. Yano, J.-L. Redelsperger, F.~Guichard, and P.~Bechtold.
+\newblock Mode decomposition as a methodology for developing convective-scale
+  representations in global models.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 131:\penalty0 2313--2336, 2005.
+
+\bibitem[Zhang and Prosperetti(1994{\natexlab{a}})]{ZP94a}
+D.~Zhang and A.~Prosperetti.
+\newblock Averaged equations for inviscid disperse two-phase flow.
+\newblock \emph{J. Fluid Mechanics}, 267:\penalty0 185--219, 5
+  1994{\natexlab{a}}.
+
+\bibitem[Zhang and Prosperetti(1994{\natexlab{b}})]{ZP94b}
+D.~Zhang and A.~Prosperetti.
+\newblock Ensemble phase-averaged equations for bubbly flows.
+\newblock \emph{The Physics of Fluids}, 6\penalty0 (9):\penalty0 2956--2970,
+  1994{\natexlab{b}}.
+
+\bibitem[Zhang and Prosperetti(1997)]{ZP97}
+D.~Zhang and A.~Prosperetti.
+\newblock Momentum and energy equations for disperse two-phase flows and their
+  closure for dilute suspensions.
+\newblock \emph{Int. J. Multiphase Flow}, 23\penalty0 (3):\penalty0 425--453,
+  June 1997.
+
+\end{thebibliography}

@@ -1,0 +1,69 @@
+\begin{thebibliography}{10}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abramov et~al.(2002)Abramov, Ivanov, and Smirnov]{AIS02}
+A.~Abramov, N.~Ivanov, and E.~Smirnov.
+\newblock Numerical study of high-{Ra Rayleigh-B\'{e}nard} mercury and water
+  convection in confined enclosures using a hybrid {RANS/LES} technique.
+\newblock \emph{Department of Aerodynamics, Saint-Petersburg State Polytechnic
+  University}, 2002.
+
+\bibitem[Grossmann and Lohse(2000)]{GL00}
+S.~Grossmann and D.~Lohse.
+\newblock Scaling in thermal convection: a unifying theory.
+\newblock \emph{J. Fluid Mechanics}, 407:\penalty0 27--56, 2000.
+
+\bibitem[Grossmann and Lohse(2001)]{GL01}
+S.~Grossmann and D.~Lohse.
+\newblock Thermal convection for large {Prandtl} numbers.
+\newblock \emph{Physical review letters}, 86\penalty0 (15):\penalty0 3316,
+  2001.
+
+\bibitem[Grossmann and Lohse(2002)]{GL02}
+S.~Grossmann and D.~Lohse.
+\newblock {Prandtl and Rayleigh number dependence of the Reynolds} number in
+  turbulent thermal convection.
+\newblock \emph{Physical Review E}, 66\penalty0 (1):\penalty0 016305, 2002.
+
+\bibitem[Grossmann and Lohse(2003)]{GL03}
+S.~Grossmann and D.~Lohse.
+\newblock On geometry effects in {Rayleigh--B{\'e}nard} convection.
+\newblock \emph{J. Fluid Mechanics}, 486:\penalty0 105--114, 2003.
+
+\bibitem[Grossmann and Lohse(2004)]{GL04}
+S.~Grossmann and D.~Lohse.
+\newblock Fluctuations in turbulent {Rayleigh-B\'enard} convection: The role of
+  plumes.
+\newblock \emph{Physics of Fluids}, 16\penalty0 (12):\penalty0 4462--4472,
+  2004.
+
+\bibitem[Iyer et~al.(2020)Iyer, Scheel, Schumacher, and Sreenivasan]{ISSS20}
+K.~P. Iyer, J.~D. Scheel, J.~Schumacher, and K.~R. Sreenivasan.
+\newblock Classical 1/3 scaling of convection holds up to {$Ra = 10^{15}$}.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 117\penalty0
+  (14):\penalty0 7594--7598, 2020.
+
+\bibitem[Kenjere{\v{s}} and Hanjali{\'c}(2006)]{KH06}
+S.~Kenjere{\v{s}} and K.~Hanjali{\'c}.
+\newblock {LES, T-RANS} and hybrid simulations of thermal convection at high
+  {Ra} numbers.
+\newblock \emph{International journal of heat and fluid flow}, 27\penalty0
+  (5):\penalty0 800--810, 2006.
+
+\bibitem[Kerr(1996)]{Kerr96}
+R.~Kerr.
+\newblock Rayleigh number scaling in numerical convection.
+\newblock \emph{J. Fluid Mechanics}, 310:\penalty0 139--179, 1996.
+
+\bibitem[Kocutar et~al.(2020)Kocutar, Ravnik, and \v{S}kerget]{KRS20}
+P.~Kocutar, J.~Ravnik, and L.~\v{S}kerget.
+\newblock Hybrid {LES/URANS} simulation of {Rayleigh-B\'{e}nard} convection
+  using {BEM}.
+\newblock \emph{Computer Modeling in Engineering \& Sciences}, 123\penalty0
+  (1):\penalty0 1--22, 2020.
+
+\end{thebibliography}

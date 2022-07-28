@@ -1,0 +1,168 @@
+\begin{thebibliography}{23}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Asai(1965)]{Asai65}
+T.~Asai.
+\newblock A numerical study of the air-mass transformation over the {Japan} sea
+  in winter.
+\newblock \emph{Journal of the Meteorological Society of Japan}, 43\penalty0
+  (1):\penalty0 1--15, 1965.
+
+\bibitem[Beare and Cullen(2016)]{BC16}
+R.~Beare and M.~Cullen.
+\newblock Validating weather and climate models at small {Rossby} numbers:
+  including a boundary layer.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 2016.
+
+\bibitem[Beljaars et~al.(2004)Beljaars, Bechtold, K{\"o}hler, Morcrette,
+  Tompkins, Viterbo, and Wedi]{BBK+04}
+A.~Beljaars, P.~Bechtold, M.~K{\"o}hler, J.-J. Morcrette, A.~Tompkins,
+  P.~Viterbo, and N.~Wedi.
+\newblock The numerics of physical parametrization.
+\newblock In \emph{Proc. of {ECMWF} Seminar on Recent Developments in Numerical
+  Methods for Atmosphere and Ocean Modelling, {ECMWF}, {Reading, UK}}, 2004.
+
+\bibitem[Caya et~al.(1998)Caya, Laprise, and Zwack]{CLZ98}
+A.~Caya, R.~Laprise, and P.~Zwack.
+\newblock Consequences of using the splitting method for implementing physical
+  forcings in a semi-implicit semi-{L}agrangian model.
+\newblock \emph{Mon. Wea. Rev.}, 126:\penalty0 1707--1713, 1998.
+
+\bibitem[Cullen and Salmond(2003)]{CS03}
+M.~Cullen and D.~Salmond.
+\newblock On the use of a predictor-corrector scheme to couple the dynamics
+  with the physical parametrizations in the {ECMWF} model.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 129\penalty0 (589):\penalty0
+  1217--1236, 2003.
+
+\bibitem[Diamantakis et~al.(2006)Diamantakis, Wood, and Davies]{DWD06}
+M.~Diamantakis, N.~Wood, and T.~Davies.
+\newblock An improved implicit predictor-corrector scheme for boundary layer
+  vertical diffusion.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 132\penalty0 (616):\penalty0
+  959--978, 2006.
+
+\bibitem[Dubal et~al.(2004)Dubal, Wood, and Staniforth]{DWS04}
+M.~Dubal, N.~Wood, and A.~Staniforth.
+\newblock Analysis of parallel versus sequential splittings for time-stepping
+  physical parameterizations.
+\newblock \emph{Mon. Wea. Rev.}, 132\penalty0 (1):\penalty0 121--132, 2004.
+
+\bibitem[Dubal et~al.(2005)Dubal, Wood, and Staniforth]{DWS05}
+M.~Dubal, N.~Wood, and A.~Staniforth.
+\newblock Mixed parallel-sequential-split schemes for time-stepping multiple
+  physical parameterizations.
+\newblock \emph{Mon. Wea. Rev.}, 133\penalty0 (4):\penalty0 989--1002, 2005.
+
+\bibitem[Dubal et~al.(2006)Dubal, Wood, and Staniforth]{DWS06}
+M.~Dubal, N.~Wood, and A.~Staniforth.
+\newblock Some numerical properties of approaches to physics-dynamics coupling
+  for {NWP}.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 132\penalty0 (614):\penalty0
+  27--42, 2006.
+
+\bibitem[Gross et~al.(2016)Gross, Wan, Rasch, Caldwell, Williamson, Klocke,
+  Jablonowski, Thatcher, Wood, Cullen, Beare, Willett, Lemari\'{e}, Blayo,
+  Malardel, Termonia, Gassmann, Lauritzen, Johansen, Zarzycki, Sakaguchi, and
+  Leung]{GWR+16}
+M.~Gross, H.~Wan, P.~Rasch, P.~Caldwell, D.~Williamson, D.~Klocke,
+  C.~Jablonowski, D.~Thatcher, N.~Wood, M.~Cullen, R.~Beare, M.~Willett,
+  F.~Lemari\'{e}, E.~Blayo, S.~Malardel, P.~Termonia, A.~Gassmann,
+  P.~Lauritzen, H.~Johansen, C.~Zarzycki, K.~Sakaguchi, and R.~Leung.
+\newblock Recent progress and review of physics dynamics coupling in
+  geophysical models.
+\newblock \emph{arXiv.org}, 2016.
+\newblock URL \url{http://arxiv.org/abs/1605.06480}.
+
+\bibitem[Kalnay and Kanamitsu(1988)]{KK88}
+E.~Kalnay and M.~Kanamitsu.
+\newblock Time schemes for strongly nonlinear damping equations.
+\newblock \emph{Mon. Wea. Rev.}, 116\penalty0 (10):\penalty0 1945--1958, 1988.
+
+\bibitem[Khairoutdinov and Randall(2003)]{KR03}
+M.~Khairoutdinov and D.~Randall.
+\newblock Cloud resolving modeling of the {ARM} summer 1997 {IOP}: Model
+  formulation, results, uncertainties, and sensitivities.
+\newblock \emph{J. of Atmos Sci.}, 60\penalty0 (4):\penalty0 607--625, 2003.
+
+\bibitem[Lock et~al.(2014)Lock, Edwards, and Boutle]{LEB14}
+A.~Lock, J.~Edwards, and I.~Boutle.
+\newblock {The Parametrization of Boundary Layer Processes}.
+\newblock Technical Report Unified Model Documentation Paper 024, {Met Office},
+  Nov 2014.
+
+\bibitem[Neale et~al.(2010)Neale, Richer, Conley, Park, Lauritzen, Gettelman,
+  and Williamson]{NRC+10}
+R.~Neale, J.~Richer, A.~Conley, S.~Park, P.~Lauritzen, A.~Gettelman, and
+  D.~Williamson.
+\newblock {Description of the {NCAR} Community Atmosphere Model {(CAM 4.0)}}.
+\newblock Technical Report NCAR/TN-485+STR, NCAR, April 2010.
+\newblock URL
+  \url{https://www.ccsm.ucar.edu/models/ccsm4.0/cam/docs/description/cam4\_desc.pdf}.
+
+\bibitem[Rutledge and Hobbs(1983)]{RH83b}
+S.~Rutledge and P.~Hobbs.
+\newblock The mesoscale and microscale structure and organization of clouds and
+  precipitation in midlatitude cyclones. {VIII}: A model for the
+  ``seeder-feeder'' process in warm-frontal rainbands.
+\newblock \emph{J. of Atmos Sci.}, 40\penalty0 (5):\penalty0 1185--1206, 1983.
+
+\bibitem[Smith(1990)]{Smi90}
+R.~Smith.
+\newblock A scheme for predicting layer clouds and their water content in a
+  general circulation model.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 116\penalty0 (492):\penalty0
+  435--460, 1990.
+
+\bibitem[Staniforth et~al.(2002)Staniforth, Wood, and C\^{o}t\'{e}]{SWC02}
+A.~Staniforth, N.~Wood, and J.~C\^{o}t\'{e}.
+\newblock Analysis of the numerics of physics-dynamics coupling.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 128\penalty0 (586):\penalty0
+  2779--2799, 2002.
+
+\bibitem[Thuburn(2017)]{Thu17}
+J.~Thuburn.
+\newblock Use of the {Gibbs} thermodynamic potential to express the equation of
+  state in atmospheric models.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 143\penalty0 (704):\penalty0
+  1185--1196, 2017.
+
+\bibitem[Williamson(2002)]{Wil02}
+D.~Williamson.
+\newblock Time-split versus process-split coupling of parameterizations and
+  dynamical core.
+\newblock \emph{Mon. Wea. Rev.}, pages 2024--2041, 2002.
+
+\bibitem[Wilson et~al.(2008)Wilson, Bushell, Kerr-Munslow, Price, and
+  Morcrette]{WBK+08}
+D.~Wilson, A.~Bushell, A.~Kerr-Munslow, J.~Price, and C.~Morcrette.
+\newblock {PC2: A prognostic cloud fraction and condensation scheme. I: Scheme
+  description}.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 134\penalty0 (637):\penalty0
+  2093--2107, 2008.
+
+\bibitem[Wood et~al.(2007)Wood, Diamantakis, and Staniforth]{WDS07}
+N.~Wood, M.~Diamantakis, and A.~Staniforth.
+\newblock A monotonically-damping second-order-accurate unconditionally-stable
+  numerical scheme for diffusion.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 133\penalty0 (627):\penalty0
+  1559--1573, 2007.
+
+\bibitem[Yamada and Mellor(1979)]{YM79}
+T.~Yamada and G.~Mellor.
+\newblock A numerical simulation of {BOMEX} data using a turbulence closure
+  model coupled with ensemble cloud relations.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 105\penalty0 (446):\penalty0
+  915--944, 1979.
+
+\bibitem[Yau and Austin(1979)]{YA79}
+M.~Yau and P.~Austin.
+\newblock A model for hydrometer growth and evolution of raindrop size spectra
+  in cumulus cells.
+\newblock \emph{J. of Atmos Sci.}, 36\penalty0 (4):\penalty0 655--668, 1979.
+
+\end{thebibliography}

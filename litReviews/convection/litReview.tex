@@ -40,6 +40,9 @@
 \subsection*{Convection parameterisation is a problem}
 \begin{itemize}
 
+\item \bibentry{LQB+22} \ \\
+``The over-stabilization and slow moistening make the convection events episodic and decouple the middle/upper troposphere from the boundary layer, making the state-type quasi-equilibrium hypothesis invalid. Right now, unsaturated convective downdrafts and especially mesoscale downdrafts are missing in most convection schemes, while some schemes are using undiluted convective updrafts, all of which favour easily turned-on convection linked to double-ITCZ (inter-tropical convergence zone), overly weak MJO (Madden-Julian Oscillation) and precocious diurnal precipitation maximum.''
+
 \item \bibentry{LKB20} \ \\
 Excellent intro on problem of convection and net mass transport. See references.\\
 HYMACS not actually implemented in ICON yet. This is just about the necessary ``adaptions to the dynamical core'' which is a ``revised numerical filter'' with ``compatibility to local mass sources''.
@@ -85,6 +88,8 @@ ational forecast models (Lin et al., 2012)''
 Work on conventional parameterizations has been about entrainment \\
 Superparameterization have succeeded in simulation the MJO and the diurnal cycle of convection. Global high resolutions for resolved convection not feasible.
 
+\item \bibentry{RKAW03}
+
 \item \bibentry{SAB+13} \ \\
 ``Physical processes not well resolved by climate models continue to limit confidence in detailed predictions of climate change. The representation of cloud and convection-related processes dominates the model spread in global climate sensitivity, and affects the simulation of important aspects of the present-day climate especially in the tropics.''
 
@@ -115,10 +120,40 @@ Convection schemes are not required for reasonable climatological precipitation.
 \item \bibentry{MS08} \ \\
 includes idealised model of a squall line
 
+\item \bibentry{HL21} \ \\ Errors at 2km without parameterisation possibly due to downscaled initial conditions (too little CIN). \\
+Compensating errors
+
+\item \bibentry{MPS21}
+
+\item \bibentry{WDL21} \ \\
+Used 300m London model as truth and compared with lower resolution convection permitting model. \\
+``significant biases and vertical correlations exist that should be accounted for to give maximum observation impact in data assimilation and for fairness in model
+verification and validation.''
+
+\end{itemize}
+
+\subsection*{Rayleigh-B\'enard Convection}
+
+\begin{itemize}
+
+\item \bibentry{GL04} \ \\
+
+\item \bibentry{WPS10} \ \\
+Moist RB convection but BCs don't seem to be fully defined.
+
+\item \bibentry{VPT19} \ \\
+
+\item \bibentry{CS12b} \ \\
+
+\item \bibentry{PS11} \ \\
+
 \end{itemize}
 
 \subsection*{Others}
 \begin{itemize}
+
+\item \bibentry{SG94} \ \\
+Description of a preliminary version of the Met Office LEM with very simple microphysics and LES. Description of the calculation of the Richarson number is strange.
 
 \item \bibentry{GLC02} \ \\
 Part I desripes the joint pdf model - bi Gaussians for sub-grid-scale variablility.\\
@@ -199,6 +234,10 @@ $F_{drag} = 0.5 c_d A w^2$.
 \item \bibentry{HP98} \ \\
 Convective trigger function is related to sub-grid-scale buoyancy which is related to turbulent heat flux
 
+\item \bibentry{GC17} \ \\
+
+\item \bibentry{SSJ+19} 
+
 \end{itemize}
 
 \subsection*{Recommended by Alan Grant on conditional averaging}
@@ -223,6 +262,9 @@ make use of the fact that $a_u << 1$.
 eira, 2004: An eddy-diffusivity/mass-flux parameterization
 for dry and shallow cumulus convection. Quart. J. Roy. Me-
 teor. Soc., 130, 3365–3384.
+
+\item \bibentry{LCH+20} \ \\
+Single column model compared to LES
 
 \end{itemize}
 

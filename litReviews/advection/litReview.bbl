@@ -1,0 +1,263 @@
+\begin{thebibliography}{43}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Bott(2010)]{Bott10}
+A.~Bott.
+\newblock Improving the time-splitting errors of one-dimensional advection
+  schemes in multidimensional applications.
+\newblock \emph{Atmospheric Research}, 97:\penalty0 619--631, 2010.
+
+\bibitem[Brassington and Sanderson(1999)]{BS99}
+G.~Brassington and B.~Sanderson.
+\newblock {Semi-Lagrangian and COSMIC} advection in flows with rotation or
+  deformation.
+\newblock \emph{Atmosphere-Ocean}, 37\penalty0 (4):\penalty0 369--388, 1999.
+
+\bibitem[Chen et~al.(2014)Chen, Li, Shen, and Xiao]{CLSX14}
+C.~Chen, X.~Li, X.~Shen, and F.~Xiao.
+\newblock Global shallow water models based on multi-moment constrained finite
+  volume method and three quasi-uniform spherical grids.
+\newblock \emph{J. Comput. Phys.}, 271:\penalty0 191--223, 2014.
+
+\bibitem[Colella and Woodward(1984)]{CW84}
+P.~Colella and P.~Woodward.
+\newblock The piecewise parabolic method ({PPM}) for gas-dynamical simulations.
+\newblock \emph{J. Comput. Phys.}, 1984.
+
+\bibitem[Cueto-Felgueroso et~al.(2007)Cueto-Felgueroso, Colominas, Nogueira,
+  Navarrina, and Casteleiro]{CCN+07}
+L.~Cueto-Felgueroso, I.~Colominas, X.~Nogueira, F.~Navarrina, and
+  M.~Casteleiro.
+\newblock Finite volume solvers and moving least-squares approximations for the
+  compressible {Navier-Stokes} equations on unstructured grids.
+\newblock \emph{Comput. Methods Appl. Mech. Engrg.}, 2007.
+
+\bibitem[Gassmann(2021)]{Gass21}
+A.~Gassmann.
+\newblock Inherent dissipation of upwind-biased potential temperature advection
+  and its feedback on model dynamics.
+\newblock \emph{J. Advances in Modeling Earth Systems}, 13\penalty0
+  (3):\penalty0 e2020MS002384, 2021.
+
+\bibitem[Gottlieb et~al.(2001)Gottlieb, Shu, and Tadmor]{GST01}
+S.~Gottlieb, C.-W. Shu, and E.~Tadmor.
+\newblock Strong stability-preserving high-order time discretization methods.
+\newblock \emph{SIAM review}, 43\penalty0 (1):\penalty0 89--112, 2001.
+
+\bibitem[Harten(1983)]{Hart83}
+A.~Harten.
+\newblock High resolution schemes for hyperbolic conservation laws.
+\newblock \emph{J. Comput. Phys.}, 49\penalty0 (3):\penalty0 357--393, 1983.
+
+\bibitem[Huang et~al.(2012)Huang, Arbogast, and Qiu]{HAQ12}
+C.-S. Huang, T.~Arbogast, and J.~Qiu.
+\newblock An {Eulerian-Lagrangian} {WENO} finite volume scheme for advection
+  problems.
+\newblock \emph{J. Comput. Phys.}, 231\penalty0 (11):\penalty0 4028--4052,
+  2012.
+
+\bibitem[Idelsohn et~al.(2014)Idelsohn, Marti, Becker, and O\~nate]{IMBO14}
+S.~Idelsohn, J.~Marti, P.~Becker, and E.~O\~nate.
+\newblock Analysis of multifluid flows with large time steps using the particle
+  finite element method.
+\newblock \emph{Int. J. Numer. Meth. Fluids}, 75:\penalty0 621--644, 2014.
+
+\bibitem[Katta et~al.(2015)Katta, Nair, and Kumar]{KNK15}
+K.~Katta, R.~Nair, and V.~Kumar.
+\newblock High-order finite-volume transport on the cubed sphere: comparison
+  between 1d and 2d reconstruction schemes.
+\newblock \emph{Mon. Wea. Rev.}, 143\penalty0 (7):\penalty0 2937--2954, 2015.
+
+\bibitem[K\"uhnlein and Smolarkiewicz(2017)]{KS17}
+C.~K\"uhnlein and P.~Smolarkiewicz.
+\newblock An unstructured-mesh finite-volume {MPDATA} for compressible
+  atmospheric dynamics.
+\newblock \emph{J. Comput. Phys.}, 334:\penalty0 16--30, 2017.
+
+\bibitem[Kuzmin(2009)]{Kuz09}
+D.~Kuzmin.
+\newblock Explicit and implicit {FEM-FCT} algorithms with flux linearization.
+\newblock \emph{J. Comput. Phys.}, 228\penalty0 (7):\penalty0 2517--2534, 2009.
+
+\bibitem[Lauritzen(2007)]{Lau07}
+P.~Lauritzen.
+\newblock A stability analysis of finite-volume advection schemes permitting
+  long time steps.
+\newblock \emph{Mon. Wea. Rev.}, 135\penalty0 (7):\penalty0 2658--2673, 2007.
+
+\bibitem[Leonard et~al.(1993)Leonard, Macvean, and Lock]{LML93}
+B.~Leonard, M.~Macvean, and A.~Lock.
+\newblock Positivity-preserving numerical schemes for multidimensional
+  advection.
+\newblock Technical Report NCC3-233; RTOP 505-90-5K, NASA Lewis Research
+  Center, Cleveland, OH, United States, 1993.
+
+\bibitem[Leonard et~al.(1995)Leonard, Lock, and Macvean]{LLM95}
+B.~Leonard, A.~Lock, and M.~Macvean.
+\newblock The {NIRVANA} scheme applied to one-dimensional advection.
+\newblock \emph{Int. J. Num. Meth. Heat Fluid Flow}, 5:\penalty0 341--377,
+  1995.
+
+\bibitem[Leonard et~al.(1996)Leonard, Lock, and MacVean]{LLM96}
+B.~Leonard, A.~Lock, and M.~MacVean.
+\newblock Conservative explicit unrestricted-time-step multidimensional
+  constancy-preserving advection schemes.
+\newblock \emph{Mon. Wea. Rev.}, 124\penalty0 (11):\penalty0 2585--2606, 1996.
+
+\bibitem[Lin and Rood(1996)]{LR96}
+S.~Lin and R.~Rood.
+\newblock Multidimensional flux-form semi-{L}agrangian transport schemes.
+\newblock \emph{Mon. Wea. Rev.}, 124:\penalty0 2046--2070, 1996.
+
+\bibitem[Lipscomb and Ringler(2005)]{LR05b}
+W.~Lipscomb and T.~Ringler.
+\newblock An incremental remapping transport scheme on a spherical geodesic
+  grid.
+\newblock \emph{Mon. Wea. Rev.}, 133\penalty0 (8):\penalty0 2335--2350, 2005.
+
+\bibitem[Margolin and Shashkov(2006)]{MS06}
+L.~Margolin and M.~Shashkov.
+\newblock {MPDATA}: gauge transformations, limiters and monotonicity.
+\newblock \emph{Int. J. Numer. Meth. Fluids}, 50\penalty0 (10):\penalty0
+  1193--1206, 2006.
+
+\bibitem[Miura(2007)]{Miu07b}
+H.~Miura.
+\newblock An upwind-biased conservative advection scheme for spherical
+  hexagonal-pentagonal grids.
+\newblock \emph{Mon. Wea. Rev.}, 135:\penalty0 4038--4044, 2007.
+
+\bibitem[Miura(2013)]{Miu13}
+H.~Miura.
+\newblock An upwind-biased conservative transport scheme for multistage
+  temporal integrations on spherical icosahedral grids.
+\newblock \emph{Mon. Wea. Rev.}, 141\penalty0 (11):\penalty0 4049--4068, 2013.
+
+\bibitem[Norman(2014)]{Nor14}
+M.~Norman.
+\newblock A {WENO}-limited, {ADER-DT}, finite-volume scheme for efficient,
+  robust, and communication-avoiding multi-dimensional transport.
+\newblock \emph{J. Comput. Phys.}, 274:\penalty0 1--18, 2014.
+
+\bibitem[Pudykiewicz and Staniforth(1984)]{PS84}
+J.~Pudykiewicz and A.~Staniforth.
+\newblock Some properties and comparative performance of the semi-{Lagrangian}
+  method of {Robert} in the solution of the advection-diffusion equation.
+\newblock \emph{Atmosphere-Ocean}, 22\penalty0 (3):\penalty0 283--308, 1984.
+
+\bibitem[Putman and Lin(2007)]{PL07}
+W.~Putman and S.-J. Lin.
+\newblock Finite-volume transport on various cubed-sphere grids.
+\newblock \emph{J. Comput. Phys.}, 227:\penalty0 55--78, 2007.
+
+\bibitem[Skamarock and Gassmann(2011)]{SG11}
+W.~Skamarock and A.~Gassmann.
+\newblock Conservative transport schemes for spherical geodesic grids:
+  High-order flux operators for {ODE}-based time integration.
+\newblock \emph{Mon. Wea. Rev.}, 139\penalty0 (9):\penalty0 2962--2975, 2011.
+
+\bibitem[Skamarock and Menchaca(2010)]{SM10}
+W.~Skamarock and M.~Menchaca.
+\newblock Conservative transport schemes for spherical geodesic grids:
+  High-order reconstructions for forward-in-time schemes.
+\newblock \emph{Mon. Wea. Rev.}, 138\penalty0 (12):\penalty0 4497--4508, 2010.
+
+\bibitem[Smolarkiewicz(1982)]{Smo82}
+P.~Smolarkiewicz.
+\newblock The multi-dimensional {Crowley} advection scheme.
+\newblock \emph{Mon. Wea. Rev.}, 110\penalty0 (12):\penalty0 1968--1983, 1982.
+
+\bibitem[Smolarkiewicz(1983)]{Smol83}
+P.~Smolarkiewicz.
+\newblock A simple positive definite advection scheme with small implicit
+  diffusion.
+\newblock \emph{Mon. Wea. Rev.}, 111\penalty0 (3):\penalty0 479--486, 1983.
+
+\bibitem[Smolarkiewicz and Clark(1986)]{SC86}
+P.~Smolarkiewicz and T.~Clark.
+\newblock The multidimensional positive definite advection transport algorithm:
+  Further development and applications.
+\newblock \emph{J. Comput. Phys.}, 67\penalty0 (2):\penalty0 396--438, 1986.
+
+\bibitem[Smolarkiewicz and Grabowski(1990)]{SG90}
+P.~Smolarkiewicz and W.~Grabowski.
+\newblock The multidimensional positive definite advection transport algorithm:
+  nonoscillatory option.
+\newblock \emph{J. Comput. Phys.}, 86\penalty0 (2):\penalty0 355--375, 1990.
+
+\bibitem[Smolarkiewicz and Margolin(1998)]{SM98}
+P.~Smolarkiewicz and L.~Margolin.
+\newblock {MPDATA}: A finite-difference solver for geophysical flows.
+\newblock \emph{J. Comput. Phys.}, 140:\penalty0 459--480, 1998.
+
+\bibitem[Smolarkiewicz and Pudykiewicz(1992)]{SP92}
+P.~Smolarkiewicz and J.~Pudykiewicz.
+\newblock A class of semi-lagrangian approximations for fluids.
+\newblock \emph{J. of Atmos Sci.}, 49\penalty0 (22):\penalty0 2082--2096, 1992.
+
+\bibitem[Steinle and Morrow(1989)]{SM89}
+P.~Steinle and R.~Morrow.
+\newblock An implicit flux-corrected transport algorithm.
+\newblock \emph{J. Comput. Phys.}, 80\penalty0 (1):\penalty0 61--71, 1989.
+
+\bibitem[Thuburn(1996)]{Thu96b}
+J.~Thuburn.
+\newblock Multidimensional flux-limited advection schemes.
+\newblock \emph{J. Comput. Phys.}, 123:\penalty0 74--83, 1996.
+
+\bibitem[van Slingerland(2007)]{vanSlin07}
+P.~van Slingerland.
+\newblock \emph{An accurate and robust finite volume method for the advection
+  diffusion equation}.
+\newblock PhD thesis, Delft University of Technology, 2007.
+
+\bibitem[Van~Slingerland et~al.(2008)Van~Slingerland, Borsboom, and
+  Vuik]{VBV08}
+P.~Van~Slingerland, M.~Borsboom, and C.~Vuik.
+\newblock A local theta scheme for advection problems with strongly varying
+  meshes and velocity profiles.
+\newblock Reports of the department of applied mathematical analysis, 08-17.
+  issn 1389-6520, Delft University of Technology, 2008.
+
+\bibitem[Xue and Lin(2001)]{XL01}
+M.~Xue and S.-J. Lin.
+\newblock Numerical equivalence of advection in flux and advective forms and
+  quadratically conservative high-order advection schemes.
+\newblock \emph{Mon. Wea. Rev.}, 129\penalty0 (3):\penalty0 561--565, 2001.
+
+\bibitem[Yee(1987)]{Yee87}
+H.~Yee.
+\newblock Construction of explicit and implicit symmetric {TVD} schemes and
+  their applications.
+\newblock \emph{J. Comput. Phys.}, 68\penalty0 (1):\penalty0 151--179, 1987.
+
+\bibitem[Yee et~al.(1982)Yee, Warminmg, and Harten]{YWH82}
+H.~Yee, R.~Warminmg, and A.~Harten.
+\newblock On the application and extension of {Harten's} high-resolution
+  scheme.
+\newblock Technical Report TM-84256, NASA, June 1982.
+
+\bibitem[Yee et~al.(1985)Yee, Warming, and Harten]{YWH85}
+H.~Yee, R.~Warming, and A.~Harten.
+\newblock Implicit total variation diminishing {(TVD)} schemes for steady-state
+  calculations.
+\newblock \emph{J. Comput. Phys.}, 57\penalty0 (3):\penalty0 327--360, 1985.
+
+\bibitem[Zalesak(1979)]{Zal79}
+S.~Zalesak.
+\newblock Fully multidimensional flux-corrected transport algorithms for
+  fluids.
+\newblock \emph{J. Comput. Phys.}, 31\penalty0 (3):\penalty0 335--362, 1979.
+
+\bibitem[Zerroukat et~al.(2006)Zerroukat, Wood, and Staniforth]{ZWS06}
+M.~Zerroukat, N.~Wood, and A.~Staniforth.
+\newblock The parabolic spline method (psm) for conservative transport
+  problems.
+\newblock \emph{International Journal for Numerical Methods in Fluids},
+  51\penalty0 (11):\penalty0 1297--1318, 2006.
+
+\end{thebibliography}

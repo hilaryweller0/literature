@@ -1,0 +1,330 @@
+\begin{thebibliography}{51}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Ascher et~al.(1997)Ascher, Ruuth, and Spiteri]{ARS97}
+U.~Ascher, S.~Ruuth, and R.~Spiteri.
+\newblock {Implicit-Explicit Runge-Kutta} methods for time-dependent partial
+  differential equations.
+\newblock \emph{Applied Numerical Mathematics}, 25\penalty0 (2-3):\penalty0
+  151--167, 1997.
+\newblock \doi{{10.1016/S0168-9274(97)00056-1}}.
+\newblock {Workshop on Innovative Time Integrators, CTR MATH \& COMP SCI,
+  AMSTERDAM, NETHERLANDS, OCT 30-NOV 01, 1996}.
+
+\bibitem[Brassington and Sanderson(1999)]{BS99}
+G.~Brassington and B.~Sanderson.
+\newblock {Semi-Lagrangian and COSMIC} advection in flows with rotation or
+  deformation.
+\newblock \emph{Atmosphere-Ocean}, 37\penalty0 (4):\penalty0 369--388, 1999.
+
+\bibitem[Colella and Woodward(1984)]{CW84}
+P.~Colella and P.~Woodward.
+\newblock The piecewise parabolic method ({PPM}) for gas-dynamical simulations.
+\newblock \emph{J. Comput. Phys.}, 1984.
+
+\bibitem[Cueto-Felgueroso et~al.(2007)Cueto-Felgueroso, Colominas, Nogueira,
+  Navarrina, and Casteleiro]{CCN+07}
+L.~Cueto-Felgueroso, I.~Colominas, X.~Nogueira, F.~Navarrina, and
+  M.~Casteleiro.
+\newblock Finite volume solvers and moving least-squares approximations for the
+  compressible {Navier-Stokes} equations on unstructured grids.
+\newblock \emph{Comput. Methods Appl. Mech. Engrg.}, 2007.
+
+\bibitem[Davies et~al.(2005)Davies, Cullen, Malcolm, Mawson, Staniforth, White,
+  and Wood]{DCM+05}
+T.~Davies, M.~Cullen, A.~Malcolm, M.~Mawson, A.~Staniforth, A.~White, and
+  N.~Wood.
+\newblock {A new dynamical core for the Met Office's global and regional
+  modelling of the atmosphere}.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 131\penalty0 (608):\penalty0
+  1759--1782, 2005.
+\newblock \doi{{10.1256/qj.04.101}}.
+
+\bibitem[Durran(2010)]{Dur10}
+D.~Durran.
+\newblock \emph{Numerical Methods for Fluid Dynamics With Applications to
+  Geophysics}, volume~32 of \emph{Texts in Applied Mathematics}.
+\newblock Springer, 2nd edition, 2010.
+\newblock ISBN {1441964118}.
+
+\bibitem[Durran and Blossey(2012)]{DB12}
+D.~Durran and P.~Blossey.
+\newblock Implicit-explicit multistep methods for fast-wave--slow-wave
+  problems.
+\newblock \emph{Mon. Wea. Rev.}, 140\penalty0 (4):\penalty0 1307--1325, 2012.
+\newblock \doi{{10.1175/MWR-D-11-00088.1}}.
+
+\bibitem[ECMWF 2004()]{ECMWF04}
+ECMWF 2004.
+\newblock \emph{Recent developments in numerical methods for atmosphere and
+  ocean modelling}, \raggedright http://www.ecmwf.int/publications, 6-10 Sept
+  2004. ECMWF.
+
+\bibitem[Ferracina and Spijker(2008)]{FS08}
+L.~Ferracina and M.~Spijker.
+\newblock Strong stability of singly-diagonally-implicit {Runge-Kutta} methods.
+\newblock \emph{Applied Numerical Mathematics}, 58:\penalty0 1675--1686, 2008.
+
+\bibitem[Gottlieb and Shu(1998)]{GS98}
+S.~Gottlieb and C.-W. Shu.
+\newblock Total variation diminishing {Runge-Kutta} schemes.
+\newblock \emph{Mathematics of Computation}, 67\penalty0 (221):\penalty0
+  73--85, 1998.
+
+\bibitem[Gottlieb et~al.(2001)Gottlieb, Shu, and Tadmor]{GST01}
+S.~Gottlieb, C.-W. Shu, and E.~Tadmor.
+\newblock Strong stability-preserving high-order time discretization methods.
+\newblock \emph{SIAM review}, 43\penalty0 (1):\penalty0 89--112, 2001.
+
+\bibitem[Harris et~al.(2011)Harris, Lauritzen, and Mittal]{HLM11}
+L.~Harris, P.~Lauritzen, and R.~Mittal.
+\newblock A flux-form version of the conservative semi-lagrangian multi-tracer
+  transport scheme (cslam) on the cubed sphere grid.
+\newblock \emph{J. Comput. Phys.}, 230\penalty0 (4):\penalty0 1215--1237, 2011.
+
+\bibitem[Hortal(2002)]{Hort02}
+M.~Hortal.
+\newblock The development and testing of a new two-time-level semi-{Lagrangian
+  scheme (SETTLS) in the ECMWF} forecast model.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 128:\penalty0 1671--1687, 2002.
+
+\bibitem[Huang et~al.(2012)Huang, Arbogast, and Qiu]{HAQ12}
+C.-S. Huang, T.~Arbogast, and J.~Qiu.
+\newblock An {Eulerian-Lagrangian} {WENO} finite volume scheme for advection
+  problems.
+\newblock \emph{J. Comput. Phys.}, 231\penalty0 (11):\penalty0 4028--4052,
+  2012.
+
+\bibitem[Kaas(2008)]{Kaas08}
+E.~Kaas.
+\newblock A simple and efficient locally mass conserving semi-lagrangian
+  transport scheme.
+\newblock \emph{Tellus A}, 60\penalty0 (2):\penalty0 305--320, 2008.
+
+\bibitem[Katta et~al.(2015)Katta, Nair, and Kumar]{KNK15}
+K.~Katta, R.~Nair, and V.~Kumar.
+\newblock High-order finite-volume transport on the cubed sphere: comparison
+  between 1d and 2d reconstruction schemes.
+\newblock \emph{Mon. Wea. Rev.}, 143\penalty0 (7):\penalty0 2937--2954, 2015.
+
+\bibitem[Kent et~al.(2014)Kent, Ullrich, and Jablonowski]{KUJ14}
+J.~Kent, P.~Ullrich, and C.~Jablonowski.
+\newblock Dynamical core model intercomparison project: Tracer transport test
+  cases.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 140\penalty0 (681):\penalty0
+  1279--1293, Apr 2014.
+
+\bibitem[Lauritzen(2007)]{Lau07}
+P.~Lauritzen.
+\newblock A stability analysis of finite-volume advection schemes permitting
+  long time steps.
+\newblock \emph{Mon. Wea. Rev.}, 135\penalty0 (7):\penalty0 2658--2673, 2007.
+
+\bibitem[Lauritzen et~al.(2012)Lauritzen, Skamarock, Prather, and
+  Taylor]{LSPT12}
+P.~H. Lauritzen, W.~C. Skamarock, M.~J. Prather, and M.~A. Taylor.
+\newblock A standard test case suite for two-dimensional linear transport on
+  the sphere.
+\newblock \emph{Geosci. Model Dev.}, 5\penalty0 (3):\penalty0 887--901, 2012.
+
+\bibitem[Lauritzen et~al.(2014)Lauritzen, Ullrich, Jablonowski, and
+  Co-authors]{LUJ+14}
+P.~H. Lauritzen, P.~A. Ullrich, C.~Jablonowski, and Co-authors.
+\newblock A standard test case suite for two-dimensional linear transport on
+  the sphere: results from a collection of state-of-the-art schemes.
+\newblock \emph{Geosci. Model Dev.}, 7\penalty0 (1):\penalty0 105--145, 2014.
+
+\bibitem[Leonard et~al.(1995)Leonard, Lock, and Macvean]{LLM95}
+B.~Leonard, A.~Lock, and M.~Macvean.
+\newblock The {NIRVANA} scheme applied to one-dimensional advection.
+\newblock \emph{Int. J. Num. Meth. Heat Fluid Flow}, 5:\penalty0 341--377,
+  1995.
+
+\bibitem[Leonard et~al.(1996)Leonard, Lock, and MacVean]{LLM96}
+B.~Leonard, A.~Lock, and M.~MacVean.
+\newblock Conservative explicit unrestricted-time-step multidimensional
+  constancy-preserving advection schemes.
+\newblock \emph{Mon. Wea. Rev.}, 124\penalty0 (11):\penalty0 2585--2606, 1996.
+
+\bibitem[Lin and Rood(1996)]{LR96}
+S.~Lin and R.~Rood.
+\newblock Multidimensional flux-form semi-{L}agrangian transport schemes.
+\newblock \emph{Mon. Wea. Rev.}, 124:\penalty0 2046--2070, 1996.
+
+\bibitem[Lipscomb and Ringler(2005)]{LR05b}
+W.~Lipscomb and T.~Ringler.
+\newblock An incremental remapping transport scheme on a spherical geodesic
+  grid.
+\newblock \emph{Mon. Wea. Rev.}, 133\penalty0 (8):\penalty0 2335--2350, 2005.
+
+\bibitem[Lock et~al.(2014)Lock, Wood, and Weller]{LWW14}
+S.~Lock, N.~Wood, and H.~Weller.
+\newblock Numerical analyses of {Runge-Kutta} implicit-explicit schemes for
+  horizontally-explicit vertically-implicit solutions of atmospheric models.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 140\penalty0 (682):\penalty0
+  1654--1669, 2014.
+
+\bibitem[Minion(2004)]{Min04}
+M.~Minion.
+\newblock Semi-implicit projection methods for incompressible flow based on
+  spectral deferred corrections.
+\newblock \emph{Applied Numerical Mathematics}, 48\penalty0 (3):\penalty0
+  369--387, 2004.
+
+\bibitem[Miura(2007)]{Miu07b}
+H.~Miura.
+\newblock An upwind-biased conservative advection scheme for spherical
+  hexagonal-pentagonal grids.
+\newblock \emph{Mon. Wea. Rev.}, 135:\penalty0 4038--4044, 2007.
+
+\bibitem[Miura(2013)]{Miu13}
+H.~Miura.
+\newblock An upwind-biased conservative transport scheme for multistage
+  temporal integrations on spherical icosahedral grids.
+\newblock \emph{Mon. Wea. Rev.}, 141\penalty0 (11):\penalty0 4049--4068, 2013.
+
+\bibitem[Nair and Jablonowski(2008)]{NJ08}
+R.~Nair and C.~Jablonowski.
+\newblock Moving vortices on the sphere: A test case for horizontal advection
+  problems.
+\newblock \emph{Mon. Wea. Rev.}, 136:\penalty0 699--711, 2008.
+
+\bibitem[Nair et~al.(2002)Nair, Scroggs, and Semazzi]{NSS02}
+R.~Nair, J.~Scroggs, and F.~Semazzi.
+\newblock Efficient conservative global transport schemes for climate and
+  atmospheric chemistry models.
+\newblock \emph{Mon. Wea. Rev.}, 130\penalty0 (8):\penalty0 2059--2073, 2002.
+
+\bibitem[Pareschi and Russo(2005)]{PR05}
+L.~Pareschi and G.~Russo.
+\newblock Implicit-explicit {Runge--Kutta} schemes and application to
+  hyperbolic systems with relaxation.
+\newblock \emph{J. Sci. Comp.}, 25\penalty0 (1/2):\penalty0 129--155, 2005.
+\newblock \doi{10.1007/s10915-004-4636-4}.
+
+\bibitem[Pudykiewicz and Staniforth(1984)]{PS84}
+J.~Pudykiewicz and A.~Staniforth.
+\newblock Some properties and comparative performance of the semi-{Lagrangian}
+  method of {Robert} in the solution of the advection-diffusion equation.
+\newblock \emph{Atmosphere-Ocean}, 22\penalty0 (3):\penalty0 283--308, 1984.
+
+\bibitem[Putman and Lin(2007)]{PL07}
+W.~Putman and S.-J. Lin.
+\newblock Finite-volume transport on various cubed-sphere grids.
+\newblock \emph{J. Comput. Phys.}, 227:\penalty0 55--78, 2007.
+
+\bibitem[Robert(1982)]{Rob82}
+A.~Robert.
+\newblock A semi-{L}agrangian and semi-implicit numerical-integration scheme
+  for the primitive meteorological equations.
+\newblock \emph{J. Meteor.-Soc. Japan}, 60\penalty0 (1):\penalty0 319--325,
+  1982.
+
+\bibitem[Schneider and Bott(2014)]{SB14}
+W.~Schneider and A.~Bott.
+\newblock On the time-splitting errors of one-dimensional advection schemes in
+  numerical weather prediction models; a comparative study.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 140:\penalty0 2321--2329, 2014.
+\newblock \doi{10.1002/qj.2301}.
+
+\bibitem[Shaw et~al.(2017)Shaw, Weller, Methven, and Davies]{SWMD17}
+J.~Shaw, H.~Weller, J.~Methven, and T.~Davies.
+\newblock Multidimensional method-of-lines transport for atmospheric flows over
+  steep terrain using arbitrary meshes.
+\newblock \emph{J. Comput. Phys.}, 344:\penalty0 86--107, 2017.
+
+\bibitem[Skamarock and Gassmann(2011)]{SG11}
+W.~Skamarock and A.~Gassmann.
+\newblock Conservative transport schemes for spherical geodesic grids:
+  High-order flux operators for {ODE}-based time integration.
+\newblock \emph{Mon. Wea. Rev.}, 139\penalty0 (9):\penalty0 2962--2975, 2011.
+
+\bibitem[Skamarock and Menchaca(2010)]{SM10}
+W.~Skamarock and M.~Menchaca.
+\newblock Conservative transport schemes for spherical geodesic grids:
+  High-order reconstructions for forward-in-time schemes.
+\newblock \emph{Mon. Wea. Rev.}, 138\penalty0 (12):\penalty0 4497--4508, 2010.
+
+\bibitem[Smolarkiewicz(1982)]{Smo82}
+P.~Smolarkiewicz.
+\newblock The multi-dimensional {Crowley} advection scheme.
+\newblock \emph{Mon. Wea. Rev.}, 110\penalty0 (12):\penalty0 1968--1983, 1982.
+
+\bibitem[Smolarkiewicz and Pudykiewicz(1992)]{SP92}
+P.~Smolarkiewicz and J.~Pudykiewicz.
+\newblock A class of semi-lagrangian approximations for fluids.
+\newblock \emph{J. of Atmos Sci.}, 49\penalty0 (22):\penalty0 2082--2096, 1992.
+
+\bibitem[Smolarkiewicz and Szmelter(2009)]{SS09}
+P.~Smolarkiewicz and J.~Szmelter.
+\newblock Iterated upwind schemes for gas dynamics.
+\newblock \emph{J. Comput. Phys.}, 228:\penalty0 33--54, 2009.
+
+\bibitem[Staniforth and C\^{o}t\'{e}(1991)]{SC91}
+A.~Staniforth and J.~C\^{o}t\'{e}.
+\newblock Semi-{L}agrangian integration schemes for atmospheric models - a
+  review.
+\newblock \emph{Mon. Wea. Rev.}, 119\penalty0 (9):\penalty0 2206--2223, 1991.
+
+\bibitem[Staniforth and Thuburn(2012)]{ST12}
+A.~Staniforth and J.~Thuburn.
+\newblock Horizontal grids for global weather and climate prediction models: a
+  review.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 138\penalty0 (662):\penalty0
+  1--26, 2012.
+
+\bibitem[Sweby(1984)]{Sweb84}
+P.~Sweby.
+\newblock High-resolution schemes using flux limiters for hyperbolic
+  conservation-laws.
+\newblock \emph{SIAM Journal of Numerical Analysis}, 21\penalty0 (5):\penalty0
+  995--1011, 1984.
+
+\bibitem[Thuburn(1996)]{Thu96b}
+J.~Thuburn.
+\newblock Multidimensional flux-limited advection schemes.
+\newblock \emph{J. Comput. Phys.}, 123:\penalty0 74--83, 1996.
+
+\bibitem[Thuburn(2008)]{Thu08}
+J.~Thuburn.
+\newblock Numerical wave propagation on the hexagonal {C}-grid.
+\newblock \emph{J. Comput. Phys.}, 227\penalty0 (11):\penalty0 5836--5858,
+  2008.
+
+\bibitem[Weller et~al.(2013)Weller, Lock, and Wood]{WLW13}
+H.~Weller, S.-J. Lock, and N.~Wood.
+\newblock {Runge-Kutta IMEX} schemes for the horizontally explicit/vertically
+  implicit ({HEVI}) solution of wave equations.
+\newblock \emph{J. Comput. Phys.}, 252:\penalty0 365--381, 2013.
+
+\bibitem[Xue and Lin(2001)]{XL01}
+M.~Xue and S.-J. Lin.
+\newblock Numerical equivalence of advection in flux and advective forms and
+  quadratically conservative high-order advection schemes.
+\newblock \emph{Mon. Wea. Rev.}, 129\penalty0 (3):\penalty0 561--565, 2001.
+
+\bibitem[Zalesak(1979)]{Zal79}
+S.~Zalesak.
+\newblock Fully multidimensional flux-corrected transport algorithms for
+  fluids.
+\newblock \emph{J. Comput. Phys.}, 31\penalty0 (3):\penalty0 335--362, 1979.
+
+\bibitem[Zerroukat et~al.(2004)Zerroukat, Wood, and Staniforth]{ZWS04}
+M.~Zerroukat, N.~Wood, and A.~Staniforth.
+\newblock {SLICE-S: A Semi-Lagrangian Inherently Conserving and Efficient
+  scheme for transport problems on the sphere}.
+\newblock \emph{Quart. J. Roy. Meteor. Soc.}, 130\penalty0 (602):\penalty0
+  2649--2664, 2004.
+
+\bibitem[Zerroukat et~al.(2006)Zerroukat, Wood, and Staniforth]{ZWS06}
+M.~Zerroukat, N.~Wood, and A.~Staniforth.
+\newblock The parabolic spline method (psm) for conservative transport
+  problems.
+\newblock \emph{International Journal for Numerical Methods in Fluids},
+  51\penalty0 (11):\penalty0 1297--1318, 2006.
+
+\end{thebibliography}

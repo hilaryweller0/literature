@@ -1,0 +1,68 @@
+\documentclass[12pt,british,12pt, round,comma,sort&compress]{article}
+\usepackage{mathptmx}
+\renewcommand{\familydefault}{\rmdefault}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx,amsmath}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
+\setcounter{secnumdepth}{5}
+\setcounter{tocdepth}{5}
+\setlength{\parskip}{\smallskipamount}
+\setlength{\parindent}{0pt}
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\usepackage{color}
+\newcommand{\nicefrac}[2]{\ensuremath ^{#1}\!\!/\!_{#2}}
+\usepackage{fancybox}
+
+\renewcommand{\floatpagefraction}{0.95}
+\renewcommand{\textfraction}{0}
+\renewcommand{\topfraction}{1}
+\renewcommand{\bottomfraction}{1}
+
+\usepackage{bibentry}
+\bibliographystyle{abbrvnat}
+\nobibliography{numerics}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+
+\title{Rayley-B\'{e}nard Convection}
+\author{Hilary Weller}
+\maketitle
+
+\begin{itemize}
+
+\item \bibentry{Kerr96}
+
+\item \bibentry{ISSS20} \ \\
+\includegraphics[trim=350 20 450 60,clip, width=\linewidth, angle=180]{ISSS20.jpg}
+
+\item \bibentry{KRS20} \ \\
+\includegraphics[angle=90, trim=30 400 20 400,clip, width=\linewidth]{KRS20.jpg}
+
+\item \bibentry{AIS02} \ \\
+\fbox{\includegraphics[width=\linewidth]{AIS02eqns.png}}
+
+\item \bibentry{KH06} \ \\
+Reduced algebraic Reynolds stress model with prognostic equations for $k$, $\varepsilon$ and $\theta^2$ in low Reynolds number region near the wall. LES away from the wall.\\
+\fbox{\includegraphics[width=\linewidth]{KH06_1.png}}
+\fbox{\includegraphics[width=\linewidth]{KH06_2.png}}
+
+
+\item \bibentry{GL04}
+\item \bibentry{GL00}
+\item \bibentry{GL01}
+\item \bibentry{GL02}
+\item \bibentry{GL03}
+
+
+\end{itemize}
+
+\nobibliography{numerics}
+
+\end{document}

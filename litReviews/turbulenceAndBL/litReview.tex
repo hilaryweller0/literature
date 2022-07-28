@@ -49,6 +49,89 @@ Transport equations for turbulence co-variances, $\overline{u_i u_k}$, $\overlin
 
 \end{itemize}
 
+\section*{Channel Flow}
+
+\begin{itemize}
+
+\item \bibentry{Hedl14} \ \\
+Early DNS results for channel
+flow were presented by Kim, Moin and Moser [3], and a continuation of this
+work, which includes higher Re-numbers, where presented by Moser, Kim
+and Mansour [4].
+
+\item \bibentry{MKM99}
+
+\item \bibentry{KMM87}
+
+
+\item \bibentry{LM15} \ \\
+``to investigate the differences between channel flow turbulence and boundary layer turbulence, a simulation at $Re_\tau=2000$ of a zero-pressure-gradient boundary layer was performed by Sillero, Jim\'enez and Moser (2013).''\\
+``The flow is driven by a uniform pressure gradient, which varies in time to ensure that the mass flux through the channel remains constant.''\\
+Data at \url{http://turbulence.ices.utexas.edu}\\
+
+\item \bibentry{KABA05} \ \\
+``outer layer is very little aﬀected by the roughness''\\
+$Re_\tau$ is Reynolds number based on friction velocity.\\
+DNS $Re_\tau\le 400$.\\
+Lab, $Re_\tau\ge 600$.\\
+
+\item \bibentry{LODA06} \ \\
+``The roughness elements consist of transverse square rods of size $k$, placed
+on one wall of the channel only.''
+
+\item \bibentry{JH15} \ \\
+Compare 7 turbulence models with DNS.\\
+RANS simulations with Fluent are 2D, resolving roughness elements.\\
+RANS simulations are of a channel with just one rough and one smooth wall\\
+Prefer the ``parameter extension method (PEM) was recently introduced by
+Jin and Herwig''.\\
+Have emailed about data availability.
+
+\item \bibentry{ID07} \ \\
+Rough on one side only\\
+$Re_\tau=460$ \\
+Compared with 2D RANS. \\
+Digitise at \url{https://apps.automeris.io/wpd/}
+
+\item \bibentry{BS11} \ \\
+DNS but not resolving the roughness (uses a parameter in NS instead)\\
+Symmetric channel. Graphs only of velocity profiles.
+
+\item \bibentry{TBB00} \ \\ Not available to UoR
+
+\item \bibentry{BS12} \ \\
+``The roughness term is in all cases applied symmetrically to the upper and lower
+parts of the channel, with the shape function being symmetric to the centreline of the channel.''
+
+\item \bibentry{CMK77}
+
+\item \bibentry{BTS17} \ \\
+Mean velocity data and pdfs of components of TKE.
+
+\item \bibentry{Aupo15} \ \\
+``equations in the wall region are solved, neglecting pressure gradient''\\
+Equations made dimensionless with friction velocity and viscosity.\\
+250 grid points from $y^+=0.01$ to $y^+=38,000$ with expansion ratio of 1.05.\\
+For a smooth wall, $k^+$ is null at the wall and $\omega^+=6/\beta y^{+2}$ is imposed at the first grid point.\\
+For a rough wall, finite values of $k^+$ and $\omega^+$ are imposed at the wall, according to the considered roughness correction.\\
+The boundary conditions in the logarithmic region are the equilibrium logarithmic region values $k^+=1/\sqrt{\beta^*}$, $\omega^+=1/\sqrt{\beta^*}\kappa y^+$.
+
+\item \bibentry{Thak17} \ \\
+``2.3 DNS of turbulent channel flow''\\
+\includegraphics[width=\textwidth]{/home/hilary/papers/PhDs/Thakkar17Data/Fig2p4.png}\\
+Friction Reynolds number: $Re_\tau =\frac{u_\tau \delta}{\nu}$\\
+$\Delta z_{\min}^+ <1$ and $\Delta z_{\max}^+ \le 5$.\\
+NS equations non-dimensionalised by $\delta$ and $u_\tau$.\\
+Channel flow driven by constant mean streamwise pressure gradient\\
+$u_\tau^2 = -\frac{\delta}{\rho}\frac{dP}{dx} = 1$\\
+$f_{emb}$ is an additional forcing function term in the non-dimensionalised momm eqn to account for roughness.\\
+Roughness function, or roughness effect (or deficit), $\Delta U^+$ is the difference between $U^+$ for a rough and smooth surface.
+
+Smooth-wall simulations\\
+\includegraphics[width=\textwidth]{/home/hilary/papers/PhDs/Thakkar17Data/tab4p1.png}
+
+\end{itemize}
+
 \section*{Convection Related}
 
 \begin{itemize}
@@ -71,6 +154,23 @@ it is stopped by buoyancy effects.'' An algebraic equation.
 
 ``Moeng (2014) parametrized the turbulent fluxes based on
 products of the horizontal gradients of the resolved variables.''
+
+
+\item \bibentry{BSS22}
+
+\item \bibentry{CD93} \ \\
+\includegraphics[width=0.6\linewidth]{notes/CD93.png}
+
+\item \bibentry{SST07} \ \\
+\includegraphics[width=0.6\linewidth]{notes/SST07a.pdf}
+\includegraphics[width=0.6\linewidth]{notes/SST07b.pdf}
+\includegraphics[width=0.6\linewidth]{notes/SST07c.pdf}
+
+
+\item \bibentry{SC95}
+
+\item \bibentry{TEB19} \ \\
+\includegraphics[width=0.6\linewidth]{notes/TEB19.pdf}
 
 \end{itemize}
 
@@ -214,6 +314,11 @@ Not about the TKE scheme
 \item \bibentry{Moen84} \ \\
 Gives TKE model solved for sub-grid-scale turbulence therefore mixing lengths are small
 
+\item \bibentry{SLS+94}\ \\
+
+\item \bibentry{HW07}
+
+\item \bibentry{BHC97}
 
 \end{itemize}
 

@@ -1,0 +1,4989 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{WBKM{\etalchar{+}}08}
+
+\bibitem[ABC{\etalchar{+}}98]{ABC+98}
+A.S. Almgren, J.B. Bell, P.~Colella, L.H. Howell, and M.L. Welcome.
+\newblock A conservative adaptive projection method for the variable density
+  incompressible {Navier-Stokes} equations.
+\newblock {\em J. Comput. Phys.}, 142(1):1--46, 1998.
+
+\bibitem[Abg01]{Abg01}
+R.~Abgrall.
+\newblock Toward the ultimate conservative scheme: Following the quest.
+\newblock {\em J. Comput. Phys.}, 167(2):277--315, 2001.
+
+\bibitem[ACHM04]{ACHM04}
+A.~Adcroft, J-M Campin, C.~Hill, and J.~Marshall.
+\newblock Implementation of an atmosphere-ocean general circulation model on
+  the expanded spherical cube.
+\newblock {\em Mon. Wea. Rev.}, 132(12):2845--2863, 2004.
+
+\bibitem[Adc13]{Adc13}
+A.~Adcroft.
+\newblock Representation of topography by porous barriers and objective
+  interpolation of topographic data.
+\newblock {\em Ocean Model.}, 67:13--27, 2013.
+
+\bibitem[ADK{\etalchar{+}}03]{ADK+03}
+S.E. Allen, M.S. Dinniman, J.M. Klinck, D.D. Gorby, A.J. Hewett, and B.M.
+  Hickey.
+\newblock On vertical advection truncation errors in terrain-following
+  numerical models: Comparison to a laboratory model for upwelling over
+  submarine canyons.
+\newblock {\em J. Geophys. Res. - Oceans}, 108(C1), 2003.
+
+\bibitem[AH90]{AH90}
+A.~Arakawa and Y.-J.~G. Hsu.
+\newblock Energy conserving and potential-enstrophy dissipating schemes for the
+  shallow water equations.
+\newblock {\em Mon. Wea. Rev.}, 118(10):1960--1969, 1990.
+
+\bibitem[AH06]{AH06}
+A.~Adcroft and R.~Hallberg.
+\newblock On methods for solving the oceanic equations of motion in generalized
+  vertical coordinates.
+\newblock {\em Ocean Model.}, 11(1-2):224--233, 2006.
+
+\bibitem[AHM97]{AHM97}
+A.J. Adcroft, C.N. Hill, and J.C. Marshall.
+\newblock Representation of topography by shaved cells in a height coordinate
+  ocean model.
+\newblock {\em Mon. Wea. Rev.}, 125:2293--2315, 1997.
+
+\bibitem[AHM99]{AHM99}
+A.J. Adcroft, C.N. Hill, and J.C. Marshall.
+\newblock A new treatment of the coriolis terms in {C}-grid models at both high
+  and low resolutions.
+\newblock {\em Mon. Wea. Rev.}, 127(8):1928--1936, 1999.
+
+\bibitem[Ahm04]{ahmad2004}
+N.~Ahmad.
+\newblock {\em The Geometry of Shape Recognition via the {Monge-Kantorovich}
+  Optimal Transport Problem}.
+\newblock PhD thesis, Providence, RI, USA, 2004.
+\newblock AAI3134240.
+
+\bibitem[AIX10]{AIX10}
+R~Akoh, S.~Ii, and F.~Xiao.
+\newblock A multi-moment finite volume formulation for shallow water equations
+  on unstructured mesh.
+\newblock {\em J. Comput. Phys.}, 229:4567--4590, 2010.
+
+\bibitem[AK67]{AK67}
+T.~Asai and A.~Kasahara.
+\newblock A theoretical study of the compensating downward motions associated
+  with cumulus clouds.
+\newblock {\em J. of Atmos Sci.}, 24:487--496, 1967.
+
+\bibitem[AK96]{AK96}
+A.~Arakawa and C.S. Konor.
+\newblock Vertical differencing of the primitive equations based on the
+  {C}harney-{P}hillips grid in hybrid $\sigma-p$ vertical coordinates.
+\newblock {\em Mon. Wea. Rev.}, 124(3):511--528, 1996.
+
+\bibitem[AL77]{AL77}
+A.~Arakawa and V.~Lamb.
+\newblock Computational design of the basic dynamical processes of the {UCLA}
+  general circulation model.
+\newblock {\em {Methods in Computational Physics}}, 17:173--265, 1977.
+
+\bibitem[AL81]{AL81}
+A.~Arakawa and V.R. Lamb.
+\newblock A potential enstrophy and energy conserving scheme for the shallow
+  water equations.
+\newblock {\em Mon. Wea. Rev.}, 109(1):18--36, 1981.
+
+\bibitem[AL08]{AL08}
+J.M. Alam and J.C. Lin.
+\newblock Towards a fully lagrangian atmospheric modeling system.
+\newblock {\em Mon. Wea. Rev.}, 136:4652--4667, 2008.
+
+\bibitem[AM88]{AM88}
+A.~Arakawa and S.~Moorthi.
+\newblock Baroclinic instability in vertically discrete systems.
+\newblock {\em J. of Atmos Sci.}, 45(11):1688--1707, 1988.
+
+\bibitem[AMG05]{AG05}
+J.~Al-Maskari and A.M. Gadian.
+\newblock Comparison of four non-hydrostatic models for flow over the {I}sle of
+  {A}ran.
+\newblock {\em Atmos. Sci. Lett.}, 6:152--159, 2005.
+
+\bibitem[APG08]{APG08}
+B.J. Abiodun, J.M. Prusa, and W.J. Gutowski.
+\newblock Implementation of a non-hydrostatic, adaptive-grid dynamics core in
+  {CAM}3. {Part I}: comparison of dynamics cores in aqua-planet simulations.
+\newblock {\em Climate Dyn.}, 31(7-8):795--810, 2008.
+
+\bibitem[Ara04]{Ara04}
+A.~Arakawa.
+\newblock The cumulus parameterization problem: Past, present, and future.
+\newblock {\em J. Climate}, 17:2493--2525, 2004.
+
+\bibitem[ARS97]{ARS97}
+U.M. Ascher, S.J. Ruuth, and R.J. Spiteri.
+\newblock {Implicit-Explicit Runge-Kutta} methods for time-dependent partial
+  differential equations.
+\newblock {\em Applied Numerical Mathematics}, 25(2-3):151--167, 1997.
+\newblock {Workshop on Innovative Time Integrators, CTR MATH \& COMP SCI,
+  AMSTERDAM, NETHERLANDS, OCT 30-NOV 01, 1996}.
+
+\bibitem[AS74]{AS74}
+A.~Arakawa and W.H. Schubert.
+\newblock Interaction of a cumulus cloud ensemble with the large-scale
+  environment, {Part I}.
+\newblock {\em J. of Atmos Sci.}, 31:674--701, 1974.
+
+\bibitem[Asa65]{Asai65}
+T.~Asai.
+\newblock A numerical study of the air-mass transformation over the {Japan} sea
+  in winter.
+\newblock {\em Journal of the Meteorological Society of Japan}, 43(1):1--15,
+  1965.
+
+\bibitem[Ass72]{Ass72}
+R.~Asselin.
+\newblock Frequency filter for time integrations.
+\newblock {\em Mon. Wea. Rev.}, 100:487--490, 1972.
+
+\bibitem[AW13]{AW13}
+A.~Arakawa and C-M Wu.
+\newblock A unified representation of deep moist convection in numerical
+  modeling of the atmosphere. part {I}.
+\newblock {\em J. of Atmos Sci.}, 70:1977--1992, 2013.
+
+\bibitem[BAB{\etalchar{+}}00]{BAB+00}
+D.P. Bacon, N.N. Ahmad, Z.~Boybeyi, T.J. Dunn, M.S. Hall, P.C.S. Lee, R.A.
+  Sarma, M.D. Turner, K.T. Waight, S.H. Young, and J.W. Zack.
+\newblock A dynamically adapting weather and dispersion model: {The Operational
+  Multiscale Environment Model with Grid Adaptivity (OMEGA)}.
+\newblock {\em Mon. Wea. Rev.}, 128(7):2044--2076, 2000.
+
+\bibitem[BAB{\etalchar{+}}01]{BAB+01}
+Z.~Boybeyi, N.N. Ahmad, D.P. Bacon, T.J. Dunn, M.S. Hall, P.C.S. Lee, ,
+  A.~Sarma, and T.R. Wait.
+\newblock {Evaluation of the operational multiscale environment model with grid
+  adaptivity against the European tracer experiment}.
+\newblock {\em J. Appl. Meteor.}, 40(9):1541--1558, Sep 2001.
+
+\bibitem[Bae92]{Baer92}
+M.R. Baer.
+\newblock A numerical study of shock wave reflections on low density foam.
+\newblock {\em Shock Waves}, pages 121--124, 1992.
+
+\bibitem[BB09]{BB09}
+J.~Behrens and M.~Bader.
+\newblock Efficiency considerations in triangular adaptive mesh refinement.
+\newblock {\em Phil. Trans. Roy. Soc.}, to appear, 2009.
+
+\bibitem[BBE{\etalchar{+}}08]{BBE+08}
+A.R. Brown, R.J. Beare, J.M. Edwards, A.P. Lock, S.J. Keogh, S.F. Milton, and
+  D.N. Walters.
+\newblock Upgrades to the boundary-layer scheme in the {Met Office} numerical
+  weather prediction model.
+\newblock {\em blm}, 128(1):117--132, 2008.
+
+\bibitem[BBK{\etalchar{+}}04]{BBK+04}
+A.~Beljaars, P.~Bechtold, M.~K{\"o}hler, J-J Morcrette, A.~Tompkins,
+  P.~Viterbo, and N.~Wedi.
+\newblock The numerics of physical parametrization.
+\newblock In {\em Proc. of {ECMWF} Seminar on Recent Developments in Numerical
+  Methods for Atmosphere and Ocean Modelling, {ECMWF}, {Reading, UK}}, 2004.
+
+\bibitem[BBPC14]{BBPC14}
+P.A. Browne, C.J. Budd, C.~Piccolo, and M.~Cullen.
+\newblock Fast three dimensional r-adaptive mesh redistribution.
+\newblock {\em J. Comput. Phys.}, 2014.
+
+\bibitem[BC16]{BC16}
+R.J. Beare and M.J.P. Cullen.
+\newblock Validating weather and climate models at small {Rossby} numbers:
+  including a boundary layer.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 2016.
+
+\bibitem[BC19]{BC19}
+R.J. Beare and M.J. Cullen.
+\newblock A simple model of a balanced boundary layer coupled to a large-scale
+  convective circulation.
+\newblock {\em J. of Atmos Sci.}, 76:837--849, 2019.
+
+\bibitem[BCB03]{BCB03}
+I.~Boztosun, A.~Charafi, and D.~Boztosun.
+\newblock {\em Meshfree Methods for Partial Differential Equations}, chapter On
+  the Numerical Solution of Linear Advection-Diffusion Equation using Compactly
+  Supported Radial Basis Functions, pages 63--73.
+\newblock Lecture Notes in Computational Science and Engineering. Springer,
+  2003.
+
+\bibitem[BCW13]{BCW13}
+C.J. Budd, M.J.P. Cullen, and E.J. Walsh.
+\newblock Monge-{A}mp\'{e}re based moving mesh methods for numerical weather
+  prediction, with applications to the {Eady} problem.
+\newblock {\em J. Comput. Phys.}, 236(247-270), 2013.
+
+\bibitem[BD03]{BD03}
+C.P. Brescianini and M.A. Delichatsios.
+\newblock New evaluation of the {$k-\varepsilon$} turbulence model for free
+  buoyant plumes.
+\newblock {\em Numerical Heat Transfer: Part A: Applications}, 43(7):731--751,
+  2003.
+
+\bibitem[BD08]{BD08}
+P.N. Blossey and D.R. Durran.
+\newblock Selective monotonicity preservation in scalar advection.
+\newblock {\em J. Comput. Phys.}, 227(10):5160--5183, 2008.
+
+\bibitem[BD12]{BD12}
+M.E. Bradley and T.E. Dowling.
+\newblock Using 3d finite volume for the pressure-gradient force in atmospheric
+  models.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, online, 2012.
+
+\bibitem[Beh96]{Beh96}
+J.~Behrens.
+\newblock An adaptive semi-lagrangian advection scheme and its parallelization.
+\newblock {\em Mon. Wea. Rev.}, 124(10):2386--2395, 1996.
+
+\bibitem[Beh06]{Beh06}
+J.~Behrens.
+\newblock {\em Adaptive Atmospheric Modelling}.
+\newblock Number~54 in Lecture Notes in Computational Science and Engineering.
+  Springer, 2006.
+
+\bibitem[Bel91]{Bel91}
+A.C.M. Beljaars.
+\newblock Numerical schemes for parametrizations.
+\newblock In {\em Proc. ECMWF Seminar on Numerical Methods in Atmospheric
+  Models}, volume~2, pages 1--42, 1991.
+
+\bibitem[BF02]{BF02}
+G.H. Bryan and J.M. Fritsch.
+\newblock A benchmark simulation for moist nonhydrostatic numerical models.
+\newblock {\em Mon. Wea. Rev.}, 130(12):2917--2928, 2002.
+
+\bibitem[BFM15]{BFM15}
+N.D. Brenowitz, Y.~Frenkel, and A.J. Majda.
+\newblock Enhanced persistence of equatorial waves via convergence coupling in
+  the stochastic multicloud model.
+\newblock {\em J. of Atmos Sci.}, 72(12):4701--4720, 2015.
+
+\bibitem[BFM16a]{BFM16}
+N.D. Brenowitz, Y.~Frenkel, and A.J. Majda.
+\newblock Non-local convergence coupling in a simple stochastic convection
+  model.
+\newblock {\em Dynamics of Atmospheres and Oceans}, 74:30--49, 2016.
+
+\bibitem[BFM16b]{BFM1x}
+N.D. Brenowitz, Y.~Frenkel, and A.J. Majda.
+\newblock Non-local convergence coupling in a simple stochastic convection
+  model.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, submitted, 2016.
+
+\bibitem[BFO10]{BFO10}
+J-D Benamou, B.D. Froese, and A.M. Oberman.
+\newblock Two numerical methods for the elliptic {Monge-Amp\'ere} equation.
+\newblock {\em ESAIM: Mathematical Modelling and Numerical Analysis},
+  44(4):737--758, 2010.
+
+\bibitem[BG04]{BG04}
+S.R.M. Barros and C.I. Garcia.
+\newblock {A global semi-implicit semi-{Lagrangian} shallow-water model on
+  locally refined grids}.
+\newblock {\em Mon. Wea. Rev.}, 132(1):53--65, 2004.
+
+\bibitem[BG07]{BG07}
+S.R.M. Barros and C.I. Garcia.
+\newblock {A global finite-difference semi-Lagrangian model for the adiabatic
+  primitive equations}.
+\newblock {\em J. Comput. Phys.}, 226(2):1645--1667, 2007.
+
+\bibitem[BGS{\etalchar{+}}09]{BGS+09}
+C.~Burstedde, O.~Ghattas, G.~Stadler, T.~Tu, and L.C. Wilcox.
+\newblock {Parallel scalable adjoint-based adaptive solution of
+  variable-viscosity Stokes flow problems}.
+\newblock {\em Computer Methods in Applied Mechanics and Engineering},
+  198(21-26):1691--1700, 2009.
+
+\bibitem[BHJJ06]{BHJJ06}
+M.J. Baines, M.E. Hubbard, P.K. Jimack, and A.C. Jones.
+\newblock Scale-invariant moving finite elements for nonlinear partial
+  differential equations in two dimensions.
+\newblock {\em Applied Numerical Mathematics}, 56(2):230--252, 2006.
+
+\bibitem[BHL93]{BHL93}
+G.~Berkooz, P.~Holmes, and J.L. Lumley.
+\newblock The proper orthogonal decomposition in the analysis of turbulent
+  flows.
+\newblock {\em Annual Review of Fluid Mechanics}, 25(1):539--575, 1993.
+
+\bibitem[BHR96]{BHR96}
+C.~Budd, W.~Huang, and R.D. Russell.
+\newblock Moving mesh methods for problems with blow-up.
+\newblock {\em {SIAM J. Sci. Comput.}}, 17(2):305--327, 1996.
+
+\bibitem[BHR09]{BHR09}
+C.~Budd, W.~Huang, and R.D. Russell.
+\newblock Adaptivity with moving grids.
+\newblock {\em Acta Numerica}, 18:111--241, 2009.
+
+\bibitem[BI02]{BI02}
+J.~Behrens and A.~Iske.
+\newblock {Grid-free adaptive semi-Lagrangian advection using radial basis
+  functions}.
+\newblock {\em Computers and Mathematics with Applications}, 43(3-5):319--327,
+  2002.
+
+\bibitem[BIM11]{BIM11}
+L.~Bonaventura, A.~Iske, and E.~Miglio.
+\newblock Kernel-based vector field reconstruction in computational fluid
+  dynamic models.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 66(6), 2011.
+
+\bibitem[BKHR05]{BKHR05}
+L.~Bonaventura, L.~Kornblueh, T.~Heinze, and P.~Ripodas.
+\newblock A semi-implicit method conserving mass and potential vorticity for
+  the shallow water equations on the sphere.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 47:863--869, 2005.
+
+\bibitem[BKLL04]{BKLL04}
+N.~Botta, R.~Klein, S.~Langenberg, and S.~L\"utzenkirchen.
+\newblock Well balanced finite volume methods for nearly hydrostatic flows.
+\newblock {\em J. Comput. Phys.}, 196:539--565, 2004.
+
+\bibitem[BKM{\etalchar{+}}06]{BKM+06}
+C.N. Barron, A.B. Kara, P.J. Martin, R.C. Rhodes, and L.F. Smedstad.
+\newblock Formulation, implementation and examination of vertical coordinate
+  choices in the {Global Navy Coastal Ocean Model (NCOM)}.
+\newblock {\em Ocean Model.}, 11(3-4):347--375, 2006.
+
+\bibitem[BL02]{BL02}
+S.~Benhamadouche and D.~Laurence.
+\newblock Global kinetic energy conservation with unstructured meshes.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 40(3-4):561--571, 2002.
+
+\bibitem[BM01]{BM01}
+S.~B\'elair and J.~Mailhot.
+\newblock Impact of horizontal resolution on the numerical simulation of a
+  midlatitude squall line: Implicit versus explicit condensation.
+\newblock {\em Mon. Wea. Rev.}, 129(9):2362--2376, 2001.
+
+\bibitem[BMH93]{BMH93}
+J.R. Bates, S.~Moorthi, and R.W. Higgins.
+\newblock A global multilevel atmospheric model using a vector
+  semi-{L}agrangian finite-difference scheme. part {I}: Adiabatic formulation.
+\newblock {\em Mon. Wea. Rev.}, 121(1):244--263, 1993.
+
+\bibitem[BN86]{BN86}
+M.R. Baer and J.W. Nunziato.
+\newblock A two-phase mixture theory for the deflagration-to-detonation
+  transition ({DDT}) in reactive granular materials.
+\newblock {\em Int. J. Multiphase Flow}, 12(6):861--889, 1986.
+
+\bibitem[BO84]{BO84}
+M.J. Berger and J.~Oliger.
+\newblock Adaptive mesh refinement for hyperbolic partial differential
+  equations.
+\newblock {\em J. Comput. Phys.}, 53:484--512, 1984.
+
+\bibitem[BOK14]{BOK14}
+T.~Benacchio, W.P. O'Neill, and R.~Klein.
+\newblock A blended soundproof-to-compressible numerical model for small to
+  meso-scale atmospheric dynamics.
+\newblock {\em Mon. Wea. Rev.}, 2014.
+
+\bibitem[Bon00]{Bon00}
+L.~Bonaventura.
+\newblock A semi-implicit semi-{L}agrangian scheme using the height coordinate
+  for a nonhydrostatic and fully elastic model of atmospheric flows.
+\newblock {\em J. Comput. Phys.}, 158(2):186--213, 2000.
+
+\bibitem[Bon04]{Bon04}
+L.~Bonaventura.
+\newblock {The ICON project: development of a unified model using triangular
+  geodesic grids}.
+\newblock In {\em Recent developments in numerical methods for atmosphere and
+  ocean modelling}, pages 75--86, \raggedright
+  http://www.ecmwf.int/publications, 6-10 Sept 2004. ECMWF.
+
+\bibitem[Bot10]{Bott10}
+A.~Bott.
+\newblock Improving the time-splitting errors of one-dimensional advection
+  schemes in multidimensional applications.
+\newblock {\em Atmospheric Research}, 97:619--631, 2010.
+
+\bibitem[Bou81]{Bou81}
+P.~Bougeault.
+\newblock Modeling the trade-wind cumulus boundary layer. part ii: A high-order
+  one-dimensional model.
+\newblock {\em J. of Atmos Sci.}, 38:2429--2439, 1981.
+
+\bibitem[Boy92]{Boy92}
+J.P. Boyd.
+\newblock Defeating the {Runge} phenomenon for equispaced polynomial
+  interpolation via {Tikhonov} regularization.
+\newblock {\em Applied Mathematics Letters}, 5(6):57--59, 1992.
+
+\bibitem[BP97]{BP97}
+H.~Burchard and O.~Petersen.
+\newblock Hybridization between sigma- and z-co-ordinates for improving the
+  internal pressure gradient calculation in marine models with steep bottom
+  slopes.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 25(9):1003--1023, 1997.
+
+\bibitem[BP03]{BP03}
+C.J. Budd and M.D. Piggott.
+\newblock Geometric integration and its applications.
+\newblock In {\em Handbook of Numerical Analysis}, volume~11 of {\em Handbook
+  of Numerical Analysis}, pages 35--139. Elsevier, 2003.
+
+\bibitem[BPB05]{BPB05}
+D.~Byun, P.~Percell, and T~Basak.
+\newblock {\em Application of static adaptive grid techniques for
+  regional-urban multiscale air quality modelling}, volume 3515 of {\em Lecture
+  notes in computer science, 10.1007/b136571}.
+\newblock Springer-Berlin, 2005.
+
+\bibitem[BPW{\etalchar{+}}16]{BPW+16}
+P.A. Browne, J.~Prettyman, H.~Weller, T.~Pryer, and J.~van Lent.
+\newblock Nonlinear solution techniques for solving a monge-amp\`ere equation
+  for redistribution of a mesh.
+\newblock {\em arXiv Numerical Analysis}, arXiv:1609.09646, 2016.
+
+\bibitem[BR02]{BR02}
+L.~Bonaventura and G.~Rosatti.
+\newblock A cascadic conjugate gradient algorithm for mass conservative,
+  semi-implicit discretization of the shallow water equations on locally
+  refined structured grids.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 40(1-2):217--230, 2002.
+
+\bibitem[BR05]{BR05}
+L.~Bonaventura and T.~Ringler.
+\newblock Analysis of discrete shallow-water models on geodesic {D}elaunay
+  grids with {C}-type staggering.
+\newblock {\em Mon. Wea. Rev.}, 133:2351--2373, 2005.
+
+\bibitem[BRH{\etalchar{+}}05]{BRH+05}
+J.~Behrens, N.~Rakowsky, W.~Hiller, D.~Handorf, M.~L\"{a}uter, J.~Papke, and
+  K.~Dethloff.
+\newblock amatos: {P}arallel adaptive mesh generator for atmospheric and
+  oceanic simulation.
+\newblock {\em Ocean Model.}, 10:171--183, 2005.
+
+\bibitem[BRW14]{BRW1xa}
+C.J. Budd, R.~D. Russell, and E.~Walsh.
+\newblock The alignment properties of {Monge-Amp\'ere} based mesh
+  redistribution methods: {I} linear features.
+\newblock \url{http://arxiv.org/abs/1402.5453}, Feb 2014.
+
+\bibitem[BRW15]{BRW15}
+C.J. Budd, R.D. Russell, and E.~Walsh.
+\newblock The geometry of r-adaptive meshes generated using optimal transport
+  methods.
+\newblock {\em J. Comput. Phys.}, 282:113--137, 2015.
+
+\bibitem[BS92]{BS92}
+R.~Bermejo and A.~Staniforth.
+\newblock The conversion of semi-{Lagrangian} advection schemes to
+  quasi-monotone schemes.
+\newblock {\em Mon. Wea. Rev.}, 120:2622--2632, 1992.
+
+\bibitem[BS94]{BS94}
+S.~Brenner and R.~Scott.
+\newblock {\em The Mathematical Theory of Finite Element Methods}.
+\newblock Springer-Verlag, 1994.
+
+\bibitem[BS99]{BS99}
+G.~Brassington and B.~Sanderson.
+\newblock {Semi-Lagrangian and COSMIC} advection in flows with rotation or
+  deformation.
+\newblock {\em Atmosphere-Ocean}, 37(4):369--388, 1999.
+
+\bibitem[BSG05]{BSG05}
+D.A. Bailey, P.K. Sweby, and P.~Glaister.
+\newblock A ghost fluid, moving finite volume plus continuous remap method for
+  compressible {Euler} flow.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 47(8-9):833--840, 2005.
+
+\bibitem[BT78]{BT78}
+A.~Buzzi and S.~Tibaldi.
+\newblock Cyclogenesis in the lee of the {Alps}: A case study.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 104(440):271--287, 1978.
+
+\bibitem[Buh00]{Buh00}
+M.D. Buhmann.
+\newblock {Radial basis functions}.
+\newblock {\em Acta Numerica}, pages 1--38, 2000.
+
+\bibitem[BW06]{BW06}
+C.J. Budd and J.F. Williams.
+\newblock Parabolic {Monge-Amp\`{e}re} methods for blow-up problems in several
+  spatial dimensions.
+\newblock {\em J. Phys. A}, 39(19):5425--5444, 12 May 2006.
+
+\bibitem[BW09]{BW09}
+C.J. Budd and J.F. Williams.
+\newblock Moving mesh generation using the parabolic {Monge-Amp{\`e}re}
+  equation.
+\newblock {\em SIAMjsc}, 31(5):3438--3465, 2009.
+
+\bibitem[BWD{\etalchar{+}}13]{BWD+13}
+J.~Berckmans, T.~Woollings, M-E Demory, P-L Vidale, and M.~Roberts.
+\newblock Atmospheric blocking in a high resolution climate model: influences
+  of mean state, orography and eddy forcing.
+\newblock {\em Atmos. Sci. Lett.}, 14(1):34--40, 2013.
+
+\bibitem[BWF03]{BWF03}
+G.H. Bryan, J.C. Wyngaard, and J.M. Fritsch.
+\newblock Resolution requirements for the simulation of deep moist convection.
+\newblock {\em Mon. Wea. Rev.}, 131:2394--2416, 2003.
+
+\bibitem[C\^88]{Cot88}
+J.~C\^{o}t\'e.
+\newblock A {L}agrange multiplier approach for the metric terms of
+  semi-{L}agrangian models on the sphere.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 114:1347--1352, 1988.
+
+\bibitem[Cap03]{Cap03}
+R.A. Capon.
+\newblock Wind speed-up in the {Dover Straits with the Met Office New Dynamics}
+  model.
+\newblock {\em Meteorological Applications}, 10(3):229--237, 2003.
+
+\bibitem[CBB{\etalchar{+}}06]{CBB+06}
+W.D. Collins, C.M. Bitz, M.L. Blackmon, G.B. Bonan, C.S. Bretherton, J.A.
+  Carton, P.~Chang, S.C. Doney, J.J. Hack, T.B. Henderson, J.T. Kiehl, W.G.
+  Large, D.S. McKenna, B.D. Santer, and R.D. Smith.
+\newblock The community climate system model version 3 (ccsm3).
+\newblock {\em Journal of Climate}, 19(11):2122--2143, 2006.
+
+\bibitem[CBF{\etalchar{+}}13]{CBF+13}
+P.A. Clark, K.A. Browning, R.M. Forbes, C.J. Morcrette, A.M. Blyth, and H.W.
+  Lean.
+\newblock The evolution of an {MCS over southern England}. part 2: Model
+  simulations and sensitivity to microphysics.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 140:458--479, 2013.
+
+\bibitem[CBW97]{CBW97}
+G.D. Carver, P.D. Brown, and O.~Wild.
+\newblock {The ASAD atmospheric chemistry integration package and chemical
+  reaction database}.
+\newblock {\em Comput. Phys. Commun.}, 105:197--215, 1997.
+
+\bibitem[CCa06]{CHB+06}
+J.~Cuxart and Co-authors.
+\newblock Single-column model intercomparison for a stably stratified
+  atmospheric boundary layer.
+\newblock {\em Bound.-Layer Meteor}, 118(2):273--303, Feb 2006.
+
+\bibitem[CD91]{CD91}
+M.J.P. Cullen and T.~Davies.
+\newblock A conservative split-explicit integration scheme with fourth-order
+  horizontal advection.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 117(401):993--1002, 1991.
+
+\bibitem[CEHT08]{CEHT08}
+E.~Ch\'enier, R.~Eymard, R.~Herbin, and O.~Touazi.
+\newblock Collocated finite volume schemes for the simulation of natural
+  convective flows on unstructured meshes.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 56(11):2045--2068, 2008.
+
+\bibitem[CFCN{\etalchar{+}}07]{CCN+07}
+L.~Cueto-Felgueroso, I.~Colominas, X.~Nogueira, F.~Navarrina, and
+  M.~Casteleiro.
+\newblock Finite volume solvers and moving least-squares approximations for the
+  compressible {Navier-Stokes} equations on unstructured grids.
+\newblock {\em Comput. Methods Appl. Mech. Engrg.}, 2007.
+
+\bibitem[CFR07]{CFR07}
+C.J. Cotter, J.~Frank, and S.~Reich.
+\newblock The remapped particle-mesh semi-{L}agrangian advection scheme.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 133:251--260, 2007.
+
+\bibitem[{CGA}rg]{cgal}
+{CGAL}.
+\newblock {C}omputational {G}eometry {A}lgorithms {L}ibrary,
+  http://www.cgal.org.
+
+\bibitem[CGM{\etalchar{+}}98]{CGM+98}
+J.~C\^{o}t\'{e}, S.~Gravel, A.~M\'{e}thot, A.~Patoine, M.~Roch, and
+  A.~Staniforth.
+\newblock The operational {CMC-MRB} global environmental multiscale ({GEM})
+  model. part {I}: Design considerations and formulation.
+\newblock {\em Mon. Wea. Rev.}, 126:1373--1395, 1998.
+
+\bibitem[CGR11]{CGR11}
+Q.~Chen, M.~Gunzburger, and T.~Ringler.
+\newblock A scale-invariant formulation of the anticipated potential vorticity
+  method.
+\newblock {\em Mon. Wea. Rev.}, 139(8):2614--2629, 2011.
+
+\bibitem[CGS15]{CGS15}
+M.J.P. Cullen, W.~Gangbo, and M.~Sedjro.
+\newblock A mathematically rigorous analysis of forced axisymmetric flows in
+  the atmosphere.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 141(690):1836--1844, 2015.
+
+\bibitem[CH90]{CDWH90}
+K.K. Droegemeier P.R.~Woodward Carpenter, R.L. and C.E. Hane.
+\newblock Application of the piecewise parabolic method ({PPM}) to
+  meteorological modeling.
+\newblock {\em Mon. Wea. Rev.}, 118(3):586--612, 1990.
+
+\bibitem[CH01]{CH01}
+H.D. Ceniceros and T.Y. Hou.
+\newblock An efficient dynamically adaptive mesh for potentially singular
+  solutions.
+\newblock {\em J. Comput. Phys.}, 172:609--639, 2001.
+
+\bibitem[CH11]{CH11}
+C.J. Cotter and D.A. Ham.
+\newblock Numerical wave propagation for the triangular {$P1_DG-P2$} finite
+  element pair.
+\newblock {\em J. Comput. Phys.}, 230(8):2806--2820, 2011.
+
+\bibitem[Cha04]{Cha04}
+S.~Chantasiriwan.
+\newblock Cartesian grid methods using radial basis functions for solving
+  {Poisson, Helmholtz}, and diffusion-convection equations.
+\newblock {\em Engineering Analysis with Boundary Elements}, 28(12):1417--1425,
+  2004.
+
+\bibitem[CHB{\etalchar{+}}07]{CHB+07}
+C.~Chen, H.~Huang, R.~C. Beardsley, H.~Liu, Q.~Xu, and G.~Cowles.
+\newblock {A finite volume numerical approach for coastal ocean circulation
+  studies: Comparisons with finite difference models}.
+\newblock {\em J. Geophys. Res.}, 112(C03018), 2007.
+
+\bibitem[CHP09]{CHP09}
+C.J. Cotter, D.A. Ham, and C.C. Pain.
+\newblock A mixed discontinuous/continuous finite element pair for
+  shallow-water ocean modelling.
+\newblock {\em Ocean Model.}, 26:86--90, 2009.
+
+\bibitem[CHPR09]{CHPR09}
+C.J. Cotter, D.A. Ham, C.C. Pain, and S.~Reich.
+\newblock {LBB stability of a mixed Galerkin finite element pair for fluid flow
+  simulations}.
+\newblock {\em J. Comput. Phys.}, 228(2):336--348, 2009.
+
+\bibitem[CHR03]{CHR03}
+W.~Cao, W.~Huang, and R.D. Russell.
+\newblock Approaches for generating moving adaptive meshes: location versus
+  velocity.
+\newblock {\em Applied Numerical Mathematics}, 47:121--138, 2003.
+
+\bibitem[CHS17]{CHS17}
+F.~Coquel, J-M H\'erard, and K.~Saleh.
+\newblock A positive and entropy-satisfying finite volume scheme for the
+  {Baer-Nunziato} model.
+\newblock {\em J. Comput. Phys.}, 330:401--435, 2017.
+
+\bibitem[CIL96]{CIL96}
+T.J. Craft, N.Z. Ince, and B.E. Launder.
+\newblock Recent developments in second-moment closure for buoyancy-affected
+  flows.
+\newblock {\em Dynamics of Atmospheres and Oceans}, 23(1):99--114, 1996.
+
+\bibitem[CL11]{CL11}
+C.~Clancy and P.~Lynch.
+\newblock Laplace transform integration of the shallow-water equations. part
+  {II: Semi-Lagrangian} formulation and orographic resonance.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 2011.
+
+\bibitem[Cla77]{Cla77}
+T.L. Clark.
+\newblock A small-scale dynamical model using a terrain-following coordinate
+  transformation.
+\newblock {\em J. Comput. Phys.}, 24:186--215, 1977.
+
+\bibitem[CLP{\etalchar{+}}02]{CLP+02}
+R.A. Crowther, K.S. Law, J.A. Pyle, S.~Bekki, and H.G.J. Smit.
+\newblock {Characterizing the effect of large-scale model resolution upon
+  calculated OH production using MOZAIC data}.
+\newblock {\em Geophys. Res. Lett.}, 29:55--1 -- 55--4, 2002.
+
+\bibitem[CLRL09]{CLRL09}
+R.~Comblen, J.~Lambrechts, J-F Remacle, and V.~Legat.
+\newblock Practical evaluation of five partly discontinuous finite element
+  pairs for the non-conservative shallow water equations.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 2009.
+
+\bibitem[CLSX14]{CLSX14}
+C.~Chen, X.~Li, X.~Shen, and F.~Xiao.
+\newblock Global shallow water models based on multi-moment constrained finite
+  volume method and three quasi-uniform spherical grids.
+\newblock {\em J. Comput. Phys.}, 271:191--223, 2014.
+
+\bibitem[CLZ98]{CLZ98}
+A.~Caya, R.~Laprise, and P.~Zwack.
+\newblock Consequences of using the splitting method for implementing physical
+  forcings in a semi-implicit semi-{L}agrangian model.
+\newblock {\em Mon. Wea. Rev.}, 126:1707--1713, 1998.
+
+\bibitem[CM88]{CM88}
+N.A. Crook and M.W. Moncrieff.
+\newblock The effect of large-scale convergence on the generation and
+  maintenance of deep moist convection.
+\newblock {\em J. of Atmos Sci.}, 45:3606--3624, 1988.
+
+\bibitem[CM94]{CM94}
+H.~Choi and P.~Moin.
+\newblock Effects of the computational time step on numerical solutions of
+  turbulent flow.
+\newblock {\em J. Comput. Phys.}, 113(1):1--4, 1994.
+
+\bibitem[{COM}]{comsol_fem}
+{COMSOL: multiphysics cyclopedia}.
+\newblock The finite element method ({FEM}).
+\newblock \url{https://uk.comsol.com/multiphysics/finite-element-method}.
+\newblock Accessed: 2019-06-18.
+
+\bibitem[COM{\etalchar{+}}09]{COM+09}
+A.~Challinor, T.~Osborne, A.~Morse, L.~Shaffrey, T.~Wheeler, W.~Weller, and
+  P.L. Vidale.
+\newblock Methods and resources for climate impacts research.
+\newblock {\em Bull. Amer. Meteor. Soc.}, 90(6):836--848, 2009.
+
+\bibitem[CP53]{CP53}
+J.G. Charney and N.A. Phillips.
+\newblock Numerical integration of the quasi-geostrophic equations for
+  barotropic and simple baroclinic flows.
+\newblock {\em J. Meteor.}, 10:71--99, 1953.
+
+\bibitem[CRL{\etalchar{+}}16]{CRL+16}
+P.A. Clark, N.M. Roberts, H.W. Lean, S.P. Ballard, and C.~Charlton-Perez.
+\newblock Convection-permitting models: A step-change in rainfall forecasting.
+\newblock {\em Meteorol. Apps.}, 23:165--181, 2016.
+
+\bibitem[CS89]{CS89}
+B.~Cockburn and C.W. Shu.
+\newblock Tvb {Runge-Kutta} local projection discontinuous {Galerkin} finite
+  element method for conservation laws {II}: Genral framework.
+\newblock {\em Mathematics of Computation}, 52(186):411--435, 1989.
+
+\bibitem[CS03]{CS03}
+M.J.P. Cullen and D.J. Salmond.
+\newblock On the use of a predictor-corrector scheme to couple the dynamics
+  with the physical parametrizations in the {ECMWF} model.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 129(589):1217--1236, 2003.
+
+\bibitem[CS08]{CS08}
+P.~Colella and M.D. Sekora.
+\newblock A limiter for {PPM} that preserves accuracy at smooth extrema.
+\newblock {\em J. Comput. Phys.}, 227(15):7069--7076, 2008.
+
+\bibitem[CS11]{CS11}
+J.-F. Cossetts and P.K. Smolarkiewicz.
+\newblock A {Monge-A}mp\`{e}re enhancement for semi-{L}agrangian methods.
+\newblock {\em Computers and Fluids}, 46:180--185, 2011.
+
+\bibitem[CS12]{CS12}
+C.J. Cotter and J.~Shipton.
+\newblock Mixed finite elements for numerical weather prediction.
+\newblock {\em J. Comput. Phys.}, 231(21):7076--7091, Aug 2012.
+
+\bibitem[CSC14]{CSC14}
+J-F Cossette, P.K. Smolarkiewicz, and P.~Charbonneau.
+\newblock The {Monge-Amp\'{e}re} trajectory correction for semi-{Lagrangian}
+  schemes.
+\newblock {\em J. Comput. Phys.}, 274:208--229, 2014.
+
+\bibitem[CST{\etalchar{+}}07]{CST+07}
+P.A. Cook, N.H. Savage, S.~Turquety, F.M. Carver, G.D.~O'Connor, A.~Heckel,
+  D.~Stewart, L.K. Whalley, A.E. Parker, H.~Schlager, H.B. Singh, M.A. Avery,
+  G.W. Sachse, W.~Brune, A.~Richter, J.P. Burrows, R.~Purvis, A.C. Lewis, C.E.
+  Reeves, P.S. Monks, J.G. Levine, and J.A. Pyle.
+\newblock {Forest fire plumes over the North Atlantic: \mbox{p-TOMCAT} model
+  simulations with aircraft and satellite measurements from the ITOP/ICARTT
+  campaign}.
+\newblock {\em J. Geophys. Res.}, 112:D10S43, 2007.
+
+\bibitem[CT78]{CW78}
+W.R. Cotton and G.~Tripoli.
+\newblock Cumulus convection in shear-flow - 3-dimensional numerical
+  experiments.
+\newblock {\em J. of Atmos Sci.}, 35(8):1503--1521, 1978.
+
+\bibitem[CT14]{CT14}
+C.J. Cotter and J.~Thuburn.
+\newblock A finite element exterior calculus framework for the rotating
+  shallow-water equations.
+\newblock {\em J. Comput. Phys.}, 257:1506--1526, 2014.
+
+\bibitem[CTF{\etalchar{+}}13]{CTW13}
+C.J. Cotter, J.~Thuburn, R.~Ford, T.~Melvin, G.~Riley, A.~Staniforth,
+  H.~Weller, and N.~Wood.
+\newblock Grids workpackage: {Phase I} report.
+\newblock Technical report, Imperial College London, Jan 2013.
+
+\bibitem[Cul90]{Cul90}
+M.J.P. Cullen.
+\newblock A test of a semi-implicit integration technique for a fully
+  compressible nonhydrostatic model.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 116(495):1253--1258, 1990.
+
+\bibitem[Cul01]{Cul01}
+M.J.P. Cullen.
+\newblock {Alternative implementations of the semi-Lagrangian semi-implicit
+  schemes in the ECMWF model}.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 127(578):2787--2802, 2001.
+
+\bibitem[Cul06]{Cul06}
+M.J.P. Cullen.
+\newblock {\em A mathematical theory of large scale atmospheric ocean flow}.
+\newblock Imperial College Press, 2006.
+
+\bibitem[CW84]{CW84}
+P.~Colella and P.R. Woodward.
+\newblock The piecewise parabolic method ({PPM}) for gas-dynamical simulations.
+\newblock {\em J. Comput. Phys.}, 1984.
+
+\bibitem[CWPS17]{CWPS17}
+Y.~Chen, H.~Weller, S.~Pring, and J.~Shaw.
+\newblock Comparison of dimensionally split and multi-dimensional atmospheric
+  transport schemes for long time steps.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 143(708):2764--2779, 2017.
+
+\bibitem[CWS{\etalchar{+}}11]{CWS11}
+G.P. Compo, J.S. Whitaker, P.D. Sardeshmukh, N.~Matsui, R.J. Allan, X.~Yin,
+  B.E. Gleason, R.S. Vose, G.~Rutledge, P.~Bessemoulin, S.~Bronnimann,
+  M.~Brunet, R.I. Crouthamel, A.N. Grant, P.Y. Groisman, P.D. Jones, M.~Kruk,
+  A.C. Kruger, G.J. Marshall, M.~Maugeri, H.Y. Mok, O.~Nordli, T.F. Ross, R.M.
+  Trigo, X.L. Wang, S.D. Woodruff, and S.J. Worley.
+\newblock The twentieth century reanalysis project.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 137:1--28, 2011.
+
+\bibitem[CX08]{CX08}
+C.~Chen and F.~Xiao.
+\newblock Shallow water model on a cubed-sphere by multi-moment finite volume
+  method.
+\newblock {\em J. Comput. Phys.}, 227:5019--5044, 2008.
+
+\bibitem[DA97]{DA97}
+D.G. Dritschel and M.A.H.P. Ambaum.
+\newblock A contour advective semi-{L}agrangian numerical algorithm for
+  simulating fine scale conserved dynamics fields.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 123:1097--1130, 1997.
+
+\bibitem[DA06]{DA06}
+D.G. Dritschel and M.A.H.P. Ambaum.
+\newblock The diabatic contour advective semi-{L}agrangian model.
+\newblock {\em Mon. Wea. Rev.}, 134:2503--2514, 2006.
+
+\bibitem[Dah63]{Dah63}
+G.G. Dahlquist.
+\newblock A special stability problem for linear multistep methods.
+\newblock {\em BIT Numerical Mathematics}, 3(1):27--43, 1963.
+
+\bibitem[Dan10]{Dan10}
+S.~Danilov.
+\newblock On utility of triangular {C}-grid type discretization for numerical
+  modeling of large-scale ocean flows.
+\newblock {\em Ocean Dynamics}, 60(6):1361--1369, 2010.
+
+\bibitem[DB12]{DB12}
+D.R. Durran and P.N. Blossey.
+\newblock Implicit-explicit multistep methods for fast-wave--slow-wave
+  problems.
+\newblock {\em Mon. Wea. Rev.}, 140(4):1307--1325, 2012.
+
+\bibitem[DBD{\etalchar{+}}17]{DBD+17}
+W.~Deconinck, P.~Bauer, M.~Diamantakis, M.~Hamrud, C.~K\"uhnlein, P.~Maciel,
+  G.~Mengaldo, T.~Quintino, B.~Raoult, P.K. Smolarkiewicz, and N.P. Wedi.
+\newblock Atlas : A library for numerical weather prediction and climate
+  modelling.
+\newblock {\em Comput. Phys. Commun.}, 220:188--204, 2017.
+
+\bibitem[DC19]{DBB+19}
+S.L. Dance and Coauthors.
+\newblock Improvements in forecasting intense rainfall: results from the
+  {FRANC} (forecasting rainfall exploiting new data assimilation techniques and
+  novel observations of convection) project.
+\newblock {\em Atmosphere}, 13(3):125, 2019.
+
+\bibitem[DCB{\etalchar{+}}04]{DCB+04}
+WF~Dabberdt, MA~Carroll, D~Baumgardner, G~Carmichael, R~Cohen, T~Dye, J~Ellis,
+  G~Grell, S~Grimmond, S~Hanna, J~Irwin, B~Lamb, S~Madronich, J~McQueen,
+  J~Meagher, T~Odman, J~Pleim, HP~Schmid, and DL~Westphal.
+\newblock Meteorological research needs for improved air quality forecasting -
+  report of the 11th prospectus development team of the us weather research
+  program.
+\newblock {\em Bull. Amer. Meteor. Soc.}, 85(4):563--, 2004.
+
+\bibitem[DCF{\etalchar{+}}08]{DCF+08}
+G.L. Delzanno, L.~Chac\'on, J.M. Finn, Y.~Chung, and G.~Lapenta.
+\newblock An optimal robust equidistribution method for two-dimensional grid
+  adaptation based on {Monge-Kantorovich} optimization.
+\newblock {\em J. Comput. Phys.}, 2008.
+
+\bibitem[DCM{\etalchar{+}}05]{DCM+05}
+T.~Davies, M.J.P. Cullen, A.J. Malcolm, M.H. Mawson, A.~Staniforth, A.A. White,
+  and N.~Wood.
+\newblock {A new dynamical core for the Met Office's global and regional
+  modelling of the atmosphere}.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 131(608):1759--1782, 2005.
+
+\bibitem[DD92]{DD92}
+G.S. Dietachmayer and K.K. Droegemeier.
+\newblock Application of continuous dynamic grid adaption techniques to
+  meteorological modeling. {P}art {I}: Basic formulation and accuracy.
+\newblock {\em Mon. Wea. Rev.}, 120(8):1675--1706, 1992.
+
+\bibitem[DD98]{DD98}
+D.~Dempsey and C.~Davis.
+\newblock Error analyses and test of pressure gradient force schemes in
+  nonhydrostatic, mesoscale model.
+\newblock 12th Conf. on Numerical Weather Prediction, pages 236--239, Phoenix,
+  AZ, 11-16 Jan 1998. Amer. Meteor. Soc.
+
+\bibitem[DDHU15]{DDHU15}
+S.~Dubey, T.~Dubos, F.~Hourdin, and H.C. Upadhyaya.
+\newblock On the inter-comparison of two tracer transport schemes on
+  icosahedral grids.
+\newblock {\em Applied Mathematical Modelling}, 39(16):4828--4847, 2015.
+
+\bibitem[DDT{\etalchar{+}}15]{DDT15}
+T.~Dubos, S.~Dubey, M.~Tort, R.~Mittal, Y.~Meurdesoif, and F.~Hourdin.
+\newblock {DYNAMICO-1.0}, an icosahedral hydrostatic dynamical core designed
+  for consistency and versatility.
+\newblock {\em Geosci. Model Dev.}, 8(10):3131--3150, 2015.
+
+\bibitem[DEE{\etalchar{+}}12]{DEE+12}
+J.M. Dennis, J.~Edwards, K.J. Evans, O.~Guba, P.H. Lauritzen, A.A. Mirin,
+  A.~St-Cyr, M.A. Taylor, and P.H. Worley.
+\newblock {CAM-SE}: A scalable spectral element dynamical core for the
+  community atmosphere model.
+\newblock {\em The international journal of high performance computing
+  applications}, 2012.
+
+\bibitem[DEJ06]{DEJ06}
+Q.. Du, M.~Emelianenko, and L.~Ju.
+\newblock Convergence of the {Lloyd} algorithm for computing centroidal
+  {Voronoi} tessellations.
+\newblock {\em SIAM J. Numer. Anal.}, 44(1):102--119, 2006.
+
+\bibitem[DF009]{DF0x}
+{\em Turbulence in the Atmosphere and Oceans}, chapter The Hyper-{CASL}
+  algorithm.
+\newblock Springer, 2009.
+
+\bibitem[DFG99]{DFG99}
+Q.~Du, V.~Faber, and M.~Gunzburger.
+\newblock Centroidal {V}oronoi tessellations: Applications and algorithms.
+\newblock {\em SIAM Review}, 41(4):637--676, 1999.
+
+\bibitem[DG87]{DG87}
+M.~Drela and M.B. Giles.
+\newblock Viscous-inviscid analysis of transonic and low {Reynolds} number
+  airfoils.
+\newblock {\em AIAA Journal}, 25(10):1347--1355, 1987.
+
+\bibitem[DG06a]{DG06b}
+E.J. Dean and R.~Glowinski.
+\newblock An augmented {Lagrangian} approach to the numerical solution of the
+  {Dirichlet} problem for the elliptic {Monge-Amp{\'e}re} equation in two
+  dimensions.
+\newblock {\em Electronic Transactions on Numerical Analysis}, 22:71--96, 2006.
+
+\bibitem[DG06b]{DG06}
+E.J. Dean and R.~Glowinski.
+\newblock Numerical methods for fully nonlinear elliptic equations of the
+  {Monge-Amp{\'er}e} type.
+\newblock {\em Computer methods in applied mechanics and engineering},
+  195(13):1344--1386, 2006.
+
+\bibitem[Die92]{Die92}
+G.S. Dietachmayer.
+\newblock Application of continuous dynamic grid adaption techniques to
+  meteorological modeling. {P}art {II}: Efficiency.
+\newblock {\em Mon. Wea. Rev.}, 120(8):1707--1722, 1992.
+
+\bibitem[DK83]{DK83}
+D.R. Durran and J.B. Klemp.
+\newblock A compressible model for the simulation of moist mountain waves.
+\newblock {\em Mon. Wea. Rev.}, 111(12):2341--2361, Dec 1983.
+
+\bibitem[DK13]{DK13}
+T.~Dubos and N.K-R. Kevlahan.
+\newblock A conservative adaptive wavelet method for the wallow-water equations
+  on staggered grids.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 2013.
+
+\bibitem[DL06]{DL06}
+P.~Delanoe and G.~Loeper.
+\newblock Gradient estimates for potentials of invertible gradient-mappings on
+  the sphere.
+\newblock {\em Calculus of Variations and Partial Differential Equations},
+  26(3):297--311, 2006.
+
+\bibitem[DM16]{DM16}
+M.~Diamantakis and L.~Magnusson.
+\newblock Sensitivity of the {ECMWF Model to semi-Lagrangian} departure point
+  iterations.
+\newblock {\em Mon. Wea. Rev.}, 144(9):3233--3250, 2016.
+
+\bibitem[DMO06]{DMO06}
+D.S. Dukhovskoy, S.L. Morey, and J.J. O'Brien.
+\newblock Influence of multi-step topography on barotropic waves and
+  consequences for numerical modeling.
+\newblock {\em Ocean Model.}, 14(1-2):45--60, 2006.
+
+\bibitem[Dop77]{Dopa77}
+Céasar Dopazo.
+\newblock On conditioned averages for intermittent turbulent flows.
+\newblock {\em J. Fluid Mechanics}, 81:433--438, 7 1977.
+
+\bibitem[DPM99]{DPM99}
+D.G. Dritschel, L.M. Polvani, and A.L. Mohebalhojeh.
+\newblock The contour-advective semi-lagrangian algorithm for the shallow water
+  equations.
+\newblock {\em Mon. Wea. Rev.}, 127:1551--1565, Jul 1999.
+
+\bibitem[dRBF{\etalchar{+}}13]{DBF+13}
+W.C. de~Rooy, P.~Bechtold, K.~Froehlich, C.~Hohenegger, H.~Jonker, D.~Mironov,
+  A.P. Siebesma, J.~Teixeira, and J-I Yano.
+\newblock Entrainment and detrainment in cumulus convection: an overview.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 139({670, A}):1--19, 2013.
+
+\bibitem[Dri88]{Dri88}
+D.G. Dritschel.
+\newblock Contour surgery: a topological reconnection scheme for extended
+  integrations using contour dynamics.
+\newblock {\em J. Comput. Phys.}, 77:240--266, 1988.
+
+\bibitem[Dri89]{Dri89}
+D.G. Dritschel.
+\newblock Contour dynamics and contour surgery: numerical algorithms for
+  extended, high-resolution modelling of vortex dynamics in two-dimensional,
+  inviscid, incompressible flows.
+\newblock {\em Computer Phys. Rep.}, 10:77--146, 1989.
+
+\bibitem[dRS10]{DS10}
+W.C. de~Rooy and A.P. Siebesma.
+\newblock Analytical expressions for entrainment and detrainment in cumulus
+  convection.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 136(A):1216--1227, 2010.
+
+\bibitem[DRSJDV12]{DSJD12}
+S.R. De~Roode, A.P. Siebesma, H.J.J. Jonker, and Y.~De~Voogd.
+\newblock Parameterization of the vertical velocity equation for shallow
+  cumulus clouds.
+\newblock {\em Mon. Wea. Rev.}, 140(8):2424--2436, 2012.
+
+\bibitem[DS09]{DS09}
+D.G. Dritschel and R.K. Scott.
+\newblock On the simulation of nearly inviscid two-dimensional turbulence.
+\newblock {\em J. Comput. Phys.}, In press, 2009.
+
+\bibitem[Duk95]{Duk95}
+J.K. Dukowicz.
+\newblock Mesh effects for {R}ossby waves.
+\newblock {\em J. Comput. Phys.}, 119(1):188--194, 1995.
+
+\bibitem[Dur92]{Dur92}
+D.~Durran.
+\newblock Two-layer solutions to long's equation for vertically propagating
+  mountain waves: how good is linear theory?
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 118(505):415--433, 1992.
+
+\bibitem[Dur99]{Dur99}
+D.R. Durran.
+\newblock {\em Numerical methods for wave equations in geophysical fluid
+  dynamics}.
+\newblock Springer, 1999.
+
+\bibitem[Dur10]{Dur10}
+D.R. Durran.
+\newblock {\em Numerical Methods for Fluid Dynamics With Applications to
+  Geophysics}, volume~32 of {\em Texts in Applied Mathematics}.
+\newblock Springer, 2nd edition, 2010.
+
+\bibitem[Dur11]{Dur11}
+D.R. Durran.
+\newblock {\em Numerical Techniques for Global Atmospheric Models}, volume~80
+  of {\em Lecture Notes in Computational Science and Engineering}, chapter 6.
+  Stabilizing Fast Waves.
+\newblock Springer, 2011.
+
+\bibitem[Duy88]{Duy88}
+P.G. Duynkerke.
+\newblock Application of the {E--$\varepsilon$} turbulence closure model to the
+  neutral and stable atmospheric boundary layer.
+\newblock {\em J. of Atmos Sci.}, 45(5):865--880, 1988.
+
+\bibitem[Duy91]{Duy91}
+P.G. Duynkerke.
+\newblock Radiation fog: A comparison of model simulation with detailed
+  observations.
+\newblock {\em Mon. Wea. Rev.}, 119(2):324--341, 1991.
+
+\bibitem[DW05]{DW05}
+Q.~Du and D.S. Wang.
+\newblock Anisotropic centroidal {V}oronoi tessellations and their
+  applications.
+\newblock {\em Siam Journal on Scientific Computing}, 26(3):737--761, 2005.
+
+\bibitem[DWD06]{DWD06}
+M.~Diamantakis, N.~Wood, and T.~Davies.
+\newblock An improved implicit predictor-corrector scheme for boundary layer
+  vertical diffusion.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 132(616):959--978, 2006.
+
+\bibitem[DWS04]{DWS04}
+M.~Dubal, N.~Wood, and A.~Staniforth.
+\newblock Analysis of parallel versus sequential splittings for time-stepping
+  physical parameterizations.
+\newblock {\em Mon. Wea. Rev.}, 132(1):121--132, 2004.
+
+\bibitem[DWS05]{DWS05}
+M.~Dubal, N.~Wood, and A.~Staniforth.
+\newblock Mixed parallel-sequential-split schemes for time-stepping multiple
+  physical parameterizations.
+\newblock {\em Mon. Wea. Rev.}, 133(4):989--1002, 2005.
+
+\bibitem[DWS06]{DWS06}
+M.~Dubal, N.~Wood, and A.~Staniforth.
+\newblock Some numerical properties of approaches to physics-dynamics coupling
+  for {NWP}.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 132(614):27--42, 2006.
+
+\bibitem[ECM04a]{ECMWF04}
+ECMWF.
+\newblock {\em Recent developments in numerical methods for atmosphere and
+  ocean modelling}, \raggedright http://www.ecmwf.int/publications, 6-10 Sept
+  2004.
+
+\bibitem[ECM04b]{ECM04}
+R.N. ELIAS, A.L.G.A. COUTINHO, and M.A.D. MARTINS.
+\newblock Inexact {Newton-type methods for non-linear problems arising from the
+  SUPG/PSPG solution of steady incompressible Navier-stokes equations}.
+\newblock {\em J. Braz. Soc. Mech. Sci. \& Eng.}, 2004.
+
+\bibitem[ECM18]{ECMWF_IFS}
+{\em {Part III} : Dynamics and numerical procedures}.
+\newblock Number~3 in {IFS} Documentation. ECMWF, 2018.
+
+\bibitem[Egg72]{Egg72}
+J.~Egger.
+\newblock Numerical experiments on the cyclogenisis in the {Gulf of Genoa}.
+\newblock {\em Neitr. Phys. Atmos.}, 45:320--346, 1972.
+
+\bibitem[EHM92]{EHM92}
+P.~Embid, J.~Hunter, and A.~Majda.
+\newblock Simplified asymptotic equations for the transition to detonation in
+  reactive granular materials.
+\newblock {\em SIAM J. Appl. MAth.}, 52(5):1199--1237, 1992.
+
+\bibitem[Ema94]{Emm94}
+Kerry~A. Emanuel.
+\newblock {\em Atmospheric Convection}.
+\newblock Oxford University Press, 1994.
+
+\bibitem[EMM{\etalchar{+}}14]{EMM+14}
+S.D. Eckermann, J.P. McCormack, J.~Ma, T.F. Hogan, and K.A. Zawdie.
+\newblock Stratospheric analysis and forecast errors using hybrid and sigma
+  coordinates.
+\newblock {\em Mon. Wea. Rev.}, 142(1):476--485, 2014.
+
+\bibitem[Erb11]{Erb11}
+W.~Erb.
+\newblock {\em Uncertainty Principles on {Riemannian} Manifolds}.
+\newblock PhD thesis, Technische Universit\"{a}t M\"{u}nchen, 2011.
+
+\bibitem[ESW08]{ESW08}
+K.~Emanuel, R.~Sundararajan, and J.~Williams.
+\newblock Hurricanes and global warming - results from downscaling {IPCC AR4}
+  simulations.
+\newblock {\em Bull. Amer. Meteor. Soc.}, 89(3):347--367, 2008.
+
+\bibitem[Fas03]{Fas03}
+J.D. Fast.
+\newblock Forecasts of valley circulations using the terrain-following and
+  step-mountain vertical coordinates in the {Meso-Eta} model.
+\newblock {\em Weather and Forecasting}, 18(6):1192--1206, 2003.
+
+\bibitem[FD09]{FD09}
+J.~Fontane and D.G. Dritschel.
+\newblock The {HyperCASL} algorithm: a new approach to the numerical simulation
+  of geophysical flows.
+\newblock {\em J. Comput. Phys.}, 228(17):6411--6425, 2009.
+
+\bibitem[FDC08]{FDC08}
+J.M. Finn, G.L. Delzanno, and L.~Chac\`{o}n.
+\newblock Grid generation and adaptation by {Monge-Kantorovich} optimization in
+  two and three dimensions.
+\newblock {\em Proceedings of the 17th International Meshing Roundtable}, pages
+  551--568, 2008.
+
+\bibitem[FLF11]{FLF11}
+B.~Fornberg, E.~Larsson, and N.~Flyer.
+\newblock Stable computations with {Gaussian} radial basis functions.
+\newblock {\em SIAM J. Sci. Comput.}, 33(2):869--892, 2011.
+
+\bibitem[FLP13]{FLP13}
+B.~Fornberg, E.~Lehto, and C.~Powell.
+\newblock Stable calculation of {Gaussian-based RBF-FD} stencils.
+\newblock {\em Computers and Mathematics with Applications}, 2013.
+
+\bibitem[FM06]{FM06}
+J.~Frame and P.~Markowski.
+\newblock The interaction of simulated squall lines with idealized mountain
+  ridges.
+\newblock {\em Mon. Wea. Rev.}, 134(7):1919--1941, 2006.
+
+\bibitem[FN09]{FN09}
+X.~Feng and M.~Neilan.
+\newblock Mixed finite element methods for the fully nonlinear
+  {Monge-Amp{\'er}e} equation based on the vanishing moment method.
+\newblock {\em SIAM Journal on Numerical Analysis}, 47(2):1226--1250, 2009.
+
+\bibitem[FO11]{FO11}
+B.~Froese and A.~Oberman.
+\newblock Convergent finite difference solvers for viscosity solutions of the
+  elliptic {Monge-Amp{\'e}re} equation in dimensions two and higher.
+\newblock {\em SIAM Journal on Numerical Analysis}, 49(4):1692--1714, 2011.
+
+\bibitem[FOS15]{FOS1x}
+B.D. Froese, A.M. Oberman, and T.~Salvador.
+\newblock Numerical methods for the {2-Hessian} elliptic partial differential
+  equation.
+\newblock {\em arXiv:1502.04969}, 2015.
+
+\bibitem[FP96]{FP96}
+J.H. Ferziger and M.~Peri\'c.
+\newblock {\em Computational Methods for Fluid Dynamics}.
+\newblock Springer, 1996.
+
+\bibitem[FP07]{FP07}
+B.~Fornberg and C.~Piret.
+\newblock A stable algorithm for flat radial basis functions on a sphere.
+\newblock {\em SIAM J. Sci. Comput.}, 30(1):60--80, 2007.
+
+\bibitem[FP08]{FP08}
+B.~Fornberg and C.~Piret.
+\newblock On choosing a radial basis function and a shape parameter when
+  solving a convective {PDE} on a sphere.
+\newblock {\em J. Comput. Phys.}, 227(5):2758--2780, 2008.
+
+\bibitem[FPN{\etalchar{+}}10]{FPN+10}
+F.~Fang, C.C. Pain, I.M. Navon, G.J. Gorman, M.D. Piggott, Allison P.A., and
+  A.J.H. Goddard.
+\newblock A {POD} goal-oriented error measure for mesh optimization.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 63(2):185--206, 2010.
+
+\bibitem[FPP{\etalchar{+}}04]{FPP+04}
+R.~Ford, C.C. Pain, M.D. Piggott, A.J.H. Goddard, C.R.E. de~Oliveira, and A.P.
+  Umpleby.
+\newblock A nonhydrostatic finite-element model for three-dimensional
+  stratified oceanic flows. {P}art {I}: model formulation.
+\newblock {\em Mon. Wea. Rev.}, 132:2816 -- 2831, 2004.
+
+\bibitem[FPP{\etalchar{+}}09]{FPP+09}
+P.E. Farrell, M.D. Piggott, C.C. Pain, G.J. Gorman, and C.R. Wilson.
+\newblock Conservative interpolation between unstructured meshes via supermesh
+  construction.
+\newblock {\em Comput. Methods Appl. Mech. Eng.}, 198:2632--2642, 2009.
+
+\bibitem[FR94]{Fox94}
+M.S. Fox-Rabinovitz.
+\newblock Computational dispersion properties of vertically staggered grids for
+  atmospheric models.
+\newblock {\em Mon. Wea. Rev.}, 122(2):377--392, 1994.
+
+\bibitem[FRCD{\etalchar{+}}06]{FCD+06}
+M.~Fox-Rabinovitz, J.~C\^{o}t\'{e}, B.~Dugas, M.~Deque, and J.L. McGregor.
+\newblock {Variable resolution general circulation models: Stretched-grid model
+  intercomparison project (SGMIP)}.
+\newblock {\em J. Geophys. Res. - Atmos.}, 111(D16):D16104, 2006.
+
+\bibitem[Fro12a]{FroeseThesis2012}
+Froese.
+\newblock {\em Numerical Methods for the Elliptic {Monge-A}mp\`{e}re Equation
+  and Optimal Transport}.
+\newblock PhD thesis, Simon Fraser University, 2012.
+
+\bibitem[Fro12b]{Fro12}
+B.D. Froese.
+\newblock A numerical method for the elliptic {Monge-A}mp\`{e}re equation with
+  transport boundary conditions.
+\newblock {\em SIAM J. Sci. Comput.}, 34(3):A1432--A1459, 2012.
+
+\bibitem[FS08]{FS08}
+L.~Ferracina and M.N. Spijker.
+\newblock Strong stability of singly-diagonally-implicit {Runge-Kutta} methods.
+\newblock {\em Applied Numerical Mathematics}, 58:1675--1686, 2008.
+
+\bibitem[FT93]{FT93}
+B.H. Fiedler and R.~J. Trapp.
+\newblock A fast dynamic grid adaption scheme for meteorological flows.
+\newblock {\em Mon. Wea. Rev.}, 121(10):2879--2888, 1993.
+
+\bibitem[FTT04]{FTT04}
+A.~Fournier, M.~Taylor, and J.J. Tribbia.
+\newblock The spectral element atmosphere model ({SEAM}): High-resolution
+  parallel computation and localized resolution of regional dynamics.
+\newblock {\em Mon. Wea. Rev.}, 132:726--748, 2004.
+
+\bibitem[Ful01]{Ful01}
+S.R. Fulton.
+\newblock {An adaptive multigrid barotropic tropical cyclone track model}.
+\newblock {\em Mon. Wea. Rev.}, 129(1):138--151, 2001.
+
+\bibitem[FW07]{FW07}
+N.~Flyer and G.B. Wright.
+\newblock Transport schemes on a sphere using radial basis functions.
+\newblock {\em J. Comput. Phys.}, 226:1059--1084, 2007.
+
+\bibitem[FWC{\etalchar{+}}19]{FWC+19}
+M.M. Feist, C.D. Westbrook, P.A. Clark, T.H.M. Stein, H.W. Lean, and A.J.
+  Stirling.
+\newblock Statistics of convective cloud turbulence from a comprehensive
+  turbulence retrieval method for radar observations.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 145(719):727--744, 2019.
+
+\bibitem[F.X01]{Gir01}
+Giraldo. F.X.
+\newblock A spectral element shallow water model on spherical geodesic grids.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 35:869--901, 2001.
+
+\bibitem[Gar73]{Gary73}
+J.M. Gary.
+\newblock Estimate of truncation error in transformed coordinate, primitive
+  equation atmospheric models.
+\newblock {\em J. of Atmos Sci.}, 30(2):223--233, 1973.
+
+\bibitem[Gas11]{Gas11}
+A.~Gassmann.
+\newblock Inspection of hexagonal and triangular {C}-grid discretizations of
+  the shallow water equations.
+\newblock {\em J. Comput. Phys.}, 230:2706--2721, 2011.
+
+\bibitem[Gas13]{Gas13}
+A.~Gassmann.
+\newblock A global hexagonal {C}-grid non-hydrostatic dynamical core
+  {(ICON-IAP)} designed for energetic consistency.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 139(670):152--175, Jan 2013.
+
+\bibitem[Gas18]{Gas18}
+A.~Gassmann.
+\newblock Entropy production due to subgrid-scale thermal fluxes with
+  application to breaking gravity waves.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 144(711):499--510, 2018.
+
+\bibitem[GB99]{GB99}
+A.L.M. Grant and A.R. Brown.
+\newblock A similarity hypothesis for shallow-cumulus transports.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 125(558):1913--1936, 1999.
+
+\bibitem[GB06]{GB06}
+M.J. Garcia and P.~Boulanger.
+\newblock Low altitude wind simulation over {Mount Saint Helens} using {NASA
+  SRTM} digital terrain model.
+\newblock In {\em 3rd International Symposium on 3D Data Processing,
+  Visualization and Transmission}, pages 535--542, Univ North Carolina Chapel
+  Hill NC, June 2006.
+
+\bibitem[GBA{\etalchar{+}}02]{GBA+02}
+S.G. Gopalakrishnan, D.P. Bacon, N.N. Ahmad, Z.~Boybeyi, T.J. Dunn, M.S. Hall,
+  Y.~Jin, P.C.S. Lee, D.E. Mays, R.V. Madala, A.~Sarma, M.D. Turner, and T.R.
+  Wait.
+\newblock {An operational multiscale hurricane forecasting system}.
+\newblock {\em Mon. Wea. Rev.}, 130(7):1830--1847, Jul 2002.
+
+\bibitem[GBB{\etalchar{+}}07]{GBB+07}
+A.~Guelfi, D.~Bestion, M.~Boucker, P.~Boudier, P;~Fillion, M.~Grandotto, J-M
+  H\'erard, E.~Hervieu, and P.~P\'eturaud.
+\newblock {NEPTUNE}: A new software platform for advanced nuclear thermal
+  hydraulics.
+\newblock {\em Nuclear Science and Engineering}, 156:281--324, 2007.
+
+\bibitem[GBC{\etalchar{+}}93]{GBC+93}
+L.J. Gray, M.~Blackburn, M.P. Chipperfield, J.D. Haigh, D~Jackson, K.P. Shine,
+  Thuburn J., and W.~Zhong.
+\newblock First results from a 3-dimensional middle atmosphere model.
+\newblock {\em Advances in Space Research}, 13(1):363--372, Jan 1993.
+
+\bibitem[GBC06]{GBC06}
+C.~Gatti-Bono and P.~Colella.
+\newblock {An anelastic allspeed projection method for gravitationally
+  stratified flows}.
+\newblock {\em J. Comput. Phys.}, 216(2):589--615, 2006.
+
+\bibitem[GBD05]{GBD05}
+C.~Girard, R.~Benoit, and M.~Desgagn\'e.
+\newblock Finescale topography and the {MC2} dynamics kernel.
+\newblock {\em Mon. Wea. Rev.}, 133:1463--1477, 2005.
+
+\bibitem[GCS75a]{GCS75b}
+T.~Gal-Chen and R.C.J. Somerville.
+\newblock Numerical solution of the navier-stokes equations with topography.
+\newblock {\em J. Comput. Phys.}, 17:276--310, 1975.
+
+\bibitem[GCS75b]{GCS75}
+T.~Gal-Chen and R.C.J. Somerville.
+\newblock On the use of a coordinate tranformation for the solution of the
+  {Navier-Stokes} equations.
+\newblock {\em J. Comput. Phys.}, 17:209--228, 1975.
+
+\bibitem[GDFC03]{DFC03}
+G.~G.~De~Fabritiis and P.~V. Coveney.
+\newblock Dynamical geometry for multiscale dissipative particle dynamics,
+  2003.
+
+\bibitem[Ger92]{Ger92}
+M.~Germano.
+\newblock Turbulence: the filtering approach.
+\newblock {\em Journal of Fluid Mechanics}, 238:325--336, 1992.
+
+\bibitem[Ger07]{Ger07}
+L.~Gerard.
+\newblock An integrated package for subgrid convection, clouds and
+  precipitation compatible with the mesogamma scales.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 133:711--730, 2007.
+
+\bibitem[GG05]{GG05}
+L.~Gerard and J-F Geleyn.
+\newblock Evolution of a subgrid deep convection parametrization in a
+  limited-area model with increasing resolution.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 131:2293--2312, 2005.
+
+\bibitem[GGLR13]{GGLR13}
+B.~Good, A.~Gadian, S-J Lock, and A.~Ross.
+\newblock Performance of the cut-cell method of representing orography in
+  idealized simulations.
+\newblock {\em Atmos. Sci. Lett.}, 2013.
+
+\bibitem[GHW02]{GHW02}
+F.X. Giraldo, J.S. Hesthaven, and T.~Warburton.
+\newblock Nodal high-order discontinuous galerkin methods for the spherical
+  shallow water equations.
+\newblock {\em J. Comput. Phys.}, 181:299--525, 2002.
+
+\bibitem[Gir05]{Gir05}
+F.X. Giraldo.
+\newblock Semi-implicit time-integrators for a scalable spectral element
+  atmospheric model.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 131(610):2431--2454, 2005.
+
+\bibitem[GK00]{GK00}
+W.A. Gallus and J.B. Klemp.
+\newblock Behavior of flow over step orography.
+\newblock {\em Mon. Wea. Rev.}, 128(4):1153--1164, 2000.
+
+\bibitem[GKC13]{GKC13}
+F.X. Giraldo, J.F. Kelly, and E.M. Constantinescu.
+\newblock Implicit-explicit formulations of a three-dimensional nonhydrostatic
+  unified model of the atmosphere ({NUMA}).
+\newblock {\em SIAM J. Sci. Comput.}, 35(5):B1162--B1194, 2013.
+
+\bibitem[GKS07]{GKS07}
+R.~Garimella, M.~Kuckarik, and M.~Shashkov.
+\newblock An efficient linearity and bound preserving conservative
+  interpolation (remapping) on polyhedral meshes.
+\newblock {\em Computers and Fluids}, 36:224--237, 2007.
+
+\bibitem[GL78]{GL78}
+M.M. Gibson and B.E. Launder.
+\newblock Ground effects on pressure fluctuations in the atmospheric boundary
+  layer.
+\newblock {\em J. Fluid Mechanics}, 86(3):491--511, 1978.
+
+\bibitem[GL08]{GL08}
+V.~Gyrya and K.~Lipnikov.
+\newblock High-order mimetic finite difference methods for diffusion problems
+  on polygonal meshes.
+\newblock {\em J. Comput. Phys.}, 227(20):8841--8854, 2008.
+
+\bibitem[GLC02]{GLC02}
+J-C Golaz, V.E. Larson, and W.R. Cotton.
+\newblock A {PDF}-based model for boundary layer clouds. part {I}: Method and
+  model description.
+\newblock {\em J. of Atmos Sci.}, 59(24):3540--3551, 2002.
+
+\bibitem[GMJW16]{GMJW16}
+M.~Gross, S.~Malardel, C.~Jablonowski, and N.~Wood.
+\newblock Bridging the (knowledge) gap between physics and dynamics.
+\newblock {\em Bull. Amer. Meteor. Soc.}, 97(1):137--142, 2016.
+
+\bibitem[GNNM08]{GNNM08}
+F.~Ghangir, A.F. Nowakowski, F.C.G.A. Nicolleau, and T.M. Michelitsch.
+\newblock The application of {HLLC} numerical solver to the reduced multiphase
+  model.
+\newblock {\em Int. J. Mechanical and Mechatronics Engineering}, 2(4), 2008.
+
+\bibitem[GNQ14]{GNQ14}
+W.~Guo, R.D. Nair, and J-M Qiu.
+\newblock A conservative semi-{L}agrangian {Discontinuous Galerkin} scheme on
+  the cubed sphere.
+\newblock {\em Mon. Wea. Rev.}, 142(1):457--475, 2014.
+
+\bibitem[GR90]{GR90}
+D.~Gregory and P.R. Rowntree.
+\newblock A mass flux convection scheme with representation of cloud ensemble
+  charateristics and stability-dependent closure.
+\newblock {\em Mon. Wea. Rev.}, 118:1483--1506, 1990.
+
+\bibitem[GR04]{GR04}
+F.X. Giraldo and T.E. Rosmond.
+\newblock A scalable spectral element {Eulerian} atmospheric model {(SEE-AM)}
+  for {NWP}: Dynamical core tests.
+\newblock {\em Mon. Wea. Rev.}, 132(1):133--153, 2004.
+
+\bibitem[GRL10]{GRL10}
+F.~Giraldo, M.~Restelli, and M.~L\"auter.
+\newblock Semi-implicit formulations of the {Navier-Stokes} equations:
+  Application to nonhydrostatic atmospheric modeling.
+\newblock {\em SIAM J. Sci. Comput.}, 32(6):3394--3425, 2010.
+
+\bibitem[GS90]{GS90}
+W.W. Grabowski and P.K. Smolarkiewicz.
+\newblock Monotone finite-difference approximatinos to the
+  advection-condensation problem.
+\newblock {\em Mon. Wea. Rev.}, 118:2082--2097, 1990.
+
+\bibitem[GS98]{GS98}
+S.~Gottlieb and C-W Shu.
+\newblock Total variation diminishing {Runge-Kutta} schemes.
+\newblock {\em Mathematics of Computation}, 67(221):73--85, 1998.
+
+\bibitem[GSP04]{GSP04}
+J.~Galewsky, R.K. Scott, and L.M. Polvani.
+\newblock {An initial-value problem for testing numerical models of the global
+  shallow-water equations}.
+\newblock {\em Tellus}, 56A(5):429--440, 2004.
+
+\bibitem[GST00]{GST00}
+S.~Gottleib, C-W Shu, and E.~Tadmor.
+\newblock Strong stability preserving high-order time descretization methods.
+\newblock Technical report, NASA, National Aeronautics and Space
+  Administration, Langley Research Cednter, Hampton, Virginia 23681-2199, April
+  2000.
+
+\bibitem[GST01]{GST01}
+S.~Gottlieb, C-W Shu, and E.~Tadmor.
+\newblock Strong stability-preserving high-order time discretization methods.
+\newblock {\em SIAM review}, 43(1):89--112, 2001.
+
+\bibitem[GTB00]{GTB00}
+S.~Ghoral, A.~Tomlin, and M.~Berzins.
+\newblock Resolution of pollutant concentrations in the boundary layer using a
+  fully {3D} adaptive gridding technique.
+\newblock {\em Atm. Env.}, 34, 2000.
+
+\bibitem[GTU{\etalchar{+}}14]{GTU+14}
+O.~Guba, M.A. Taylor, P.A. Ullrich, J.R. Overfelt, and M.N. Levy.
+\newblock The spectral element method on variable resolution grids: evaluating
+  grid sensitivity and resolution-aware numerical viscosity.
+\newblock {\em Geosci. Model Dev. Discuss.}, 2014.
+
+\bibitem[GWR{\etalchar{+}}16]{GWR+16}
+M.~Gross, H.~Wan, P.J. Rasch, P.M. Caldwell, D.L. Williamson, D.~Klocke,
+  C.~Jablonowski, D.R. Thatcher, N.~Wood, M.~Cullen, R.~Beare, M.~Willett,
+  F.~Lemari\'{e}, E.~Blayo, S.~Malardel, P.~Termonia, A.~Gassmann, P.H.
+  Lauritzen, H.~Johansen, C.M. Zarzycki, K.~Sakaguchi, and R.~Leung.
+\newblock Recent progress and review of physics dynamics coupling in
+  geophysical models.
+\newblock {\em arXiv.org}, 2016.
+
+\bibitem[HAC97]{HAC97}
+C.W. Hirt, A.A. Amsden, and J.L. Cook.
+\newblock An arbitrary {Lagrangian-Eulerian} computing method for all flow
+  speeds.
+\newblock {\em J. Comput. Phys.}, 135(2):203--216, 1997.
+
+\bibitem[HAQ12]{HAQ12}
+C-S Huang, T.~Arbogast, and J.~Qiu.
+\newblock An {Eulerian-Lagrangian} {WENO} finite volume scheme for advection
+  problems.
+\newblock {\em J. Comput. Phys.}, 231(11):4028--4052, 2012.
+
+\bibitem[HAW{\etalchar{+}}08]{HAW+08}
+J.F. Hamilton, G.~Allen, N.M. Watson, J.D. Lee, J.E. Saxton, A.C. Lewis,
+  G.~Vaughan, K.N. Bower, M.J. Flynn, J.~Crosier, Carver G.D., N.R.P. Harris,
+  and Coauthors.
+\newblock Observations of an atmospheric chemical equator and its implications
+  for the tropical warm pool region.
+\newblock {\em J. Geophys. Res.}, 113:D20313, 2008.
+
+\bibitem[HB92]{HB92}
+S.W. Hammond and T.J. Barth.
+\newblock {Efficient massively parallel Euler solver for two-dimensional
+  unstructured grids}.
+\newblock {\em AIAA Journal}, 30(4):947--952, 1992.
+
+\bibitem[HC51]{HC51}
+H.G. Houghton and H.E. Cramer.
+\newblock A theory of entrainment in convective currents.
+\newblock {\em Journal of Meteorology}, 8(2):95--102, 1951.
+
+\bibitem[HCa14]{HPB+14}
+C.E. Holloway and Co-authors.
+\newblock Understanding and representing atmospheric convection across scales:
+  recommendations from the meeting held at {Dartington Hall, Devon, UK, 28-30
+  January 2013}.
+\newblock {\em Atmos. Sci. Lett.}, 15(4):348--353, 2014.
+
+\bibitem[HCPB08]{HCPB08}
+S.~Harig, Chaeroni, W.S. Pranowo, and J\"{o}rn Behrens.
+\newblock Tsunami simulations on several scales.
+\newblock {\em Ocean Dynamics}, 58(5-6):429--440, 2008.
+
+\bibitem[HH87]{HH87}
+T.~Hauf and H.~H\"oller.
+\newblock Entropy and potential temperature.
+\newblock {\em J. of Atmos Sci.}, 44(20):2887--2901, 1987.
+
+\bibitem[HH02]{HH02}
+T.~Heinze and A.~Hense.
+\newblock The shallow water equations on the sphere and their
+  {Lagrange-Galerkin}-solution.
+\newblock {\em Meteorology and Atmospheric Physics}, 81(1-2):129--137, 2002.
+
+\bibitem[HH10]{HH10}
+R.~Hartmann and P.~Houston.
+\newblock Error estimation and adaptive mesh refinement for aerodynamic flows.
+\newblock [Available online at
+  \url{http://core.kmi.open.ac.uk/download/pdf/18032.pdf}], 2010.
+\newblock cited 2014.
+
+\bibitem[HHL11]{HHL11}
+R.~Hartmann, J.~Held, and T.~Leicht.
+\newblock Adjoint-based error estimation and adaptive mesh refinement for the
+  rans and $k-\omega$ turbulence model equations.
+\newblock {\em J. Comput. Phys.}, 230(11):4268--4284, 2011.
+
+\bibitem[Hig05]{Hig05}
+R.L. Higdon.
+\newblock A two-level time-stepping method for layered ocean circulations
+  models: further development and testing.
+\newblock {\em J. Comput. Phys.}, 206(2):463--504, 2005.
+
+\bibitem[HJ92]{HJ92}
+J.J. Hack and R.~Jakob.
+\newblock Description of a global shallow water model based on the spectral
+  transform method.
+\newblock Technical Report NCAR/TN-343+STR, National Centre for Atmospheric
+  Research, Boulder Colorado, February 1992.
+
+\bibitem[HK84]{HK84}
+D.D. Holm and B.A. Kupershmidt.
+\newblock Multipressure regularizatoin for multiphase flow.
+\newblock {\em Physics Letters}, 106A(4):165--168, 1984.
+
+\bibitem[HK86a]{HK86a}
+D.D. Holm and B.A. Kupershmidt.
+\newblock Hamiltonian structure and {Lyapunov} stability of a hyperbolic system
+  of two-phase flow equations including surface tension.
+\newblock {\em The Physics of Fluids}, 29(4):986--991, 1986.
+
+\bibitem[HK86b]{HK86b}
+D.D. Holm and B.A. Kupershmidt.
+\newblock Multipressure regularizatoin for multiphase flow.
+\newblock {\em International Journal of Multiphase Flow}, 12(4):681--697, 1986.
+
+\bibitem[HKRB83]{HKRB83}
+A.~Hollingsworth, P.~Kallberg, V.~Renner, and D.M. Burridge.
+\newblock An internal symmetric computational instability.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 109(460):417--428, 1983.
+
+\bibitem[HL13]{HL13}
+L.M. Harris and S-J Lin.
+\newblock A two-way nested global-regional dynamical core on the cubed-sphere
+  grid.
+\newblock {\em Mon. Wea. Rev.}, 141(1):283--306, 2013.
+
+\bibitem[HLD03]{HLD03}
+E.~Hanert, V.~Legat, and E.~Deleersnijder.
+\newblock A comparison of three finite elements to solve the linear shallow
+  water equations.
+\newblock {\em Ocean Model.}, 5(1):17--35, 2003.
+
+\bibitem[HLM11]{HLM11}
+L.M. Harris, P.H. Lauritzen, and R.~Mittal.
+\newblock A flux-form version of the conservative semi-lagrangian multi-tracer
+  transport scheme (cslam) on the cubed sphere grid.
+\newblock {\em J. Comput. Phys.}, 230(4):1215--1237, 2011.
+
+\bibitem[HLRLD04]{HLL+04}
+E.~Hanert, D.Y. Le~Roux, V.~Legat, and E.~Deleersnijder.
+\newblock Advection schemes for unstructured grid ocean modelling.
+\newblock {\em Ocean Model.}, 7(1-2):39--58, 2004.
+
+\bibitem[HLW{\etalchar{+}}13]{HLW+13}
+M-P Hung, J-L Lin, W.~Wang, D.~Kim, T.~Shinoda, and S.J. Weaver.
+\newblock {MJO} and convectively coupled equatorial waves simulated by {CMIP5}
+  climate models.
+\newblock {\em J. Climate}, 26(17):6185--6214, 2013.
+
+\bibitem[HN03]{HN03}
+M.E. Hubbard and N.~Nikiforakis.
+\newblock A three-dimensional, adaptive, godunov-type model for global
+  atmospheric flows.
+\newblock {\em Mon. Wea. Rev.}, 131(8):1848--1864, 2003.
+
+\bibitem[Hor02]{Hort02}
+M.~Hortal.
+\newblock The development and testing of a new two-time-level semi-{Lagrangian
+  scheme (SETTLS) in the ECMWF} forecast model.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 128:1671--1687, 2002.
+
+\bibitem[Hor12]{Horn12}
+S~Horn.
+\newblock {ASAMgpu V1.0} - a moist fully compressible atmospheric model using
+  graphics processing units ({GPUs}).
+\newblock {\em Geosci. Model Dev.}, 5:345--353, 2012.
+
+\bibitem[HP96]{HP96}
+S-Y Hong and H-L Pan.
+\newblock Nonlocal boundary layer vertical diffusion in a medium-range forecast
+  model.
+\newblock {\em Mon. Wea. Rev.}, 124:2322--2339, 1996.
+
+\bibitem[HP98]{HP98}
+S-Y Hong and H-L Pan.
+\newblock Convective trigger function for a mass-flux cumulus parameterization
+  scheme.
+\newblock {\em Mon. Wea. Rev.}, 126(10):2599--2620, 1998.
+
+\bibitem[HPS{\etalchar{+}}15]{HPS+15}
+K.E. Hanley, R.S. Plant, T.H.M. Stein, R.J. Hogan, J.C. Nicol, H.W. Lean,
+  C.~Halliwell, and P.A. Clark.
+\newblock Mixing length controls on high resolution simulations of convective
+  storms.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 141(686):272--284, 2015.
+
+\bibitem[HR95a]{HR95a}
+R.~Heikes and D.A. Randall.
+\newblock Numerical integration of the shallow-water equations on a twisted
+  icosahedral grid. {P}art {I}: Basic design and results of tests.
+\newblock {\em Mon. Wea. Rev.}, 123:1862--1880, June 1995.
+
+\bibitem[HR95b]{HR95b}
+R.~Heikes and D.A. Randall.
+\newblock Numerical integration of the shallow-water equations on a twisted
+  icosahedral grid. {P}art {II}: A detailed description of the grid and an
+  analysis of numerical accuracy.
+\newblock {\em Mon. Wea. Rev.}, 123:1881--1997, June 1995.
+
+\bibitem[HR07]{HR07}
+T.~Hundertmark and S.~Reich.
+\newblock A regularized approach for a vertical-slice model and
+  semi-{L}agrangian {S}t\"{o}rmer--{V}erlet time stepping.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 133:1575--1587, 2007.
+
+\bibitem[HR10]{HR10}
+W.~Huang and R.D. Russell.
+\newblock {\em Adaptive Moving Mesh Methods}.
+\newblock Springer, 2010.
+
+\bibitem[HRK13]{HRK13}
+R.P. Heikes, D.A. Randall, and C.S. Konor.
+\newblock Optimised icosahedral grids: Performance of finite-difference
+  operators and multigrid solver.
+\newblock {\em Mon. Wea. Rev.}, 141(12):4450--4469, 2013.
+
+\bibitem[HRR94]{HRR94}
+W.~Huang, Y.~Ren, and R.D. Russell.
+\newblock Moving mesh partial differential equations {(MMPDES)} based on the
+  equidistribution principle.
+\newblock {\em SIAM Journal of Numerical Analysis}, 31(3):709--730, 1994.
+
+\bibitem[HS91]{HS91}
+M.~Hortal and A.J. Simmons.
+\newblock Use of reduced {G}aussian grids in spectral models.
+\newblock {\em Mon. Wea. Rev.}, 119(4):1057--1074, 1991.
+
+\bibitem[HS94]{HS94}
+I.M. Held and M.J. Suarez.
+\newblock A proposal for the intercomparison of the dynamical cores of
+  atmospheric general-circulation models.
+\newblock {\em Bull. Amer. Meteor. Soc.}, 75(10):1825--1830, 1994.
+
+\bibitem[HS98]{HS98}
+P.~Houston and E.~S\"uli.
+\newblock A posteriori error indicators for hyperbolic problems.
+\newblock Technical Report 97/14, Numerical Analysis Group, Oxford University
+  Computing Laboratory, Wolfson Building, Parks Road, Oxford, England OX1 3QD,
+  1998.
+
+\bibitem[HS99]{HS99}
+C.~Hu and C-W Shu.
+\newblock Weighted essentially non-oscillatory schemes on triangular meshes.
+\newblock {\em J. Comput. Phys.}, 150:97--127, 1999.
+
+\bibitem[HSW08]{HSW08}
+P.~Houston, E.~Suli, and T.P. Wihler.
+\newblock A posteriori error analysis of hp-version discontinuous {G}alerkin
+  finite-element methods for second-order quasi-linear elliptic {PDEs}.
+\newblock {\em IMA Journal of Numerical Analysis}, 28(3):245--273, 2008.
+
+\bibitem[HTW08]{HTW08}
+D.~Holdaway, J.~Thuburn, and N.~Wood.
+\newblock On the relation between order of accuracy, convergence rate and
+  spectral slope for linear numerical methods applied to multiscale problems.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 56(8):1297--1303, 2008.
+
+\bibitem[HTW13a]{HTW13a}
+D.~Holdaway, J.~Thuburn, and N.~Wood.
+\newblock {Comparison of Lorenz and Charney-Philips vertical discretisations
+  for dynamics-boundary layer coupling. Part I: Steady states}.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 139, 2013.
+
+\bibitem[HTW13b]{HTW13b}
+D.~Holdaway, J.~Thuburn, and N.~Wood.
+\newblock {Comparison of Lorenz and Charney-Philips vertical discretisations
+  for dynamics-boundary layer coupling. Part II: Transients}.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 139, 2013.
+
+\bibitem[HTW13c]{HTW13}
+D.~Holdaway, J.~Thuburn, and N.~Wood.
+\newblock Comparison of {Lorenz and Charney-Phillips} vertical discretisations
+  for dynamics-boundary layer coupling. part {I}: Steady states.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 139:1073--1086, 2013.
+
+\bibitem[Hua01]{Hua01}
+W.~Huang.
+\newblock Variational mesh adaption: {Isotropy} and equidistribution.
+\newblock {\em J. Comput. Phys.}, 174(2):903--924, 2001.
+
+\bibitem[Hub02]{Hub02}
+M.E. Hubbard.
+\newblock Adaptive mesh refinement for three-dimensional off-line tracer
+  advection over the sphere.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 40(3-4):369--377, 2002.
+
+\bibitem[Hum09]{Hum09}
+M.~Humi.
+\newblock Long's equation in terrain following coordinates.
+\newblock {\em Nonlin. Processes Geophys.}, 16:533--541, 2009.
+
+\bibitem[HvdVH91]{HvH91}
+R.A.W.M. Henkes, F.F. van~der Vlugt, and C.J. Hoogendoorn.
+\newblock Natural-convection flow in a square cavity calculated with
+  low-reynolds-number turbulence models.
+\newblock {\em Int. M. Heat Mass Transfer}, 34(2):377--388, 1991.
+
+\bibitem[HW14]{HW14}
+T.~Haut and B.~Wingate.
+\newblock An asymptotic parallel-in-time method for highly oscillatory {PDEs}.
+\newblock {\em SIAM J. Sci. Comput.}, 36(2):A693--A713, 2014.
+
+\bibitem[HWC15]{HWC15}
+J.C. Hateley, H.~Wei, and L.~Chen.
+\newblock Fast methods for computing centroidal {Voronoi} tessellations.
+\newblock {\em J. Sci. Comp.}, pages 185--212, 2015.
+
+\bibitem[HWLRP09]{HWLP09}
+E.~Hanert, R.A. Walters, D.~Le~Roux, and J.D. Pietrzak.
+\newblock A tale of two elements: {P1NC - P1 and RT0}.
+\newblock {\em Ocean Modelling}, 28:24--33, 2009.
+
+\bibitem[HWSC19]{HWSC19}
+K.~Hanley, M.~Whitall, A.~Stirling, and P.~Clark.
+\newblock Modifications to the representation of subgrid mixing in
+  kilometre‐scale versions of the {Unified Model}.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, in press, 2019.
+
+\bibitem[HZ04]{HZ04}
+K.P. Hoinka and G.~Z\"angl.
+\newblock {The influence of the vertical coordinate on simulations of a PV
+  streamer crossing the Alps}.
+\newblock {\em Mon. Wea. Rev.}, 132(7):1860--1867, Jul 2004.
+
+\bibitem[IGG18]{IGG18}
+L.~Isherwood, Z.J. Grant, and S.~Gottlieb.
+\newblock Strong stability preserving integrating factor {Runge-Kutta} methods.
+\newblock {\em ?}, 2018.
+
+\bibitem[IK04]{IK04}
+A.~Iske and M.~Kaser.
+\newblock {Conservative semi-Lagrangian advection on adaptive unstructured
+  meshes}.
+\newblock {\em Numerical Methods for Partial Differential Equations},
+  20(3):388--411, 2004.
+
+\bibitem[IMBOn14]{IMBO14}
+S.R. Idelsohn, J.~Marti, P.~Becker, and E.~O\~nate.
+\newblock Analysis of multifluid flows with large time steps using the particle
+  finite element method.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 75:621--644, 2014.
+
+\bibitem[Isk08]{Isk08}
+M.~Iskandarani.
+\newblock Simulating hydrostatic and non-hydrostatic oceanic flows.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 58:1135--1146, 2008.
+
+\bibitem[Iss86]{Iss86}
+R.I. Issa.
+\newblock {Solution of the implicitly discretised fluid flow equations by
+  operator-splitting}.
+\newblock {\em J. Comput. Phys.}, 62(1):40--65, 1986.
+
+\bibitem[IX10]{IX10}
+S.~Ii and F.~Xiao.
+\newblock A global shallow water model using high order multi-moment
+  constrained finite volume method and icosahedral grid.
+\newblock {\em J. Comput. Phys.}, 229:1774--1796, 2010.
+
+\bibitem[IY06]{IY06}
+H.~Ichikawa and T.~Yasunari.
+\newblock Time-space characteristics of diurnal rainfall over {Borneo} and
+  surrounding oceans as observed by {TRMM-PR}.
+\newblock {\em J. Climate}, 2006.
+
+\bibitem[Jan03]{Jan03}
+Z.I Janjic.
+\newblock A nonhydrostatic model based on a new approach.
+\newblock {\em Meteorology and Atmospheric Physics}, 82(1-4):271--285, 2003.
+
+\bibitem[JCHW95]{JHW95}
+R.~Jakob-Chien, J.J. Hack, and D.L. Williamson.
+\newblock Spectral transform solutions to the shallow water test set.
+\newblock {\em J. Comput. Phys.}, 119(1):164--187, 1995.
+
+\bibitem[JGN01]{JGN01}
+Z.I. Janjic, J.P. Gerrity, and S.~Ni\v{c}kovi\'{c}.
+\newblock An alternative approach to nonhydrostatic modeling.
+\newblock {\em Mon. Wea. Rev.}, 129(5):1164--1178, 2001.
+
+\bibitem[JGR{\etalchar{+}}13]{JGR+13}
+D.W. Jacobsen, M.~Gunzburger, T.~Ringler, J.~Burkardt, and J.~Peterson.
+\newblock Parallel algorithms for planar and spherical {Delaunay} construction
+  with an application to centroidal {Voronoi} tessellations.
+\newblock {\em Geosci. Model Dev.}, 6:1353--1365, 2013.
+
+\bibitem[JHP{\etalchar{+}}06]{JHP+06}
+C.~Jablonowski, M.~Herzog, J.E. Penner, R.C. Oehmke, Q.F. Stout, B.~van Leer,
+  and K.G. Powell.
+\newblock Block-structured adaptive grids on the sphere: Advection experiments.
+\newblock {\em Mon. Wea. Rev.}, 134(12):3691--3713, 2006.
+
+\bibitem[JHW93]{JHW93}
+R.~Jakob, J.J. Hack, and D.L. Williamson.
+\newblock Solutions to the shallow water test set using the spectral transform
+  method.
+\newblock Technical note NCAR/TN-388+STR, {Climate and Global Dynamics
+  Division, National Center for Atmospheric Research}, Boulder, Colorado, May
+  1993.
+
+\bibitem[JKKV15]{JKKV15}
+M.~J\"ahn, O.~Knoth, M.~K\"onig, and U.~Vogelsberg.
+\newblock {ASAM} v2.7: a compressible atmospheric model with a {Cartesian} cut
+  cell approach.
+\newblock {\em Geosci. Model Dev.}, 8:317--340, 2015.
+
+\bibitem[JKW11]{JKW11}
+S.~Jebens, O.~Knoth, and R.~Weiner.
+\newblock Partially implicit peer methods for the compressible {Euler}
+  equations.
+\newblock {\em J. Comput. Phys.}, 2011.
+
+\bibitem[JLNT08]{JLNT08}
+C.~Jablonowski, P.~H. Lauritzen, R.~D. Nair, and M.~Taylor.
+\newblock Idealized test cases for the dynamical cores of atmospheric general
+  circulation models: A proposal for the {NCAR ASP} 2008 summer colloquium.
+\newblock http://www-personal.umich.edu/$^\sim$cjablono
+  /NCAR\_ASP\_2008\_idealized\_testcases\_29May08.pdf, 2008.
+
+\bibitem[Jon99]{Jon99}
+P.W. Jones.
+\newblock First- and second-order conservative remapping schemes for grids in
+  spherical coordinates.
+\newblock {\em Mon. Wea. Rev.}, 127:2204--2210, Sept 1999.
+
+\bibitem[JW00]{JW00}
+H.~Jasak and H.G. Weller.
+\newblock {Application of the finite volume method and unstructured meshes to
+  linear elasticity}.
+\newblock {\em Int. J. Numer. Meth. Engineering}, 48(2):267--287, 2000.
+
+\bibitem[JW06]{JW06}
+C.~Jablonowski and D.L. Williamson.
+\newblock A baroclinic instability test case for atmospheric model dynamical
+  cores.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 132:2943--2975, 2006.
+
+\bibitem[JWG99]{JWG99}
+H.~Jasak, H.G. Weller, and A.D. Gosman.
+\newblock High resolution {NVD} differencing scheme for arbitrarily
+  unstructured meshes.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 31:431--449, 1999.
+
+\bibitem[KA67]{KA67}
+A.~Kasahara and T.~Asai.
+\newblock Effects of an ensemble of convective elements on the large-scale
+  motions of the atmosphere.
+\newblock {\em J. Meteor.-Soc. Japan}, 45(4):280--290, 1967.
+
+\bibitem[KA97]{KA97}
+C.S. Konor and A.~Arakawa.
+\newblock Design of an atmospheric model based on a generalized vertical
+  coordinate.
+\newblock {\em Mon. Wea. Rev.}, 125(7):1649--1673, 1997.
+
+\bibitem[KA07]{KA07}
+C.S. Konor and A.~Arakawa.
+\newblock Multipoint explicit differencing {(MED)} for time integrations of the
+  wave equation.
+\newblock {\em Mon. Wea. Rev.}, 135:3862--3875, 2007.
+
+\bibitem[Kaa08]{Kaa08}
+E.~Kaas.
+\newblock A simple and efficient locally mass conserving semi-lagrangian
+  transport scheme.
+\newblock {\em Tellus A}, 60(2):305--320, 2008.
+
+\bibitem[Kag05]{Kag05}
+A.~Kageyama.
+\newblock Dissection of a sphere and yin-yang grids.
+\newblock {\em Journal of the Earth Simulator}, 3:20--28, 2005.
+
+\bibitem[Kai04]{Kai04}
+J.S. Kain.
+\newblock The {Kain-Fritsch} convective parameterization: an update.
+\newblock {\em J. Appl. Meteor.}, 43:170--181, 2004.
+
+\bibitem[KB08]{KB08}
+V.~Kuell and A.~Bott.
+\newblock A hybrid convection scheme for use in non-hydrostatic numerical
+  weather prediction models.
+\newblock {\em Meteorologische Zeitschrift}, 17(6):775--783, 2008.
+
+\bibitem[KBH07]{KBH07}
+J.C. Knievel, G.H. Bryan, and J.P. Hacker.
+\newblock Explicit numerical diffusion in the {WRF} model.
+\newblock {\em Mon. Wea. Rev.}, 135:3808--3824, 2007.
+
+\bibitem[KC03]{KC03}
+C.A. Kennedy and M.H. Carpenter.
+\newblock Additive runge-kutta schemes for convection-diffusion-reaction
+  equations.
+\newblock {\em Applied Numerical Mathematics}, 44:139--181, 2003.
+
+\bibitem[KCH{\etalchar{+}}13]{KCH+13}
+S.~Kimura, A.S. Candy, P.R. Holland, M.D. Piggott, and A.~Jenkins.
+\newblock Adaptation of an unstructured-mesh, finite-element ocean model to the
+  simulation of ocean circulation beneath ice shelves.
+\newblock {\em Ocean Model.}, 67:39--51, 2013.
+
+\bibitem[KCP10]{KrCoPa2010}
+S.C. Kramer, C.J. Cotter, and C.C. Pain.
+\newblock Solving the {P}oisson equation on small aspect ratio domains using
+  unstructured meshes.
+\newblock {\em Ocean Model.}, 35(3):253--263, 2010.
+
+\bibitem[KF90]{KF90}
+J.S. Kain and J.M. Fritsch.
+\newblock A one-dimensional entraining/detraining plume model and its
+  application in convective parameteriztion.
+\newblock {\em J. of Atmos Sci.}, 47(23):2784--2802, 1990.
+
+\bibitem[KF93]{KF93}
+J.S. Kain and J.M. Fritsch.
+\newblock Convective parameterization for mesoscale models: {The Kain-Fritsch}
+  scheme.
+\newblock In Kerry~A. Emanuel and David~J. Raymond, editors, {\em The
+  Representation of Cumulus Convection in Numerical Models}, Meteorological
+  Monographs, pages 165--170. American Meteorological Society, 1993.
+
+\bibitem[KFDF11]{KFDF11}
+J.A. Knox, F.D. Frye, J.D. Durkee, and C.M. Fuhrmann.
+\newblock Non-convective high winds associated with extratropical cyclones.
+\newblock {\em Geography Compass}, 5(2):63--89, 2011.
+
+\bibitem[KGB07]{KGB07}
+V.~Kuell, A.~Gassmann, and A.~Bott.
+\newblock Towards a new hybrid cumulus parametrization scheme for use in
+  non-hydrostatic weather prediction models.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 133(623):479--490, 2007.
+
+\bibitem[KH17]{KH17}
+Y.C. Kwon and S-Y Hong.
+\newblock A mass-flux cumulus parameterization scheme across gray-zone
+  resolutions.
+\newblock {\em Mon. Wea. Rev.}, 145(2):583--598, 2017.
+
+\bibitem[KHHK12]{KHHK12}
+F.~Kupka, N.~Happenhofer, I.~Higueral, and O.~Kock.
+\newblock Total-variation-diminishing implicit-explicit runge-kutta methods for
+  the simulation of double-diffusive convection in astrophysics.
+\newblock {\em J. Comput. Phys.}, 231:3561--3586, 2012.
+
+\bibitem[KK88]{KK88}
+E.~Kalnay and M.~Kanamitsu.
+\newblock Time schemes for strongly nonlinear damping equations.
+\newblock {\em Mon. Wea. Rev.}, 116(10):1945--1958, 1988.
+
+\bibitem[KKJ{\etalchar{+}}02]{KKJ+02}
+M.~Kanamitsu, A.~Kumar, H.M.H. Juang, J.K. Schemm, W.Q. Wang, F.L. Yang, S.Y.
+  Hong, P.T. Peng, W.~Chen, S.~Moorthi, and M.~Ji.
+\newblock {NCEP dynamical seasonal forecast system 2000}.
+\newblock {\em Bull. Amer. Meteor. Soc.}, 83(7):{1019+}, JUL 2002.
+
+\bibitem[Kle09]{Kle09}
+R.~Klein.
+\newblock Asymptotics, structure, and integration of sound-proof atmospheric
+  flow equations.
+\newblock {\em Theor. Comput. Fluid Dyn.}, 23:161--195, 2009.
+
+\bibitem[Kle11]{Kle11}
+J.B. Klemp.
+\newblock A terrain-following coordinate with smoothed coordinate surfaces.
+\newblock {\em Mon. Wea. Rev.}, 139:2163--2169, 2011.
+
+\bibitem[KMG09]{KMG09}
+D.I. Ketcheson, C.B. Macdonald, and S.~Gottlieb.
+\newblock Optimal implicit strong stability preserving {Runge-Kutta} methods.
+\newblock {\em Applied Numerical Mathematics}, 59(2):373--392, 2009.
+
+\bibitem[KNK15]{KNK15}
+K.K. Katta, R.D. Nair, and V.~Kumar.
+\newblock High-order finite-volume transport on the cubed sphere: comparison
+  between 1d and 2d reconstruction schemes.
+\newblock {\em Mon. Wea. Rev.}, 143(7):2937--2954, 2015.
+
+\bibitem[Kon14]{Kon14}
+C.S. Konor.
+\newblock Design of a dynamical core based on the nonhydrostatic ``unified
+  system'' of equations.
+\newblock {\em Mon. Wea. Rev.}, 142(1):364--385, 2014.
+
+\bibitem[KP12]{KP12}
+R.J. Keane and R.S. Plant.
+\newblock Large-scale length and time-scales for use with stochastic convective
+  parametrization.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 138(666):1150--1164, 2012.
+
+\bibitem[KPS09]{KPS09}
+O.~Kleptsova, J.D. Pietrzak, and G.S. Stelling.
+\newblock On the accurate and stable reconstruction of tangential velocities in
+  {C}-grid ocean models.
+\newblock {\em Ocean Model.}, 28(1-3):118--126, 2009.
+
+\bibitem[KR71]{KR71}
+M.~Kwizak and A.J. Robert.
+\newblock A semi-implicit scheme for grid point atmospheric models of the
+  primitive equations.
+\newblock {\em Mon. Wea. Rev.}, 99(1):32--36, 1971.
+
+\bibitem[KR03]{KR03}
+M.F. Khairoutdinov and D.A. Randall.
+\newblock Cloud resolving modeling of the {ARM} summer 1997 {IOP}: Model
+  formulation, results, uncertainties, and sensitivities.
+\newblock {\em J. of Atmos Sci.}, 60(4):607--625, 2003.
+
+\bibitem[KR06]{KR06}
+M.~Khairoutdinov and D.~Randall.
+\newblock High-resolution simulation of shallow-to-deep convection transition
+  over land.
+\newblock {\em J. of Atmos Sci.}, 63(12):3421--3436, 2006.
+
+\bibitem[KS12]{KS12}
+R.~Knutti and J.~Sedl\'a\v{c}ek.
+\newblock Robustness and uncertainties in the new {CMIP5} climate model
+  projections.
+\newblock {\em Nature Climate Change}, 3(369), 2012.
+
+\bibitem[KS17]{KS17}
+C.~K\"uhnlein and P.K. Smolarkiewicz.
+\newblock An unstructured-mesh finite-volume {MPDATA} for compressible
+  atmospheric dynamics.
+\newblock {\em J. Comput. Phys.}, 334:16--30, 2017.
+
+\bibitem[KSD07]{KSD07}
+J.B. Klemp, W.C. Skamarock, and J.~Dudhia.
+\newblock Conservative split-explicit time integration methods for the
+  compressible nonhydrostatic equations.
+\newblock {\em Mon. Wea. Rev.}, 135(10):2897--2913, 2007.
+
+\bibitem[KSD12]{KSD12}
+C.~K\"{u}hnlein, P.K. Smolarkiewicz, and A.~D\"{o}rnbrack.
+\newblock Modelling atmospheric flows with adaptive moving meshes.
+\newblock {\em J. Comput. Phys.}, 231(7):2741--2763, 2012.
+
+\bibitem[KSF03]{KSF03}
+J.B. Klemp, W.C. Skamarock, and O.~Fuhrer.
+\newblock Numerical consistency of metric terms in terrain-following
+  coordinates.
+\newblock {\em Mon. Wea. Rev.}, 131(7):1229--1239, 2003.
+
+\bibitem[KSP04]{KSP04}
+A.~Kaufmann, O.~Simonin, and T.~Poinsot.
+\newblock Direct numerical simulation of particle-laden homogeneous isotropic
+  turbulent flows using a two-fluid model formulation.
+\newblock Number 5th in International Conference on Multiphase Flow, June 2004.
+
+\bibitem[KUJ14]{KUJ14}
+J.~Kent, P.A. Ullrich, and C.~Jablonowski.
+\newblock Dynamical core model intercomparison project: Tracer transport test
+  cases.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 140(681):1279--1293, Apr 2014.
+
+\bibitem[Lap92]{Lap92}
+R.~Laprise.
+\newblock The {Euler} equations of motion with hydrostatic pressure as an
+  independent variable.
+\newblock {\em Mon. Wea. Rev.}, 120(1):197--207, 1992.
+
+\bibitem[Lap06]{Lap06}
+A.~Lapworth.
+\newblock The morning transition of the nocturnal boundary layer.
+\newblock {\em Bound.-Layer Meteor}, 119(3):501--526, 2006.
+
+\bibitem[Las02]{Las02}
+R.K. Lashley.
+\newblock {\em Automatic Generation of Accurate Advection Schemes on
+  Unstructured Grids and their Application to Meteorological Problems}.
+\newblock PhD thesis, Departments of Mathematics and Meteorology, University of
+  Reading, 2002.
+
+\bibitem[Lau06]{Lau06}
+D.~Laurence.
+\newblock Industrial {LES} with unstructured finite volumes.
+\newblock In {\em DIRECT AND LARGE-EDDY SIMULATION}, volume~10 of {\em 6th
+  International ERCOFTAC Workshop on Direct and Large-Eddy Simulation}, pages
+  27--38, Univ Poitiers Poitiers FRANCE, 2006. ERCOFTAC.
+\newblock Sep 12-14, 2005.
+
+\bibitem[Lau07]{Lau07}
+P.H. Lauritzen.
+\newblock A stability analysis of finite-volume advection schemes permitting
+  long time steps.
+\newblock {\em Mon. Wea. Rev.}, 135(7):2658--2673, 2007.
+
+\bibitem[Lax]{LaxEqThm}
+Lax equivalence theorem, from wikipedia, the free encyclopedia.
+\newblock \url{https://en.wikipedia.org/wiki/Lax_equivalence_theorem}.
+\newblock cited 2016.
+
+\bibitem[LB91]{LB91}
+M.~Lance and J.~Bataille.
+\newblock Turbulence in the liquid phase of a uniform bubbly air-water flow.
+\newblock {\em Journal of Fluid Mechanics}, 222:95--118, 1 1991.
+
+\bibitem[LBB{\etalchar{+}}00]{LBB+00}
+A.P. Lock, A.R. Brown, M.R. Bush, G.M. Martin, and R.N.B. Smith.
+\newblock A new boundary layer mixing scheme. {P}art {I}: Scheme description
+  and single-column model tests.
+\newblock {\em Mon. Wea. Rev.}, 128(9):3187--3199, 2000.
+
+\bibitem[LBC{\etalchar{+}}12]{LBC+12}
+S-J Lock, H-W Bitzer, A.~Coals, A.~Gadian, and S.~Mobbs.
+\newblock Demonstration of a cut-cell representation of {3D} orography for
+  studies of atmospheric flows over very steep hills.
+\newblock {\em Mon. Wea. Rev.}, 140(2):411--424, 2012.
+
+\bibitem[LBV00]{LBV00}
+D.~Lanser, J.G. Blom, and J.G. Verwer.
+\newblock Spatial discretization of the shallow water equations in spherical
+  geometry using {O}sher's scheme.
+\newblock {\em J. Comput. Phys.}, 165(2):Pages 542--565, 2000.
+
+\bibitem[LC06]{LKM+06}
+J-L Lin and Coauthors.
+\newblock Tropical intraseasonal variability in 14 {IPCC AR4} climate models.
+  {P}art {I}: Convective signals.
+\newblock {\em J. Climate}, 19(12):2665--2690, 2006.
+
+\bibitem[LC16]{LFL+16}
+D.C Leon and Coauthors.
+\newblock {The Convective Precipitation Experiment (COPE): investigating the
+  origins of heavy precipitation in the southwestern UK}.
+\newblock {\em Bull. Amer. Meteor. Soc.}, 97(6):1003--1020, 2016.
+
+\bibitem[LCa09]{LBC+09}
+S.~Legg and Co-authors.
+\newblock Improving oceanic overflow representation in climate models: The
+  gravity current entrainment climate process team.
+\newblock {\em Bull. Amer. Meteor. Soc.}, 2009.
+
+\bibitem[LCD{\etalchar{+}}08]{LCD+08}
+H.W. Lean, P.A. Clark, M.~Dixon, N.M. Roberts, A.~Fitch, R.~Forbes, and
+  C.~Halliwell.
+\newblock Characteristics of high-resolution versions of the {Met Office
+  Unified Model} for forecasting convection over the {United Kingdom}.
+\newblock {\em Mon. Wea. Rev.}, 136:3408--3424, 2008.
+
+\bibitem[LEB14]{LEB14}
+A.~Lock, J.~Edwards, and I.~Boutle.
+\newblock {The Parametrization of Boundary Layer Processes}.
+\newblock Technical Report Unified Model Documentation Paper 024, {Met Office},
+  Nov 2014.
+
+\bibitem[LeV12]{LeVeque12}
+R.J. LeVeque.
+\newblock {\em Numerical Methods for Conservation Laws}.
+\newblock Lectures in Mathematics. Springer, 2012.
+
+\bibitem[LG05]{LG05}
+V.~Larson and J-C Golaz.
+\newblock Using probability density functions to derive consistent closure
+  relationships among higher-order moments.
+\newblock {\em Mon. Wea. Rev.}, 113:1023--1042, 2005.
+
+\bibitem[LGHD08]{LGHD08}
+M.~L\"{a}uter, F.X. Giraldo, D.~Handorf, and K.~Dethloff.
+\newblock A discontinuous {G}alerkin method for the shallow water equations in
+  spherical triangular coordinates.
+\newblock {\em J. Comput. Phys.}, 227:10226--10242, 2008.
+
+\bibitem[LGWS09]{LGWS09}
+J.~Lloyd, E.~Guilyardi, H.~Weller, and J.M. Slingo.
+\newblock The role of atmospheric feedbacks during {ENSO} in the {CMIP3}
+  models.
+\newblock {\em Atmos. Sci. Lett.}, 10(3):170--176, 2009.
+
+\bibitem[LHD05]{LHD05}
+M.~L\"{a}uter, D.~Handorf, and K.~Dethloff.
+\newblock Unsteady analytic solutions of the spherical shallow water equations.
+\newblock {\em J. Comput. Phys.}, 210:535--553, 2005.
+
+\bibitem[LHG06]{LHG06}
+S.~Legg, R.W. Hallberg, and J.B. Girton.
+\newblock Comparison of entrainment in overflows simulated by z-coordinate,
+  isopycnal and non-hydrostatic models.
+\newblock {\em Ocean Model.}, 11(1-2):69--97, 2006.
+
+\bibitem[LHR{\etalchar{+}}07]{LHR+07}
+M.~L\"{a}uter, D.~Handorf, N.~Rakowsky, J.~Behrens, S.~Frickenhaus, M.~Best,
+  K.~Dethloff, and W.~Hiller.
+\newblock A parallel adaptive barotropic model of the atmosphere.
+\newblock {\em J. Comput. Phys.}, 223(2):609--628, 2007.
+
+\bibitem[Li08]{Li08}
+J-G Li.
+\newblock Upstream nonoscillatory advection schemes.
+\newblock {\em Mon. Wea. Rev.}, 136:4709--4729, 2008.
+
+\bibitem[Li11]{Li11}
+J-G Li.
+\newblock Global transport on a spherical multiple-cell grid.
+\newblock {\em Mon. Wea. Rev.}, 139:1536--1555, May 2011.
+
+\bibitem[Li12]{Li12}
+J-G Li.
+\newblock Propagation of ocean surface waves on a spherical multiple-cell grid.
+\newblock {\em J. Comput. Phys.}, 231:8262--8277, 2012.
+
+\bibitem[Lin97]{Lin97}
+S-J Lin.
+\newblock A finite-volume integration method for computing pressure gradient
+  force in general vertical coordinates.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 123(542):1749--1762, 1997.
+
+\bibitem[Lin04]{Lin04}
+S-J Lin.
+\newblock A "vertically {Lagrangian}" finite-volume dynamical core for global
+  models.
+\newblock {\em Mon. Wea. Rev.}, 132(10):2293--2307, 2004.
+
+\bibitem[LJ19]{LJ1x}
+D.~Lecoanet and N.~Jeevanjee.
+\newblock Entrainment in resolved, dry thermals.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, submitted, 2019.
+
+\bibitem[LJTN10]{LJTN10}
+P.~H. Lauritzen, C.~Jablonowski, M.~A. Taylor, and R.~D. Nair.
+\newblock Rotated versions of the {J}ablonowski steady-state and baroclinic
+  wave test cases: A dynamical core intercomparison.
+\newblock {\em J. Advances in Modeling Earth Systems (JAMES)}, in press, 2010.
+
+\bibitem[LKFS10]{LKFS10}
+D.~Leuenberger, M.~Koller, O.~Fuhrer, and C.~Sch{\"{a}}r.
+\newblock A new terrain-following vertical coordinate formulation for
+  atmospheric prediction models.
+\newblock {\em Mon. Wea. Rev.}, 138(9):3683--3689, 2010.
+
+\bibitem[LKML08]{LKML08}
+P.H. Lauritzen, E.~Kaas, B.~Machenhauer, and K.~Lindberg.
+\newblock A mass-conservative version of the semi-implicit semi-{L}agrangian
+  {HIRLAM}.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 134(635):1583--1595, 2008.
+
+\bibitem[LL93]{LML93}
+Macvean~MK Leonard, BP and AP~Lock.
+\newblock Positivity-preserving numerical schemes for multidimensional
+  advection.
+\newblock Technical Report NCC3-233; RTOP 505-90-5K, NASA Lewis Research
+  Center, Cleveland, OH, United States, 1993.
+
+\bibitem[LLM95]{LLM95}
+B.P. Leonard, A.P. Lock, and M.K. Macvean.
+\newblock The {NIRVANA} scheme applied to one-dimensional advection.
+\newblock {\em Int. J. Num. Meth. Heat Fluid Flow}, 5:341--377, 1995.
+
+\bibitem[LLM96]{LLM96}
+B.P. Leonard, A.P. Lock, and M.K. MacVean.
+\newblock Conservative explicit unrestricted-time-step multidimensional
+  constancy-preserving advection schemes.
+\newblock {\em Mon. Wea. Rev.}, 124(11):2585--2606, 1996.
+
+\bibitem[Llo82]{Lod82}
+S.~Lloyd.
+\newblock Least squares quantization in {PCM}.
+\newblock {\em IEEE Trans Inf Theory}, 28:129--137, 1982.
+
+\bibitem[LM04]{LM04}
+Anita~T. Layton and Michael~L. Minion.
+\newblock Conservative multi-implicit spectral deferred correction methods for
+  reacting gas dynamics.
+\newblock {\em J. Comput. Phys.}, 194(2):697--715, 2004.
+
+\bibitem[LN08]{LN08}
+P.H. Lauritzen and R.D. Nair.
+\newblock Monotone and conservative cascade remapping between spherical grids
+  {(CaRS)}: Regular latitude-longitude and cubed-sphere grids.
+\newblock {\em Mon. Wea. Rev.}, 136(4):1416--1432, Apr 2008.
+
+\bibitem[LNU10]{LNU10}
+P.H. Lauritzen, R.D. Nair, and P.A. Ullrich.
+\newblock A conservative semi-{L}agrangian multi-tracer transport scheme
+  ({CSLAM}) on the cubed-sphere grid.
+\newblock {\em J. Comput. Phys.}, 229(1381-1926):5, 2010.
+
+\bibitem[Lon07]{Long07}
+D.~Long.
+\newblock Spurious propagation of hyperbolic waves on in-homogeneously
+  staggered grids.
+\newblock Master's thesis, School of Engineering, Computing and Mathematics,
+  University of Exeter, 2007.
+
+\bibitem[LPGC13]{LPGC13}
+G.~Leoncini, R.S. Plant, S.L. Gray, and P.A. Clark.
+\newblock Ensemble forecasts of a flood-producing storm: comparison of the
+  influence of model-state perturbations and parameter modifications.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 139(670):198--211, 2013.
+
+\bibitem[LR96]{LR96}
+S.J. Lin and R.B. Rood.
+\newblock Multidimensional flux-form semi-{L}agrangian transport schemes.
+\newblock {\em Mon. Wea. Rev.}, 124:2046--2070, 1996.
+
+\bibitem[LR97]{LR97}
+S.-J. Lin and R.B. Rood.
+\newblock An explicit flux-form semi-{L}angrangian shallow-water model on the
+  sphere.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 123:2477--2498, 1997.
+
+\bibitem[LR01a]{LR01}
+C-L Lappen and D.A. Randall.
+\newblock Toward a unified parameterization of the boundary layer and moist
+  convection. {Part I}: A new type of mass-flux model.
+\newblock {\em J. of Atmos Sci.}, 58(15):2021--2036, 2001.
+
+\bibitem[LR01b]{LR01b}
+C-L Lappen and D.A. Randall.
+\newblock Toward a unified parameterization of the boundary layer and moist
+  convection. {Part II}: Lateral mass exchanges and subplume-scale fluxes.
+\newblock {\em J. of Atmos Sci.}, 58(15):2037--2051, 2001.
+
+\bibitem[LR05a]{LR05b}
+W.H. Lipscomb and T.D. Ringler.
+\newblock An incremental remapping transport scheme on a spherical geodesic
+  grid.
+\newblock {\em Mon. Wea. Rev.}, 133(8):2335--2350, 2005.
+
+\bibitem[LR05b]{LR05}
+G.~Loeper and F.~Rapetti.
+\newblock Numerical solution of the {Monge-Amp{\`e}re} equation by a newton's
+  algorithm.
+\newblock {\em Comptes Rendus Mathematique}, 340(4):319--324, 2005.
+
+\bibitem[LRSRH05]{LSRH05}
+D.Y. Le~Roux, A.~S\`{e}neb, V.~Rostanda, and H.~Hanert.
+\newblock On some spurious mode issues in shallow-water models using a linear
+  algebra approach.
+\newblock {\em Ocean Model.}, 10(1-2):83--94, 2005.
+
+\bibitem[LSPT12]{LSPT12}
+P.~H. Lauritzen, W.~C. Skamarock, M.~J. Prather, and M.~A. Taylor.
+\newblock A standard test case suite for two-dimensional linear transport on
+  the sphere.
+\newblock {\em Geosci. Model Dev.}, 5(3):887--901, 2012.
+
+\bibitem[LSV09]{LSV09}
+K.~Lipnikov, D.~Svyatskiy, and Y.~Vassilevski.
+\newblock Interpolation-free monotone finite volume method for diffusion
+  equations on polygonal meshes.
+\newblock {\em J. Comput. Phys.}, 228:703--716, 2009.
+
+\bibitem[LSW{\etalchar{+}}09]{LSW+09}
+P.~Liu, M.~Satoh, B.~Wang, T.~Fudeyasu, H.~Nasuno, T.~Li, H.~Miura,
+  H.~Taniguchi, X.~Masunaga, H.~Fu, and H.~Annamalai.
+\newblock A {MJO} simulated by the {NICAM} at 14-km and 7-km resolutions.
+\newblock {\em Mon. Wea. Rev.}, 137(10):3254--3268, 2009.
+
+\bibitem[LT112]{LT12}
+Evaluating advection/transport schemes using interrelated tracers, scatter
+  plots and numerical mixing diagnostics.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 138(665):906--918, 2012.
+
+\bibitem[LT11]{LT11}
+D.~Long and J.~Thuburn.
+\newblock Numerical wave propagation on non-uniform one-dimensional staggered
+  grids.
+\newblock {\em J. Comput. Phys.}, 230:2643--2659, 2011.
+
+\bibitem[LTO{\etalchar{+}}16]{LTO+16}
+P.H. Lauritzen, M.A. Taylor, J.~Overfelt, P.A. Ullrich, R.D. Nair,
+  S.~Goldhaber, and R.~Kelly.
+\newblock {CAM-SE-CSLAM}: Consistent finite-volume transport with
+  spectral-element dynamics.
+\newblock {\em Mon. Wea. Rev.}, 2016.
+
+\bibitem[LTep]{Thuxx}
+D.~Long and J.~Thuburn.
+\newblock Spurious propagation of hyperbolic waves on in-homogeneously
+  staggered grids.
+\newblock In prep.
+
+\bibitem[LTZ01]{LTZ01}
+R.~Li, T.~Tang, and P.~Zhang.
+\newblock Moving mesh methods in multiple dimensions based on harmonic maps.
+\newblock {\em J. Comput. Phys.}, 170:562--588, 2001.
+
+\bibitem[LUJCa14]{LUJ+14}
+P.~H. Lauritzen, P.~A. Ullrich, C~Jablonowski, and Co-authors.
+\newblock A standard test case suite for two-dimensional linear transport on
+  the sphere: results from a collection of state-of-the-art schemes.
+\newblock {\em Geosci. Model Dev.}, 7(1):105--145, 2014.
+
+\bibitem[LV98]{LV98}
+Y.~Liu and M.~Vinokur.
+\newblock Exact integrations of polynomials and symmetric quadrature formulars
+  over arbitrary polyhedral grids.
+\newblock {\em J. Comput. Phys.}, 140:122--147, 1998.
+
+\bibitem[LV99]{LV99}
+D.~Lanser and J.G. Verwer.
+\newblock Analysis of operator splitting for advection-diffusion-reaction
+  problems from air pollution modelling.
+\newblock {\em Journal of Computational and Applied Mathematics},
+  111(1-2):201--216, 1999.
+
+\bibitem[LV10]{LV10}
+G.~Loeper and C.~Villani.
+\newblock Regularity of optimal transport in curved geometry: the nonfocal
+  case.
+\newblock {\em Duke Mathematical Journal}, 151(3):431--485, 2010.
+
+\bibitem[LWW14]{LWW14}
+S.J. Lock, N.~Wood, and H.~Weller.
+\newblock Numerical analyses of {Runge-Kutta} implicit-explicit schemes for
+  horizontally-explicit vertically-implicit solutions of atmospheric models.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 140(682):1654--1669, 2014.
+
+\bibitem[LY15]{LY15}
+F.~Liao and Z.~Ye.
+\newblock Extending geometric conservation law to cell-centered finite
+  difference methods on moving and deforming grids.
+\newblock {\em J. Comput. Phys.}, 303:212--221, 2015.
+
+\bibitem[MB19]{MB19}
+S.~Malardel and P.~Bechtold.
+\newblock The coupling of deep convection with the resolved flow via the
+  divergence of mass flux in the {IFS}.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 0(ja), 2019.
+
+\bibitem[MBAF07]{MBAF07}
+L.~Mangani, C.~Bianchini, A.~Andreini, and B.~Facchini.
+\newblock Development and validation of a {C++} object oriented {CFD} code for
+  heat transfer analysis.
+\newblock In {\em Thermal Engineering and Summer Heat Transfer Conference}.
+  ASME-JSME 2007, July 2007.
+
+\bibitem[MBR07]{MBR07}
+G.B. Macpherson, M.K. Borg, and J.M. Reese.
+\newblock Generation of initial molecular dynamics configurations in arbitrary
+  geometries and in parallel.
+\newblock {\em Molecular Simulation}, 33(15):1199--1212, 2007.
+
+\bibitem[MBS{\etalchar{+}}18]{MBS+18}
+T.~Melvin, T.~Benacchio, B.~Shipway, N.~Wood, J.~Thuburn, and C.~Cotter.
+\newblock A mixed finite-element, finite-volume, semi-implicit discretization
+  for atmospheric dynamics: {C}artesian geometry.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 0(0), 2018.
+
+\bibitem[MC14]{MC14}
+A.T.T. McRae and C.J. Cotter.
+\newblock Energy‐and enstrophy‐conserving schemes for the shallow‐water
+  equations, based on mimetic finite elements.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 2014.
+
+\bibitem[MCa15]{Mad15}
+Gurvan Madec and Co-authors.
+\newblock {NEMO ocean engine}.
+\newblock 2015.
+
+\bibitem[MCB18]{MCB18}
+A.~McRae, C.~Cotter, and C.~Budd.
+\newblock Optimal-transport--based mesh adaptivity on the plane and sphere
+  using finite elements.
+\newblock {\em SIAM Journal on Scientific Computing}, 40(2):A1121--A1148, 2018.
+
+\bibitem[McC01]{McC01}
+R.J. McCann.
+\newblock Polar factorization of maps on {Riemannian} manifolds.
+\newblock {\em Geometric \& Functional Analysis GAFA}, 11(3):589--608, 2001.
+
+\bibitem[MCF11]{MCF11}
+J.R. Maddison, C.J. Cotter, and P.E. Farrell.
+\newblock Geostrophic balance preserving interpolation in mesh adaptive
+  linearised shallow-water ocean modelling.
+\newblock {\em Ocean Model.}, 37(1-2):35--48, 2011.
+
+\bibitem[MCG{\etalchar{+}}12]{MCG+12}
+F.~Mesinger, SC~Chou, J.~Gomes, D.~Jovic, P.~Bastos, J.F. Bustamante, L.~Lazic,
+  A.A. Lyra, S.~Morelli, I.~Ristic, and K.~Veljovic.
+\newblock An upgraded version of the eta model.
+\newblock {\em Meteorology and Atmospheric Physics}, 116(3-4):63--79, 2012.
+
+\bibitem[MD04]{MD04}
+A.R. Mohebalhojeh and D.G. Dritschel.
+\newblock Contour-advective semi-lagrangian algorithms for many-layer
+  primitive-equation models.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 130(596 {P}art A):347--364, 2004.
+
+\bibitem[MDC09]{MDC09}
+P.~Marchesiello, L.~Debreu, and X.~Couvelard.
+\newblock Spurious diapycnal mixing in terrain-following coordinate models: The
+  problem and a solution.
+\newblock {\em Ocean Model.}, 26:156--169, 2009.
+
+\bibitem[MDW{\etalchar{+}}10]{MDW+10}
+T.~Melvin, M.~Dubal, N.~Wood, A.~Staniforth, and M.~Zerroukat.
+\newblock An inherently mass-conserving semi-implicit semi-{L}agrangian
+  discretisation of the nonhydrostatic vertical slice equations.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 137:799--814, 2010.
+
+\bibitem[Mes77]{Mes77}
+F.~Mesinger.
+\newblock Forward-backward scheme, and its use in a limited area model.
+\newblock {\em Contributions to Atmospheric Physics}, 50:200--210, 1977.
+
+\bibitem[Mes00]{Mes00}
+F.~Mesinger.
+\newblock {\em General Circulation Model Development}, volume~70 of {\em
+  International Geophysics Series}, chapter 13. Numerical Methods: The
+  {A}rakawa Approach, Horizontal Grid, Global, and Limited-Area Modelling,
+  pages 373--419.
+\newblock Academic Press, 2000.
+
+\bibitem[{Met}14]{TCfacts}
+{Met Office}.
+\newblock Tropical cyclone facts.
+\newblock [Available online at
+  \url{http://www.metoffice.gov.uk/weather/tropicalcyclone/facts}], June 2014.
+\newblock cited June 2014.
+
+\bibitem[MF12]{MF12}
+J.~R. Maddison and P.~E. Farrell.
+\newblock Directional integration on unstructured meshes via supermesh
+  construction.
+\newblock {\em J. Comput. Phys.}, 231(12):4422--4432, 2012.
+
+\bibitem[MG01]{MG01}
+J-D. Miiller and M.B. Giles.
+\newblock Solution adaptive mesh refinement using adjoint error analysis.
+\newblock {\em AIAA Journal}, 2001.
+
+\bibitem[MGLZ99]{MGLZ99}
+D.V. Mironov, V.M. Gryanik, V.N. Lykossov, and S.S. Zilitinkevich.
+\newblock Comments on ``a new second-order turbulence closure scheme for the
+  planetary boundary layer''.
+\newblock {\em J. of Atmos Sci.}, 56(19):3478--3481, 1999.
+
+\bibitem[MGM{\etalchar{+}}00]{MGM+00}
+D.V. Mironov, V.M. Gryanik, C.-H. Moeng, D.J. Olbers, and T.H. Warncke.
+\newblock Vertical turbulence structure and second-moment budgets in convection
+  with rotation: A large-eddy simulation study.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 126(563):477--515, 2000.
+
+\bibitem[MGM04]{MCM04}
+K.~Mahesh, Constantinescu G., and P.~Moin.
+\newblock A numerical method for large-eddy simulation in complex geometries.
+\newblock {\em J. Comput. Phys.}, 197(1):215--240, 2004.
+
+\bibitem[Mir01]{Miro01}
+D.V. Mironov.
+\newblock Pressure-potential-temperature covariance in convection with
+  rotation.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 127(571):89--110, 2001.
+
+\bibitem[Mir09]{Mironov09}
+D.V. Mironov.
+\newblock Turbulence in the lower troposphere.
+\newblock Lecture notes, 2009.
+
+\bibitem[Miu07a]{Miu07a}
+H.~Miura.
+\newblock {A fourth-order-centred finite-volume scheme for regular hexagonal
+  grids}.
+\newblock {\em Mon. Wea. Rev.}, 135:4030--4037, 2007.
+
+\bibitem[Miu07b]{Miu07b}
+H.~Miura.
+\newblock An upwind-biased conservative advection scheme for spherical
+  hexagonal-pentagonal grids.
+\newblock {\em Mon. Wea. Rev.}, 135:4038--4044, 2007.
+
+\bibitem[Miu13]{Miu13}
+H.~Miura.
+\newblock An upwind-biased conservative transport scheme for multistage
+  temporal integrations on spherical icosahedral grids.
+\newblock {\em Mon. Wea. Rev.}, 141(11):4049--4068, 2013.
+
+\bibitem[MJH98]{MJH98}
+J.~Marshall, H.~Jones, and C.~Hill.
+\newblock Efficient ocean modeling using non-hydrostatic algorithms.
+\newblock {\em Journal of Marine Systems}, 18(1-3):115--134, 1998.
+
+\bibitem[MJN{\etalchar{+}}88]{MJN+88}
+F.~Mesinger, Z.I. Janji\'c, S.~Ni\v{c}kovi\'{c}, D.~Gavrilov, and D.G. Deaven.
+\newblock The step-mountain coordinate: model description and performance for
+  cases of alpine lee cyclogenesis and for a case of an appalachian
+  redevelopment.
+\newblock {\em Mon. Wea. Rev.}, 116:1493--1518, 1988.
+
+\bibitem[MK05]{MK05}
+H.~Miura and M.~Kimoto.
+\newblock A comparison of grid quality of optimized spherical
+  hexagonal--pentagonal geodesic grids.
+\newblock {\em Mon. Wea. Rev.}, 133:2817--2833, 2005.
+
+\bibitem[MKG14]{MKG14}
+S.~Marras, M.A. Kopera, and F.X. Giraldo.
+\newblock Grid effect on spherical shallow water jets using continuous and
+  discontinuous galerkin methods.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, submitted, 2014.
+
+\bibitem[MKM{\etalchar{+}}16]{MKM+1x}
+A.~M\"uller, M.A. Kopera, S.~Marras, L.C. Wilcox, T.~Isaac, and F.X. Giraldo.
+\newblock Strong scaling for numerical weather prediction at petascale with the
+  atmospheric model {NUMA}.
+\newblock {\em arXiv:1511.01561}, 2016.
+
+\bibitem[MM09]{MM09}
+A.~Mahalov and M.~Moustaoui.
+\newblock Vertically nested nonhydrostatic model for multiscale resolution of
+  flows in the upper troposphere and lower stratosphere.
+\newblock {\em J. Comput. Phys.}, 228, 2009.
+
+\bibitem[MMB08]{MMB08}
+D.~Merrouche, K.~Mohammedi, and I.~Belaidi.
+\newblock Coupling the {VOF} and the {MHD} models for the simulation of bubble
+  rising in a metallic liquid.
+\newblock {\em International Journal of Material Forming}, Symposium MS16:
+  ESAFORM-ECCOMAS Workshop, April 2008.
+
+\bibitem[MMBM07]{MMBM07}
+D.~Merrouche, K.~Mohammedi, I.~Belaidi, and B.~Mabrouki.
+\newblock Simulation of the coalescence of two bubbles rising in a vertical
+  pipe with {VOF} interface tracking method.
+\newblock In Cueto E and F.~Chinesta, editors, {\em 10th ESAFORM Conference on
+  Material Forming, Parts A and B}, volume 907 of {\em AIP Conference
+  Proceedings}, pages 1348--1353. American Institute of Physics, 2 Huntington
+  Quadrangle, Ste 1no1, Melville, NY 11747-4501 USA, April 2007.
+
+\bibitem[MOWC02]{MOWC02}
+C.F. Mass, D.~Ovens, K.~Westrick, and B.A. Colle.
+\newblock Does increasing horizontal resolution produce more skillful
+  forecasts?
+\newblock {\em Bull. Amer. Meteor. Soc.}, 83:407--430, 2002.
+
+\bibitem[MQC08]{MQC08}
+A.~Mahidjiba, A.~Qaddouri, and C\^{o}t\'{e}.
+\newblock Application of the semi-{Lagrangian} inherently conserving and
+  efficient ({SLICE}) transport method to divergent flows on a {C} grid.
+\newblock {\em Mon. Wea. Rev.}, 136:4850--4866, 2008.
+
+\bibitem[MS08]{MS08}
+A.J. Majda and S.N. Stechmann.
+\newblock Stochastic models for convective momentum transport.
+\newblock {\em Proc. Natl. Acad. Sci. U.S.A.}, 105(46):17614--17619, 2008.
+
+\bibitem[MS13]{MS13}
+E.~{M\"uller} and R.~Scheichl.
+\newblock {GungHo! phase I} implicit workpackage report.
+\newblock Technical report, University of Bath, Jan 2013.
+
+\bibitem[MSC14]{MSC14}
+T~Melvin, A.~Staniforth, and C.~Cotter.
+\newblock A two-dimensional mixed finite-element pair on rectangles.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 140(680):930--942, 2014.
+
+\bibitem[MSE{\etalchar{+}}04]{MSEZ04}
+T~Mauritsen, G.~Svensson, L.~Enger, S.~Zilitinkevich, and B.~Grisogono.
+\newblock Energy similarity-a new turbulence closure model for stable boundary
+  layers.
+\newblock In {\em {$16^{th}$} Symposium on Boundary Layers and Turbulence.
+  {$13^{th}$} Conference on Interactions of the Sea and Atmosphere}, 2004.
+
+\bibitem[MTN{\etalchar{+}}11a]{MTN+11}
+S.K. Mishra, M.A. Taylor, R.D. Nair, P.H. Lauritzen, H.M. Tufo, and J.J.
+  Tribbia.
+\newblock Evaluation of the {HOMME} dynamical core in the aquaplanet
+  configuration of {NCAR CAM4}: Rainfall.
+\newblock {\em J. Climate}, 24(15):4037--4055, 2011.
+
+\bibitem[MTN{\etalchar{+}}11b]{MTN+11b}
+S.K. Mishra, M.A. Taylor, R.D. Nair, H.M. Tufo, and J.J. Tribbia.
+\newblock Performance of the {HOMME} dynamical core in the aquaplanet
+  configuration of {NCAR CAM4}: equatorial waves.
+\newblock {\em Ann. Geophys.}, 29:221--227, 2011.
+
+\bibitem[MTP99]{MTP99}
+M.~Marchioro, M.~Tanksley, and A.~Prosperetti.
+\newblock Mixture pressure and stress in disperse two-phase flow.
+\newblock {\em Int. J. Multiphase Flow}, 25:1395--1429, 1999.
+
+\bibitem[MUJC15]{MUJC15}
+P.~McCorquodale, P.A. Ullrich, H.~Johansen, and P.~Colella.
+\newblock An adaptive multiblock high-order finite-volume method for solving
+  the shallow-water equations on the sphere.
+\newblock {\em Comm. Appl. Math. Comp. Sci.}, 10(2):121--162, 2015.
+
+\bibitem[MWH19]{MWH1x}
+W.A. McIntyre, H.~Weller, and C.E. Holloway.
+\newblock Numerical methods for entrainment and detrainment in the multi-fluid
+  euler equations for convection.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, in press, 2019.
+
+\bibitem[MY82]{MY82}
+G.L. Mellor and T.~Yamada.
+\newblock Development of a turbulence closure model for geophysical fluid
+  problems.
+\newblock {\em Reviews of Geophysics}, 20(4):851--875, 1982.
+
+\bibitem[NBG{\etalchar{+}}00]{NBG+00}
+A.~Navarra, M.~Biasutti, S.~Gualdi, E.~Roeckner, U.~Schlese, and U.~Shulzweida.
+\newblock Sensitivity experiments to mountain representations in spectral
+  models.
+\newblock {\em {ANNALI DI GEOFISICA}}, 43(3):559--584, Jun 2000.
+
+\bibitem[NCFC{\etalchar{+}}00]{NCC+00}
+X.~Nogueira, L.~Cueto-Felgueroso, I.~Colominas, H.~G\'~omeza, F.~Navarrina, and
+  M.~Casteleiro.
+\newblock On the accuracy of finite volume and discontinuous {G}alerkin
+  discretizations for compressible flow on unstructured grids.
+\newblock {\em Int. J. Numer. Meth. Engineering}, 2000.
+
+\bibitem[NCS99]{NCS99}
+R.~Nair, J.~C\^{o}t\'{e}, and A.~Staniforth.
+\newblock Monotonic cascade interpolation for semi-{L}agrangian advection.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 125:197--212, 1999.
+
+\bibitem[NGJB09]{NGJB09}
+H.~Nguyen, M.~Gunzburger, L.~Ju, and J.~Burkardt.
+\newblock Adaptive anisotropic meshing for steady convection-dominated
+  problems.
+\newblock {\em Computer Methods in Applied Mechanics and Engineering},
+  198(37-40):2964--2981, 2009.
+
+\bibitem[NGT02]{NGT02}
+S.~Ni\v{c}kovi\'{c}, M.B. Gavrilov, and I.A. To\v{s}i\'{c}.
+\newblock Geostrophic adjustment on hexagonal grids.
+\newblock {\em Mon. Wea. Rev.}, 130(3):668--683, 2002.
+
+\bibitem[NHS{\etalchar{+}}15]{NHS+15}
+J.~Nicol, R.~Hogan, T.~Stein, K.~Hanley, P.~Clark, C.E. Halliwell, H.W. Lean,
+  and B.~Plant.
+\newblock Convective updraught evaluation in high-resolution {NWP simulations
+  using single-Doppler radar measurements}.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 141(693):3177--3189, 2015.
+
+\bibitem[Nil07]{Nil07}
+H.~Nilsson.
+\newblock Some experiences on the accuracy and parallel performance of openfoam
+  for cfd in water turbines.
+\newblock In {\em 8th International Workshop on Applied Parallel Computing
+  (PARA 2006)}, volume 4699 of {\em Applied Parallel Computing}, pages
+  168--176, 2007.
+
+\bibitem[NJ08]{NJ08}
+R.D. Nair and C.~Jablonowski.
+\newblock Moving vortices on the sphere: A test case for horizontal advection
+  problems.
+\newblock {\em Mon. Wea. Rev.}, 136:699--711, 2008.
+
+\bibitem[NKB09]{NKB09}
+R.A. Neggers, M.~K\"ohler, and C.M. Beljaars.
+\newblock A dual mass flux framework for boundary layer convection. {Part I}:
+  Transport.
+\newblock {\em J. of Atmos Sci.}, 66:1465--1487, 2009.
+
+\bibitem[NL10]{NL10}
+D.~Nair, R and P.H. Lauritzen.
+\newblock A class of deformational flow test cases for linear transport
+  problems on the sphere.
+\newblock {\em J. Comput. Phys.}, 229(23):8868--8887, 2010.
+
+\bibitem[NN04]{NN04}
+M.~Nakanishi and H.~Niino.
+\newblock An improved {Mellor-Yamada} level-3 model with condensation physics:
+  Its design and verification.
+\newblock {\em Bound.-Layer Meteor}, 112(1):1--31, 2004.
+
+\bibitem[NN08]{NN08}
+M.R. Norman and R.D. Nair.
+\newblock Inherently conservative nonpolynomial-based remapping schemes:
+  application to semi-{L}agrangian transport.
+\newblock {\em Mon. Wea. Rev.}, 136:5044--5061, 2008.
+
+\bibitem[NNS11]{NNS11}
+M.R. Norman, R.D. Nair, and F.H.M. Semazzi.
+\newblock A low communication and large time step explicit finite-volume solver
+  for non-hydrostatic atmospheric dynamics.
+\newblock {\em J. Comput. Phys.}, 230(4):1567--1584, 2011.
+
+\bibitem[Nor13]{Nor13}
+M.~Normal.
+\newblock Algorithmic improvements for schemes using the "ader" time
+  discretization.
+\newblock {\em J. Comput. Phys.}, 2013.
+
+\bibitem[Nor14]{Nor14}
+M.R. Norman.
+\newblock A {WENO}-limited, {ADER-DT}, finite-volume scheme for efficient,
+  robust, and communication-avoiding multi-dimensional transport.
+\newblock {\em J. Comput. Phys.}, 274:1--18, 2014.
+
+\bibitem[NRC{\etalchar{+}}10]{NRC+10}
+R.B. Neale, J.H. Richer, A.J. Conley, S.~Park, P.H. Lauritzen, A.~Gettelman,
+  and D.L. Williamson.
+\newblock {Description of the {NCAR} Community Atmosphere Model {(CAM 4.0)}}.
+\newblock Technical Report NCAR/TN-485+STR, NCAR, April 2010.
+
+\bibitem[NSS02]{NSS02}
+R.D. Nair, J.S. Scroggs, and F.H.M. Semazzi.
+\newblock Efficient conservative global transport schemes for climate and
+  atmospheric chemistry models.
+\newblock {\em Mon. Wea. Rev.}, 130(8):2059--2073, 2002.
+
+\bibitem[NTL05]{NTL05}
+R.D. Nair, S.J. Thomas, and R.D. Loft.
+\newblock A discontinuous galerkin global shallow water model.
+\newblock {\em Mon. Wea. Rev.}, 133(4):876--888, 2005.
+
+\bibitem[NW09]{NW09}
+D.R. Nutt and Hilary Weller.
+\newblock Algorithm for generating defective graphene sheets.
+\newblock {\em J. Chem. Theory and Computation}, 5(7):1877--1882, 2009.
+
+\bibitem[Obe08]{Obe08}
+A.M. Oberman.
+\newblock Wide stencil finite difference schemes for the elliptic
+  {Monge-Amp{\'e}re} equation and functions of the eigenvalues of the
+  {Hessian}.
+\newblock {\em Discrete Contin. Dyn. Syst. Ser. B}, 10(1):221--238, 2008.
+
+\bibitem[OCON82]{OCON82}
+J.~O'Rourke, C-B. Chien, T.~Olson, and D.~Naddor.
+\newblock A new linear algorithm for intersecting convex polygons.
+\newblock {\em Computer graphics and image processing}, 19:384--391, 1982.
+
+\bibitem[OCS{\etalchar{+}}05]{OCS+05}
+F.M. O'Connor, G.D. Carver, N.H. Savage, J.A. Pyle, J.~Methven, S.R. Arnold,
+  K.~Dewey, and J.~Kent.
+\newblock Comparison and visualisation of high resolution transport modelling
+  with aircraft measurements.
+\newblock {\em Atmos. Sci. Lett.}, 6:164--170, 2005.
+
+\bibitem[Oli06]{Oli06}
+M.~Oliver.
+\newblock Variational asymptotics for rotating shallow water near geostrophy: A
+  transformational approach.
+\newblock {\em J. Fluid Mechanics}, 551:197--234, 2006.
+
+\bibitem[Ooy02]{Ooy02}
+K.V. Ooyama.
+\newblock {The cubic-spline transform method: Basic definitions and tests in a
+  1D single domain}.
+\newblock {\em Mon. Wea. Rev.}, 130(10):2392--2415, 2002.
+
+\bibitem[OP81]{OP81}
+J.M. Ortega and W.G. Poole.
+\newblock {\em An Introduction to Numerical Methods for Differential
+  Equations}.
+\newblock Pitman, 1981.
+
+\bibitem[Ope15]{OpenFOAM15}
+OpenFOAM.
+\newblock The open source {CFD} toolbox.
+\newblock [Available online at \url{http://www.openfoam.org}], cited 2015.
+\newblock {The OpenCFD Foundation}.
+
+\bibitem[Ope16]{OpenFOAM16}
+OpenFOAM.
+\newblock The open source {CFD} toolbox.
+\newblock [Available online at \url{http://www.openfoam.org}], cited 2016.
+\newblock {The OpenCFD Foundation}.
+
+\bibitem[OPS12]{KPS12}
+Kleptsova O., J.D. Pietrzak, and G.S. Stelling.
+\newblock On a momentum conservative z-layer unstructured {C}-grid ocean model
+  with flooding.
+\newblock {\em Ocean Model.}, 54-55:18--36, 2012.
+
+\bibitem[PABG11]{PABG11}
+M.~Picasso, F.~Alauzet, H.~Borouchaki, and P.~George.
+\newblock A numerical study of some {Hessian} recovery techniques on isotropic
+  and anisotropic meshes.
+\newblock {\em {SIAM Journal on Scientific Computing}}, 33(3):1058--1076, 2011.
+
+\bibitem[Par14]{Par14}
+S.~Park.
+\newblock A unified convection scheme ({UNICORN}). {P}art {I}: formulation.
+\newblock {\em J. of Atmos Sci.}, 71(11):3902--3930, 2014.
+
+\bibitem[PB14]{PB14}
+P.S. Peixoto and S.R.M. Barros.
+\newblock On vector field reconstructions for semi-lagrangian transport methods
+  on geodesic staggered grids.
+\newblock {\em J. Comput. Phys.}, In press, 2014.
+
+\bibitem[PC08]{PC08}
+R.S. Plant and G.C. Craig.
+\newblock A stochastic parameterization for deep convection based on
+  equilibrium statistics.
+\newblock {\em J. of Atmos Sci.}, 65:87--105, 2008.
+
+\bibitem[PC11]{PC11}
+C.~Piccolo and M.~Cullen.
+\newblock Adaptive mesh method in the {Met-Office} variational data
+  assimilation system.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 137(656):631--640, 2011.
+
+\bibitem[PDAH00]{PDAH00}
+C.~Piani, D.~Durran, M.J. Alexander, and J.R. Holton.
+\newblock A numerical study of three-dimensional gravity waves triggered by
+  deep tropical convection and their role in the dynamics of the {QBO}.
+\newblock {\em J. of Atmos Sci.}, 57:3689--3702, 2000.
+
+\bibitem[Per00]{Per00}
+B.~Perot.
+\newblock Conservation properties of unstructured staggered mesh schemes.
+\newblock {\em J. Comput. Phys.}, 159(1):58--89, 2000.
+
+\bibitem[Per06]{Per04}
+M.~Peri\'c.
+\newblock Flow simulation using control volumes of arbitrary polyhedral shape.
+\newblock {\em ERCOFTAC Bulletin}, 62:25--29, 2006.
+
+\bibitem[PFW{\etalchar{+}}09]{PFW+09}
+M.D. Piggott, P.E. Farrell, C.R. Wilson, G.J. Gorman, and C.C. Pain.
+\newblock Anisotropic mesh adaptivity for multi-scale ocean modelling.
+\newblock {\em Phil. Trans. R. Soc. A}, 367(1907):4591--4611, 2009.
+
+\bibitem[PGP{\etalchar{+}}08]{PGP+08}
+M.D. Piggott, G.J. Gorman, C.C. Pain, P.A. Allison, A.S. Candy, B.T. Martin,
+  and M.R. Wells.
+\newblock A new computational framework for multi-scale ocean modelling based
+  on adapting unstructured meshes.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 56(8):1003--1015, 2008.
+
+\bibitem[PHPA14]{PHP+14}
+S.D. Parkinson, J.~Hill, M.~D. Piggott, and P.~A. Allison.
+\newblock Direct numerical simulations of particle-laden density currents with
+  adaptive, discontinuous finite elements.
+\newblock {\em Geosci. Model Dev. Discuss.}, 7:3219--3264, 2014.
+
+\bibitem[Pir12]{Pir12}
+C.~Piret.
+\newblock The orthogonal gradients method: A radial basis functions method for
+  solving partial differential equations on arbitrary surfaces.
+\newblock {\em J. Comput. Phys.}, 2012.
+
+\bibitem[PL91]{PL91}
+R.J. Purser and L.M. Leslie.
+\newblock An efficient interpolation procedure for high-order three-dimensional
+  semi-{Lagrangian} models.
+\newblock {\em Mon. Wea. Rev.}, 119(10):2492--2498, 1991.
+
+\bibitem[PL07]{PL07}
+W.M. Putman and S-J Lin.
+\newblock Finite-volume transport on various cubed-sphere grids.
+\newblock {\em J. Comput. Phys.}, 227:55--78, 2007.
+
+\bibitem[PLB{\etalchar{+}}14]{PLB+14}
+K.J. Pearson, G.M.S. Lister, C.E. Birch, R.P. Allan, R.J. Hogan, and S.J.
+  Woolnough.
+\newblock Modelling the diurnal cycle of tropical convection across the `grey
+  zone'.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 2014.
+
+\bibitem[Pop03]{Pop03}
+S.~Popinet.
+\newblock {Gerris: a tree-based adaptive solver for the incompressible Euler
+  equations in complex geometires}.
+\newblock {\em J. Comput. Phys.}, 190:572--600, 2003.
+
+\bibitem[PPF{\etalchar{+}}06]{PPF+06}
+P.~Power, M.~Piggott, F.~Fang, G.~Gorman, C.~Pain, D.~Marshall, A.~Goddard, and
+  I.~Navon.
+\newblock Adjoint goal-based error norms for adaptive mesh ocean modelling.
+\newblock {\em Ocean Model.}, 15:3--38, 2006.
+
+\bibitem[PPG{\etalchar{+}}05a]{PPG+05}
+C.C. Pain, M.D. Piggott, A.J.H. Goddard, F.~Fang, G.J. Gorman, D.P. Marshall,
+  M.D. Eaton, P.W. Power, and C.R.E. de~Oliveira.
+\newblock Three-dimensional unstructured mesh ocean modelling.
+\newblock {\em Ocean Model.}, 10(1-2):5--33, 2005.
+
+\bibitem[PPG{\etalchar{+}}05b]{PPGPG05}
+M.D. Piggott, C.C. Pain, G.J. Gorman, P.W. Power, and A.J.H. Goddard.
+\newblock $h$, $r$, and $hr$ adaptivity with applications in numerical ocean
+  modelling.
+\newblock {\em Ocean Model.}, 10(1-2), 2005.
+
+\bibitem[PR98]{PR98}
+D-M Pan and D.A. Randall.
+\newblock A cumulus parameterization with a prognostic closure.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 124(547):949--981, 1998.
+
+\bibitem[PR05]{PR05}
+L.~Pareschi and G.~Russo.
+\newblock Implicit-explicit {Runge--Kutta} schemes and application to
+  hyperbolic systems with relaxation.
+\newblock {\em J. Sci. Comp.}, 25(1/2):129--155, 2005.
+
+\bibitem[Pra75]{Pra75}
+W.E. Pracht.
+\newblock Calculating three-dimensional fluid flows at all speeds with an
+  {Eulerian-Lagrangian} computing mesh.
+\newblock {\em J. Comput. Phys.}, 17:132--159, 1975.
+
+\bibitem[Pri93]{Pri93}
+A.~Priestley.
+\newblock A quasi-conservative version of the semi-{L}agrangian advection
+  scheme.
+\newblock {\em Mon. Wea. Rev.}, 121:621--629, 1993.
+
+\bibitem[PS84]{PS84}
+J.~Pudykiewicz and A.~Staniforth.
+\newblock Some properties and comparative performance of the semi-{Lagrangian}
+  method of {Robert} in the solution of the advection-diffusion equation.
+\newblock {\em Atmosphere-Ocean}, 22(3):283--308, 1984.
+
+\bibitem[PSG08]{PSG08}
+J.~Peiro, S.~Sherwin, and S.~Giordana.
+\newblock Automatic reconstruction of a patient-specific high-order surface
+  representation and its application to mesh generation for {CFD} calculations.
+\newblock {\em Medical and Biological Engineering and Computing},
+  46(11):1069--1083, 2008.
+
+\bibitem[PT05]{PT05}
+M.~Pulido and J.~Thuburn.
+\newblock Gravity wave drag estimation from global analyses using variational
+  data assimilation principles. {I}: {T}heory and implementation.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 2005.
+
+\bibitem[PTK11]{PTK11}
+R.B. Platte, L.N. Trefethen, and A.B. Kuijlaars.
+\newblock Impossibility of fast stable approximation of analytic functions from
+  equispaced samples.
+\newblock {\em SIAM Review}, 53(2):308--318, 2011.
+
+\bibitem[PTVF07]{NR07}
+W.H. Press, S.A. Teukolsky, W.T. Vetterling, and B.P. Flannery.
+\newblock {\em Numerical Recipes 3rd Edition: The Art of Scientific Computing}.
+\newblock Cambridge University Press, New York, NY, USA, 3 edition, 2007.
+
+\bibitem[PUdOG01]{PUOG01}
+C.C. Pain, A.P. Umpleby, C.R.E. de~Oliveira, and A.J.H. Goddard.
+\newblock {Tetrahedral Mesh Optimisation and Adaptivity for Steady State and
+  Transient Finite Element Calculations}.
+\newblock {\em Comput. Methods Appl. Mech. Eng.}, 190(29-30):3771--3796, 2001.
+
+\bibitem[Pur76]{Pur76}
+D.K. Purnell.
+\newblock Solution of the advective equation by upstream interpolation with a
+  cubic spline.
+\newblock {\em Mon. Wea. Rev.}, 104(1):42--48, 1976.
+
+\bibitem[Pur98]{Pur98}
+R.J. Purser.
+\newblock Non-standard grids.
+\newblock In {\em Seminar on Recent Developments in Numerical Methods for
+  Atmospheric Modelling}, pages 44--72. ECMWF, 1998.
+
+\bibitem[Put07]{Put07}
+W.M. Putman.
+\newblock {\em Development of the Finite-Volume Dynamical Core on the
+  Cubed-Sphere}.
+\newblock PhD thesis, The Florida State University, 2007.
+\newblock Electronic Theses, Treatises and Dissertations. Paper 511.
+
+\bibitem[QK03]{QK03}
+J.H. Qian and A.~Kasahara.
+\newblock Nonhydrostatic atmospheric normal modes on beta-planes.
+\newblock {\em Pure and Applied Geophysics}, 160(7):1315--1358, 2003.
+
+\bibitem[QPT{\etalchar{+}}12]{QPT+12}
+A.~Qaddouri, J.~Pudykiewicz, M.~Tanguay, C.~Girard, and J.~C\^{o}t\'e.
+\newblock Experiments with different discretizations for the shallow-water
+  equations on a sphere.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 138(665):989--1003, 2012.
+
+\bibitem[QSS98]{QSS98}
+J.H. Qian, F.H.M. Semazzi, and J.S. Scroggs.
+\newblock A global nonhydrostatic semi-lagrangian atmospheric model with
+  orography.
+\newblock {\em Mon. Wea. Rev.}, 126(3):747--771, 1998.
+
+\bibitem[RAD07]{RAD07}
+M.~Ricchiuto, R.~Abgrall, and H.~Deconinck.
+\newblock Application of conservative residual distribution schemes to the
+  solution of the shallow water equations on unstructured meshes.
+\newblock {\em J. Comput. Phys.}, 222(1):287--331, 2007.
+
+\bibitem[Ran94]{Ran94}
+D.A. Randall.
+\newblock Geostrophic adjustment and the finite-difference shallow-water
+  equations.
+\newblock {\em Mon. Wea. Rev.}, 122(6):1371--1377, 1994.
+
+\bibitem[Ran13]{Ran13}
+D.A. Randall.
+\newblock Beyond deadlock.
+\newblock {\em Geophys. Res. Lett.}, 40(22):5970--5976, 2013.
+
+\bibitem[RBvdV08]{RBV08}
+S.~Rhebergen, O.~Bokhove, and J.J.W. van~der Vegt.
+\newblock Discontinuous {G}alerkin finite element methods for hyperbolic
+  nonconservative partial differential equations.
+\newblock {\em J. Comput. Phys.}, 227(3):1887--1922, 2008.
+
+\bibitem[RC83]{RC83}
+C.M. Rhie and W.L. Chow.
+\newblock {Numerical study of the turbulent-flow past an airfoil with trailing
+  edge separation}.
+\newblock {\em AIAA Journal}, 21(11):1525--1532, 1983.
+
+\bibitem[RC15]{RC15}
+D.M. Romps and A.B. Charn.
+\newblock Sticky thermals: Evidence for a dominant balance between buoyancy and
+  drag in cloud updrafts.
+\newblock {\em J. of Atmos Sci.}, 72(8):2890--2901, 2015.
+
+\bibitem[RCB05]{RCB05}
+G.~Rosatti, D.~Cesari, and L.~Bonaventura.
+\newblock {Semi-implicit, semi-Lagrangian modelling for environmental problems
+  on staggered Cartesian grids with cut cells}.
+\newblock {\em J. Comput. Phys.}, 204(1):353--377, 2005.
+
+\bibitem[Rei07]{Rei07}
+S.~Reich.
+\newblock An explicit and conservative remapping strategy for semi-{L}agrangian
+  advection.
+\newblock {\em Atmos. Sci. Lett.}, 8:58--63, 2007.
+
+\bibitem[Rey76]{Reyn76}
+W.C. Reynolds.
+\newblock Computation of turbulent flows.
+\newblock {\em Annual Review of Fluid Mechanics}, 8(1):183--208, 1976.
+
+\bibitem[RGF{\etalchar{+}}09]{RGF+09}
+P.~R\'ipodas, A.~Gassmann, J.~F\"orstner, D.~Majewski, M.A. Giorgetta, P.~Korn,
+  L.~Kornblueh, H.~Wan, G.~Z\"angl, L.~Bonaventura, and T.~Heinze.
+\newblock Icosahedral shallow water model {(ICOSWM)}: results of shallow water
+  test cases and sensitivity to model parameters.
+\newblock {\em Geosci. Model Dev.}, 2:231--251, 2009.
+
+\bibitem[RH83]{RH83b}
+S.A. Rutledge and P.~Hobbs.
+\newblock The mesoscale and microscale structure and organization of clouds and
+  precipitation in midlatitude cyclones. {VIII}: A model for the
+  ``seeder-feeder'' process in warm-frontal rainbands.
+\newblock {\em J. of Atmos Sci.}, 40(5):1185--1206, 1983.
+
+\bibitem[RHCM13]{RHCM13}
+M.E. Rognes, D.A. Ham, C.J. Cotter, and A.T.T. McRae.
+\newblock Automating the solution of {PDE}s on the sphere and other manifolds
+  in {FEniCS 1.2}.
+\newblock {\em Geosci. Model Dev.}, 6(6):2099--2119, 2013.
+
+\bibitem[Rin03]{Rin03}
+T.D. Ringler.
+\newblock Comparing truncation error to partial differential equation solution
+  error on spherical {V}oronoi tesselations.
+\newblock [Available online at
+  \url{http://www-m3.ma.tum.de/foswiki/pub/Allgemeines/ShallowWaterWorkshopProceedings/ringler.pdf}],
+  Jan 2003.
+\newblock cited 2011.
+
+\bibitem[Rip11]{Rip05}
+P.~Ripodas.
+\newblock Spectral transform shallow water model.
+\newblock [Available online at \url{http://icon.enes.org/swm/stswm/}], July
+  2011.
+\newblock cited Feb 2012.
+
+\bibitem[RJ11]{RJ11}
+K.A. Reed and C.~Jablonowski.
+\newblock An analytic vortex initialization technique for idealized tropical
+  cyclone studies in {AGCMs}.
+\newblock {\em Mon. Wea. Rev.}, 139(2):689--710, 2011.
+
+\bibitem[RJG08]{RJG08}
+T.~Ringler, L.L. Ju, and M.~Gunzburger.
+\newblock A multiresolution method for climate system modeling: applications of
+  spherical centroidal {V}oronoi tessellations.
+\newblock {\em Ocean Dynamics}, 58(5-6):475--498, 2008.
+
+\bibitem[RJG{\etalchar{+}}11]{RJG+11}
+T.~Ringler, D.~Jacobsen, M.~Gunzburger, L.~Ju, Duda. M., and W.~Skamarock.
+\newblock Exploring a multi-resolution modeling approach within the
+  shallow-water equations.
+\newblock {\em Mon. Wea. Rev.}, 139(11):3348--3368, 2011.
+
+\bibitem[RK08]{RK08}
+D.~Randall and C.~Konor.
+\newblock Simulation of global cloudiness - art. no. 012021.
+\newblock In RL~Stevens, editor, {\em {SCIDAC} 2008: Scientific discovery
+  through advanced computing}, volume 125 of {\em J. physics conference
+  series}, page 12021, 2008.
+
+\bibitem[RLD{\etalchar{+}}11]{RLD+11}
+I.~Roghair, Y.M. Lau, N.G. Deen, H.M. Slagter, M.W. Baltussen, M.~Van
+  Sint~Annaland, and J.A.M. Kuipers.
+\newblock On the drag force of bubbles in bubble swarms at intermediate and
+  high {R}eynolds numbers.
+\newblock {\em Chemical Engineering Science}, 66(14):3204--3211, 2011.
+
+\bibitem[RLRC08]{RLC08}
+V.~Rostand, D.Y. Le~Roux, and G.~Carey.
+\newblock Kernel analysis of the discretised finite difference and finite
+  element shallow-water models.
+\newblock {\em Siam Journal on Scientific Computing}, 31(1):531--556, 2008.
+
+\bibitem[RMY95]{RMY95}
+J.W. Ruge, S.F. McCormick, and S.Y.K. Yee.
+\newblock Multilevel adaptive methods for semi-implicit solution of
+  shallow-water equations on a sphere.
+\newblock {\em Mon. Wea. Rev.}, 123(7):2197--2205, 1995.
+
+\bibitem[Rob82]{Rob82}
+A.~Robert.
+\newblock A semi-{L}agrangian and semi-implicit numerical-integration scheme
+  for the primitive meteorological equations.
+\newblock {\em J. Meteor.-Soc. Japan}, 60(1):319--325, 1982.
+
+\bibitem[RPH{\etalchar{+}}13]{RPH+13}
+T.~Ringler, M.~Petersen, R.L. Higdon, D.~Jacobsen, P.W. Jones, and M.~Maltrud.
+\newblock A multi-resolution approach to global ocean modeling.
+\newblock {\em Ocean Model.}, 2013.
+
+\bibitem[RPM96]{RPM96}
+M.~Ran\v{c}i\'{c}, R.J. Purser, and F.~Mesinger.
+\newblock A global shallow-water model using an expanded spherical cube:
+  Gnomonic versus conformal coordinates.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 122(532):959--982, 1996.
+
+\bibitem[RR02a]{RR02b}
+T.D. Ringler and D.A. Randall.
+\newblock A potential enstrophy and energy conserving numerical scheme for
+  solution of the shallow-water equations on a geodesic grid.
+\newblock {\em Mon. Wea. Rev.}, 130(2):1397--1410, 2002.
+
+\bibitem[RR02b]{RR02a}
+T.D. Ringler and D.A. Randall.
+\newblock {The ZM grid: an alternative to the Z Grid}.
+\newblock {\em Mon. Wea. Rev.}, 130(5):1411--1422, 2002.
+
+\bibitem[RRH{\etalchar{+}}02]{RRH+02}
+D.A. Randall, T.D. Ringler, R.P. Heikes, P.~Jones, and J.~Baumgardner.
+\newblock {Climate modeling with spherical geodesic grids}.
+\newblock {\em Computing in Science and Engineering}, 4(5):32--41, 2002.
+
+\bibitem[RTS06]{RTS06}
+I.~C. Rutt, J.~Thuburn, and A.~Staniforth.
+\newblock {A variational method for orographic filtering in NWP and climate
+  models}.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 132(619, B):1795--1813, Jul 2006.
+
+\bibitem[RTSK10]{RTSK10}
+T.D. Ringler, J.~Thuburn, W.C. Skamarock, and J.B. Klemp.
+\newblock A unified approach to energy conservation and potential vorticity
+  dynamics for arbitrarily-structured {C}-grids.
+\newblock {\em J. Comput. Phys.}, 229:3065--3090, 2010.
+
+\bibitem[Rus07]{Rus07}
+G.L. Russell.
+\newblock Step-mountain technique applied to an atmospheric {C}-grid model, or
+  how to improve precipitation near mountains.
+\newblock {\em Mon. Wea. Rev.}, 135(12):4060--4076, 2007.
+
+\bibitem[RWEP07]{RWEP07}
+D.~Reinert, V.~Wirth, J.~Eichhorn, and W.G. Panhans.
+\newblock A new large-eddy simulation model for simulating air flow and warm
+  clouds above highly complex terrain. {P}art {I}: The dry model.
+\newblock {\em Bound.-Layer Meteor}, 125(1):109--132, 2007.
+
+\bibitem[RZSJ08]{RZS08}
+M.~Ran\v{c}i\'{c}, H.~Zhang, and V.~Savic-Jovcic.
+\newblock Nonlinear advection schemes on the octagonal grid.
+\newblock {\em Mon. Wea. Rev.}, 136:4468--4686, 2008.
+
+\bibitem[S\"]{Sul14}
+E.~S\"uli.
+\newblock Lecture notes on finite element methods for partial differential
+  equations.
+
+\bibitem[SA99]{SA99}
+R~Saurel and R~Abgrall.
+\newblock A multiphase {Godunov} method for compressible multifluid and
+  multiphase flows.
+\newblock {\em J. Comput. Phys.}, 150(2):425--467, 1999.
+
+\bibitem[SAB{\etalchar{+}}13]{SAB+13}
+S.C. Sherwood, M.J. Alexander, A.R. Brown, N.A. McFarlane, E.P. Gerber,
+  G.~Feingold, A.A. Scaife, and W.W. Grabowski.
+\newblock {\em {Climate Science for Serving Society}}, chapter Climate
+  Processes: Clouds, Aerosols and Dynamics.
+\newblock Springer, Dordrecht, 2013.
+
+\bibitem[Sad72]{Sad72}
+R.~Sadourny.
+\newblock Conservative finite-difference approximations of the primitive
+  equations on quasi-uniform spherical grids.
+\newblock {\em Mon. Wea. Rev.}, 100(2):136--144, 1972.
+
+\bibitem[Sad75]{Sad75}
+R.~Sadourny.
+\newblock {The Dynamics of Finite-Difference Models of the Shallow-Water
+  Equations}.
+\newblock {\em J. of Atmos Sci.}, 32(4):680--689, 1975.
+
+\bibitem[SAK15]{SAK1x}
+L-P Saumier, M.~Agueh, and B.~Khouider.
+\newblock An efficient numerical algorithm for the {L2} optimal transport
+  problem with applications to image processing.
+\newblock {\em submitted}, 2015.
+
+\bibitem[Sat89]{Sat89}
+T.~Satomura.
+\newblock Compressible flow simulations on numerically generated grids.
+\newblock {\em J. Meteor.-Soc. Japan}, 67(3):473--482, 1989.
+
+\bibitem[SB85]{SB85}
+R.~Sadourny and C.~Basdevant.
+\newblock Parameterization of subgrid scale barotropic and baroclinic eddies in
+  quasi-geostrophic models: anticipated potential vorticity method.
+\newblock {\em J. of Atmos Sci.}, 42(13):1353--1363, 1985.
+
+\bibitem[SB96]{SB96}
+D.E. Stevens and S.~Bretherton.
+\newblock A forward-in-time advection scheme and adaptive multilevel flow
+  solver for nearly incompressible atmospheric flow.
+\newblock {\em J. Comput. Phys.}, 129(2):284--295, 1996.
+
+\bibitem[SB14a]{BS14}
+W.~Schneider and A.~Bott.
+\newblock On the time-splitting errors of one-dimensional advection schemes in
+  numerical weather prediction models; a comparative study.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 140:2321--2329, 2014.
+
+\bibitem[SB14b]{SB14}
+M.~Schreiber and H.J. Bungartz.
+\newblock Cluster-based communication and load balancing for simulations on
+  dynamically adaptive grids.
+\newblock {\em Procedia Computer Science}, 2014.
+
+\bibitem[SBB{\etalchar{+}}03]{SBB+03}
+A.P. Siebesma, C.S. Bretherton, A.~Brown, A.~Chlond, J.~Cuxart, P.G. Duynkerke,
+  H.~Jiang, M.~Khairoutdinov, D.~Lewellen, C-H Moeng, E.~Sanchez, B.~Stevens,
+  and D.E. Stevens.
+\newblock A {Large Eddy Simulation} intercomparison study of shallow cumulus
+  convection.
+\newblock {\em J. of Atmos Sci.}, 60(10):1201--1219, 2003.
+
+\bibitem[SBJ{\etalchar{+}}89]{SBJ+89}
+A.J. Simmons, D.M. Burridge, M.~Jarraud, C.~Girard, and W.~Wergen.
+\newblock The {ECMWF} medium-range prediction models: development of the
+  numerical formulations and the impact of increased resolution.
+\newblock {\em Meteorol. Atmos. Phys.}, 40(1-3):28--60, 1989.
+
+\bibitem[SBJ{\etalchar{+}}06]{SBJ06}
+J.~Steppeler, H.W. Bitzer, Z.~Janjic, U.~Schattler, P.~Prohl, U.~Gjertsen,
+  L.~Torrisi, J.~Parfinievicz, E.~Avgoustoglou, and U.~Damrath.
+\newblock Predictions of cloud and rain using a z-coordinate nonhydrostatic
+  model.
+\newblock {\em Mon. Wea. Rev.}, 134(12):3625--3643, 2006.
+
+\bibitem[SBMB02]{SBMB02}
+J.~Steppeler, H.W. Bitzer, M.~Minotte, and L.~Bonaventura.
+\newblock Non-hydrostatic atmospheric modelling using a z-coordinate
+  representation.
+\newblock {\em Mon. Wea. Rev.}, 130(8):2143--2149, 2002.
+
+\bibitem[SBN{\etalchar{+}}09]{SBN+09}
+J.~Slingo, K.~Bates, N.~Nikiforakis, M.~Piggott, M.~Roberts, L.~Shaffrey,
+  I.~Stevens, P-L Vidale, and Hilary Weller.
+\newblock Developing the next generation climate system models: Challenges and
+  achievements.
+\newblock {\em Phil. Trans. R. Soc. A}, 367(1890):815--831, March 2009.
+
+\bibitem[SC91]{SC91}
+A.~Staniforth and J.~C\^{o}t\'{e}.
+\newblock Semi-{L}agrangian integration schemes for atmospheric models - a
+  review.
+\newblock {\em Mon. Wea. Rev.}, 119(9):2206--2223, 1991.
+
+\bibitem[SCJD{\etalchar{+}}08]{SJD+08}
+A.~St-Cyr, C.~Jablonowski, J.M. Dennis, H.M. Tufo, and S.J. Thomas.
+\newblock A comparison of two shallow-water models with nonconforming adaptive
+  grids.
+\newblock {\em Mon. Wea. Rev.}, 136:1898--1922, June 2008.
+
+\bibitem[SCT05]{ST05}
+A.~St-Cyr and S.J. Thomas.
+\newblock Nonlinear operator integration factor splitting for the shallow water
+  equations.
+\newblock {\em Applied Numerical Mathematics}, 52(4):429--448, 2005.
+
+\bibitem[SD06]{SD06}
+R.K. Smith and D.G. Dritschel.
+\newblock {Revisiting the Rossby-Haurwitz wave test case with contour
+  advection}.
+\newblock {\em J. Comput. Phys.}, 217(2):473--484, 2006.
+
+\bibitem[SD08]{SD08}
+P.K. Smolarkiewicz and A.~D\"ornbrack.
+\newblock Conservative integrals of adiabatic {D}urran's equations.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 56:1513--1519, 2008.
+
+\bibitem[SD13]{SD13}
+W.~Skamarock and J.~Doyle.
+\newblock Standard test set for nonhydrostatic dynamical cores of {NWP} models.
+\newblock [\url{http://www.mmm.ucar.edu/projects/srnwp\_tests}], cited 2013.
+
+\bibitem[SDS{\etalchar{+}}03]{SDS+03}
+J.~Steppeler, G.~Doms, U.~Sch\"{a}ttler, H.W. Bitzer, A.~Gassmann, U.~Damrath,
+  and G.~Gregoric.
+\newblock Meso-gamma scale forecasts using the nonhydrostatic model {LM}.
+\newblock {\em Meteorol. Atmos. Phys.}, 82:75--96, 2003.
+
+\bibitem[SDS{\etalchar{+}}05]{SDS+05}
+D.~Stevenson, R.~Doherty, M.~Sanderson, C.~Johnson, B.~Collins, and D.~Derwent.
+\newblock Impacts of climate change and variability on tropospheric ozone and
+  its precursors.
+\newblock {\em Faraday Discussions}, 130:41--57, 2005.
+
+\bibitem[SDY03]{SDY08}
+C.~Shu, H.~Ding, and K.S. Yeo.
+\newblock Local radial basis function-based differential quadrature method and
+  its application to solve two-dimensional incompressible {Navier-Stokes}
+  equations.
+\newblock {\em Computer Methods in Applied Mechanics and Engineering},
+  192(7-8):941--954, 2003.
+
+\bibitem[Sei12]{Sei12}
+T.~Sei.
+\newblock A {J}acobian inequality for gradient maps on the sphere and its
+  application to directional statistics.
+\newblock {\em Communications in Statistics - Theory and Methods},
+  42:2525--2542, 2012.
+
+\bibitem[SG80]{SG80}
+F.~Sanders and J.R. Gyakum.
+\newblock Synoptic-dynamic climatology of the bomb.
+\newblock {\em Mon. Wea. Rev.}, 108(10):1589--1606, 1980.
+
+\bibitem[SG11]{SG11}
+W.C. Skamarock and A.~Gassmann.
+\newblock Conservative transport schemes for spherical geodesic grids:
+  High-order flux operators for {ODE}-based time integration.
+\newblock {\em Mon. Wea. Rev.}, 139(9):2962--2975, 2011.
+
+\bibitem[SGF{\etalchar{+}}03]{SGF+03}
+P.~Schopf, M.~Gregg, R.~Ferrari, D.~Haidvogel, R.~Hallberg, W.~Large,
+  J.~Ledwell, J.~Marshall, J.~McWilliams, R.~Schmitt, E.~Skyllingstad,
+  K.~Speer, and K.~Winters.
+\newblock Coupling process and model studies of ocean mixing to improve climate
+  models - a pilot climate process modeling and science team.
+\newblock {CLIVAR} white paper.
+  http://www.usclivar.org/CPT/Ocean\_mixing\_whitepaper.pdf, 2003.
+
+\bibitem[SH02]{SH02}
+A.J. Simmons and A.~Hollingsworth.
+\newblock Some aspects of the improvement in skill of numerical weather
+  prediction.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 128(580):647--677, 2002.
+
+\bibitem[SH12]{SH12}
+J.~Simarro and M.~Hortal.
+\newblock A semi-implicit non-hydrostatic dynamical kernel using finite
+  elements in the vertical discretization.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 138(664):826--839, 2012.
+
+\bibitem[SHC{\etalchar{+}}17]{SHC+14}
+T.~Stein, R.J. Hogan, P.A. Clark, Halliwell C.E., Hanley K.E., H.W. Lean, J.C.
+  Nicol, and R.S. Plant.
+\newblock The {DYMECS} project: A statistical approach for the evaluation of
+  convective storms in high-resolution {NWP} models.
+\newblock {\em Bull. Amer. Meteor. Soc.}, 96(6):939--951, 2017.
+
+\bibitem[SHH{\etalchar{+}}14]{SHH+14}
+T.H.M. Stein, R.J. Hogan, K.E. Hanley, J.C. Nicol, H.W. Lean, R.S. Plant, P.A.
+  Clark, and C.E. Halliwell.
+\newblock The three-dimensional morphology of simulated and observed convective
+  storms over southern {England}.
+\newblock {\em Mon. Wea. Rev.}, 142:3264--3283, 2014.
+
+\bibitem[SHP15]{SHP15}
+R.K. Scott, L.M. Harris, and L.M. Polvani.
+\newblock A testcase for the inviscid shallow water equations on the sphere.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 2015.
+
+\bibitem[SHSB03]{SHSB03}
+J.~Steppeler, R.~Hess, U.~Schattler, and L.~Bonaventura.
+\newblock Review of numerical methods for non-hydrostatic weather prediciton
+  models.
+\newblock {\em Meteorology and Atmospheric Physics}, 82(1-4):287--301, 2003.
+
+\bibitem[Shu13]{shutts2013coarse}
+GJ~Shutts.
+\newblock Coarse graining the vorticity equation in the ecmwf integrated
+  forecasting system: the search for kinetic energy backscatter.
+\newblock {\em Journal of the Atmospheric Sciences}, 70(4):1233--1241, 2013.
+
+\bibitem[SI10]{SI10}
+L.~J. Shashank and G.~Iaccarino.
+\newblock A co-located incompressible {Navier-Stokes} solver with exact mass,
+  momentum and kinetic energy conservation in the inviscid limit.
+\newblock {\em J. Comput. Phys.}, 229:4425--4430, 2010.
+
+\bibitem[SK92]{SK92}
+W.C. Skamarock and J.B. Klemp.
+\newblock The stability of time-split numerical methods for the hydrostatic and
+  the nonhydrostatic elastic equations.
+\newblock {\em Mon. Wea. Rev.}, 120:2109--2127, 1992.
+
+\bibitem[SK93]{SK93}
+W.C. Skamarock and J.B. Klemp.
+\newblock Adaptive grid refinement for two-dimensional and three-dimensional
+  nonhydrostatic atmospheric flow.
+\newblock {\em Mon. Wea. Rev.}, 121(3):788--804, 1993.
+
+\bibitem[SK94]{SK94}
+W.C. Skamarock and J.B. Klemp.
+\newblock Efficiency and accuracy of the {Klemp-Wilhelmson} time-splitting
+  technique.
+\newblock {\em Mon. Wea. Rev.}, 122:2623--2630, 1994.
+
+\bibitem[SK08]{SK08}
+W.C. Skamarock and J.B. Klemp.
+\newblock A time-split nonhydrostatic atmospheric model for weather research
+  and forecasting applications.
+\newblock {\em J. Comput. Phys.}, 227(7):3465--3485, 2008.
+
+\bibitem[Ska89]{Ska89}
+W.C Skamarock.
+\newblock Truncation error estimates for refinement criteria in nested and
+  adaptive models.
+\newblock {\em Mon. Wea. Rev.}, 117(4):872--886, 1989.
+
+\bibitem[Ska04]{Ska04}
+W.C. Skamarock.
+\newblock Evaluating mesoscale {NWP} models using kinetic energy spectra.
+\newblock {\em Mon. Wea. Rev.}, 132(12):3019--3032, 2004.
+
+\bibitem[Ska08]{Ska08}
+W.C. Skamarock.
+\newblock A linear analysis of the {NCAR CCSM} finite-volume dynamical core.
+\newblock {\em Mon. Wea. Rev.}, 136(6):2112--2119, 2008.
+
+\bibitem[SKD{\etalchar{+}}12]{SKD+12}
+W.C. Skamarock, J.B. Klemp, M.G. Duda, L.D. Fowler, S-H Park, and T.D. Ringler.
+\newblock A multi-scale nonhydrostatic atmospheric model using centroidal
+  {V}oronoi tesselations and {C}-grid staggering.
+\newblock {\em Mon. Wea. Rev.}, 140(9):3090--3105, 2012.
+
+\bibitem[SKW88]{SKW88}
+R.~D. Sharman, T.~L. Keller, and M.~G. Wurtele.
+\newblock Incompressible and anelastic flow simulations on numerically
+  generated grids.
+\newblock {\em Mon. Wea. Rev.}, 116(5):1124--1136, 1988.
+
+\bibitem[SKW13]{SKW13}
+P.K. Smolarkiewicz, C.~K\"{u}hnlein, and N.P. Wedi.
+\newblock A unified framework for integrating soundproof and compressible
+  equations of all-scale atmospheric dynamics.
+\newblock In {\em Recent developments in numerical methods for atmosphere and
+  ocean modelling}, ECMWF Annual Seminar,
+  \url{http://www.ecmwf.int/newsevents/meetings/annual\_seminar/2013/index.html},
+  2-5 Sept 2013. ECMWF.
+
+\bibitem[SKW14]{SKW14}
+P.K. Smolarkiewicz, C.~K\"{u}hnlein, and N.P. Wedi.
+\newblock A consistent framework for discrete integrations of soundproof and
+  compressible {PDEs} of atmospheric dynamics.
+\newblock {\em J. Comput. Phys.}, 263:185--205, 2014.
+
+\bibitem[SLF{\etalchar{+}}02]{SLF+02}
+C.~Sch{\"{a}}r, D.~Leuenberger, O.~Fuhrer, D.~L{\"{u}}thi, and C.~Girard.
+\newblock A new terrain-following vertical coordinate formulation for
+  atmospheric prediction models.
+\newblock {\em Mon. Wea. Rev.}, 130(10):2459--2480, 2002.
+
+\bibitem[SLF{\etalchar{+}}10]{SLF+10}
+G.L. Stephens, T.~L'Ecuyer, R.~Forbes, A.~Gettelmen, J-C Golaz,
+  A.~Bodas-Salcedo, K.~Suzuki, P.~Gabriel, and J.~Haynes.
+\newblock Dreary state of precipitation in global models.
+\newblock {\em J. Geophys. Res. - Atmos.}, 115(D24211), 2010.
+
+\bibitem[SM77]{SM77}
+A.N. Staniforth and H.L. Mitchell.
+\newblock A semi-implicit finite-element barotropic model.
+\newblock {\em Mon. Wea. Rev.}, 105:154--169, 1977.
+
+\bibitem[SM78]{SM78}
+A.N. Staniforth and H.L. Mitchell.
+\newblock Variable-resolution finite-element technique for regional forecasting
+  with primitive equations.
+\newblock {\em Mon. Wea. Rev.}, 106(4):439--447, 1978.
+
+\bibitem[SM00]{SM00}
+D.E. Shallcross and P.S. Monks.
+\newblock New directions: A role for isoprene in biosphere-climate-chemistry
+  feedbacks.
+\newblock {\em Atmosperic Environment}, 34(10):1659--1660, 2000.
+
+\bibitem[SM10]{SM10}
+W.C. Skamarock and M.~Menchaca.
+\newblock Conservative transport schemes for spherical geodesic grids:
+  High-order reconstructions for forward-in-time schemes.
+\newblock {\em Mon. Wea. Rev.}, 138(12):4497--4508, 2010.
+
+\bibitem[SMC13]{SMC13}
+A.~Staniforth, T~Melvin, and C.~Cotter.
+\newblock Analysis of a mixed finite-element pair proposed for an atmospheric
+  dynamical core.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 139(674):1239--1254, 2013.
+
+\bibitem[Smi79]{Smi79}
+R.B. Smith.
+\newblock The influence of mountains on the atmosphere.
+\newblock {\em Adv. Geophys.}, 21:87--230, 1979.
+
+\bibitem[Smi90]{Smi90}
+R.N.B. Smith.
+\newblock A scheme for predicting layer clouds and their water content in a
+  general circulation model.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 116(492):435--460, 1990.
+
+\bibitem[Smo82]{Smo82}
+P.~Smolarkiewicz.
+\newblock The multi-dimensional {Crowley} advection scheme.
+\newblock {\em Mon. Wea. Rev.}, 110(12):1968--1983, 1982.
+
+\bibitem[SMO00]{SMO00}
+R.K. Srivastava, D.S. McRae, and M.T. Odman.
+\newblock An adaptive grid algorithm for air-quality modeling.
+\newblock {\em J. Comput. Phys.}, 165(2):437--472, 2000.
+
+\bibitem[SMO01]{SMO01}
+R.K. Srivastava, D.S. McRae, and M.T. Odman.
+\newblock {Simulation of a reacting pollutant puff using an adaptive grid
+  algorithm}.
+\newblock {\em J. Geophys. Res. - Atmos.}, 106(D20):24245--24257, 2001.
+
+\bibitem[SMST04]{SMST04}
+P.M.M. Soares, P.M.A. Miranda, A.P. Siebesma, and J.~Teixeira.
+\newblock An eddy-diffusivity/mass-flux parametrization for dry and shallow
+  cumulus convection.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 130(604):3365--3383, 2004.
+
+\bibitem[SMT{\etalchar{+}}08]{SMT+08}
+M.~Satoh, T.~Matsuno, H.~Tomita, H.~Miura, T.~Nasuno, and S.~Iga.
+\newblock Nonhydrostatic icosahedral atmospheric model ({NICAM}) for global
+  cloud resolving simulations.
+\newblock {\em J. Comput. Phys.}, 227(7):3486--3514, 2008.
+
+\bibitem[SMW01]{SMW01}
+P.K. Smolarkiewicz, L.G. Margolin, and A.A. Wyszogrodzki.
+\newblock A class of nonhydrostatic global models.
+\newblock {\em J. of Atmos Sci.}, 58(4):349--364, 2001.
+
+\bibitem[SOS89]{SOS89}
+W.~Skamarock, J.~Oliger, and R.L. Street.
+\newblock Adaptive grid refinement for numerical weather prediction.
+\newblock {\em J. Comput. Phys.}, 80(1):27--60, 1989.
+
+\bibitem[SP92]{SP92}
+P.K. Smolarkiewicz and J.A. Pudykiewicz.
+\newblock A class of semi-lagrangian approximations for fluids.
+\newblock {\em J. of Atmos Sci.}, 49(22):2082--2096, 1992.
+
+\bibitem[SP99]{SP99}
+G.R. Stuhne and W.R. Peltier.
+\newblock New icosahedral grid-point discretizations of the shallow water
+  equations on the sphere.
+\newblock {\em J. Comput. Phys.}, 148(1):23--58, 1999.
+
+\bibitem[SP04]{SP04}
+A.J. Stirling and J.C. Petch.
+\newblock The impacts of spatial variability on the development of convection.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 130:3189--3216, 2004.
+
+\bibitem[SP06]{SP06}
+R.~Swinbank and R.J. Purser.
+\newblock Fibonacci grids: A novel approach to global modelling.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 132(619 B):1769--1793, 2006.
+
+\bibitem[Spe04]{AMRCam04}
+H.~Spencer.
+\newblock {Summary of ``A one-day workshop on: Adaptive Grid Methodologies for
+  Environmental Modelling for large-scale atmosphere/ocean applications''}.
+\newblock
+  http://www.met.rdg.ac.uk/$^\sim$swr99hs/AMRworkshopDec2004/AMRworkshopDec2004.pdf,
+  \\Dec 2004.
+
+\bibitem[Spo00]{Spo00}
+B.~Sportisse.
+\newblock An analysis of operator splitting techniques in the stiff case.
+\newblock {\em J. Comput. Phys.}, 161(1):140--168, 2000.
+
+\bibitem[SQM{\etalchar{+}}07a]{IPCC4_1_07}
+S.~Solomon, D.~Qin, M.~Manning, Z.~Chen, M.~Marquis, K.B. Averyt, M.~Tignor,
+  and H.L. Miller, editors.
+\newblock {\em Climate Change 2007: The Physical Science Basis. Contribution of
+  Working Group I to the Fourth Assessment Report of the Intergovernmental
+  Panel on Climate Change}.
+\newblock Cambridge University Press, 2007.
+
+\bibitem[SQM{\etalchar{+}}07b]{ipcc41}
+S.~Solomon, D.~Qin, M.~Manning, Z.~Chen, M.~Marquis, K.B. Averyt, M.~Tignor,
+  and H.L. Miller.
+\newblock {IPCC}, 2007: Climate change 2007: The physical science basis.
+\newblock Technical report, Intergovernmental Panel on Climate Change, 2007.
+\newblock Contribution of Working Group 1 to the Fourth Assessment Report.
+
+\bibitem[SQP{\etalchar{+}}13]{IPCC5_WG1}
+T.F. Stocker, D.~Qin, G.-K. Plattner, M.~Tignor, S.K. Allen, J.~Boschung,
+  A.~Nauels, Y.~Xia, V.~Bex, and P.M. Midgley.
+\newblock Technical Report~5, IPCC, 2013.
+
+\bibitem[SR01]{SR01}
+R.J. Spiteri and R.J. Ruuth.
+\newblock A new class of optimal high-order strong-stability-preserving time
+  discretization methods.
+\newblock Technical Report CS-2001-01, Acadia University, Faculty of Computer
+  Science, 6050 University Ave, Halifax, Nova Scotia, B3H 1W5, Canada, May
+  2001.
+
+\bibitem[SRJT08]{SRJT08}
+J.~Steppeler, P.~R\'ipodas, B.~Jonkheid, and S.~Thomas.
+\newblock Third-order finite-difference schemes on icosahedral-type grids on
+  the sphere.
+\newblock {\em Mon. Wea. Rev.}, 136(7):2683--2698, 2008.
+
+\bibitem[SRLV19]{SRLV19}
+C.~Strauss, D.~Ricard, C.~Lac, and A.~Verrelle.
+\newblock Evaluation of turbulence parametrizations in convective clouds and
+  their environment based on a large-eddy simulation.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, pages 1--23, 2019.
+
+\bibitem[SS05a]{SS05b}
+P.K. Smolarkiewicz and J.~Szmelter.
+\newblock {MPDATA: An edge-based unstructured-grid formulation}.
+\newblock {\em J. Comput. Phys.}, 206(2):624--649, 2005.
+
+\bibitem[SS05b]{SS05}
+P.K. Smolarkiewicz and J.~Szmelter.
+\newblock {Multidimensional positive definite advection transport algorithm
+  (MPDATA): an edge-based unstructured-data formulation}.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 47(10-11):1293--1299, 2005.
+
+\bibitem[SS06]{SS06}
+J.~Szmelter and P.K. Smolarkiewicz.
+\newblock {MPDATA error estimator for mesh adaptivity}.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 50(10):1269--1293, 2006.
+
+\bibitem[SS09]{SS09}
+P.K. Smolarkiewicz and J.~Szmelter.
+\newblock Iterated upwind schemes for gas dynamics.
+\newblock {\em J. Comput. Phys.}, 228:33--54, 2009.
+
+\bibitem[SS10]{SS10}
+J.~Szmelter and P.K. Smolarkiewicz.
+\newblock An edge-based unstructured mesh discretisation in geophysical
+  framework.
+\newblock {\em J. Comput. Phys.}, 229:4980--4995, 2010.
+
+\bibitem[SS11]{SS11}
+P.K. Smolarkiewicz and J.~Szmelter.
+\newblock A nonhydrostatic unstructured-mesh soundproof model for simulation of
+  internal gravity waves.
+\newblock {\em Acta Geophysica}, 2011.
+
+\bibitem[SSD16]{SSD16}
+M.~Sakradzija, A.~Seifert, and A.~Dipankar.
+\newblock A stochastic scale-aware parameterization of shallow cumulus
+  convection across the convective gray zone.
+\newblock {\em Journal of Advances in Modeling Earth Systems}, 8(2), 2016.
+
+\bibitem[SST07]{SST07}
+A.P. Siebesma, P.M.M. Soares, and J.~Teixeira.
+\newblock A combined eddy-diffusivity mass-flux approach for the convective
+  boundary layer.
+\newblock {\em J. of Atmos Sci.}, 64:1230--1248, 2007.
+
+\bibitem[ST12]{ST12}
+A.~Staniforth and J.~Thuburn.
+\newblock Horizontal grids for global weather and climate prediction models: a
+  review.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 138(662):1--26, 2012.
+
+\bibitem[Sub15]{Sub15}
+C.J. Subich.
+\newblock A robust moving mesh method for spectral collocation solutions of
+  time-dependent partial differential equations.
+\newblock {\em J. Comput. Phys.}, 294(0):297--311, 2015.
+
+\bibitem[SvdWH06]{SvH06}
+G.J. Steeneveld, B.J.H. van~de Wiel, and A.A.M. Holstslag.
+\newblock Modeling the evolution of the atmospheric boundary layer coupled to
+  the land surface for three contrasting nights in {CASES-99}.
+\newblock {\em J. of Atmos Sci.}, 2006.
+
+\bibitem[SW69]{SW69}
+J.~Simpson and V.~Wiggert.
+\newblock Models of precipitating cumulus towers.
+\newblock {\em Mon. Wea. Rev.}, 97(7):471--489, 1969.
+
+\bibitem[SW84]{SW84}
+H.B. Stewart and B.~Wendroff.
+\newblock Two-phase flow: Models and methods.
+\newblock {\em J. Comput. Phys.}, 56(3):363--409, 1984.
+
+\bibitem[SW11]{SW0x}
+A.~Staniforth and A.A. White.
+\newblock Further non-separable exact solutions of the deep and shallow
+  atmosphere equations.
+\newblock {\em Atmos. Sci. Lett.}, submitted, 2011.
+
+\bibitem[SW13]{SW13}
+A.~Staniforth and N.~Wood.
+\newblock Exact axisymmetric solutions of the deep- and shallow-atmosphere
+  {Euler} equations in curvilinear and plane geometries.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 139, 2013.
+
+\bibitem[SW16]{SW16}
+J.~Shaw and H.~Weller.
+\newblock Comparison of terrain following and cut cell grids using a
+  non-hydrostatic model.
+\newblock {\em Mon. Wea. Rev.}, 144(6):2085--2099, 2016.
+
+\bibitem[Swe84]{Sweb84}
+P.K. Sweby.
+\newblock High-resolution schemes using flux limiters for hyperbolic
+  conservation-laws.
+\newblock {\em SIAM Journal of Numerical Analysis}, 21(5):995--1011, 1984.
+
+\bibitem[SWMD17]{SWMD17}
+J.~Shaw, H.~Weller, J.~Methven, and T.~Davies.
+\newblock Multidimensional method-of-lines transport for atmospheric flows over
+  steep terrain using arbitrary meshes.
+\newblock {\em J. Comput. Phys.}, 344:86--107, 2017.
+
+\bibitem[SWW{\etalchar{+}}93]{SWW+93}
+J.M. Straka, R.B. Wilhelmson, L.J. Wicker, J.R. Anderson, and K.K. Droegemeier.
+\newblock Numerical-solutions of a nonlinear density-current - a benchmark
+  solution and comparisons.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 17(1):1--22, 1993.
+
+\bibitem[SZS15]{SZS15}
+J.~Szmelter, Z.~Zhang, and P.K. Smolarkiewicz.
+\newblock An unstructured-mesh atmospheric model for nonhydrostatic dynamics:
+  Towards optimal mesh resolution.
+\newblock {\em J. Comput. Phys.}, 294(0):363 -- 381, 2015.
+
+\bibitem[TBW{\etalchar{+}}97]{TBW+97}
+A.~Tomlin, M.~Berzins, J.~Ware, J.~Smith, and M.J. Pilling.
+\newblock On the use of adaptive gridding methods for modelling chemical
+  transport from multi-scale sources.
+\newblock {\em Atm. Env.}, 31:2945--2959, 1997.
+
+\bibitem[TC12]{TC12}
+J.~Thuburn and C.J. Cotter.
+\newblock A framework for mimetic discretization of the rotating shallow-water
+  equations on arbitrary polygonal grids.
+\newblock {\em SIAM J. Sci. Comp.}, 34(3):B203--B225, 2012.
+
+\bibitem[TC15]{TC15}
+J.~Thuburn and C.J. Cotter.
+\newblock A primal-dual mimetic finite element scheme for the rotating shallow
+  water equations on polygonal spherical meshes.
+\newblock {\em J. Comput. Phys.}, 2015.
+
+\bibitem[TCD14]{TCD14}
+J.~Thuburn, C.J. Cotter, and T.~Dubos.
+\newblock A mimetic, semi-implicit, forward-in-time, finite volume shallow
+  water model: comparison of hexagonal-icosahedral and cubed sphere grids.
+\newblock {\em Geosci. Model Dev.}, 7(3):909--929, 2014.
+
+\bibitem[TCF{\etalchar{+}}13]{TCF+13}
+J.~Thuburn, C.J. Cotter, R.~Ford, T.~Melvin, G.~Riley, A.~Staniforth,
+  H.~Weller, and N.~Wood.
+\newblock {Gung-Ho Dynamics: Transport schemes - Phase {I} final report}.
+\newblock Technical report, Met Office and University of Exeter, Jan 2013.
+
+\bibitem[TEB19]{TEB19}
+J.~Thuburn, G.A. Efstathiou, and R.J. Beare.
+\newblock A two-fluid single-column model of the dry, shear-free, convective
+  boundary layer.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, pages 1--16, 2019.
+
+\bibitem[TESC08]{TES08}
+M.A. Taylor, J.~Edwards, and A.~St.~Cyr.
+\newblock Petascale atmospheric models for the {Community Climate System
+  Model}: new developments and evaluation of scalable dynamical cores.
+\newblock {\em Journal of Physics: Conference Series}, 125, 2008.
+
+\bibitem[TETN07]{TETN07}
+M.A. Taylor, J.~Edwards, S.~Thomas, and R.~Nair.
+\newblock A mass and energy conserving spectral element atmospheric dynamical
+  core on the cubed-sphere grid.
+\newblock {\em Journal of Physics: Conference Series}, 2007.
+
+\bibitem[TF10]{TF10}
+M.A. Taylor and A.~Fournier.
+\newblock A compatible and conservative spectral element method on unstructured
+  grids.
+\newblock {\em J. Comput. Phys.}, 229(17):5879--5895, 2010.
+
+\bibitem[Thu93a]{Thu93b}
+J.~Thuburn.
+\newblock Baroclinic-wave life-cycles, climate simulations and cross-isentrope
+  mass-flow in a hybrid isentropic coordinate {GCM}.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 119(511):489--508, 1993.
+
+\bibitem[Thu93b]{Thu93a}
+J.~Thuburn.
+\newblock Use of a flux-limited scheme for vertical advection in a {GCM}.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 119(511):469--487, 1993.
+
+\bibitem[Thu96a]{Thu96}
+J.~Thuburn.
+\newblock {A PV-based shallow water model on a hexagonal-icosahedral grid}.
+\newblock Technical Report~40, UGAMP, 31 May 1996.
+
+\bibitem[Thu96b]{Thu96b}
+J.~Thuburn.
+\newblock Multidimensional flux-limited advection schemes.
+\newblock {\em J. Comput. Phys.}, 123:74--83, 1996.
+
+\bibitem[Thu97]{Thu97}
+J.~Thuburn.
+\newblock {A PV-based shallow-water model on a hexagonal-icosahedral grid}.
+\newblock {\em Mon. Wea. Rev.}, 125(9):2328--2347, 1997.
+
+\bibitem[Thu06]{Thu06}
+J.~Thuburn.
+\newblock Vertical discretizations giving optimal representation of normal
+  modes: Sensitivity to the form of the pressure-gradient term.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 132(621 {P}art B):2809--2825,
+  2006.
+
+\bibitem[Thu07]{Thu07}
+J.~Thuburn.
+\newblock Rossby wave dispersion on the {C}-grid.
+\newblock {\em Atmos. Sci. Lett.}, 8:37--42, 2007.
+
+\bibitem[Thu08a]{Thu08c}
+J.~Thuburn.
+\newblock {A fully implicit, mass-conserving, semi-Lagrangian scheme for the
+  f-plane shallow-water equations}.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 56(8):1047--1059, Mar 2008.
+\newblock {9th ICFD Conference on Numerical Methods for Fluid Dynamics,
+  Reading, ENGLAND, 2007}.
+
+\bibitem[Thu08b]{Thu08}
+J.~Thuburn.
+\newblock Numerical wave propagation on the hexagonal {C}-grid.
+\newblock {\em J. Comput. Phys.}, 227(11):5836--5858, 2008.
+
+\bibitem[Thu08c]{Thu08a}
+J.~Thuburn.
+\newblock {Some conservation issues for the dynamical cores of NWP and climate
+  models}.
+\newblock {\em J. Comput. Phys.}, 227(7):3715--3730, 2008.
+
+\bibitem[Thu12]{Thu12}
+J.~Thuburn.
+\newblock Gung-ho dynamics: Mimetic, semi-implicit, forward-in-time integration
+  of the shallow water equations on hexagonal and cubed sphere grids.
+\newblock Technical report, Exeter University, March 2012.
+
+\bibitem[Thu13]{Thu13}
+J.~Thuburn.
+\newblock {Computational modes in weather and climate models}.
+\newblock In {\em Recent developments in numerical methods for atmosphere and
+  ocean modelling}, Annual Seminar, 2013.
+
+\bibitem[Thu17a]{Thu17}
+J.~Thuburn.
+\newblock Use of the {Gibbs} thermodynamic potential to express the equation of
+  state in atmospheric models.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 143(704):1185--1196, 2017.
+
+\bibitem[Thu17b]{Thu17b}
+J.~Thuburn.
+\newblock Vertical discretizations giving optimal representation of normal
+  modes: general equations of state.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 143(704):1714--1720, 2017.
+
+\bibitem[Tie89]{Tied89}
+M.~Tiedtke.
+\newblock A comprehensive mass flux scheme for cumulus parameterization in
+  large-scale models.
+\newblock {\em Mon. Wea. Rev.}, 117(8):1779--1800, 1989.
+
+\bibitem[TJ16]{TJ16}
+D.~R. Thatcher and C.~Jablonowski.
+\newblock A moist aquaplanet variant of the {Held-Suarez} test for atmospheric
+  model dynamical cores.
+\newblock {\em Geosci. Model Dev.}, 9:1263--1292, 2016.
+
+\bibitem[TKP{\etalchar{+}}18]{TKP+18}
+Z.~Tan, C.M. Kaul, K.G. Pressel, Y.~Cohen, T.~Schneider, and J.~Teixeira.
+\newblock An extended eddy-diffusivity mass-flux scheme for unified
+  representation of subgrid-scale turbulence and convection.
+\newblock {\em J. Advances in Modeling Earth Systems (JAMES)}, 10(3):770--800,
+  2018.
+
+\bibitem[TKW14]{TKW14}
+J.~Thuburn, J.~Kent, and N.~Wood.
+\newblock Cascades, backscatter and conservation in numerical models of
+  two-dimensional turbulence.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 2014.
+
+\bibitem[TL02]{TL02}
+S.J. Thomas and R.D. Loft.
+\newblock Semi-implicit spectral element atmospheric model.
+\newblock {\em Journal of Scientific Computing}, 17(1-4):339--350, 2002.
+
+\bibitem[TN17]{TN17}
+M.D. Toy and R.D. Nair.
+\newblock A potential enstrophy and energy conserving scheme for the
+  shallow-water equations extended to generalized curvilinear coordinates.
+\newblock {\em Mon. Wea. Rev.}, 145(3):751--772, 2017.
+
+\bibitem[Tok78]{Tok78}
+T.~Tokioka.
+\newblock Some considerations on vertical differencing.
+\newblock {\em J. Meteor.-Soc. Japan}, 56(2):98--111, 1978.
+
+\bibitem[Tra90]{Tra90}
+S.M. Tracton.
+\newblock Predictability and its relationship to scale interaction processes in
+  blocking.
+\newblock {\em Mon. Wea. Rev.}, 1990.
+
+\bibitem[Tre16]{Tref16}
+L.N. Trefethen.
+\newblock Finite difference and spectral methods for ordinary and partial
+  differential equations.
+\newblock \url{https://people.maths.ox.ac.uk/trefethen/pdetext.html}, 2016.
+\newblock Lecture notes.
+
+\bibitem[TRL90]{TRL90}
+M.~Tanguay, A.~Robert, and R.~Laprise.
+\newblock A semi-implicit semi-{L}agrangian fully compressible regional
+  forecast model.
+\newblock {\em Mon. Wea. Rev.}, 118:1970--1980, 1990.
+
+\bibitem[TRSK09]{TRSK09}
+J.~Thuburn, T.D. Ringler, W.C. Skamarock, and J.B. Klemp.
+\newblock Numerical representation of geostrophic modes on arbitrarily
+  structured {C}-grids.
+\newblock {\em J. Comput. Phys.}, 228(22):8321--8335, 2009.
+
+\bibitem[TS04a]{ThSt04}
+J.~Thuburn and A.~Staniforth.
+\newblock {Conservation and linear Rossby-mode dispersion on the spherical C
+  grid}.
+\newblock {\em Mon. Wea. Rev.}, 132(2):641--653, 2004.
+
+\bibitem[TS04b]{TS04}
+H.~Tomita and M.~Satoh.
+\newblock {A new dynamical framework of nonhydrostatic global model using the
+  icosahedral grid}.
+\newblock {\em Fluid Dynamics Research}, 34(6):357--400, 2004.
+
+\bibitem[TSG02]{TSG02}
+H.~Tomita, M.~Satoh, and K.~Goto.
+\newblock {An optimization of the icosahedral grid modified by spring
+  dynamics}.
+\newblock {\em J. Comput. Phys.}, 183(1):307--331, 2002.
+
+\bibitem[TT97]{TT97}
+J.~Thuburn and D.G.H. Tan.
+\newblock A parameterization of mixdown time for atmospheric chemicals.
+\newblock {\em J. Geophys. Res.}, 102:13037, 1997.
+
+\bibitem[TTB05]{TTB05}
+T.~Torsvik, Ø. Thiem, and J.~Berntsen.
+\newblock Stability analysis of geostrophic adjustment on hexagonal grids for
+  regions with variable depth.
+\newblock {\em Mon. Wea. Rev.}, 133(11):3335--3344, 2005.
+
+\bibitem[TTI97]{TTI97}
+M.~Taylor, J.~Tribbia, and M.~Iskandarani.
+\newblock The spectral element method for the shallow water equations on the
+  sphere.
+\newblock {\em J. Comput. Phys.}, 130(1):92--108, 1 Jan 1997.
+
+\bibitem[TTSG01]{TTSG01}
+H.~Tomita, M.~Tsugawa, M.~Satoh, and K.~Goto.
+\newblock Shallow water model on a modified icosahedral geodesic grid by using
+  spring dynamics.
+\newblock {\em J. Comput. Phys.}, 174(2):579--613, 2001.
+
+\bibitem[TV18]{TV18}
+J.~Thuburn and G.K. Vallis.
+\newblock Properties of conditionally filtered equations: Conservation, normal
+  modes, and variational formulation.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 144(714):1555--1571, 2018.
+
+\bibitem[TW76]{TW76}
+M.C. Tapp and P.W. White.
+\newblock A non-hydrostatic mesoscale model.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 102(432):277--296, 1976.
+
+\bibitem[TW05]{TW05}
+J.~Thuburn and T.J. Woollings.
+\newblock Vertical discretizations for compressible {E}uler equation
+  atmospheric models giving optimal representation of normal modes.
+\newblock {\em J. Comput. Phys.}, 203(2):386--404, March 2005.
+
+\bibitem[TWV{\etalchar{+}}18]{TWV+18}
+J.~Thuburn, H.~Weller, G.~K. Vallis, R.~J. Beare, and M.~Whitall.
+\newblock A framework for convection and boundary layer parameterization
+  derived from conditional filtering.
+\newblock {\em J. of Atmos Sci.}, 75(3):965--981, 2018.
+
+\bibitem[UB03]{UB03}
+L.~Umlauf and H.~Burchard.
+\newblock A generic length-scale equation for geophysical turbulence models.
+\newblock {\em Journal of Marine Research}, 61(2):235--265, 2003.
+
+\bibitem[UBH03]{UBK03}
+L.~Umlauf, H.~Burchard, and K.~Hutter.
+\newblock Extending the {$k-\omega$} turbulence model towards oceanic
+  applications.
+\newblock {\em Ocean Modelling}, 5(3):195--218, 2003.
+
+\bibitem[UG15]{UG15}
+P.A. Ullrich and J.E. Guerra.
+\newblock International conference on computational science, iccs 2015
+  exploring the effects of a high-order vertical coordinate in a
+  non-hydrostatic global model.
+\newblock {\em Procedia Computer Science}, 51:2076--2085, 2015.
+
+\bibitem[UJ11]{UJ11}
+P.A. Ullrich and C.~Jablonowski.
+\newblock An analysis of 1d finite-volume methods for geophysical problems on
+  refined grids.
+\newblock {\em J. Comput. Phys.}, 230:706--725, 2011.
+
+\bibitem[UJ12a]{UJ12b}
+P.~Ullrich and C.~Jablonowski.
+\newblock {MCore}: A non-hydrostatic atmospheric dynamical core utilizing
+  high-order finite-volume methods.
+\newblock {\em J. Comput. Phys.}, 231(15):5078--5108, 2012.
+
+\bibitem[UJ12b]{UJ12}
+P.~Ullrich and C.~Jablonowski.
+\newblock Operator-split {Runge-Kutta-Rosenbrock} methods for nonhydrostatic
+  atmospheric models.
+\newblock {\em Mon. Wea. Rev.}, 140(4):1257--1284, 2012.
+
+\bibitem[UJK{\etalchar{+}}17]{UJK+17}
+P.~A. Ullrich, C.~Jablonowski, J.~Kent, P.~H. Lauritzen, R.~Nair, K.~A. Reed,
+  C.~M. Zarzycki, D.~M. Hall, D.~Dazlich, R.~Heikes, C.~Konor, D.~Randall,
+  T.~Dubos, Y.~Meurdesoif, X.~Chen, L.~Harris, C.~K\"uhnlein, V.~Lee,
+  A.~Qaddouri, C.~Girard, M.~Giorgetta, D.~Reinert, J.~Klemp, S.-H. Park,
+  W.~Skamarock, H.~Miura, T.~Ohno, R.~Yoshida, R.~Walko, A.~Reinecke, and
+  K.~Viner.
+\newblock {DCMIP2016}: a review of non-hydrostatic dynamical core design and
+  intercomparison of participating models.
+\newblock {\em Geosci. Model Dev.}, 10(12):4477--4509, 2017.
+
+\bibitem[UJvL10]{UJv10}
+P.A. Ullrich, C.~Jablonowski, and B.~van Leer.
+\newblock High-order finite-volume methods for the shallow-water equations on
+  the sphere.
+\newblock {\em J. Comput. Phys.}, 229(17):6104--6134, 2010.
+
+\bibitem[ULJ09]{ULJ09}
+P.A. Ullrich, P.H. Lauritzen, and C.~Jablonowski.
+\newblock Geometrically exact conservative remapping ({GECoRe}): Regular
+  latitude-longitude and cubed-sphere grids.
+\newblock {\em Mon. Wea. Rev.}, 137(6):1721--1741, 2009.
+
+\bibitem[ULJ13]{ULJ13}
+P.A. Ullrich, P.H. Lauritaen, and C.~Jablonowski.
+\newblock Some considerations for high-order `incremental remap'-based
+  transport schemes: edges, reconstructions and area integration.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 2013.
+
+\bibitem[ULJ14]{ULJ14}
+P.A. Ullrich, P.H. Lauritzen, and C.~Jablonowski.
+\newblock A high-order fully explicit `incremental-remap'-based
+  semi-{L}agrangian shallow-water model.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 75(2):103--133, 2014.
+
+\bibitem[Ull14]{Ull14}
+P.A. Ullrich.
+\newblock Understanding the treatment of waves in high-order atmospheric
+  models, {Part I}: The shortest resolved waves of the {1D} linear wave
+  equation.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 2014.
+
+\bibitem[UMJS14]{UMJS14}
+P.A. Ullrich, T.~Melvin, C.~Jablonowski, and A.~Staniforth.
+\newblock A proposed baroclinic wave test case for deep- and shallow-atmosphere
+  dynamical cores.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 140(682):1590--1602, 2014.
+
+\bibitem[UN14]{UN14}
+P.A. Ullrich and M.R. Norman.
+\newblock The flux-form semi-{L}agrangian spectral element ({FF-SLSE}) method
+  for tracer transport.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 140(680):1069--1085, 2014.
+
+\bibitem[URJ15]{URJ15}
+P.A. Ullrich, K.A. Reed, and C.~Jablonowski.
+\newblock Analytical initial conditions and an analysis of baroclinic
+  instability waves in f- and beta-plane {3D} channel models.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 141(693):2972--2988, 2015.
+
+\bibitem[UT15]{UT15}
+P.A. Ullrich and M.A. Taylor.
+\newblock Arbitrary-order conservative and consistent remapping and a theory of
+  linear maps: part {I}.
+\newblock {\em Mon. Wea. Rev.}, 143(6):2419--2440, 2015.
+
+\bibitem[VCC13]{VCC13}
+AR~Visram, CJ~Cotter, and MJP Cullen.
+\newblock A framework for evaluating model error using asymptotic convergence
+  in the {Eady} model.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 2013.
+
+\bibitem[VdALW07]{VLW07}
+K.~Van~den Abeele, C.~Lacor, and Z.J. Wang.
+\newblock On the connection between the spectral volume and the spectral
+  difference method.
+\newblock {\em J. Comput. Phys.}, 27:877--885, 2007.
+
+\bibitem[VG02]{VG02}
+M.R. Visbal and D.V. Gaitonde.
+\newblock On the use of higher-order finite-difference schemes on curvilinear
+  and deforming meshes.
+\newblock {\em J. Comput. Phys.}, 181(1):155--185, 2002.
+
+\bibitem[Vic87]{Vic87}
+R.~Vichnevetsky.
+\newblock Wave propagation and reflection in irregular grids for hyperbolic
+  equations.
+\newblock {\em Applied Numerical Mathematics}, 3:133--166, 1987.
+
+\bibitem[Vil09]{Vil09}
+C.~Villani.
+\newblock {\em Optimal transport old and new}.
+\newblock Springer, 2009.
+
+\bibitem[Vis14]{Vis14}
+A.R. Visram.
+\newblock {\em Asymptotic limit analysis for numerical models of atmospheric
+  frontogenesis}.
+\newblock PhD thesis, {Department of Aeronautics, Imperial College London},
+  2014.
+
+\bibitem[VM95]{VM95}
+H.K Versteeg and W.~Malalasekera.
+\newblock {\em An introduction to Computational Fluid Dynamics}.
+\newblock Longman Scientific and Technical, 1995.
+
+\bibitem[VSW{\etalchar{+}}08]{VSW+08}
+A.~Voulgarakis, N.H. Savage, O.~Wild, G.D. Carver, K.C. Clemitshaw, and J.A.
+  Pyle.
+\newblock {Upgrading photolysis in the \mbox{p-TOMCAT} CTM: model validation
+  and assessment of the role of clouds}.
+\newblock {\em Geosci. Model Dev.}, 1:345--397, 2008.
+\newblock www.geosci-model-dev-discuss.net/1/345/2008/.
+
+\bibitem[VT91]{VT91}
+R.~Vichnevtsky and L.H. Turner.
+\newblock Spurious scattering from discontinously stretching grids in
+  computational fluid dynamics.
+\newblock {\em Applied Numerical Mathematics}, 8:289--299, 1991.
+
+\bibitem[W\"03]{Wor03}
+M.~W\"orner.
+\newblock A compact introduction to the numerical modelling of multiphase
+  flows.
+\newblock Technical Report FZKA 6932, Forschungszentrum Karlsruhe in der
+  Helmholtz-Gemienschaft, 2003.
+
+\bibitem[WA08a]{WA08}
+R.L. Walko and R.~Avissar.
+\newblock The ocean-land-atmosphere model ({OLAM}). {P}art {I}: Shallow-water
+  tests.
+\newblock {\em Mon. Wea. Rev.}, 136:4033--4044, 2008.
+
+\bibitem[WA08b]{WA08b}
+R.L. Walko and R.~Avissar.
+\newblock The ocean-land-atmosphere model ({OLAM}). {P}art {II}: Formulation
+  and tests of the nonhydrostatic dynamical core.
+\newblock {\em Mon. Wea. Rev.}, 136:4045--4062, 2008.
+
+\bibitem[WA11]{WA11}
+R.L. Walko and R.~Avissar.
+\newblock A direct method for constructing refined regions in unstructured
+  conforming triangular-hexagonal computational grids: Application to {OMAM}.
+\newblock {\em Mon. Wea. Rev.}, 139:3923--3937, 2011.
+
+\bibitem[Wan01]{Wan01}
+Y.~Wang.
+\newblock An explicit simulation of tropical cyclones with a triply nested
+  movable mesh primitive equation model: {TCM3}. {Part I}: Model description
+  and control experiment.
+\newblock {\em Mon. Wea. Rev.}, 129:1370--1394, 2001.
+
+\bibitem[WB95]{WB95}
+C.~Walshaw and M.~Berzins.
+\newblock Dynamic load-balancing for {PDE} solvers on adaptive unstructured
+  meshes.
+\newblock {\em Concurrency: Practice and Experience}, 7(1):17--28, 1995.
+
+\bibitem[WBBC16]{WBBC16}
+H.~Weller, P.~Browne, C.~Budd, and M.~Cullen.
+\newblock Mesh adaptation on the sphere using optimal transport and the
+  numerical solution of a {Monge-Amp{\`e}re} type equation.
+\newblock {\em J. Comput. Phys.}, 308:102--123, 2016.
+
+\bibitem[WBCJ03]{WBCJ03}
+S.~Webster, A.R. Brown, D.R. Cameron, and C.P. Jones.
+\newblock {Improvements to the representation of orography in the Met Office
+  Unified Model}.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 129(591, B):1989--2010, 2003.
+
+\bibitem[WBG05]{WBG05}
+B.V. Wells, M.~J. Baines, and P.~Glaister.
+\newblock {Generation of Arbitrary Lagrangian-Eulerian (ALE) velocities, based
+  on monitor functions, for the solution of compressible fluid equations}.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 47(10-11):1375--1381, 2005.
+
+\bibitem[WBKM{\etalchar{+}}08]{WBK+08}
+D.R. Wilson, A.C. Bushell, A.M. Kerr-Munslow, J.D. Price, and C.J. Morcrette.
+\newblock {PC2}: A prognostic cloud fraction and condensation scheme. i: Scheme
+  description.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 134(637):2093--2107, 2008.
+
+\bibitem[WDH{\etalchar{+}}92]{WDH+92}
+D.L. Williamson, J.B. Drake, J.J. Hack, R.~Jakob, and P.N. Swarztrauber.
+\newblock A standard test set for numerical approximations to the shallow water
+  equations in spherical geometry.
+\newblock {\em J. Comput. Phys.}, 102:211--224, 1992.
+
+\bibitem[WDS07]{WDS07}
+N.~Wood, M.~Diamantakis, and A.~Staniforth.
+\newblock A monotonically-damping second-order-accurate unconditionally-stable
+  numerical scheme for diffusion.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 133(627):1559--1573, 2007.
+
+\bibitem[WDS08]{WDS08}
+Q.~Wang, S.~Danilov, and J.~Schroter.
+\newblock Finite element ocean circulation model based on triangular prismatic
+  elements, with application in studying the effect of topography
+  representation.
+\newblock {\em J. Geophys. Res. - Oceans}, 113(C5):5015, 2008.
+
+\bibitem[Wel05]{Wel05}
+Henry~G. Weller.
+\newblock Derivation, modelling and solution of the conditionally averaged
+  two-phase flow equations.
+\newblock Technical report, OpenFOAM, {\url{http://www.openfoam.org}}, Feb
+  2005.
+
+\bibitem[Wel09]{Wel09}
+Hilary Weller.
+\newblock Predicting mesh density for adaptive modelling of the global
+  atmosphere.
+\newblock {\em Phil. Trans. R. Soc. A}, 367(1907):4523--4542, 28 Nov 2009.
+
+\bibitem[Wel12]{Wel12}
+H.~Weller.
+\newblock Controlling the computational modes of the arbitrarily structured
+  {C}-grid.
+\newblock {\em Mon. Wea. Rev.}, 140(10):3220--3234, 2012.
+
+\bibitem[Wel13a]{Wel13a}
+H.~Weller.
+\newblock {Gung Ho Phase I}, implicit/explicit work package.
+\newblock Technical report, University of Reading, Feb 2013.
+
+\bibitem[Wel13b]{Wel13b}
+H.~Weller.
+\newblock {Gung Ho Phase I}, shallow water test cases.
+\newblock Technical report, University of Reading, Jan 2013.
+
+\bibitem[Wel14]{Wel14}
+H.~Weller.
+\newblock Non-orthogonal version of the arbitrary polygonal {C}-grid and a new
+  diamond grid.
+\newblock {\em Geosci. Model Dev.}, 7:779--797, 2014.
+
+\bibitem[Wen98a]{Wend98}
+H.~Wendland.
+\newblock Error estimates for interpolation by compactly supported radial basis
+  functions of minimal degree.
+\newblock {\em Journal of Approximation Theory}, 93(2):258--272, 1998.
+
+\bibitem[Wen98b]{Wen98}
+H.~Wendland.
+\newblock Error estimates for interpolation by compactly supported radial basis
+  functions of minimal degree.
+\newblock {\em Journal of Approximation Theory}, 93:258--272, 1998.
+
+\bibitem[Wen05]{Wen05}
+Holger Wendland.
+\newblock {\em Scattered Data Approximation}.
+\newblock Cambridge Monographs on Applied and Computational Mathematics.
+  Cambridge University Press, 2005.
+
+\bibitem[WG10]{WG10}
+T.M. Wagner and H.F. Graf.
+\newblock An ensemble cumulus convection parameterization with explicit cloud
+  treatment.
+\newblock {\em J. of Atmos Sci.}, 67:3854--3869, 2010.
+
+\bibitem[WGB08]{WGB08}
+H.~Wan, M.A. Giorgetta, and L.~Bonaventura.
+\newblock Ensemble {H}eld-{S}uarez test with a spectral transform model:
+  Variability, sensitivity and convergence.
+\newblock {\em Mon. Wea. Rev.}, 136:1075--1092, March 2008.
+
+\bibitem[WGZ{\etalchar{+}}13]{WGZ+13}
+H.~Wan, M.A. Giorgetta, G.~Z\"angl, M.~Restelli, D.~Majewski, L.~Bonaventura,
+  K.~Fr\"ohlich, D.~Reinert, P.~R\'ipodas, L.~Kornblueh, and J.~F\"orstner.
+\newblock The {ICON-1.2} hydrostatic atmospheric dynamical core on triangular
+  grids -- {Part} 1: {F}ormulation and performance of the baseline version.
+\newblock {\em Geosci. Model Dev.}, 6:735--763, 2013.
+
+\bibitem[WHB{\etalchar{+}}09]{WHB+09}
+T.~Woollings, B.~Hoskins, M.~Blackburn, D.~Hassell, and K.~Hodges.
+\newblock Storm track sensitivity to sea surface temperature resolution in a
+  regional atmosphere model.
+\newblock {\em Climate Dyn.}, online, 2009.
+
+\bibitem[Whi03]{Whi03}
+P.W. White.
+\newblock {IFS} documentation. {Part III}: dynamics and numerical procedures.
+\newblock Technical Report CY23R4, ECMWF,
+  \url{http://www.ecmwf.int/research/ifsdocs\_old/DYNAMICS/index.html}, 2003.
+
+\bibitem[Wik15]{wikipedia15}
+Wikipedia.
+\newblock [Available online at \url{http://en.wikipedia.org}], cited 2015.
+
+\bibitem[Wil69]{Wil69}
+D.~Williamson.
+\newblock Numerical integration of fluid flow over triangular grids.
+\newblock {\em Mon. Wea. Rev.}, 97(12):885--895, 1969.
+
+\bibitem[Wil91]{Wil91}
+D.~Wilcox.
+\newblock A half century historical review of the k-omega model.
+\newblock In {\em 29th Aerospace Sciences Meeting}, 1991.
+
+\bibitem[Wil02]{Wil02}
+D.~Williamson.
+\newblock Time-split versus process-split coupling of parameterizations and
+  dynamical core.
+\newblock {\em Mon. Wea. Rev.}, pages 2024--2041, 2002.
+
+\bibitem[Wil08a]{Wil08}
+D.C. Wilcox.
+\newblock Formulation of the '$k-\omega$' turbulence model revisited.
+\newblock {\em AIAA Journal}, 46(11):2823--2838, 2008.
+
+\bibitem[Wil08b]{Wil08b}
+D.L. Williamson.
+\newblock Convergence of aqua-planet simulations with increasing resolution in
+  the {Community Atmosphere Model}, version 3.
+\newblock {\em Tellus}, 60A:848--862, 2008.
+
+\bibitem[Wil08c]{Wil08a}
+D.L. Williamson.
+\newblock Equivalent finite volume and {E}ulerian spectral transform horizontal
+  resolutions established from aqua-planet simulations.
+\newblock {\em Tellus}, 60A:839--847, 2008.
+
+\bibitem[Wil09]{Wil09}
+P.D. Williams.
+\newblock A proposed modification to the {Robert-Asselin} time filter.
+\newblock {\em Mon. Wea. Rev.}, 137(8):2538--2546, 2009.
+
+\bibitem[Wil11]{Wil11}
+Ed~Williams.
+\newblock Aviation formulary v1.46.
+\newblock [Available online at
+  \url{http://williams.best.vwh.net/avform.htm#Triangle}], cited 2011.
+
+\bibitem[Win66]{Win66}
+A.M. Winslow.
+\newblock Numerical solution of the quasilinear {Poisson} equation in a
+  nonuniform triangle mesh.
+\newblock {\em J. Comput. Phys.}, 1(2):149--172, 1966.
+
+\bibitem[WKR88]{WKR88}
+M.L. Weisman, J.B. Klemp, and R.~Rotunno.
+\newblock Structure and evolution of numerically simulated squall lines.
+\newblock {\em J. of Atmos Sci.}, 45(14):1990--2013, 1988.
+
+\bibitem[WL02]{WL02}
+Z.J. Wang and Y.~Liu.
+\newblock {Spectral (finite) volume method for conservation laws on
+  unstructured grids. II Extension to two-dimensional scalar equation}.
+\newblock {\em J. Comput. Phys.}, 179:665--697, 2002.
+
+\bibitem[WLW13]{WLW13}
+Hilary Weller, Sarah-Jane Lock, and Nigel Wood.
+\newblock {Runge-Kutta IMEX} schemes for the horizontally explicit/vertically
+  implicit ({HEVI}) solution of wave equations.
+\newblock {\em J. Comput. Phys.}, 252:365--381, 2013.
+
+\bibitem[WM19]{WM19}
+H.~Weller and W.~McIntyre.
+\newblock Numerical solution of the conditionally averaged equations for
+  representing net mass flux due to convection.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 145(721):1337--1353, 2019.
+
+\bibitem[WMSC19]{WMSC1x}
+H.~Weller, W.~McIntyre, D.~Shipley, and P.~Clark.
+\newblock Multi-fluids for representing sub-filter-scale convection.
+\newblock {\em J. Advances in Modeling Earth Systems (JAMES)}, submitted, 2019.
+
+\bibitem[WOJ08]{WOJ08}
+D.L. Williamson, J.G. Olson, and C.~Jablonowski.
+\newblock Two dynamical core formulation flaws exposed by a baroclinic
+  instability test case.
+\newblock {\em Mon. Wea. Rev.}, 2008.
+
+\bibitem[Woo13]{Woo13}
+N.~Wood.
+\newblock {From ENDGame to GunHo! A new dynamical core for the Unified Model}.
+\newblock [Available online at
+  \url{https://verc.enes.org/ISENES2/archive/documents-1/is-enes-2nd-hpc-workshop-presentations-february-2013/session-5-2013-development-for-exascale-and-gpus-for-climate-models/IS-ENES2013_NigelWood.pdf/view}],
+  Feb 2013.
+\newblock cited.
+
+\bibitem[WQZ15]{WQZ15}
+Yibin Wang, Ning Qin, and Ning Zhao.
+\newblock Delaunay graph and radial basis function for fast quality mesh
+  deformation.
+\newblock {\em J. Comput. Phys.}, 294(0):149--172, 2015.
+
+\bibitem[WRPW10]{WRPW10}
+Hilary Weller, T.~Ringler, M.~Piggott, and N.~Wood.
+\newblock Challenges facing adaptive mesh modelling of the atmosphere and
+  ocean.
+\newblock {\em Bull. Amer. Meteor. Soc.}, 91(1):105--108, 2010.
+
+\bibitem[WS98]{WS98}
+L.J. Wicker and W.C. Skamarock.
+\newblock A time-splitting scheme for the elastic equations incorporating
+  second-order {Runge-Kutta} time differencing.
+\newblock {\em Mon. Wea. Rev.}, 126(7):1992--1999, 1998.
+
+\bibitem[WS02]{WS02}
+L.J. Wicker and W.C. Skamarock.
+\newblock Time-splitting for elastic models using forward time schemes.
+\newblock {\em Mon. Wea. Rev.}, 130(8):2088--2097, 2002.
+
+\bibitem[WS09]{WS09}
+N.P. Wedi and P.K. Smolarkiewicz.
+\newblock A framework for testing global non-hydrostatic models.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 135(639):469--484, 2009.
+
+\bibitem[WS14]{WS14}
+H.~Weller and A.~Shahrokhi.
+\newblock Curl-free pressure gradients over orography in a solution of the
+  fully compressible {Euler} equations with implicit treatment of acoustic and
+  gravity waves.
+\newblock {\em Mon. Wea. Rev.}, 142(12):4439--4457, 2014.
+
+\bibitem[WSF09]{WSF09}
+H.~Wang, W.C. Skamarock, and G.~Feingold.
+\newblock Evaluation of scalar advection schemes in the advanced research {WRF}
+  model using large-eddy simulations of aerosol-cloud interactions.
+\newblock {\em Mon. Wea. Rev.}, 137(9):2547--2558, 2009.
+
+\bibitem[WSK97]{WSK97}
+M.L. Weisman, W.C. Skamarock, and J.B. Klemp.
+\newblock The resolution dependence of explicitly modeled convective systems.
+\newblock {\em Mon. Wea. Rev.}, 125:527--548, 1997.
+
+\bibitem[WSL{\etalchar{+}}14]{WSL+14}
+M.~Wong, W.C. Skamarock, P.H. Lauritzen, J.B. Klemp, and R.B. Stull.
+\newblock A compressible nonhydrostatic cell-integrated semi-{L}agrangian
+  semi-implicit solver ({CSLAM-NH}) with consistent and conservative transport.
+\newblock {\em Mon. Wea. Rev.}, 142(4):1669--1687, 2014.
+
+\bibitem[WSS{\etalchar{+}}13]{WSS+13}
+P.~Wessel, W.H.F. Smith, R.~Scharroo, J.~Luis, and F.~Wobbe.
+\newblock Generic mapping tools: Improved version released.
+\newblock {\em EOS Trans. AGU}, 94(45):409--410, 2013.
+
+\bibitem[WSW{\etalchar{+}}14]{WSW+14}
+N.~Wood, A.~Staniforth, A.~White, T.~Allen, M.~Diamantakis, M.~Gross,
+  T.~Melvin, C.~Smith, S.~Vosper, M.~Zerroukat, and J.~Thuburn.
+\newblock An inherently mass-conserving semi-implicit semi-lagrangian
+  discretisation of the deep-atmosphere global nonhydrostatic equations.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 140:1505--1520, 2014.
+
+\bibitem[WT06]{WT06}
+T.J. Woollings and J.~Thuburn.
+\newblock Entropy sources in a dynamical core atmospheric model.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 132:43--59, 2006.
+
+\bibitem[WTC12]{WTC12}
+H.~Weller, J.~Thuburn, and C.J. Cotter.
+\newblock Computational modes and grid imprinting on five quasi-uniform grids
+  of the sphere.
+\newblock {\em Mon. Wea. Rev.}, 140(8):2734--2755, 2012.
+
+\bibitem[WTHR99]{WTHR99}
+S.~Webster, J.~Thuburn, B.~Hoskins, and M.~Rodwell.
+\newblock Further development of a hybrid-isentropic {GCM}.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 125:2305--2331, 1999.
+
+\bibitem[WTJF98]{WTJF98}
+H.G. Weller, G.~Tabor, H.~Jasak, and C.~Fureby.
+\newblock {A tensorial approach to computational continuum mechanics using
+  object-oriented techniques}.
+\newblock {\em Computers in physics}, 12(6):620--631, 1998.
+
+\bibitem[WW08]{WW08}
+Hilary Weller and H.G. Weller.
+\newblock A high-order arbitrarily unstructured finite-volume model of the
+  global atmosphere: tests solving the shallow-water equations.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 56(8):1589--1596, 2008.
+
+\bibitem[WWF09]{WWF09}
+Hilary Weller, H.G. Weller, and A.~Fournier.
+\newblock Voronoi, {D}elaunay and block structured mesh refinement for solution
+  of the shallow water equations on the sphere.
+\newblock {\em Mon. Wea. Rev.}, 137(12):4208--4224, 2009.
+
+\bibitem[Wym96]{Wym96}
+B.L. Wyman.
+\newblock A step-mountain coordinate general circulation model: Description and
+  validation of medium-range forecasts.
+\newblock {\em Mon. Wea. Rev.}, 124:102--121, 1996.
+
+\bibitem[Wyn75]{Wyn75}
+J.C. Wyngaard.
+\newblock Modeling the planetary boundary layer -- extension to the stable
+  case.
+\newblock {\em Bound.-Layer Meteor}, 9(4):441--460, Dec 1975.
+
+\bibitem[WZ04]{WZ04}
+Y.H. Wang and T.~Zeng.
+\newblock On tracer correlations in the troposphere: The case of ethane and
+  propane.
+\newblock {\em J. Geophys. Res. - Atmos.}, 109(D24):D24306, Dec 2004.
+
+\bibitem[XDV{\etalchar{+}}15]{XDV+15}
+Shang-Ping Xie, Clara Deser, Gabriel~A. Vecchi, Matthew Collins, Thomas~L.
+  Delworth, Alex Hall, Ed~Hawkins, Nathaniel~C. Johnson, Christophe Cassou,
+  Alessandra Giannini, and Masahiro Watanabe.
+\newblock Towards predictive understanding of regional climate change.
+\newblock {\em Nature Clim. Change}, 2015.
+
+\bibitem[XIIX14]{XIIX14}
+B.~Xie, S.~Ii, A.~Ikebata, and F.~Xiao.
+\newblock A multi-moment finite volume method for incompressible
+  {Navier-Stokes} equations on unstructured grids: Volume-average/point-value
+  formulation.
+\newblock {\em J. Comput. Phys.}, 277:138--162, 2014.
+
+\bibitem[XL01]{XL01}
+M.~Xue and S-J Lin.
+\newblock Numerical equivalence of advection in flux and advective forms and
+  quadratically conservative high-order advection schemes.
+\newblock {\em Mon. Wea. Rev.}, 129(3):561--565, 2001.
+
+\bibitem[YA79]{YA79}
+M.K. Yau and P.M. Austin.
+\newblock A model for hydrometer growth and evolution of raindrop size spectra
+  in cumulus cells.
+\newblock {\em J. of Atmos Sci.}, 36(4):655--668, 1979.
+
+\bibitem[Yan14]{Yano14}
+J-I Yano.
+\newblock Formulation structure of the mass-flux convection parameterization.
+\newblock {\em Dynamics of Atmospheres and Oceans}, 67:1--28, 2014.
+
+\bibitem[YCG{\etalchar{+}}02]{YCG+02}
+Kao-San Yeh, Jean C\^{o}t\'{e}, Sylvie Gravel, Andr\'{e} M\'{e}thot, Alaine
+  Patoine, Michel Roch, and Andrew Staniforth.
+\newblock The {CMC-MRB} global environmental multiscale ({GEM}) model. part
+  {III}: Nonhydrostatic formulation.
+\newblock {\em Mon. Wea. Rev.}, 130(2):339--356, 2002.
+
+\bibitem[YL14]{YL14}
+J-I Yano and T.P. Lane.
+\newblock Convectively generated gravity waves simulated by nam-sca.
+\newblock {\em J. Geophys. Res. - Atmos.}, 119:9267--9289, 20014.
+
+\bibitem[YM79]{YM79}
+T.~Yamada and G.L. Mellor.
+\newblock A numerical simulation of {BOMEX} data using a turbulence closure
+  model coupled with ensemble cloud relations.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 105(446):915--944, 1979.
+
+\bibitem[YP12]{YP12}
+J.I. Yano and R.S. Plant.
+\newblock Finite departure from convective quasi-equilibrium: periodic cycle
+  and discharge-recharge mechanism.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 138:626--637, 2012.
+
+\bibitem[YRGB05]{YRGB05}
+J-I Yano, J-L Redelsperger, F.~Guichard, and P.~Bechtold.
+\newblock Mode decomposition as a methodology for developing convective-scale
+  representations in global models.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 131:2313--2336, 2005.
+
+\bibitem[YS08]{YS08}
+H.~Yamazaki and T.~Satomura.
+\newblock Vertically combined shaved cell method in a z-coordinate
+  nonhydrostatic atmospheric model.
+\newblock {\em Atmos. Sci. Lett.}, 9(4):171--175, 2008.
+
+\bibitem[YSC{\etalchar{+}}17]{YSC+17}
+H.~Yamazaki, J.~Shipton, M.J.P. Cullen, L.~Mitchell, and C.J. Cotter.
+\newblock Vertical slice modelling of nonlinear {Eady} waves using a compatible
+  finite element method.
+\newblock {\em J. Comput. Phys.}, 343:130--149, 2017.
+
+\bibitem[YTM{\etalchar{+}}99]{YTM+99}
+H.C. Yee, J.R. Torczynski, S.A. Morton, M.R. Visbal, and P.K. Sweby.
+\newblock {On spurious behavior of CFD simulations}.
+\newblock {\em Int. J. Numer. Meth. Fluids}, 30(6):675--711, 1999.
+
+\bibitem[YWL09]{YWL09}
+E.~Yee, B-C Wang, and F-S Lien.
+\newblock Probabilistic model for concentration fluctuations in compact-source
+  plumes in an urban environment.
+\newblock {\em Bound.-Layer Meteor}, 2009.
+
+\bibitem[Z\"12]{Zan12}
+G.~Z\"angl.
+\newblock Extending the numerical stability limit of terrain-following
+  coordinate models over steep slopes.
+\newblock {\em Mon. Wea. Rev.}, 140:3722--3733, 2012.
+
+\bibitem[ZA15]{ZA15}
+M.~Zerroukat and T.~Allen.
+\newblock A moist {Boussinesq} shallow water equations set for testing
+  atmospheric models.
+\newblock {\em J. Comput. Phys.}, to appear, 2015.
+
+\bibitem[Zal79]{Zal79}
+S.T. Zalesak.
+\newblock Fully multidimensional flux-corrected transport algorithms for
+  fluids.
+\newblock {\em J. Comput. Phys.}, 31(3):335--362, 1979.
+
+\bibitem[ZDC00]{ZDC00}
+M.~Zerroukat, K.~Djidjeli, and A.~Charafi.
+\newblock Explicit and implicit meshless methods for linear
+  advection-diffusion-type partial differential equations.
+\newblock {\em Int. J. Numer. Meth. Engineering}, 48:19--35, 2000.
+
+\bibitem[Zer99]{Zer99}
+M.~Zerroukat.
+\newblock A boundary element scheme for diffusion problems using compactly
+  supported radial basis functions.
+\newblock {\em Engineering Analysis with Boundary Elements}, 23(3):201--209,
+  1999.
+
+\bibitem[ZJ12]{ZJ12}
+U.~Zhang and H-M.~H. Juang.
+\newblock A mass-conserving non-iteration-dimensional-split semi-{L}agrangian
+  advection scheme for limited-area modelling.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, online, 2012.
+
+\bibitem[ZLJ{\etalchar{+}}14]{ZLJ+14}
+C.M. Zarzycki, M.~Levy, C.~Jablonowski, J.R. Overfelt, M.A. Taylor, and P.A.
+  Ullrich.
+\newblock Aquaplanet experiments using {CAM}'s variable resolution dynamical
+  core.
+\newblock {\em Mon. Wea. Rev.}, 27:5481--5503, 2014.
+
+\bibitem[ZM18]{ZM18}
+Y.~Zheng and P.~Marguinaud.
+\newblock Simulation of the performance and scalability of message passing
+  interface ({MPI}) communications of atmospheric models running on exascale
+  supercomputers.
+\newblock {\em Geosci. Model Dev.}, 11(8):3409--3426, 2018.
+
+\bibitem[ZP94a]{ZP94a}
+D.Z. Zhang and A.~Prosperetti.
+\newblock Averaged equations for inviscid disperse two-phase flow.
+\newblock {\em J. Fluid Mechanics}, 267:185--219, 5 1994.
+
+\bibitem[ZP94b]{ZP94b}
+D.Z. Zhang and A.~Prosperetti.
+\newblock Ensemble phase-averaged equations for bubbly flows.
+\newblock {\em Physics of Fluids}, 6(9):2956--2970, 1994.
+
+\bibitem[ZP97]{ZP97}
+D.Z. Zhang and A.~Prosperetti.
+\newblock Momentum and energy equations for disperse two-phase flows and their
+  closure for dilute suspensions.
+\newblock {\em Int. J. Multiphase Flow}, 23(3):425--453, June 1997.
+
+\bibitem[ZPC98]{ZPC98}
+M.~Zerroukat, H.~Power, and C.~S. Chen.
+\newblock A numerical method for heat transfer problems using collocation and
+  radial basis functions.
+\newblock {\em Int. J. Numer. Meth. Engineering}, 42(7):1263--1278, 1998.
+
+\bibitem[ZRRB15]{ZRR+15}
+G.~Z\"angl, D.~Reinert, P.~R\`ipodas, and M.~Baldauf.
+\newblock The {ICON (ICOsahedral Non-hydrostatic)} modelling framework of {DWD}
+  and {MPI-M}: Description of the non-hydrostatic dynamical core.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 141(687):563--579, 2015.
+
+\bibitem[ZS03]{ZS03}
+H.~Zhu and R.K. Smith.
+\newblock Effects of vertical differencing in a minimal hurricane model.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 129:1051--1069, 2003.
+
+\bibitem[ZTHH92]{ZTHH92}
+Z.~Zhu, J.~Thuburn, B.J. Hoskins, and P.H. Haynes.
+\newblock A vertical finite-difference scheme based on a hybrid
+  $\sigma-\theta-p$ coordinate.
+\newblock {\em Mon. Wea. Rev.}, 120(5):851--862, May 1992.
+
+\bibitem[ZWS04]{ZWS04}
+M.~Zerroukat, N.~Wood, and A.~Staniforth.
+\newblock {SLICE-S: A Semi-Lagrangian Inherently Conserving and Efficient
+  scheme for transport problems on the sphere}.
+\newblock {\em Quart. J. Roy. Meteor. Soc.}, 130(602):2649--2664, 2004.
+
+\bibitem[ZWS06]{ZWS06}
+M.~Zerroukat, N.~Wood, and A.~Staniforth.
+\newblock The parabolic spline method (psm) for conservative transport
+  problems.
+\newblock {\em International Journal for Numerical Methods in Fluids},
+  51(11):1297--1318, 2006.
+
+\end{thebibliography}
