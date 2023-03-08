@@ -41,6 +41,43 @@ number of stages.'' \\
 \item \bibentry{BD15} \ \\ ``Two hybrid variants of TR-BDF2 are proposed, that reduce the formal order of accuracy and maximize the absolute monotonicity radius''
 \end{itemize}
 
+\section*{Local Time Stepping}
+
+\begin{itemize}
+\item \bibentry{Bald19} \ \\ 
+Implemented in COSMO. Local time stepping maintains numerical reproducibility and exact mass conservation ``together with a slight improvement in
+efficiency.''
+
+\item \bibentry{DKT07} \ \\ 
+Local time stepping needed for high flows in small elements. \\
+``Please note,
+however, that the efficient parallel execution of a LTS scheme can become a very challenging task. Since each element performs its update
+only when (15) is fulfilled locally, the element updates are in general completely asynchronous which induces a very irregular load balancing
+on the different processors. Therefore, for the parallel implementation of our code, we first group elements of zones with similar material
+properties and element size together and partition each of these zones separately into a number of partitions that is equal to the total number
+of processors. For this purpose we are using the free METIS software package introduced by Karypis & Kumar (1998). Then, the resulting
+partitions of the different zones are merged together and thus provide the final domain decomposition. Note that the final partition in general
+contains non-connected subdomains. However, since the ADER-DG approach provides a one-step scheme, the total communication overhead
+induced by these non-contiguous partitions is quite small compared to the achieved benefits from the improved load balancing. Note that just
+using METIS on the whole domain with large weights on elements with small time steps can not resolve the problem since the processor
+load may remain ill-balanced due to the asynchronous element updates. As a final remark on parallelization we would like to note that in our
+implementation the MPI communication is always performed after each cycle.''
+
+\item \bibentry{DTKW13} \ \\ 
+Local time stepping motivated by small time steps due to high flow rates in small regions and on small elements. Parallel version. \\
+``First, there is the question of load balancing. The amount of
+work per element depends on the local timestep. We have at-
+tempted to address this in METIS by weighting each node by a fac-
+tor which depends on the local timesteps associated with elements
+attached to the node. This factor is determined by the number of
+sub-cycling steps required for the element with the smallest time-
+step to go from time t n to time t nþ1 . The local timestep may also
+change during the course of the simulation, therefore in reality
+the load should be dynamical ly re-balanced during the simulation.''
+
+\item \bibentry{} \ \\ 
+\end{itemize}
+
 \nobibliography{numerics}
 
 \end{document}

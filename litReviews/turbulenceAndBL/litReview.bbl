@@ -1,375 +1,484 @@
-\begin{thebibliography}{59}
-\providecommand{\natexlab}[1]{#1}
-\providecommand{\url}[1]{\texttt{#1}}
-\expandafter\ifx\csname urlstyle\endcsname\relax
-  \providecommand{\doi}[1]{doi: #1}\else
-  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{vdLKFPn20}
 
-\bibitem[Aupoix(2015)]{Aupo15}
-B.~Aupoix.
+\bibitem[AC97]{AC97}
+David~D. Apsley and Ian~P. Castro.
+\newblock A limited-length-scale $k-\varepsilon$ model for the neutral and
+  stably-stratified atmospheric boundary layer.
+\newblock {\em Boundary-Layer Meteorol.}, 83:75--98, 1997.
+
+\bibitem[Aup15]{Aupo15}
+B~Aupoix.
 \newblock Roughness corrections for the {$k-\omega$} shear stress transport
   model: status and proposals.
-\newblock \emph{Journal of Fluids Engineering}, 137\penalty0 (2), 2015.
+\newblock {\em Journal of Fluids Engineering}, 137(2), 2015.
 
-\bibitem[Bardina et~al.(1997)Bardina, Huang, and Coakley]{BHC97}
-J.~Bardina, P.~Huang, and T.~Coakley.
+\bibitem[BCA76]{BCA76}
+N.E. Busch, S.W. Chang, and R.A. Anthes.
+\newblock A multi-level model of the planetary boundary layer suitable for use
+  with mesoscale dynamic models.
+\newblock {\em J. Appl. Meteor.}, 15(9):909--919, 1976.
+
+\bibitem[BD03]{BD03}
+C.P. Brescianini and M.A. Delichatsios.
+\newblock New evaluation of the {$k-\varepsilon$} turbulence model for free
+  buoyant plumes.
+\newblock {\em Numerical Heat Transfer: Part A: Applications}, 43(7):731--751,
+  2003.
+
+\bibitem[Bea08]{Bear08}
+Robert~J. Beare.
+\newblock The role of shear in the morning transition boundary layer.
+\newblock {\em Boundary-Layer Meteorol.}, 129:395--410, 2008.
+
+\bibitem[BH21]{BH21}
+S.~Basu and A.A.M. Holtslag.
+\newblock Turbulent {Prandtl} number and characteristic length scales in stably
+  stratified flows: steady-state analytical solutions.
+\newblock {\em Environ Fluid Mech}, 21:1273--1302, 2021.
+
+\bibitem[BHC97]{BHC97}
+J.E. Bardina, P.G. Huang, and T.J. Coakley.
 \newblock Turbulence modeling validation, testing, and development.
 \newblock Technical Report NASA-TM-110446, NASA, Apr 1997.
-\newblock URL \url{https://ntrs.nasa.gov/citations/19970017828}.
 
-\bibitem[Ba\v{s}t\'{a}k~\v{D}ur\`{a}n et~al.(2022)Ba\v{s}t\'{a}k~\v{D}ur\`{a}n,
-  Sakradzija, and Schmidli]{BSS22}
+\bibitem[BM04]{BM04}
+R.J. Beare and Malcolm~K. MacVean.
+\newblock Resolution sensitivity and scaling of large-eddy simulations of the
+  stable boundary layer.
+\newblock {\em Boundary-Layer Meteorol.}, 112:257--281, 2004.
+
+\bibitem[BMH{\etalchar{+}}06]{BMH+06}
+Robert~J. Beare, Malcolm~K. Macvean, Albert A.~M. Holtslag, Joan Cuxart, Igor
+  Esau, Jean-Christophe Golaz, Maria~A. Jimenez, Marat Khairoutdinov, David
+  Kosovic, Branko~andLewellen, Thomas~S. Lund, Julie~K. Lundquist, Anne Mccabe,
+  Arnold~F. Moene, Yign Noh, Raasch, and Peter Sullivan.
+\newblock An intercomparison of large-eddy simulations of the stable boundary
+  layer.
+\newblock {\em Boundary-Layer Meteorol}, 118:247--272, 2006.
+
+\bibitem[BS11]{BS11}
+A.E. Busse and N.D. Sandham.
+\newblock Simulation of rough wall turbulent channel flow using a parametric
+  forcing approach.
+\newblock {\em Journal of Physics: Conference Series 318}, 318(22006):1--9,
+  2011.
+
+\bibitem[BS12]{BS12}
+Angela Busse and Neil~D. Sandham.
+\newblock Parametric forcing approach to rough-wall turbulent channel flow.
+\newblock {\em J. Fluid Mechanics}, 712:169--202, 2012.
+
+\bibitem[BSC07]{BSC07}
+Bert Blocken, Ted Stathopoulos, and Jan Carmeliet.
+\newblock {CFD} simulation of the atmospheric boundary layer: wall function
+  problems.
+\newblock {\em Atmospheric Environment}, 41(2):238--252, 2007.
+
+\bibitem[BTS17]{BTS17}
+Angela Busse, Manan Thakkar, and Neil~D Sandham.
+\newblock Reynolds-number dependence of the near-wall flow over irregular rough
+  surfaces.
+\newblock {\em J. Fluid Mechanics}, 810:196--224, 2017.
+
+\bibitem[BvSS22]{BSS22}
 I.~Ba\v{s}t\'{a}k~\v{D}ur\`{a}n, M.~Sakradzija, and J.~Schmidli.
 \newblock The two-energies turbulence scheme coupled to the assumed {PDF}
   method.
-\newblock \emph{J. Advances in Modeling Earth Systems}, 14\penalty0
-  (5):\penalty0 e2021MS002922, 2022.
+\newblock {\em J. Advances in Modeling Earth Systems}, 14(5):e2021MS002922,
+  2022.
 
-\bibitem[Brescianini and Delichatsios(2003)]{BD03}
-C.~Brescianini and M.~Delichatsios.
-\newblock New evaluation of the {$k-\varepsilon$} turbulence model for free
-  buoyant plumes.
-\newblock \emph{Numerical Heat Transfer: Part A: Applications}, 43\penalty0
-  (7):\penalty0 731--751, 2003.
+\bibitem[BWvdLK22]{BWvK22}
+M.~Baungaard, S.~Wallin, M.~P. van~der Laan, and M.~Kelly.
+\newblock Wind turbine wake simulation with explicit algebraic {Reynolds}
+  stress modeling.
+\newblock {\em Wind Energy Science}, 7(5):1975--2002, 2022.
 
-\bibitem[Busch et~al.(1976)Busch, Chang, and Anthes]{BCA76}
-N.~Busch, S.~Chang, and R.~Anthes.
-\newblock A multi-level model of the planetary boundary layer suitable for use
-  with mesoscale dynamic models.
-\newblock \emph{J. Appl. Meteor.}, 15\penalty0 (9):\penalty0 909--919, 1976.
-
-\bibitem[Busse and Sandham(2011)]{BS11}
-A.~Busse and N.~Sandham.
-\newblock Simulation of rough wall turbulent channel flow using a parametric
-  forcing approach.
-\newblock \emph{Journal of Physics: Conference Series 318}, 318\penalty0
-  (22006):\penalty0 1--9, 2011.
-
-\bibitem[Busse and Sandham(2012)]{BS12}
-A.~Busse and N.~D. Sandham.
-\newblock Parametric forcing approach to rough-wall turbulent channel flow.
-\newblock \emph{J. Fluid Mechanics}, 712:\penalty0 169--202, 2012.
-
-\bibitem[Busse et~al.(2017)Busse, Thakkar, and Sandham]{BTS17}
-A.~Busse, M.~Thakkar, and N.~D. Sandham.
-\newblock Reynolds-number dependence of the near-wall flow over irregular rough
-  surfaces.
-\newblock \emph{J. Fluid Mechanics}, 810:\penalty0 196--224, 2017.
-
-\bibitem[Coleman et~al.(1977)Coleman, Moffat, and Kays]{CMK77}
-H.~W. Coleman, R.~J. Moffat, and W.~M. Kays.
-\newblock The accelerated fully rough turbulent boundary layer.
-\newblock \emph{J. Fluid Mechanics}, 82\penalty0 (3):\penalty0 507--528, 1977.
-
-\bibitem[Craft et~al.(1996)Craft, Ince, and Launder]{CIL96}
-T.~Craft, N.~Ince, and B.~Launder.
-\newblock Recent developments in second-moment closure for buoyancy-affected
-  flows.
-\newblock \emph{Dynamics of Atmospheres and Oceans}, 23\penalty0 (1):\penalty0
-  99--114, 1996.
-
-\bibitem[Cuijpers and Duynkerke(1993)]{CD93}
-J.~Cuijpers and P.~Duynkerke.
-\newblock Large eddy simulation of trade wind cumulus clouds.
-\newblock \emph{J. of Atmos Sci.}, 50\penalty0 (23):\penalty0 3894--3908, 1993.
-
-\bibitem[Cullen and Salmond(2003)]{CS03}
-M.~Cullen and D.~Salmond.
-\newblock On the use of a predictor-corrector scheme to couple the dynamics
-  with the physical parametrizations in the {ECMWF} model.
-\newblock \emph{Q. J. R. Meteorol. Soc.}, 129\penalty0 (589):\penalty0
-  1217--1236, 2003.
-
-\bibitem[Cuxart and Co-authors(2006)]{CHB+06}
+\bibitem[CCa06]{CHB+06}
 J.~Cuxart and Co-authors.
 \newblock Single-column model intercomparison for a stably stratified
   atmospheric boundary layer.
-\newblock \emph{Bound.-Layer Meteor}, 118\penalty0 (2):\penalty0 273--303, Feb
-  2006.
+\newblock {\em Boundary-Layer Meteorol.}, 118(2):273--303, Feb 2006.
 
-\bibitem[Daly and Harlow(1970)]{DH70}
-B.~Daly and F.~Harlow.
+\bibitem[CD93]{CD93}
+J.W.M. Cuijpers and P.G. Duynkerke.
+\newblock Large eddy simulation of trade wind cumulus clouds.
+\newblock {\em J. of Atmos Sci.}, 50(23):3894--3908, 1993.
+
+\bibitem[CIL96]{CIL96}
+T.J. Craft, N.Z. Ince, and B.E. Launder.
+\newblock Recent developments in second-moment closure for buoyancy-affected
+  flows.
+\newblock {\em Dynamics of Atmospheres and Oceans}, 23(1):99--114, 1996.
+
+\bibitem[CMK77]{CMK77}
+Hugh~W. Coleman, Robert~J. Moffat, and William~M. Kays.
+\newblock The accelerated fully rough turbulent boundary layer.
+\newblock {\em J. Fluid Mechanics}, 82(3):507--528, 1977.
+
+\bibitem[CRB{\etalchar{+}}16]{CRB+16}
+D.~Cavar, P.-E. R\'ethor\'e, A.~Bechmann, N.~N. S{\o}rensen, B.~Martinez,
+  F.~Zahle, J.~Berg, and M.~C. Kelly.
+\newblock Comparison of {OpenFOAM and EllipSys3D} for neutral atmospheric flow
+  over complex terrain.
+\newblock {\em Wind Energy Science}, 1(1):55--70, 2016.
+
+\bibitem[CS03]{CS03}
+M.J.P. Cullen and D.J. Salmond.
+\newblock On the use of a predictor-corrector scheme to couple the dynamics
+  with the physical parametrizations in the {ECMWF} model.
+\newblock {\em Q. J. R. Meteorol. Soc.}, 129(589):1217--1236, 2003.
+
+\bibitem[DH70]{DH70}
+B.J. Daly and F.H. Harlow.
 \newblock Transport equations in turbulence.
-\newblock \emph{The Physics of Fluids}, 13\penalty0 (11):\penalty0 2634--2649,
-  1970.
+\newblock {\em The Physics of Fluids}, 13(11):2634--2649, 1970.
 
-\bibitem[Dubal et~al.(2006)Dubal, Wood, and Staniforth]{DWS06}
+\bibitem[DQMT{\etalchar{+}}20]{DQT+20}
+Paula Doubrawa, Eliot~W. Quon, Luis~A. Martinez-Tossas, Kelsey Shaler, Mithu
+  Debnath, Nicholas Hamilton, Thomas~G. Herges, Dave Maniaci, Christopher~L.
+  Kelley, Alan~S. Hsieh, Myra~L. Blaylock, Paul van~der Laan, S\o ren~Juhl
+  Andersen, Sonja Krueger, Marie Cathelain, Wolfgang Schlez, Jason Jonkman,
+  Emmanuel Branlard, Gerald Steinfeld, Sascha Schmidt, Fr\'ed\'eric Blondel,
+  Laura~J. Lukassen, and Patrick Moriarty.
+\newblock Multimodel validation of single wakes in neutral and stratified
+  atmospheric conditions.
+\newblock {\em Wind Energy}, 23(11):2027--2055, 2020.
+
+\bibitem[Duy88]{Duy88}
+P.G. Duynkerke.
+\newblock Application of the {E--$\varepsilon$} turbulence closure model to the
+  neutral and stable atmospheric boundary layer.
+\newblock {\em J. of Atmos Sci.}, 45(5):865--880, 1988.
+
+\bibitem[DWS06]{DWS06}
 M.~Dubal, N.~Wood, and A.~Staniforth.
 \newblock Some numerical properties of approaches to physics-dynamics coupling
   for {NWP}.
-\newblock \emph{Q. J. R. Meteorol. Soc.}, 132\penalty0 (614):\penalty0 27--42,
-  2006.
+\newblock {\em Q. J. R. Meteorol. Soc.}, 132(614):27--42, 2006.
 
-\bibitem[Duynkerke(1988)]{Duy88}
-P.~Duynkerke.
-\newblock Application of the {E--$\varepsilon$} turbulence closure model to the
-  neutral and stable atmospheric boundary layer.
-\newblock \emph{J. of Atmos Sci.}, 45\penalty0 (5):\penalty0 865--880, 1988.
+\bibitem[Dye74]{Dyer74}
+A.J. Dyer.
+\newblock A review of flux-profile relationships.
+\newblock {\em Boundary-Layer Meteorol.}, 1974.
 
-\bibitem[Gassmann(2018)]{Gas18}
+\bibitem[Gas18]{Gas18}
 A.~Gassmann.
 \newblock Entropy production due to subgrid-scale thermal fluxes with
   application to breaking gravity waves.
-\newblock \emph{Q. J. R. Meteorol. Soc.}, 144\penalty0 (711):\penalty0
-  499--510, 2018.
+\newblock {\em Q. J. R. Meteorol. Soc.}, 144(711):499--510, 2018.
 
-\bibitem[Gibson and Launder(1978)]{GL78}
-M.~Gibson and B.~Launder.
+\bibitem[GL78]{GL78}
+M.M. Gibson and B.E. Launder.
 \newblock Ground effects on pressure fluctuations in the atmospheric boundary
   layer.
-\newblock \emph{J. Fluid Mechanics}, 86\penalty0 (3):\penalty0 491--511, 1978.
+\newblock {\em J. Fluid Mechanics}, 86(3):491--511, 1978.
 
-\bibitem[Hargreaves and Wright(2007)]{HW07}
-D.~Hargreaves and N.~Wright.
-\newblock On the use of the {$k-\varepsilon$} model in commercial {CFD}
-  software to model the neutral atmospheric boundary layer.
-\newblock \emph{Journal of Wind Engineering and Industrial Aerodynamics},
-  95\penalty0 (5):\penalty0 355--369, 2007.
-
-\bibitem[Hedlund(2014)]{Hedl14}
-A.~Hedlund.
+\bibitem[Hed14]{Hedl14}
+A~Hedlund.
 \newblock Evaluation of {RANS} turbulence models for the simulation of channel
   flow.
 \newblock Master's thesis, Uppsala University, 2014.
 
-\bibitem[Henkes et~al.(1991)Henkes, van~der Vlugt, and Hoogendoorn]{HvH91}
-R.~Henkes, F.~van~der Vlugt, and C.~Hoogendoorn.
-\newblock Natural-convection flow in a square cavity calculated with
-  low-reynolds-number turbulence models.
-\newblock \emph{Int. M. Heat Mass Transfer}, 34\penalty0 (2):\penalty0
-  377--388, 1991.
-
-\bibitem[Hong and Pan(1996)]{HP96}
-S.-Y. Hong and H.-L. Pan.
+\bibitem[HP96]{HP96}
+S-Y Hong and H-L Pan.
 \newblock Nonlocal boundary layer vertical diffusion in a medium-range forecast
   model.
-\newblock \emph{Mon. Wea. Rev.}, 124:\penalty0 2322--2339, 1996.
+\newblock {\em Mon. Wea. Rev.}, 124:2322--2339, 1996.
 
-\bibitem[Ikeda and Durbin(2007)]{ID07}
-T.~Ikeda and P.~Durbin.
+\bibitem[HSB{\etalchar{+}}13]{HSB+13}
+A.A.M. Holtslag, G.~Svensson, P.~Baas, S.~Basu, B.~Beare, A.C.M. Beljaars, F.C.
+  Bosveld, J.~Cuxart, J.~Lindvall, G.J. Steeneveld, M.~Tjernstr\"{o}m, and
+  B.J.H. Van De~Wiel.
+\newblock Stable atmospheric boundary layers and diurnal cycles: Challenges for
+  weather and climate models.
+\newblock {\em Bull. Amer. Meteor. Soc.}, 94(11):1691--1706, 2013.
+
+\bibitem[HvdVH91]{HvH91}
+R.A.W.M. Henkes, F.F. van~der Vlugt, and C.J. Hoogendoorn.
+\newblock Natural-convection flow in a square cavity calculated with
+  low-reynolds-number turbulence models.
+\newblock {\em Int. M. Heat Mass Transfer}, 34(2):377--388, 1991.
+
+\bibitem[HW07]{HW07}
+D.M. Hargreaves and N.G. Wright.
+\newblock On the use of the {$k-\varepsilon$} model in commercial {CFD}
+  software to model the neutral atmospheric boundary layer.
+\newblock {\em Journal of Wind Engineering and Industrial Aerodynamics},
+  95(5):355--369, 2007.
+
+\bibitem[ID07]{ID07}
+Tomoaki Ikeda and P.A. Durbin.
 \newblock Direct simulations of a rough-wall channel flow.
-\newblock \emph{J. Fluid Mechanics}, 571:\penalty0 235–263, 2007.
+\newblock {\em J. Fluid Mechanics}, 571:235–263, 2007.
 
-\bibitem[Jin and Herwig(2015)]{JH15}
+\bibitem[JH15]{JH15}
 Y.~Jin and H.~Herwig.
 \newblock Turbulent flow in rough wall channels: Validation of {RANS} models.
-\newblock \emph{Computers \& Fluids}, 122:\penalty0 34--46, 2015.
+\newblock {\em Computers \& Fluids}, 122:34--46, 2015.
 
-\bibitem[Kalnay and Kanamitsu(1988)]{KK88}
+\bibitem[KABA05]{KABA05}
+P.-{\r A}. Krogstad, H.I. Anersson, O.M. Bakken, and A.~Ashrafian.
+\newblock An experimental and numerical study of channel flow with rough walls.
+\newblock {\em J. Fluid Mechanics}, 530:327--352, 2005.
+
+\bibitem[KC22]{KC22}
+M.~Kelly and D.~Cavar.
+\newblock Effective roughness and displaced mean flow over complex terrain.
+\newblock {\em Boundary-Layer Meteorol}, 2022.
+
+\bibitem[KK88]{KK88}
 E.~Kalnay and M.~Kanamitsu.
 \newblock Time schemes for strongly nonlinear damping equations.
-\newblock \emph{Mon. Wea. Rev.}, 116\penalty0 (10):\penalty0 1945--1958, 1988.
+\newblock {\em Mon. Wea. Rev.}, 116(10):1945--1958, 1988.
 
-\bibitem[Kim et~al.(1987)Kim, Moin, and Moser]{KMM87}
+\bibitem[KMM87]{KMM87}
 J.~Kim, P.~Moin, and R.~Moser.
 \newblock Turbulence statistics in fully developed channel flow at low
   {Reynolds} number.
-\newblock \emph{J. Fluid Mechanics}, 177:\penalty0 133--166, 1987.
+\newblock {\em J. Fluid Mechanics}, 177:133--166, 1987.
 
-\bibitem[Krogstad et~al.(2005)Krogstad, Anersson, Bakken, and
-  Ashrafian]{KABA05}
-P.-{\r A}. Krogstad, H.~Anersson, O.~Bakken, and A.~Ashrafian.
-\newblock An experimental and numerical study of channel flow with rough walls.
-\newblock \emph{J. Fluid Mechanics}, 530:\penalty0 327--352, 2005.
-
-\bibitem[Launder and Spalding(1974)]{LS74}
-B.~Launder and D.~Spalding.
-\newblock The numerical computation of turbulent flows.
-\newblock \emph{Computer Methods in Applied Mechanics and Engineering},
-  3\penalty0 (2):\penalty0 269--289, 1974.
-
-\bibitem[Lee and Moser(2015)]{LM15}
-M.~Lee and R.~Moser.
-\newblock Direct numerical simulation of turbulent channel flow up to
-  {$\mathit{Re}_{\it\tau}\approx 5200$}.
-\newblock \emph{J. Fluid Mechanics}, 774:\penalty0 395--415, 2015.
-
-\bibitem[Leonardi et~al.(2006)Leonardi, Orlandi, Djenidi, and Antonia]{LODA06}
-S.~Leonardi, P.~Orlandi, L.~Djenidi, and R.~A. Antonia.
-\newblock Guidelines for modeling a 2d rough wall channel flow.
-\newblock \emph{Flow, Turbulence and Combustion}, 77:\penalty0 41--57, 2006.
-
-\bibitem[Lock et~al.(2000)Lock, Brown, Bush, Martin, and Smith]{LBB+00}
-A.~Lock, A.~Brown, M.~Bush, G.~Martin, and R.~Smith.
+\bibitem[LBB{\etalchar{+}}00]{LBB+00}
+A.P. Lock, A.R. Brown, M.R. Bush, G.M. Martin, and R.N.B. Smith.
 \newblock A new boundary layer mixing scheme. {P}art {I}: Scheme description
   and single-column model tests.
-\newblock \emph{Mon. Wea. Rev.}, 128\penalty0 (9):\penalty0 3187--3199, 2000.
+\newblock {\em Mon. Wea. Rev.}, 128(9):3187--3199, 2000.
 
-\bibitem[Louis(1979)]{Loui79}
-J.-F. Louis.
+\bibitem[LM15]{LM15}
+M.~Lee and R.D. Moser.
+\newblock Direct numerical simulation of turbulent channel flow up to
+  {$\mathit{Re}_{\it\tau}\approx 5200$}.
+\newblock {\em J. Fluid Mechanics}, 774:395--415, 2015.
+
+\bibitem[LODA06]{LODA06}
+Stefano Leonardi, Paolo Orlandi, Lyazid Djenidi, and Robert~A. Antonia.
+\newblock Guidelines for modeling a 2d rough wall channel flow.
+\newblock {\em Flow, Turbulence and Combustion}, 77:41--57, 2006.
+
+\bibitem[Lou79]{Loui79}
+J-F Louis.
 \newblock A parametric model of vertical eddy fluxes in the atmosphere.
-\newblock \emph{Boundary-Layer Meteorology}, 17:\penalty0 1573--1472, 1979.
+\newblock {\em Boundary-Layer Meteorol.}, 17:1573--1472, 1979.
 
-\bibitem[Mauritsen et~al.(2004)Mauritsen, Svensson, Enger, Zilitinkevich, and
-  Grisogono]{MSE+04}
-T.~Mauritsen, G.~Svensson, L.~Enger, S.~Zilitinkevich, and B.~Grisogono.
-\newblock Energy similarity-a new turbulence closure model for stable boundary
-  layers.
-\newblock In \emph{{$16^{th}$} Symposium on Boundary Layers and Turbulence.
-  {$13^{th}$} Conference on Interactions of the Sea and Atmosphere}, 2004.
+\bibitem[LS74]{LS74}
+B.E. Launder and D.B. Spalding.
+\newblock The numerical computation of turbulent flows.
+\newblock {\em Computer Methods in Applied Mechanics and Engineering},
+  3(2):269--289, 1974.
 
-\bibitem[Mellor and Yamada(1974)]{MY74}
-G.~Mellor and T.~Yamada.
-\newblock A hierarchy of turbulence closure models for planetary boundary
-  layers.
-\newblock \emph{J. of Atmos Sci.}, 31\penalty0 (7):\penalty0 1791--1806, 1974.
+\bibitem[MGLZ99]{MGLZ99}
+D.V. Mironov, V.M. Gryanik, V.N. Lykossov, and S.S. Zilitinkevich.
+\newblock Comments on ``a new second-order turbulence closure scheme for the
+  planetary boundary layer''.
+\newblock {\em J. of Atmos Sci.}, 56(19):3478--3481, 1999.
 
-\bibitem[Mellor and Yamada(1982)]{MY82}
-G.~Mellor and T.~Yamada.
-\newblock Development of a turbulence closure model for geophysical fluid
-  problems.
-\newblock \emph{Reviews of Geophysics}, 20\penalty0 (4):\penalty0 851--875,
-  1982.
+\bibitem[MGM{\etalchar{+}}00]{MGM+00}
+D.V. Mironov, V.M. Gryanik, C.-H. Moeng, D.J. Olbers, and T.H. Warncke.
+\newblock Vertical turbulence structure and second-moment budgets in convection
+  with rotation: A large-eddy simulation study.
+\newblock {\em Q. J. R. Meteorol. Soc.}, 126(563):477--515, 2000.
 
-\bibitem[Mironov(2001)]{Miro01}
-D.~Mironov.
+\bibitem[Mir01]{Miro01}
+D.V. Mironov.
 \newblock Pressure-potential-temperature covariance in convection with
   rotation.
-\newblock \emph{Q. J. R. Meteorol. Soc.}, 127\penalty0 (571):\penalty0 89--110,
-  2001.
+\newblock {\em Q. J. R. Meteorol. Soc.}, 127(571):89--110, 2001.
 
-\bibitem[Mironov(2009)]{Mironov09}
-D.~Mironov.
+\bibitem[Mir09]{Mironov09}
+D.V. Mironov.
 \newblock Turbulence in the lower troposphere.
 \newblock Lecture notes, 2009.
 
-\bibitem[Mironov et~al.(1999)Mironov, Gryanik, Lykossov, and
-  Zilitinkevich]{MGLZ99}
-D.~Mironov, V.~Gryanik, V.~Lykossov, and S.~Zilitinkevich.
-\newblock Comments on ``a new second-order turbulence closure scheme for the
-  planetary boundary layer''.
-\newblock \emph{J. of Atmos Sci.}, 56\penalty0 (19):\penalty0 3478--3481, 1999.
-
-\bibitem[Mironov et~al.(2000)Mironov, Gryanik, Moeng, Olbers, and
-  Warncke]{MGM+00}
-D.~Mironov, V.~Gryanik, C.-H. Moeng, D.~Olbers, and T.~Warncke.
-\newblock Vertical turbulence structure and second-moment budgets in convection
-  with rotation: A large-eddy simulation study.
-\newblock \emph{Q. J. R. Meteorol. Soc.}, 126\penalty0 (563):\penalty0
-  477--515, 2000.
-
-\bibitem[Moeng(1984)]{Moen84}
-C.-H. Moeng.
-\newblock A large-eddy-simulation model for the study of planetary
-  boundary-layer turbulence.
-\newblock \emph{J. of Atmos Sci.}, 41\penalty0 (13):\penalty0 2052--2062, 1984.
-
-\bibitem[Moser et~al.(1999)Moser, Kim, and Mansour]{MKM99}
-R.~Moser, J.~Kim, and N.~Mansour.
+\bibitem[MKM99]{MKM99}
+R.D. Moser, J.~Kim, and N.N. Mansour.
 \newblock Direct numerical simulation of turbulent channel flow up to
   {$Re_\tau=590$}.
-\newblock \emph{Physics of Fluids}, 11\penalty0 (4):\penalty0 943--945, 1999.
+\newblock {\em Physics of Fluids}, 11(4):943--945, 1999.
 
-\bibitem[Reynolds(1976)]{Reyn76}
-W.~Reynolds.
+\bibitem[Moe84]{Moen84}
+C-H Moeng.
+\newblock A large-eddy-simulation model for the study of planetary
+  boundary-layer turbulence.
+\newblock {\em J. of Atmos Sci.}, 41(13):2052--2062, 1984.
+
+\bibitem[MS16]{MS16}
+Dmitrii~V. Mironov and Peter~P. Sullivan.
+\newblock Second-moment budgets and mixing intensity in the stably stratified
+  atmospheric boundary layer over thermally heterogeneous surfaces.
+\newblock {\em J. of Atmos Sci.}, 73(1):449--464, 2016.
+
+\bibitem[MSE{\etalchar{+}}04]{MSE+04}
+T~Mauritsen, G.~Svensson, L.~Enger, S.~Zilitinkevich, and B.~Grisogono.
+\newblock Energy similarity-a new turbulence closure model for stable boundary
+  layers.
+\newblock In {\em {$16^{th}$} Symposium on Boundary Layers and Turbulence.
+  {$13^{th}$} Conference on Interactions of the Sea and Atmosphere}, 2004.
+
+\bibitem[MY74]{MY74}
+G.L. Mellor and T.~Yamada.
+\newblock A hierarchy of turbulence closure models for planetary boundary
+  layers.
+\newblock {\em J. of Atmos Sci.}, 31(7):1791--1806, 1974.
+
+\bibitem[MY82]{MY82}
+G.L. Mellor and T.~Yamada.
+\newblock Development of a turbulence closure model for geophysical fluid
+  problems.
+\newblock {\em Reviews of Geophysics}, 20(4):851--875, 1982.
+
+\bibitem[Rey76]{Reyn76}
+W.C. Reynolds.
 \newblock Computation of turbulent flows.
-\newblock \emph{Annual Review of Fluid Mechanics}, 8\penalty0 (1):\penalty0
-  183--208, 1976.
+\newblock {\em Annual Review of Fluid Mechanics}, 8(1):183--208, 1976.
 
-\bibitem[Shih et~al.(1994)Shih, Liou, Shabbir, Yang, and Zhu]{SLS+94}
-T.-H. Shih, W.~Liou, A.~Shabbir, Z.~Yang, and J.~Zhu.
+\bibitem[SC95]{SC95}
+A.P. Siebesma and J.W.M. Cuijpers.
+\newblock Evaluation of parametric assumptions for shallow cumulus convection.
+\newblock {\em J. of Atmos Sci.}, 52(6):650--666, 1995.
+
+\bibitem[SD20]{SD20}
+Akshay Sherikar and PJ~Disimile.
+\newblock {RANS} study of very high {Reynolds}-number plane turbulent {Couette}
+  flow.
+\newblock {\em Journal of Mechanical Engineering and Sciences},
+  14(2):6663--6678, 2020.
+
+\bibitem[SH09]{SH09}
+Gunilla Svensson and Albert~A.M. Holtslag.
+\newblock Analysis of model results for the turning of the wind and related
+  momentum fluxes in the stable boundary layer.
+\newblock {\em Boundary-Layer Meteorol.}, 132:261--277, 2009.
+
+\bibitem[SLS{\etalchar{+}}94]{SLS+94}
+T-H Shih, W.W. Liou, A.~Shabbir, Z.~Yang, and J.~Zhu.
 \newblock A new k-epsilon eddy viscosity model for high {Reynolds} number
   turbulent flows: Model development and validation.
 \newblock Technical Report ICOMP-94-21;CMOTT-94-6, NASA, Aug 1994.
 
-\bibitem[Siebesma and Cuijpers(1995)]{SC95}
-A.~Siebesma and J.~Cuijpers.
-\newblock Evaluation of parametric assumptions for shallow cumulus convection.
-\newblock \emph{J. of Atmos Sci.}, 52\penalty0 (6):\penalty0 650--666, 1995.
-
-\bibitem[Siebesma et~al.(2007)Siebesma, Soares, and Teixeira]{SST07}
-A.~Siebesma, P.~Soares, and J.~Teixeira.
-\newblock A combined eddy-diffusivity mass-flux approach for the convective
-  boundary layer.
-\newblock \emph{J. of Atmos Sci.}, 64:\penalty0 1230--1248, 2007.
-
-\bibitem[Steeneveld et~al.(2006)Steeneveld, van~de Wiel, and Holstslag]{SvH06}
-G.~Steeneveld, B.~van~de Wiel, and A.~Holstslag.
-\newblock Modeling the evolution of the atmospheric boundary layer coupled to
-  the land surface for three contrasting nights in {CASES-99}.
-\newblock \emph{J. of Atmos Sci.}, 2006.
-
-\bibitem[Strauss et~al.(2019)Strauss, Ricard, Lac, and Verrelle]{SRLV19}
+\bibitem[SRLV19]{SRLV19}
 C.~Strauss, D.~Ricard, C.~Lac, and A.~Verrelle.
 \newblock Evaluation of turbulence parametrizations in convective clouds and
   their environment based on a large-eddy simulation.
-\newblock \emph{Q. J. R. Meteorol. Soc.}, pages 1--23, 2019.
+\newblock {\em Q. J. R. Meteorol. Soc.}, pages 1--23, 2019.
 
-\bibitem[Tachie et~al.(2000)Tachie, Bergstrom, and Balachandar]{TBB00}
-M.~Tachie, D.~Bergstrom, and R.~Balachandar.
+\bibitem[SST07]{SST07}
+A.P. Siebesma, P.M.M. Soares, and J.~Teixeira.
+\newblock A combined eddy-diffusivity mass-flux approach for the convective
+  boundary layer.
+\newblock {\em J. of Atmos Sci.}, 64:1230--1248, 2007.
+
+\bibitem[SvdWH06]{SvH06}
+G.J. Steeneveld, B.J.H. van~de Wiel, and A.A.M. Holstslag.
+\newblock Modeling the evolution of the atmospheric boundary layer coupled to
+  the land surface for three contrasting nights in {CASES-99}.
+\newblock {\em J. of Atmos Sci.}, 2006.
+
+\bibitem[TBB00]{TBB00}
+M.F. Tachie, D.J. Bergstrom, and R.~Balachandar.
 \newblock Rough wall turbulent boundary layers in shallow open channel flow.
-\newblock \emph{Journal of Fluids Engineering}, 122\penalty0 (3):\penalty0
-  533--541, 02 2000.
+\newblock {\em Journal of Fluids Engineering}, 122(3):533--541, 02 2000.
 
-\bibitem[Thakkar(2017)]{Thak17}
-M.~Thakkar.
-\newblock \emph{Investigation of turbulent ﬂow over irregular rough surfaces
+\bibitem[TE20]{TE20}
+J.~Thuburn and G.A. Efstathiou.
+\newblock Marginal stability of the convective boundary layer.
+\newblock {\em J. of Atmos Sci.}, 77:435--442, 2020.
+
+\bibitem[TEB19]{TEB19}
+J.~Thuburn, G.A. Efstathiou, and R.J. Beare.
+\newblock A two-fluid single-column model of the dry, shear-free, convective
+  boundary layer.
+\newblock {\em Q. J. R. Meteorol. Soc.}, 145(721):1535--1550, 2019.
+
+\bibitem[Tha17]{Thak17}
+Manan Thakkar.
+\newblock {\em Investigation of turbulent ﬂow over irregular rough surfaces
   using direct numerical simulations}.
 \newblock PhD thesis, University of Southampton, 2017.
 
-\bibitem[Thuburn and Efstathiou(2020)]{TE20}
-J.~Thuburn and G.~Efstathiou.
-\newblock Marginal stability of the convective boundary layer.
-\newblock \emph{J. of Atmos Sci.}, 77:\penalty0 435--442, 2020.
-
-\bibitem[Thuburn et~al.(2019)Thuburn, Efstathiou, and Beare]{TEB19}
-J.~Thuburn, G.~Efstathiou, and R.~Beare.
-\newblock A two-fluid single-column model of the dry, shear-free, convective
-  boundary layer.
-\newblock \emph{Q. J. R. Meteorol. Soc.}, 145\penalty0 (721):\penalty0
-  1535--1550, 2019.
-
-\bibitem[Umlauf and Burchard(2003)]{UB03}
+\bibitem[UB03]{UB03}
 L.~Umlauf and H.~Burchard.
 \newblock A generic length-scale equation for geophysical turbulence models.
-\newblock \emph{Journal of Marine Research}, 61\penalty0 (2):\penalty0
-  235--265, 2003.
+\newblock {\em Journal of Marine Research}, 61(2):235--265, 2003.
 
-\bibitem[Umlauf et~al.(2003)Umlauf, Burchard, and Hutter]{UBH03}
+\bibitem[UBH03]{UBH03}
 L.~Umlauf, H.~Burchard, and K.~Hutter.
 \newblock Extending the {$k-\omega$} turbulence model towards oceanic
   applications.
-\newblock \emph{Ocean Modelling}, 5\penalty0 (3):\penalty0 195--218, 2003.
+\newblock {\em Ocean Modelling}, 5(3):195--218, 2003.
 
-\bibitem[Wilcox(1991)]{Wil91}
+\bibitem[vdLKFPn20]{vKFP20}
+M.~P. van~der Laan, M.~Kelly, R.~Floors, and A.~Pe\~na.
+\newblock Rossby number similarity of an atmospheric {RANS} model using
+  limited-length-scale turbulence closures extended to unstable stratification.
+\newblock {\em Wind Energy Science}, 5(1):355--374, 2020.
+
+\bibitem[vLKS17]{vKS17}
+M.~Paul van der Laan, Mark~C. Kelly, and Niels~N. S{\o}rensen.
+\newblock A new $k-\varepsilon$ model consistent with {Monin-Obukhov}
+  similarity theory.
+\newblock {\em Wind Energy}, 20(3):479--489, 2017.
+
+\bibitem[VT18]{VT18}
+Catherine~A. Vreugdenhil and John~R. Taylor.
+\newblock Large-eddy simulations of stratified plane {Couette} flow using the
+  anisotropic minimum-dissipation model.
+\newblock {\em Physics of Fluids}, page 085104, 2018.
+
+\bibitem[Wil91]{Wil91}
 D.~Wilcox.
 \newblock A half century historical review of the k-omega model.
-\newblock In \emph{29th Aerospace Sciences Meeting}, 1991.
+\newblock In {\em 29th Aerospace Sciences Meeting}, 1991.
 
-\bibitem[Wyngaard(1975)]{Wyn75}
-J.~Wyngaard.
+\bibitem[Wyn75]{Wyn75}
+J.C. Wyngaard.
 \newblock Modeling the planetary boundary layer -- extension to the stable
   case.
-\newblock \emph{Bound.-Layer Meteor}, 9\penalty0 (4):\penalty0 441--460, Dec
-  1975.
+\newblock {\em Boundary-Layer Meteorol.}, 9(4):441--460, Dec 1975.
 
-\bibitem[Xue et~al.(2000)Xue, Droegemeier, and Wong]{XDW00}
+\bibitem[XDW00]{XDW00}
 M.~Xue, K.~Droegemeier, and V.~Wong.
 \newblock The advanced regional prediction system ({ARPS}) – a multi-scale
   nonhydrostatic atmospheric simulation and prediction model. {Part I: Model}
   dynamics and verification.
-\newblock \emph{Meteorol Atmos Phys}, 75:\penalty0 161--193, 2000.
+\newblock {\em Meteorol Atmos Phys}, 75:161--193, 2000.
 
-\bibitem[Xue et~al.(2001)Xue, Droegemeier, Wong, Shapiro, Brewster, Carr,
-  Weber, Liu, and Wang]{XDW+01}
+\bibitem[XDW{\etalchar{+}}01]{XDW+01}
 M.~Xue, K.~Droegemeier, V.~Wong, A.~Shapiro, K.~Brewster, F.~Carr, D.~Weber,
   Y.~Liu, and D.~Wang.
 \newblock The advanced regional prediction system ({ARPS}) – a multi-scale
   nonhydrostatic atmospheric simulation and prediction model. {Part II: Model}
   physics and applications.
-\newblock \emph{Meteorol Atmos Phys}, 76:\penalty0 143--165, 2001.
+\newblock {\em Meteorol Atmos Phys}, 76:143--165, 2001.
 
-\bibitem[Yee et~al.(2009)Yee, Wang, and Lien]{YWL09}
-E.~Yee, B.-C. Wang, and F.-S. Lien.
+\bibitem[YWL09]{YWL09}
+E.~Yee, B-C Wang, and F-S Lien.
 \newblock Probabilistic model for concentration fluctuations in compact-source
   plumes in an urban environment.
-\newblock \emph{Bound.-Layer Meteor}, 2009.
+\newblock {\em Boundary-Layer Meteorol.}, 2009.
 
-\bibitem[Zhang et~al.(2020)Zhang, Wang, and Xue]{ZWX20}
+\bibitem[ZEK{\etalchar{+}}13]{ZEK+13}
+S.S. Zilitinkevich, T.~Elperin, N.~Kleeorin, I.~Rogachevskii, and I.~Esau.
+\newblock A hierarchy of energy- and flux-budget {(EFB)} turbulence closure
+  models for stably-stratified geophysical flows.
+\newblock {\em Boundary-Layer Meteorol.}, 146:341--373, 2013.
+
+\bibitem[ZMJ{\etalchar{+}}22]{ZMJ+22}
+Andrea Zonato, Alberto Martilli, Pedro~A. Jimenez, Jimy Dudhia, Dino Zardi, and
+  Lorenzo Giovannini.
+\newblock A new $k-\varepsilon$ turbulence parameterization for mesoscale
+  meteorological models.
+\newblock {\em Mon. Wea. Rev.}, 150(8):2157--2174, 2022.
+
+\bibitem[ZWM20]{ZWM20}
+Xiping Zeng, Yansen Wang, and Benjamin~T. MacCall.
+\newblock A {$k-\varepsilon$} turbulence model for the stable atmosphere.
+\newblock {\em J. of Atmos Sci.}, 77(1):167--184, 2020.
+
+\bibitem[ZWX20]{ZWX20}
 C.~Zhang, Y.~Wang, and M.~Xue.
 \newblock Evaluation of an {$E–\varepsilon$} and three other boundary layer
   parameterization schemes in the {WRF} model over the {Southeast Pacific and
   the Southern Great Plains}.
-\newblock \emph{Mon. Wea. Rev.}, 148\penalty0 (3):\penalty0 1121--1145, 2020.
+\newblock {\em Mon. Wea. Rev.}, 148(3):1121--1145, 2020.
 
 \end{thebibliography}

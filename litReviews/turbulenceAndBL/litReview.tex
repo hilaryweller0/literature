@@ -6,7 +6,7 @@
 %\usepackage[T1]{fontenc}
 %\usepackage[latin9]{inputenc}
 \usepackage[a4paper]{geometry}
-\usepackage{graphicx}
+\usepackage{graphicx,amsmath}
 \geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
 \setcounter{secnumdepth}{5}
 \setcounter{tocdepth}{5}
@@ -26,7 +26,7 @@
 \renewcommand{\bottomfraction}{1}
 
 \usepackage{bibentry}
-\bibliographystyle{abbrvnat}
+\bibliographystyle{alpha}
 \nobibliography{numerics}
 
 \makeatother
@@ -37,17 +37,6 @@
 \title{Turbulence}
 \author{Hilary Weller}
 \maketitle
-
-\begin{itemize}
-
-\item \bibentry{ZWX20} \ \\
-Includes a buoyancy production term for $\varepsilon$ equation.
-
-\item \bibentry{Wyn75} \ \\
-second moments -- `higher-order-closure'. \\
-Transport equations for turbulence co-variances, $\overline{u_i u_k}$, $\overline{\theta^2}$ and $\overline{\theta u_i}$
-
-\end{itemize}
 
 \section*{Channel Flow}
 
@@ -187,6 +176,13 @@ products of the horizontal gradients of the resolved variables.''
 \section*{Reynolds-Averaged Modelling}
 
 \begin{itemize}
+\item \cite{ZWX20} \bibentry{ZWX20} \ \\
+Includes a buoyancy production term for $\varepsilon$ equation.
+
+\item \cite{Wyn75} \bibentry{Wyn75} \ \\
+second moments -- `higher-order-closure'. \\
+Transport equations for turbulence co-variances, $\overline{u_i u_k}$, $\overline{\theta^2}$ and $\overline{\theta u_i}$
+
 \item \bibentry{LS74}
 
 \item Tennekes and Lumley, 1972 
@@ -362,12 +358,133 @@ diffusivity, then an idealized analysis based on the hypothesis predicts a well-
 \item \bibentry{MY74}\ \\
 The friction velocity is obtained from $U$ at the second level (above $z_0$). Then the heat flux at the surface is computed from MO theory. The boundary values of the turbulent moments are obtained from the TKE. Boundary values of $U$, $V$ and $\Theta$ are obtained from MO theory at first model level (above $z_0$).
 
-%\item \bibentry{}
-%\item \bibentry{}
-%\item \bibentry{}
-%\item \bibentry{}
-%\item \bibentry{}
-%\item \bibentry{}
+\item \bibentry{KC22} \ \\
+Neutral conditions. Drag exerted by terrain characterised by displacement height ($d_\text{eff}$), friction velocity ($u_{*,\text{eff}}$) and roughness height ($z_{0,\text{eff}}$).\\
+$z_{0,\text{eff}}$ varies with standard deviation of terrain slopes ($\sigma_{\Delta h/\Delta x}$).
+
+Use ``RANS solver Ellipsys3D (S\o rensen 1995)'' using ``two-equation $k-\varepsilon$ turbulence model''\\
+``The surface boundary is treated via shear stress prescribed with a high-Reynolds number assumption, consistent with both $k-\varepsilon$ closure and surface-layer theory (Cavar et al. 2016)''
+
+Other references:\\
+Apsley D, Castro IP (1997) A limited-length-scale $k-\varepsilon$ model for the neutral and stably-stratified atmospheric boundary layer. Boundary-Layer Meteorol 83:75–98
+
+van der Laan MP, Kelly M, Sorensen NN (2017) A new $k-\varepsilon$ model consistent with Monin-Obukhov similarity theory. Wind Energy 20(3):479-489. \url{https://doi.org/10.1002/we.2113}
+
+\item \cite{CRB+16} \bibentry{CRB+16}\ \\
+Better to use atmospheric roughness length wall-function approach rather than Nikuradse's sand roughness model.\\
+Two-equation $k-\varepsilon$ model to calculate eddy viscosity:\\
+\includegraphics[width=0.7\textwidth]{notes/CRB+16_keEqns.png}
+
+EllipSys3D surface BC:\\
+$u = \frac{u_*}{\kappa}\ln\frac{z+z_0}{z_0}$, $k = \frac{u_*^2}{C_\mu^{1/2}}$\\
+``wall is placed on top of the roughness elements ($u = 0$ for $z = 0$) and is consequently displaced by the roughness length''\\
+$\varepsilon = \frac{u_{w_1}^3}{\kappa(\Delta z + z_0)}$
+where $u_{w_1} = k^\frac{1}{2} C_\mu^\frac{1}{4}$\\
+Zero gradient $k$ at the wall.
+
+nutkAtmRoughWallFunction specifies:\\
+$\nu_T = \frac{u_{w_1}\kappa\Delta z}\ln\frac{\Delta z + z_0}{z_0}$
+
+\includegraphics[width=0.6\textwidth]{notes/CRB+16_keParameters.png}\\
+\includegraphics[width=0.6\textwidth]{notes/CRB+16_keParameters2.png}\\
+
+\item \cite{vKS17} \bibentry{vKS17} \ \\
+Additional source term depending on stability parameters is added to the TKE equation which is large only in unstable conditions.\\
+A parameterisation for $C_{\varepsilon,3}$ is used that is also dependent on stability parameters.
+
+References\\
+Blocken B, Stathopoulos T, Carmeliet J. CFD simulation of the atmospheric boundary layer: wall function problems.
+Atmospheric Environment 2007; 41: 238–252.
+
+
+\item \cite{DQT+20} \bibentry{DQT+20}\ \\
+RANS-MOST does well for a RANS model
+
+\item \cite{BSC07} \bibentry{BSC07}\ \\
+Use atmosheric wall function, not sand grain ones
+
+\item \cite{AC97} \bibentry{AC97} \ \\
+Maximum length scale inserted into epsilon equation to account for stability.
+
+
+\item \cite{ZEK+13} \bibentry{ZEK+13}
+
+\item \cite{BH21} \bibentry{BH21}
+
+\item \cite{BMH+06} \bibentry{BMH+06}\ \\
+LES in agreement with MOST, not with climate models.\\
+``LES data also provide support for K-proﬁle similarity functions (Brost and Wyngaard, 1978), provided an appropriate diagnosis of SBL height is used''
+
+\item \cite{SH09} \bibentry{SH09}
+
+\item \cite{HSB+13} \bibentry{HSB+13}
+
+\item \cite{Dyer74} \bibentry{Dyer74} \ \\
+\includegraphics[width=\linewidth]{notes/Dyer74Concs.png}
+
+\item \cite{MS16}  \bibentry{MS16} \ \\
+\includegraphics[width=\linewidth]{notes/MS16_concs.png}
+
+\item Papers on Couette flow\\
+Landau, L. D. \& Lifshitz, E. M. 1987 Fluid Mechanics. Pergamon.\\
+Lathrop, D. P., Fineberg, J. \& Swinney, H. S. 1992 Turbulent flow between concentric rotating cylinders at large Reynolds numbers. Phys. Rev. Lett. 68, 1515–1518.\\
+Schmiegel, A. \& Eckhardt, B. 1997 Fractal stability border in plane Couette flow. Phys. Rev. Lett.
+79, 5250–5253.\\
+Schmiegel, A. \& Eckhardt, B. 1999 Dynamics of perturbations in plane Couette flow. Preprint,
+Marburg.
+
+\item \cite{VT18} \bibentry{VT18}
+
+\item \cite{SD20} \bibentry{SD20}
+
+\item \cite{ZWM20} \bibentry{ZWM20}\ \\
+``A realizable $k-\varepsilon$ turbulence model of incompressible fluid is extended for the stable atmosphere after taking account of the buoyancy damping of gravity waves. The new model is consistent with the Monin-Obukhov similarity theory on the stable atmospheric boundary layer (ABL) over a horizontally uniform surface. The model is incorporated into an ABL model to simulate mean flow against observations. Its ABL-model output is compared with the Leipzig dataset, showing the turbulence model works well for a stable ABL. Specifically, the ABL model properly replicates\\ 1) the mixing length, turbulent viscosity, and mean wind;\\
+2) a significant decrease of the mixing length with height in the upper ABL and thus a reasonable altitude of the ABL top; and \\
+3) a sensitivity of the mixing length and turbulent viscosity to atmospheric stability.''
+
+Shih, W. W. Liou, A. Shabbir, Z. Yang, and J. Zhu, 1995: A new
+k-e eddy viscosity model for high Reynolds number turbulent
+flows. Comput. Fluids, 24,
+
+``the extension of S95 to the stable atmosphere is implemented by incorporating the buoyancy damping of gravity waves''
+
+\item \cite{vKFP20} \bibentry{vKFP20} \ \\
+1D turbulence model with inputs: ``roughness length, the Coriolis parameter, a maximum turbulence length, and the geostrophic wind speed''. ``we extend the limited-length-scale turbulence models to treat the mean effect of unstable stratification''.
+
+``Turbulence is modeled here by two limited-length-scale turbulence closures, the mixing-length model of Blackadar (1962) and the two-equation $k-\varepsilon$ model of Apsley and Castro (1997)''
+Limiting the length scale means that you do not need to solve a temperature equation.\\
+1D simulations to compare with.\\
+``the extension of the $k-\varepsilon$ model compares well with measurements of seven ASL profiles, representing a range of atmospheric stabilities, including three unstable cases.''
+
+\item \cite{BWvK22} \bibentry{BWvK22}\ \\
+explicit algebraic Reynolds stress model (EARSM) of Wallin and Johansson (2000)\\
+EARSM especially improves the prediction of turbulence anisotropy and turbulence intensity but that it also predicts less Gaussian wake profile shapes.\\
+
+\item \cite{ZMJ+22} \bibentry{ZMJ+22}\ \\
+Four convective cases and GABLS\\
+Analytic solution of $k-\varepsilon$.\\
+``WRF has been successfully applied in several studies for idealized cases for
+both RANS simulations and LES, both in ﬂat (Zhang et al. 2018; Moeng et al. 2007) and in complex terrain (Schmidli et al. 2011; Wagner et al. 2014).''\\
+``The standard $K-\varepsilon$ turbulence scheme has been improved by calculating the turbulent Prandtl number (similarly to Hong et al. 2006) the prognostic equation for temperature variance (Lazeroms et al. 2016), and including an additional term to better reproduce the dissipation rate in stable regimes (Zeng et al. 2020).''\\
+``Improvements thanks to the inclusion of the prognostic equation for the temperature
+variance are evident both in the valley and GABLS cases. Furthermore, the GABLS case conﬁrms that the standard $K-\varepsilon$ without the additional production term in the prognostic equation for the dissipation rate is unsuitable for stable boundary
+layers''\\
+``over complex terrain, where the horizontal gradients of the turbulent ﬂuxes can be signiﬁcant, as highlighted by Goger et al. (2018, 2019).''
+
+\item \cite{BM04} \bibentry{BM04}\ \\
+$\epsilon$ parameterised as $C_\epsilon U_d^3/\ell$.\\
+LES results very sensitive to resolution.
+
+\item \cite{Bear08} \bibentry{Bear08}\ \\
+LES simulations of the transition from stable to convective boundary layer (SBL to CBL).
+
+\item \cite{Chen22} \bibentry{Chen22}\ \\
+Mostly about algebraic length scale schemes. Includes MYNN scheme
+
+\item \cite{} \bibentry{ZW20}
+
+%\item \cite{} \bibentry{}
+%\item \cite{} \bibentry{}
 
 \end{itemize}
 
