@@ -1,46 +1,49 @@
-This is BibTeX, Version 0.99d (TeX Live 2017/Debian)
-Capacity: max_strings=100000, hash_size=100000, hash_prime=85009
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: litReview.aux
 The style file: abbrvnat.bst
 Database file #1: numerics.bib
-You've used 43 entries,
+Warning--empty year in ZCH+25
+Warning--empty year in ZCH+25
+You've used 48 entries,
             2773 wiz_defined-function locations,
-            971 strings with 11773 characters,
-and the built_in function-call counts, 18742 in all, are:
-= -- 1691
-> -- 902
-< -- 32
-+ -- 310
-- -- 267
-* -- 1523
-:= -- 2893
-add.period$ -- 129
-call.type$ -- 43
-change.case$ -- 218
-chr.to.int$ -- 43
-cite$ -- 86
-duplicate$ -- 854
-empty$ -- 1658
-format.name$ -- 342
-if$ -- 3962
+            1006 strings with 12753 characters,
+and the built_in function-call counts, 21192 in all, are:
+= -- 1906
+> -- 1050
+< -- 36
++ -- 360
+- -- 312
+* -- 1724
+:= -- 3265
+add.period$ -- 144
+call.type$ -- 48
+change.case$ -- 248
+chr.to.int$ -- 48
+cite$ -- 98
+duplicate$ -- 966
+empty$ -- 1850
+format.name$ -- 396
+if$ -- 4482
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 39
-newline$ -- 223
-num.names$ -- 172
-pop$ -- 363
+missing$ -- 44
+newline$ -- 248
+num.names$ -- 192
+pop$ -- 422
 preamble$ -- 1
-purify$ -- 175
+purify$ -- 200
 quote$ -- 0
-skip$ -- 630
+skip$ -- 720
 stack$ -- 0
-substring$ -- 935
-swap$ -- 43
-text.length$ -- 2
+substring$ -- 1024
+swap$ -- 59
+text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 473
-warning$ -- 0
-while$ -- 166
+type$ -- 528
+warning$ -- 2
+while$ -- 185
 width$ -- 0
-write$ -- 565
+write$ -- 629
+(There were 2 warnings)

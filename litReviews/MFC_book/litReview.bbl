@@ -1,0 +1,90 @@
+\begin{thebibliography}{13}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Arakawa and Lamb(1977)]{AL77}
+A.~Arakawa and V.~Lamb.
+\newblock Computational design of the basic dynamical processes of the {UCLA}
+  general circulation model.
+\newblock \emph{{Methods in Computational Physics}}, 17:\penalty0 173--265,
+  1977.
+
+\bibitem[Charney(1948)]{Char48}
+J.~Charney.
+\newblock On the scale of atmospheric motions.
+\newblock \emph{Geofys. Publ.}, 17:\penalty0 1--17, 1948.
+
+\bibitem[Charney(1949)]{Char49}
+J.~Charney.
+\newblock On a physical basis for numerical prediction of large-scale motions
+  in the atmosphere.
+\newblock \emph{J. of Atmos Sci.}, 6\penalty0 (6):\penalty0 372--385, 1949.
+
+\bibitem[Charney and Phillips(1953)]{CP53}
+J.~Charney and N.~Phillips.
+\newblock Numerical integration of the quasi-geostrophic equations for
+  barotropic and simple baroclinic flows.
+\newblock \emph{J. Meteor.}, 10:\penalty0 71--99, 1953.
+
+\bibitem[Charney et~al.(1950)Charney, Fj{\"o}rtoft, and Neumann]{CFvN50}
+J.~G. Charney, R.~Fj{\"o}rtoft, and J.~v. Neumann.
+\newblock Numerical integration of the barotropic vorticity equation.
+\newblock \emph{Tellus}, 2\penalty0 (4):\penalty0 237--254, 1950.
+
+\bibitem[Davies et~al.(2005)Davies, Cullen, Malcolm, Mawson, Staniforth, White,
+  and Wood]{DCM+05}
+T.~Davies, M.~Cullen, A.~Malcolm, M.~Mawson, A.~Staniforth, A.~White, and
+  N.~Wood.
+\newblock {A new dynamical core for the Met Office's global and regional
+  modelling of the atmosphere}.
+\newblock \emph{Q. J. R. Meteorol. Soc.}, 131\penalty0 (608):\penalty0
+  1759--1782, 2005.
+
+\bibitem[Melvin et~al.(2010)Melvin, Dubal, Wood, Staniforth, and
+  Zerroukat]{MDW+10}
+T.~Melvin, M.~Dubal, N.~Wood, A.~Staniforth, and M.~Zerroukat.
+\newblock An inherently mass-conserving semi-implicit semi-{L}agrangian
+  discretisation of the nonhydrostatic vertical slice equations.
+\newblock \emph{Q. J. R. Meteorol. Soc.}, 137:\penalty0 799--814, 2010.
+
+\bibitem[Phillips(1959)]{Phil59}
+N.~A. Phillips.
+\newblock Numerical integration of the primitive equations on the hemisphere.
+\newblock \emph{Mon. Wea. Rev.}, 87\penalty0 (9):\penalty0 333--345, 1959.
+
+\bibitem[Richardson(1922)]{Rich22}
+L.~Richardson.
+\newblock \emph{Weather prediction by numerical process}.
+\newblock Cambridge University Press, 1922.
+
+\bibitem[Simmons et~al.(1989)Simmons, Burridge, Jarraud, Girard, and
+  Wergen]{SBJ+89}
+A.~Simmons, D.~Burridge, M.~Jarraud, C.~Girard, and W.~Wergen.
+\newblock The {ECMWF} medium-range prediction models: development of the
+  numerical formulations and the impact of increased resolution.
+\newblock \emph{Meteorol. Atmos. Phys.}, 40\penalty0 (1-3):\penalty0 28--60,
+  1989.
+
+\bibitem[Smagorinsky(1958)]{Smag58}
+J.~Smagorinsky.
+\newblock On the numerical integration of the primitive equations of motion for
+  baroclinic flow in a closed region.
+\newblock \emph{Mon. Wea. Rev.}, 86\penalty0 (12):\penalty0 457--466, 1958.
+
+\bibitem[Smagorinsky(1963)]{Smag63}
+J.~Smagorinsky.
+\newblock General circulation experiments with the primitive equations: I. the
+  basic experiment.
+\newblock \emph{Mon. Wea. Rev.}, 91\penalty0 (3):\penalty0 99--164, 1963.
+
+\bibitem[Staniforth and Thuburn(2012)]{ST12}
+A.~Staniforth and J.~Thuburn.
+\newblock Horizontal grids for global weather and climate prediction models: a
+  review.
+\newblock \emph{Q. J. R. Meteorol. Soc.}, 138\penalty0 (662):\penalty0 1--26,
+  2012.
+
+\end{thebibliography}

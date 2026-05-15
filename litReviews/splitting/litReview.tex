@@ -1,0 +1,65 @@
+\documentclass[12pt,british,round,comma,sort&compress]{article}
+\renewcommand{\familydefault}{\rmdefault}
+\usepackage[a4paper]{geometry}
+\usepackage{graphicx}
+\geometry{verbose,tmargin=2cm,bmargin=2cm,lmargin=2cm,rmargin=2cm}
+\setlength{\parskip}{\smallskipamount}
+\setlength{\parindent}{0pt}
+
+\usepackage{color}
+\newcommand{\nicefrac}[2]{\ensuremath ^{#1}\!\!/\!_{#2}}
+\usepackage { fancybox}
+
+\renewcommand{\floatpagefraction}{0.95}
+\renewcommand{\textfraction}{0}
+\renewcommand{\topfraction}{1}
+\renewcommand{\bottomfraction}{1}
+
+\usepackage{bibentry}
+\bibliographystyle{abbrvnat}
+\nobibliography{numerics}
+
+\begin{document}
+
+\title{Literature review relevant for Splitting}
+\author{Hilary Weller}
+\maketitle
+
+\begin{itemize}
+
+\item \bibentry{TV12}
+
+\item \bibentry{YSSK24}
+\item\bibentry{SYG90}
+\item\bibentry{ZA20}
+\item\bibentry{Thu24}
+
+\item Email from Amber
+\begin{quote}
+Hilary and I thought it was maybe nice for you to have a reference for the GMRES(m) and GCR(k) algorithms. These are iterative matrix solvers to solve the matrix A [matrix equation Ax=b] connected to the implicit part of the time stepping, I don’t know how much you and Hilary have talked about this already - we can talk about it on Thursday if you like!
+
+The key reference is Saad and Schultz 1986, which is about GMRES and GMRES(m). They also discuss GCR, though not GCR(k) directly. \url{https://epubs.siam.org/doi/10.1137/0907058}
+The second key reference is Elman’s PhD thesis, which discusses GCR and GCR(k) (p. 32-34). \url{http://www.cvc.yale.edu/publications/techreports/tr229.pdf}
+There are also numerous references online, iterative methods are widely used.
+
+I use them to solve a heptadiagonal matrix for a fifth-order accurate spatial discretisation. Both work, though GCR may break down, because it requires a matrix with a positive definite symmetric part (SS1986) (I have not actually found any problematic cases myself). GMRES is also more efficient than GCR (SS1986).
+
+FYI 1 : GCR and GCR(k) are pretty much the same thing, but the (k) means that the algorithm is restarted k times. Similarly for GMRES and GMRES(m): m is the number of restarts. The key reason for restarting is that it reduces the storage and number of calculations required.
+
+FYI 2 : GCR stands for ‘Generalised Conjugate Residual’ and GMRES stands for ‘Generalised Minimal RESidual’.
+
+FYI 3 : These are all Krylov methods, which e.g. ‘conjugate gradient’ and ‘conjugate residual’ are part of as well.
+
+I can provide code that implements GMRES(m) and GCR(k) if you would like! But I’ll leave it be for now
+\end{quote}
+
+%\item \bibentry{} \ \\
+%\item \bibentry{} \ \\
+%\item \bibentry{} \ \\
+%\item \bibentry{} \ \\
+
+\end{itemize}
+
+\nobibliography{numerics}
+
+\end{document}
