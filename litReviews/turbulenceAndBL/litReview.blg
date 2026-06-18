@@ -1,46 +1,46 @@
-This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: litReview.aux
 The style file: alpha.bst
 Database file #1: numerics.bib
-You've used 80 entries,
+You've used 86 entries,
             2543 wiz_defined-function locations,
-            1171 strings with 18928 characters,
-and the built_in function-call counts, 34658 in all, are:
-= -- 3386
-> -- 1960
-< -- 18
-+ -- 712
-- -- 688
-* -- 2822
-:= -- 5899
-add.period$ -- 240
-call.type$ -- 80
-change.case$ -- 575
-chr.to.int$ -- 80
-cite$ -- 80
-duplicate$ -- 1139
-empty$ -- 2296
-format.name$ -- 771
-if$ -- 6909
+            1206 strings with 20072 characters,
+and the built_in function-call counts, 37385 in all, are:
+= -- 3649
+> -- 2118
+< -- 19
++ -- 772
+- -- 745
+* -- 3056
+:= -- 6362
+add.period$ -- 258
+call.type$ -- 86
+change.case$ -- 620
+chr.to.int$ -- 86
+cite$ -- 86
+duplicate$ -- 1223
+empty$ -- 2476
+format.name$ -- 833
+if$ -- 7447
 int.to.chr$ -- 1
 int.to.str$ -- 0
-missing$ -- 75
-newline$ -- 404
-num.names$ -- 240
-pop$ -- 378
+missing$ -- 81
+newline$ -- 434
+num.names$ -- 258
+pop$ -- 408
 preamble$ -- 1
-purify$ -- 656
+purify$ -- 707
 quote$ -- 0
-skip$ -- 974
+skip$ -- 1044
 stack$ -- 0
-substring$ -- 2087
-swap$ -- 98
-text.length$ -- 18
-text.prefix$ -- 14
+substring$ -- 2267
+swap$ -- 104
+text.length$ -- 19
+text.prefix$ -- 15
 top$ -- 0
-type$ -- 640
+type$ -- 688
 warning$ -- 0
-while$ -- 295
-width$ -- 86
-write$ -- 1036
+while$ -- 317
+width$ -- 92
+write$ -- 1113

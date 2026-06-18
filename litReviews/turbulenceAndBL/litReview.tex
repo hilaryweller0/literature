@@ -481,8 +481,60 @@ LES simulations of the transition from stable to convective boundary layer (SBL 
 \item \cite{Chen22} \bibentry{Chen22}\ \\
 Mostly about algebraic length scale schemes. Includes MYNN scheme
 
-\item \cite{} \bibentry{ZW20}
+\item \cite{ZW20} \bibentry{ZW20}
 
+\item \cite{SGP05} \bibentry{SGP05} \ \\
+Scheme used in WRF at Ricardo\\
+WRF documentation: ``Quasi-Normal Scale Elimination (QNSE-EDMF)''\\
+``A TKE-prediction option that uses a new theory for stably-stratified regions; daytime part uses eddy diffusivity mass-flux method with shallow convection (mfshconv = 1); includes shallow convection using a mass-flux approach through the whole cloud-topped boundary layer''
+
+``When the process of successive averaging is extended to the largest scales available in the system (i.e., the turbulence macroscale), the spectral closure yields a new RANS model. This model has been implemented as a new version of the $k-\varepsilon$ model and tested in single-column simulations of the SBL over sea ice. Two test cases, the Beaufort Arctic Storms Experiment (BASE) and the Surface Heat Budget in the Arctic program (SHEBA), were selected.''\\
+and compared with ``LES by Kosovic and Curry (2000)''.
+
+$K_M$ -- turbulent viscosity\\
+$K_H$ -- turbulent diffusivity\\
+
+\fbox{\includegraphics[scale=0.3]{notes/SPG05_keEqns.png}}\\
+\fbox{\includegraphics[scale=0.3]{notes/SPG05_keEqnsParams.png}}\\
+
+``The standard $k-\varepsilon$ model fails to replicate even a neutrally stratified ABL (Detering and Etline, 1985).''
+
+\fbox{\includegraphics[scale=0.3]{notes/SPG05_keEqnsMoreParams.png}}\\
+\fbox{\includegraphics[scale=0.3]{notes/SPG05_keEqnsCoriolis.png}}\\
+\fbox{\includegraphics[scale=0.3]{notes/SPG05_keEqnsCoriolis2.png}}\\
+\fbox{\includegraphics[scale=0.3]{notes/SPG05_keEqnsCoriolis3.png}}\\
+
+\subsubsection*{BASE setup}
+\fbox{\includegraphics[scale=0.3]{notes/SPG05_BASEsetup.png}}\\
+
+Also comparisons with SHEBA data
+
+\item \cite{TLDG16} \bibentry{TLDG16} \ \\
+See also Tastula et al. (2014, 2015)\\
+``The present study focuses on the formulation and the performance of the mass-flux part of the PBL scheme.''
+
+\item \cite{TGS+15} \bibentry{TGS+15} \ \\
+Implies that they are just using MOST rather than solving $k\varepsilon$ equations. \\
+Lot of info about the stability functions.
+
+\item \cite{TGD+15} \bibentry{TGD+15} \ \\
+QNSE is a 1.5-order BL parameterisation.\\
+Turbulent diffisivity, $K=\alpha \ell S \sqrt{TKE}$ (2) where \\
+$\alpha$ is a non-dimensional coefficient\\
+$S$ is the inverse of a stability function\\
+$\ell$ is a turbulence length scale.\\
+``Under the MOST assumptions, the stability functions in Eq. (2) become non-dimensional gradient functions, also known as similarity functions, which are determined empirically.''\\
+``The purpose of this study is to compare the performance of the
+QNSE and MYJ models by scrutinizing their stability functions.
+To accomplish this goal, we have modified the MYJ PBL and
+surface layer codes in the WRF model in such a way that the only
+significant difference between the QNSE and MYJ approaches is
+the representation of stability functions''\\
+
+\item \cite{DE85} \bibentry{DE85}\ \\
+
+
+%\item \cite{} \bibentry{}
 %\item \cite{} \bibentry{}
 %\item \cite{} \bibentry{}
 

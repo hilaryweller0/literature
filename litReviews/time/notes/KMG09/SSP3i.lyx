@@ -1,5 +1,5 @@
-#LyX 2.2 created this file. For more info see http://www.lyx.org/
-\lyxformat 508
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
 \begin_document
 \begin_header
 \save_transient_properties true
@@ -11,7 +11,7 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman "times" "default"
+\font_roman "default" "default"
 \font_sans "default" "default"
 \font_typewriter "default" "default"
 \font_math "auto" "auto"
@@ -21,16 +21,18 @@
 \font_osf false
 \font_sf_scale 100 100
 \font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
 \graphics default
 \default_output_format default
 \output_sync 0
 \bibtex_command default
 \index_command default
-\paperfontsize 12
+\paperfontsize default
 \spacing single
 \use_hyperref false
 \papersize default
-\use_geometry true
+\use_geometry false
 \use_package amsmath 1
 \use_package amssymb 1
 \use_package cancel 1
@@ -43,26 +45,26 @@
 \use_package undertilde 1
 \cite_engine natbib
 \cite_engine_type authoryear
-\biblio_style plain
+\biblio_style plainnat
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
 \suppress_date false
 \justification true
 \use_refstyle 1
+\use_minted 0
 \index Index
 \shortcut idx
 \color #008000
 \end_index
-\leftmargin 2.5cm
-\topmargin 2.5cm
-\rightmargin 2.5cm
-\bottommargin 2.5cm
 \secnumdepth 3
 \tocdepth 3
 \paragraph_separation indent
 \paragraph_indentation default
-\quotes_language english
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
 \papercolumns 1
 \papersides 1
 \paperpagestyle default
@@ -75,63 +77,63 @@
 
 \begin_body
 
-\begin_layout Section*
+\begin_layout Standard
+From 
 \begin_inset CommandInset citation
-LatexCommand citet
-key "RJ11"
+LatexCommand cite
+key "KMG09"
+literal "false"
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Graphics
-	filename table1.png
-	lyxscale 75
-	width 100text%
-
-\end_inset
-
-
-\begin_inset Newline newline
-\end_inset
-
-Tangential velocity given by
-\begin_inset Newline newline
-\end_inset
-
-
-\begin_inset Graphics
-	filename eqn17.png
-	width 100text%
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-From this define the vorticity at 
-\begin_inset Formula $z=0$
-\end_inset
-
-
-\begin_inset Formula 
-\[
-\xi=\frac{1}{r}\frac{\partial rv_{T}}{\partial r}
-\]
-
-\end_inset
-
+.
  
+\end_layout
+
+\begin_layout Standard
+\begin_inset Graphics
+	filename SDIRK_3.png
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Butcher tableau has
+\begin_inset Formula 
+\begin{eqnarray*}
+\boldsymbol{A} & = & \left(I-\lambda_{0}\right)^{-1}\mu_{0}\\
+\boldsymbol{b}^{\text{T}} & = & \mu_{1}\left(I-\lambda_{0}\right)^{-1}\mu_{0}
+\end{eqnarray*}
+
+\end_inset
+
+So for the 2-stage implicit optimal scheme above:
+\begin_inset Formula 
+\begin{eqnarray*}
+A & = & \left(I-\left(\begin{array}{cc}
+0 & 0\\
+1 & 0
+\end{array}\right)\right)^{-1}\left(\begin{array}{cc}
+\frac{1}{2}\left(1-\sqrt{\frac{s-1}{s+1}}\right)\\
+\frac{1}{2}\left(\sqrt{\frac{s+1}{s-1}}-1\right) & \frac{1}{2}\left(1-\sqrt{\frac{s-1}{s+1}}\right)
+\end{array}\right)
+\end{eqnarray*}
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
 \begin_inset CommandInset bibtex
 LatexCommand bibtex
+btprint "btPrintCited"
 bibfiles "numerics"
-options "plain"
+options "abbrvnat"
 
 \end_inset
 

@@ -1,0 +1,1134 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{bibentry}
+\nobibliography{numerics}
+\end_preamble
+\use_default_options true
+\maintain_unincluded_children no
+\language british
+\language_package default
+\inputencoding auto-legacy
+\fontencoding auto
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family rmdefault
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement class
+\float_alignment class
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine natbib
+\cite_engine_type authoryear
+\biblio_style plainnat
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 5
+\tocdepth 5
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{ECMWF_aifs23}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+Do we want to leverage our knowledge of spectral transforms and build something like NVIDIA's Neural Operator system,
+ FourCastNet?
+ Do we want to leverage the vast research that goes into vision transformers and build something like Pangu-Weather,
+ FengWu or FuXi?
+ Or do we want to utilise the grid-flexibility and parameter efficiency of Graph Neural Networks like the work of Ryan Keisler or Google Deepmind's GraphCast?
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Chosen 
+\begin_inset Quotes eld
+\end_inset
+
+Graph Neural Networks
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+using reduced Gaussian grids
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+13 pressure levels,
+ runs at approximately 1 degree resolution and makes predictions for wind,
+ temperature,
+ humidity and geopotential.
+ At the surface AIFS makes predictions for 2 m temperature,
+ 10 m winds,
+ surface pressure and more.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+trained to minimise mean squared error
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{ECMWF_aifsEns25}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+AIFS Single released in February.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+The new ensemble model outperforms state-of-the-art physics-based models for many measures,
+ including surface temperature,
+ with gains of up to 20%.
+ At the moment,
+ it works at a lower resolution (31 km) than the physics-based ensemble system (9 km),
+ which remains indispensable for high-resolution fields and coupled Earth-system processes.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+ECMWF is therefore also exploring hybrid systems that leverage the strengths of both approaches.
+\end_layout
+
+\begin_layout Itemize
+Anemoi framework 
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{ECMWF_aifs25}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+AIFS outperforms state-of-the-art physics-based models for many measures,
+ including tropical cyclone tracks,
+ with gains of up to 20%.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+increased speed and a reduction of approximately 1,000 times in energy use for making a forecast
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{LAC+24}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+graph neural network (GNN) encoder and decoder,
+ and a sliding window transformer processor
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+AIFS is implemented in Python and utilises the PyTorch (Paszke et al.
+ [2019]) and PyTorch Geometric (Fey and Lenssen [2019]) machine learning frameworks.
+ Together with AIFS we develop the Anemoi (Greek:
+ ’Winds’) framework,
+ a toolbox that aims to provide building blocks for data driven weather forecast models.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+A diverse set of deep learning architectures is being employed in the context of data-driven weather forecasts,
+ e.g.,
+ vision transformers (Bi et al.
+ [2023],
+ Nguyen et al.
+ [2023]),
+ neural operators (Pathak et al.
+ [2022]) and graph neural networks (GNNs,
+ Keisler [2022],
+ Lam et al.
+ [2023]).
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+The first version of AIFS was introduced in experimental operational mode in October 2023 (Lang et al.
+ [2024]).
+ Its architecture was inspired by Keisler [2022] and Lam et al.
+ [2023].
+ Specifically,
+ it consisted of an encoder-processor-decoder design similar to that described in Battaglia et al.
+ [2016].
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+The current implementation of AIFS shares certain limitations with some of the other data-driven weather forecast models that are trained with a weighted MSE loss,
+ such as blurring of the forecast fields at longer lead times.
+ The blurring can be traced back to the MSE training objective,
+ where the model learns an implicit smoothing in order to avoid the double penalty (e.g.
+ Hoffman et al.
+ [1995],
+ Ebert et al.
+ [2013]) of misplaced structures in the forecast.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+The strength and weaknesses of data-driven forecast models have been investigated in Ben Bouallègue et al.
+ [2024] and Charlton-Perez et al.
+ [2024],
+ and in an idealised context in Hakim and Masanam [2023]
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{CDD+24}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+The four machine learning models considered (FourCastNet,
+ Pangu-Weather,
+ GraphCast and FourCastNet-v2) produce forecasts that accurately capture the synoptic-scale structure of the cyclone including the position of the cloud head,
+ shape of the warm sector and location of the warm conveyor belt jet,
+ and the large-scale dynamical drivers important for the rapid storm development such as the position of the storm relative to the upper-level jet exit.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+These models have all been shown to produce skillful 0-10 day forecasts of the 500 hPa geopotential height ﬁeld,
+ based on the widely used Anomaly Correlation Coefﬁcient metric.
+ All four models use an encode-process-decode framework but with differing architectures:
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+FourCastNet,
+ developed by NVIDIA and based on Fourier Neural Operators (FNO) with a vision transformer architecture;
+\end_layout
+
+\begin_layout Itemize
+FourCastNet version 2,
+ which builds on FourCastNet by using spherical FNOs;
+\end_layout
+
+\begin_layout Itemize
+Pangu-Weather,
+ developed by Huawei and based on a three-dimensional Earth-speciﬁc transformer and hierarchical temporal aggregation (four deep neural networks with different lead times)
+\end_layout
+
+\begin_layout Itemize
+GraphCast,
+ developed by Google DeepMind and based on graph neural networks.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+The ML models are all autoregressive,
+ which means model output from a given time step can be used to predict output at the next time step.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Good summary of the methods on page 8.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+Cyril Morcrette – Machine learning for physical processes
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+CARAMEL – cloud resolving model machine learning
+\end_layout
+
+\begin_layout Itemize
+ENNUF – easy neural networks for the UM in Fortran
+\end_layout
+
+\begin_layout Itemize
+for a warmer world,
+ train based on RH rather than on 
+\begin_inset Formula $q_{v}$
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{DLL+24}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+The most widely used ML models in rainfall forecasting include support vector machine (SVM),
+ random forest (RF),
+ artificial neural networks (ANN),
+ and their variants.
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+This is about models that predict just rainfall,
+ not the state of the whole atmosphere.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{KSO+25}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+ML used to correct WRF output.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{KFB13}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+The newly developed NN convection parameterization has been tested in National Center of Atmospheric Research (NCAR) Community Atmospheric Model (CAM).
+ It produced reasonable and promising decadal climate simulations for a large tropical Pacific region.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{dBL23}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{KSA+21}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+we use end-to-end deep learning to improve approximations inside computational fluid dynamics for modeling two-dimensional turbulent flows.
+ For both direct numerical simulation of turbulence and large-eddy simulation,
+ our results are as accurate as baseline solvers with 8 to 10
+\begin_inset Formula $\times$
+\end_inset
+
+ finer resolution
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+stable during long simulations and generalizes to forcing functions and Reynolds numbers outside of the flows where it is trained
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+uses discrete equations that give pointwise accurate solutions on an unresolved grid.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+The model learns how to interpolate local features of solutions
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename figures/KSA+21_fig1.png
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+We train the model inside a standard numerical method for solving the underlying PDEs as a differentiable program,
+ with the neural networks and the numerical method written in a framework [JAX (38)] supporting reverse-mode automatic differentiation.
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+we wrote a new CFD code in JAX
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+the convective flux model improves the approximation of the discretized convection operator,
+ the divergence operator enforces local conservation of momentum according to a finite volume method,
+ and the pressure projection enforces incompressibility
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+two types of ML components:
+ learned interpolation and learned correction
+\begin_inset Quotes erd
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+The equation maintains the same symmetries and scaling properties (e.g.,
+ rescaling coordinates x → λx) as the original equations and 2) the interpolation is always at least first-order accurate with respect to the grid spacing,
+ by constraining the filters to sum to unity
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{KYL+24}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+NeuralGCM can accurately track climate metrics for multiple decades,
+ and climate forecasts with 140-kilometre resolution show emergent phenomena such as realistic frequency and trajectories of tropical cyclones
+\begin_inset Quotes erd
+\end_inset
+
+.
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+Unlike physical models,
+ machine-learning models misrepresent derived (diagnostic) variables such as geostrophic wind
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Graphics
+	filename figures/KYL+24_fig1.png
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+NeuralGCM,
+ a fully differentiable hybrid GCM of Earth’s atmosphere.
+ NeuralGCM is trained on forecasting up to 5-day weather trajectories sampled from ERA5.
+ Differentiability enables end-to-end ‘online training'
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+NeuralGCM demonstrates that incorporating machine learning is a viable alternative to building increasingly detailed physical models32 for improving GCMs.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{QHZ+25}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+FourCastNet ...
+ shows promise in learning from strong storms in one region and forecasting them in another region
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+FourCastNet (1),
+ Pangu (2),
+ GraphCast (3),
+ AIFS (4),
+ Fuxi (5),
+ and Stormer (6) ...
+ 
+\begin_inset Quotes eld
+\end_inset
+
+deep neural networks (NNs) that predict the evolution of the 3D global atmospheric state in six or twelve hour increments after being trained on the ERA5 reanalysis dataset from 1979 to 2015
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+Whether trained with the Full or noTC dataset,
+ FourCastNet is unable to reproduce gradient-wind balance,
+ a key physical constraint that is obeyed by TCs in the training set (Fig.
+ 5).
+ Enforcing gradient-wind balance in the loss function could potentially help the model learn this physical relationship,
+ though there could be tradeoffs in the accuracy or the representation of other physical properties (e.g.,
+ the ageostrophic flow).
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{AJM+25}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+PDEs discontinuous solutions
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+PINNS – Physics-Informed Neural Networks (PINNs)
+\end_layout
+
+\begin_layout Enumerate
+Physics-modification (PM) methods improve accuracy by modifying the system’s physics,
+ such as adding artificial viscosity or enforcing entropy constraints.
+\end_layout
+
+\begin_layout Enumerate
+Loss and training modification (LM) techniques focus on regularizing the loss landscape,
+ often by refining the loss term in high-error regions.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Architecture-modification (AM) propose advanced network designs to handle discontinuities better.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+the generalization error in the solutions quickly increased
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset Quotes eld
+\end_inset
+
+PINNs integrate physical principles into the neural network's training process,
+ by adding the differential equations to a composite loss function
+\begin_inset Quotes erd
+\end_inset
+
+.
+ The training error is the difference between the NN solution and the exact solution.
+ The loss function is the training error.
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{AMK+25}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+This an application of PINNS.
+ See RPK19
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{RPK19}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+data-driven solution and data-driven discovery of PDEs
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+continuous time
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+new family of data-eﬃcient spatio-temporal function approximators
+\end_layout
+
+\end_deeper
+\begin_layout Itemize
+discrete time models.
+ 
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+implicit RK time stepping
+\end_layout
+
+\end_deeper
+\end_deeper
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{MMN20}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{YO20}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{BRPG19}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{LFZ+24}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+bibentry{SSCG}
+\end_layout
+
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+FuXi (Chen et al.,
+ 2023),
+ a state‐of‐the‐art AIWP model,
+ is selected as an example to implement conservation schemes.
+ The base architecture of FuXi is Swin‐Transformer,
+ which has been adopted by a wide range of AIWP models (e.g.,
+ Nguyen,
+ Shah,
+ et al.,
+ 2023;
+ Willard et al.,
+ 2024),
+ making FuXi an ideal candidate for showcasing the integration of physical constraints
+\begin_inset Newline newline
+\end_inset
+
+Solves ML mode and conservation laws.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+The specific total water,
+ total precipitation,
+ and air temperature constraints are applied using multiplicative ratios across all grid cells.
+ For specific total water,
+ constraints are limited to pressure levels below 600 hPa,
+ as the moisture content in the upper atmosphere is significantly lower,
+ and enforcing constraints at higher levels would lead to strong outlier effects within the z‐score space.
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset bibtex
+LatexCommand bibtex
+btprint "btPrintCited"
+bibfiles "/home/hilary/latex/lit/ML"
+options "abbrvnat"
+encoding "default"
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document

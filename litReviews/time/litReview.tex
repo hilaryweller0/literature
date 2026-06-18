@@ -15,6 +15,10 @@
 \maketitle
 
 \begin{itemize}
+\item \bibentry{GG24} \ \\
+\item\bibentry{MT24} \ \\
+
+
 \item \bibentry{VSR+19} \ \\
 ``The standard strategy of using fully implicit methods for integrating numerically stiff equations can be a computational burden in operational models (Evans et al., 2017; Lott et al., 2015)''
 \item \bibentry{LM04} \ \\
@@ -55,7 +59,7 @@ however, that the efficient parallel execution of a LTS scheme can become a very
 only when (15) is fulfilled locally, the element updates are in general completely asynchronous which induces a very irregular load balancing
 on the different processors. Therefore, for the parallel implementation of our code, we first group elements of zones with similar material
 properties and element size together and partition each of these zones separately into a number of partitions that is equal to the total number
-of processors. For this purpose we are using the free METIS software package introduced by Karypis & Kumar (1998). Then, the resulting
+of processors. For this purpose we are using the free METIS software package introduced by Karypis \& Kumar (1998). Then, the resulting
 partitions of the different zones are merged together and thus provide the final domain decomposition. Note that the final partition in general
 contains non-connected subdomains. However, since the ADER-DG approach provides a one-step scheme, the total communication overhead
 induced by these non-contiguous partitions is quite small compared to the achieved benefits from the improved load balancing. Note that just
@@ -71,7 +75,7 @@ tempted to address this in METIS by weighting each node by a fac-
 tor which depends on the local timesteps associated with elements
 attached to the node. This factor is determined by the number of
 sub-cycling steps required for the element with the smallest time-
-step to go from time t n to time t nþ1 . The local timestep may also
+step to go from time $t_n$ to time $t_{n+1}$ . The local timestep may also
 change during the course of the simulation, therefore in reality
 the load should be dynamical ly re-balanced during the simulation.''
 

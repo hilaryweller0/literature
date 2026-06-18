@@ -105,6 +105,13 @@ J.W.M. Cuijpers and P.G. Duynkerke.
 \newblock Large eddy simulation of trade wind cumulus clouds.
 \newblock {\em J. of Atmos Sci.}, 50(23):3894--3908, 1993.
 
+\bibitem[Che22]{Chen22}
+Xiaomin Chen.
+\newblock How do planetary boundary layer schemes perform in hurricane
+  conditions: A comparison with large-eddy simulations.
+\newblock {\em J. Advances in Modeling Earth Systems}, 14(10):e2022MS003088,
+  2022.
+
 \bibitem[CIL96]{CIL96}
 T.J. Craft, N.Z. Ince, and B.E. Launder.
 \newblock Recent developments in second-moment closure for buoyancy-affected
@@ -343,6 +350,12 @@ Akshay Sherikar and PJ~Disimile.
 \newblock {\em Journal of Mechanical Engineering and Sciences},
   14(2):6663--6678, 2020.
 
+\bibitem[SGP05]{SGP05}
+S.~Sukoriansky, B.~Galperin, and V.~Perov.
+\newblock Application of a new spectral theory of stably stratified turbulence
+  to the atmospheric boundary layer over sea ice.
+\newblock {\em Boundary-Layer Meteorol.}, 2005.
+
 \bibitem[SH09]{SH09}
 Gunilla Svensson and Albert~A.M. Holtslag.
 \newblock Analysis of model results for the turning of the wind and related
@@ -389,11 +402,31 @@ J.~Thuburn, G.A. Efstathiou, and R.J. Beare.
   boundary layer.
 \newblock {\em Q. J. R. Meteorol. Soc.}, 145(721):1535--1550, 2019.
 
+\bibitem[TGD{\etalchar{+}}15]{TGD+15}
+Esa-Matti Tastula, Boris Galperin, Jimy Dudhia, Margaret~A. LeMone, Semion
+  Sukoriansky, and Timo Vihma.
+\newblock Methodical assessment of the differences between the {QNSE} and {MYJ
+  PBL} schemes for stable conditions.
+\newblock {\em Q. J. R. Meteorol. Soc.}, 141(691):2077--2089, 2015.
+
+\bibitem[TGS{\etalchar{+}}15]{TGS+15}
+Esa-Matti Tastula, Boris Galperin, Semion Sukoriansky, Ashok Luhar, and Phil
+  Anderson.
+\newblock The importance of surface layer parameterization in modeling of
+  stable atmospheric boundary layers.
+\newblock {\em Atmos. Sci. Lett.}, 16(1):83--88, 2015.
+
 \bibitem[Tha17]{Thak17}
 Manan Thakkar.
 \newblock {\em Investigation of turbulent ﬂow over irregular rough surfaces
   using direct numerical simulations}.
 \newblock PhD thesis, University of Southampton, 2017.
+
+\bibitem[TLDG16]{TLDG16}
+Esa-Matti Tastula, Margaret~A. LeMone, Jimy Dudhia, and Boris Galperin.
+\newblock The impact of the {QNSE-EDMF} scheme and its modifications on
+  boundary layer parameterization in {WRF}: modelling of {CASES-97}.
+\newblock {\em Q. J. R. Meteorol. Soc.}, 142(695):1182--1195, 2016.
 
 \bibitem[UB03]{UB03}
 L.~Umlauf and H.~Burchard.
@@ -468,6 +501,11 @@ Andrea Zonato, Alberto Martilli, Pedro~A. Jimenez, Jimy Dudhia, Dino Zardi, and
 \newblock A new $k-\varepsilon$ turbulence parameterization for mesoscale
   meteorological models.
 \newblock {\em Mon. Wea. Rev.}, 150(8):2157--2174, 2022.
+
+\bibitem[ZW20]{ZW20}
+Xiping Zeng and Yansen Wang.
+\newblock A $k-\varepsilon$ turbulence model for the convective atmosphere.
+\newblock {\em J. of Atmos Sci.}, 77(11):3891--3906, 2020.
 
 \bibitem[ZWM20]{ZWM20}
 Xiping Zeng, Yansen Wang, and Benjamin~T. MacCall.
