@@ -577,8 +577,72 @@ status open
 
 \backslash
 bibentry{dBL23}
+\backslash
+
 \end_layout
 
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+Replacing a GCM entirely with an ML alternative was first suggested and tested in a spatially resolved global configuration by Dueben and Bauer (2018)
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+Keisler (2022) took an ambitious step forward,
+ training a graph neural network (GNN) model ...
+ they showed that their model was more skilful than NOAA’s Global Forecast System (GFS) physical model to 6 d lead time but not as skilful as ECMWF IFS.
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+Lam et al.
+ (2022) also used GNNs to build their ML- based weather and climate model,
+ GraphCast.
+ This model was the most skilful ML-based weather and climate model at the time of writing this review.
+ While the first ML-based weather and climate model to claim to exceed the skill of a numerical model was Pangu-Weather (Bi et al.,
+ 2022;
+ described in greater detail in the following subsection),
+ GraphCast exceeded the skill of both the ECMWF deterministic operational forecasting system,
+ HRES,
+ and also Pangu- Weather.
+\begin_inset Quotes erd
+\end_inset
+
+
+\begin_inset Newline newline
+\end_inset
+
+
+\begin_inset Quotes eld
+\end_inset
+
+GraphCast ...
+ was trained on the ECMWF ERA5 reanalysis archive to produce ...
+ predictions to a 10 d lead time.
+ The authors demonstrated that GraphCast was more accurate than HRES on 90.0% of the 2760 variable and lead time combinations they evaluated.
+\begin_inset Quotes erd
 \end_inset
 
 
@@ -815,6 +879,7 @@ status open
 
 \backslash
 bibentry{QHZ+25}
+\backslash
 \end_layout
 
 \end_inset
@@ -881,6 +946,8 @@ status open
 
 \backslash
 bibentry{AJM+25}
+\backslash
+ 
 \end_layout
 
 \end_inset
@@ -943,6 +1010,8 @@ status open
 
 \backslash
 bibentry{AMK+25}
+\backslash
+ 
 \end_layout
 
 \end_inset
@@ -964,6 +1033,8 @@ status open
 
 \backslash
 bibentry{RPK19}
+\backslash
+ 
 \end_layout
 
 \end_inset
@@ -1071,6 +1142,8 @@ status open
 
 \backslash
 bibentry{SSCG}
+\backslash
+ 
 \end_layout
 
 \end_inset

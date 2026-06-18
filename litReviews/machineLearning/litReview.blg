@@ -1,0 +1,46 @@
+This is BibTeX, Version 0.99d (TeX Live 2023/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: litReview.aux
+The style file: abbrvnat.bst
+Database file #1: /home/hilary/latex/lit/ML.bib
+You've used 20 entries,
+            2773 wiz_defined-function locations,
+            825 strings with 11132 characters,
+and the built_in function-call counts, 11463 in all, are:
+= -- 938
+> -- 971
+< -- 5
++ -- 328
+- -- 306
+* -- 1068
+:= -- 1848
+add.period$ -- 71
+call.type$ -- 20
+change.case$ -- 161
+chr.to.int$ -- 18
+cite$ -- 40
+duplicate$ -- 382
+empty$ -- 745
+format.name$ -- 330
+if$ -- 2317
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 14
+newline$ -- 119
+num.names$ -- 80
+pop$ -- 309
+preamble$ -- 1
+purify$ -- 141
+quote$ -- 0
+skip$ -- 341
+stack$ -- 0
+substring$ -- 307
+swap$ -- 27
+text.length$ -- 0
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 220
+warning$ -- 0
+while$ -- 71
+width$ -- 0
+write$ -- 281

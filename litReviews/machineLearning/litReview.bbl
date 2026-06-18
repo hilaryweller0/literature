@@ -1,0 +1,171 @@
+\begin{thebibliography}{20}
+\providecommand{\natexlab}[1]{#1}
+\providecommand{\url}[1]{\texttt{#1}}
+\expandafter\ifx\csname urlstyle\endcsname\relax
+  \providecommand{\doi}[1]{doi: #1}\else
+  \providecommand{\doi}{doi: \begingroup \urlstyle{rm}\Url}\fi
+
+\bibitem[Abbasi et~al.(2025{\natexlab{a}})Abbasi, Jagtap, Moseley, Hiorth, and
+  Andersen]{AJM+25}
+J.~Abbasi, A.~D. Jagtap, B.~Moseley, A.~Hiorth, and P.~O. Andersen.
+\newblock Challenges and advancements in modeling shock fronts with
+  physics-informed neural networks: A review and benchmarking study.
+\newblock \emph{Neurocomputing}, 657:\penalty0 131440, 2025{\natexlab{a}}.
+\newblock ISSN 0925-2312.
+\newblock \doi{https://doi.org/10.1016/j.neucom.2025.131440}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0925231225021125}.
+
+\bibitem[Abbasi et~al.(2025{\natexlab{b}})Abbasi, Moseley, Kurotori, Jagtap,
+  Kovscek, Hiorth, and Andersen]{AMK+25}
+J.~Abbasi, B.~Moseley, T.~Kurotori, A.~D. Jagtap, A.~R. Kovscek, A.~Hiorth, and
+  P.~O. Andersen.
+\newblock {History-Matching of imbibition flow in fractured porous media using
+  physics-informed neural networks (PINNs)}.
+\newblock \emph{Computer Methods in Applied Mechanics and Engineering},
+  437:\penalty0 117784, 2025{\natexlab{b}}.
+\newblock ISSN 0045-7825.
+\newblock \doi{https://doi.org/10.1016/j.cma.2025.117784}.
+\newblock URL
+  \url{https://www.sciencedirect.com/science/article/pii/S0045782525000568}.
+
+\bibitem[Beucler et~al.(2019)Beucler, Rasp, Pritchard, and Gentine]{BRPG19}
+T.~Beucler, S.~Rasp, M.~Pritchard, and P.~Gentine.
+\newblock Achieving conservation of energy in neural network emulators for
+  climate modeling, 2019.
+\newblock URL \url{https://arxiv.org/abs/1906.06622}.
+
+\bibitem[Charlton-Perez et~al.(2024)Charlton-Perez, Dacre, Driscoll, Gray,
+  Harvey, Harvey, Hunt, Lee, Swaminathan, Vandaele, and Volont\'{e}]{CDD+24}
+A.~J. Charlton-Perez, H.~F. Dacre, S.~Driscoll, S.~L. Gray, B.~Harvey, N.~J.
+  Harvey, K.~M. Hunt, R.~W. Lee, R.~Swaminathan, R.~Vandaele, and
+  A.~Volont\'{e}.
+\newblock Do {AI} models produce better weather forecasts than physics-based
+  models? {A} quantitative evaluation case study of storm {C}iar\'{a}n.
+\newblock \emph{NPJ: Clim. Atmos. Sci.}, 7\penalty0 (93), 2024.
+\newblock \doi{10.1038/s41612-024-00638-w}.
+\newblock URL \url{https://doi.org/10.1038/s41612-024-00638-w}.
+
+\bibitem[de~Burgh-Day and Leeuwenburg(2023)]{dBL23}
+C.~O. de~Burgh-Day and T.~Leeuwenburg.
+\newblock Machine learning for numerical weather and climate modelling: a
+  review.
+\newblock \emph{Geoscientific Model Development}, 16\penalty0 (22):\penalty0
+  6433--6477, 2023.
+
+\bibitem[Dotse et~al.(2024)Dotse, Larbi, Limantol, and De~Silva]{DLL+24}
+S.-Q. Dotse, I.~Larbi, A.~Limantol, and L.~De~Silva.
+\newblock A review of the application of hybrid machine learning models to
+  improve rainfall prediction.
+\newblock \emph{Model. Earth Syst. Environ.}, 10:\penalty0 19--44, 2024.
+
+\bibitem[Kochkov et~al.(2021)Kochkov, Smith, Alieva, Wang, Brenner, and
+  Hoyer]{KSA+21}
+D.~Kochkov, J.~A. Smith, A.~Alieva, Q.~Wang, M.~P. Brenner, and S.~Hoyer.
+\newblock Machine learning-accelerated computational fluid dynamics.
+\newblock \emph{Proceedings of the National Academy of Sciences}, 118\penalty0
+  (21):\penalty0 e2101784118, 2021.
+
+\bibitem[Kochkov et~al.(2024)Kochkov, Yuval, Langmore, Norgaard, Smith, Mooers,
+  Kl\"{o}wer, Lottes, Rasp, D\"{u}ben, Hatfield, Sanchez-Gonzalez, Willson, and
+  Hoyer]{KYL+24}
+D.~Kochkov, J.~Yuval, I.~Langmore, P.~Norgaard, J.~Smith, G.~Mooers,
+  M.~Kl\"{o}wer, J.~Lottes, S.~Rasp, P.~D\"{u}ben, P.~Hatfield, Sam~Battaglia,
+  A.~Sanchez-Gonzalez, M.~P. Willson, Matthew~Brenner, and S.~Hoyer.
+\newblock Neural general circulation models for weather and climate.
+\newblock \emph{Nature}, 632:\penalty0 1060--1066, 2024.
+
+\bibitem[Krasnopolsky et~al.(2013)Krasnopolsky, Fox-Rabinovitz, and
+  Belochitski]{KFB13}
+V.~M. Krasnopolsky, M.~S. Fox-Rabinovitz, and A.~A. Belochitski.
+\newblock Using ensemble of neural networks to learn stochastic convection
+  parameterizations for climate and numerical weather prediction models from
+  data simulated by a cloud resolving model.
+\newblock \emph{Advances in Artificial Neural Systems}, 2013\penalty0
+  (1):\penalty0 485913, 2013.
+
+\bibitem[Kumar~Kaushik et~al.(2025)Kumar~Kaushik, Singh, Ojha, Srivastava,
+  Mahida, Kumar, Mishra, and Prabhu]{KSO+25}
+N.~Kumar~Kaushik, K.~Singh, M.~Ojha, S.~S. Srivastava, D.~Mahida, P.~Kumar,
+  A.~Mishra, and C.~Prabhu.
+\newblock Development of hybrid dynamical and machine learning based weather
+  forecasting using a network of dense weather stations.
+\newblock \emph{Atmospheric Research}, 326:\penalty0 108342, 2025.
+
+\bibitem[Lang et~al.(2024)Lang, Alexe, Chantry, Dramsch, Pinault, Raoult,
+  Clare, Lessig, Maier-Gerber, Magnusson, et~al.]{LAC+24}
+S.~Lang, M.~Alexe, M.~Chantry, J.~Dramsch, F.~Pinault, B.~Raoult, M.~C. Clare,
+  C.~Lessig, M.~Maier-Gerber, L.~Magnusson, et~al.
+\newblock Aifs--ecmwf's data-driven forecasting system.
+\newblock \emph{arXiv preprint arXiv:2406.01465}, 2024.
+
+\bibitem[Liu et~al.(2024)Liu, Fan, Zeng, Kl\"{o}wer, Zhang, and Yu]{LFZ+24}
+N.~Liu, Y.~Fan, X.~Zeng, M.~Kl\"{o}wer, L.~Zhang, and Y.~Yu.
+\newblock Harnessing the power of neural operators with automatically encoded
+  conservation laws, 2024.
+\newblock URL \url{https://arxiv.org/abs/2312.11176}.
+
+\bibitem[Moseley et~al.(2020)Moseley, Markham, and Nissen-Meyer]{MMN20}
+B.~Moseley, A.~Markham, and T.~Nissen-Meyer.
+\newblock Solving the wave equation with physics-informed deep learning, 2020.
+\newblock URL \url{https://arxiv.org/abs/2006.11894}.
+
+\bibitem[Raissi et~al.(2019)Raissi, Perdikaris, and Karniadakis]{RPK19}
+M.~Raissi, P.~Perdikaris, and G.~Karniadakis.
+\newblock Physics-informed neural networks: A deep learning framework for
+  solving forward and inverse problems involving nonlinear partial differential
+  equations.
+\newblock \emph{J. Comput. Phys.}, 378:\penalty0 686--707, 2019.
+\newblock \doi{https://doi.org/10.1016/j.jcp.2018.10.045}.
+
+\bibitem[Sha et~al.(2025)Sha, Schreck, Chapman, and Gagne]{SSCG}
+Y.~Sha, J.~S. Schreck, W.~Chapman, and D.~J. Gagne.
+\newblock Improving {AI} weather prediction models using global mass and energy
+  conservation schemes.
+\newblock \emph{J. Advances in Modeling Earth Systems}, 17\penalty0
+  (11):\penalty0 e2025MS005138, 2025.
+
+\bibitem[Sun et~al.(2025)Sun, Hassanzadeh, Zand, Chattopadhyay, Weare, and
+  Abbot]{QHZ+25}
+Y.~Q. Sun, P.~Hassanzadeh, M.~Zand, A.~Chattopadhyay, J.~Weare, and D.~S.
+  Abbot.
+\newblock Can {AI} weather models predict out-of-distribution gray swan
+  tropical cyclones?
+\newblock \emph{Proceedings of the National Academy of Sciences}, 122\penalty0
+  (21):\penalty0 e2420914122, 2025.
+\newblock \doi{10.1073/pnas.2420914122}.
+
+\bibitem[{The AIFS Team}(2025{\natexlab{a}})]{ECMWF_aifs25}
+{The AIFS Team}.
+\newblock {ECMWF's AI forecasts become operational}.
+\newblock
+  \url{https://www.ecmwf.int/en/about/media-centre/news/2025/ecmwfs-ai-forecasts-become-operational},
+  Feb 2025{\natexlab{a}}.
+
+\bibitem[{The AIFS Team}(2025{\natexlab{b}})]{ECMWF_aifsEns25}
+{The AIFS Team}.
+\newblock {ECMWF's ensemble AI forecasts become operational}.
+\newblock
+  \url{https://www.ecmwf.int/en/about/media-centre/news/2025/ecmwfs-ensemble-ai-forecasts-become-operational},
+  Jul 2025{\natexlab{b}}.
+
+\bibitem[{The AIFS Team: Mihai Alexe, Zied Ben Bouallegue, Matthew Chantry,
+  Mariana Clare, Jesper Dramsch, Simon Lang, Christian Lessig, Linus Magnusson,
+  Ana Prieto Nemesio, Florian Pinault, Baudouin Raoult, Steffen
+  Tietsche}(2023)]{ECMWF_aifs23}
+{The AIFS Team: Mihai Alexe, Zied Ben Bouallegue, Matthew Chantry, Mariana
+  Clare, Jesper Dramsch, Simon Lang, Christian Lessig, Linus Magnusson, Ana
+  Prieto Nemesio, Florian Pinault, Baudouin Raoult, Steffen Tietsche}.
+\newblock {ECMWF} unveils alpha version of new {ML} model.
+\newblock \\
+  \url{https://www.ecmwf.int/en/about/media-centre/aifs-blog/2023/ECMWF-unveils-alpha-version-of-new-ML-model},
+  Oct. 2023.
+\newblock cited Jul. 2025.
+
+\bibitem[Yuval and O'Gorman(2020)]{YO20}
+J.~Yuval and P.~O'Gorman.
+\newblock Stable machine-learning parameterization of subgrid processes for
+  climate modeling at a range of resolutions.
+\newblock \emph{Nature Communications}, 2020.
+
+\end{thebibliography}
