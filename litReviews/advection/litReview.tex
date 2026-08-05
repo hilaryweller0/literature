@@ -71,10 +71,13 @@ Adding a constant to the tracer makes it more accurate
 4th order, 2D scheme versus 5th order 1d WENO scheme. No discussion of how the splitting is done - but it formally limits the scheme to 2nd order. Although results for both schemes are ~3-4th order in test cases
 
 \item \bibentry{SM89} \ \\
+Not adaptively implicit \\
 non-negative results for $c>1$ and high accuracy for $c<1$. \\
 Zalesak's flux limiter \\
 HO fluxes are 4th order time, space-centred.\\
-FD. Cheaper than explicit for $c>1$. 1D results
+FD. Cheaper than explicit for $c>1$. 1D results\\
+Applied to discharge physics problems\\
+The scheme does not depend on c. It is implicit everywhere. But the flux limiter may need to do more for large c.
 
 \item \bibentry{Kuz09} \ \\
 ``In order to reduce the cost of flux correction, the raw antidiffusive fluxes
@@ -216,6 +219,17 @@ Real-world global simulations\\
 In particular, it was still bugging me that I couldn’t formally prove/find a proof that the (n+1) term’s coefficient on the RHS also needed to be >=0 for monotonicity. Generally, the maths just considered (n) terms on the RHS. The KK2006 paper proves it: See equations 3.1 and 3.2. (These equations hopefully make it clear what  I am talking about.)
 
 To summarise: First-order AdImEx [or ‘AdImEx Upwind’, i.e., first-order in both space and time] is indeed monotonic with the conditions that in the Appendix of your 2023 MPDATA paper. In particular, it is Godunov- and Friedrichs-monotone, see KK2006."
+
+\item \bibentry{RK24} \ \\
+``reformulation will also allow the FCT to be used effectively with exact or approximate Riemann solvers and as an implicit algorithm.''
+
+L{\"o}hner et al (IJNMF, 1987) ``have introduced an implicit FCT algorithm; however, this algorithm is limited to small multiples of the Courant-Friedrichs-Lewy (CFL) number ... multiple sub-cycles with an
+explicit donor-cell .... The high-order solution is only stable for small multiples of the CFL number, thus limiting the applicability of this algorithm.''\\
+``The performance of the explicit FCT algorithm is the subject of this
+paper.''
+
+\item \bibentry{PGBO87} \ \\
+Similar to semi-implicit. It is the pressure equation that is treated implicitly.
 
 \end{itemize}
 

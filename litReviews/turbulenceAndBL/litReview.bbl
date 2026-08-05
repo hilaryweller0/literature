@@ -136,6 +136,12 @@ M.J.P. Cullen and D.J. Salmond.
   with the physical parametrizations in the {ECMWF} model.
 \newblock {\em Q. J. R. Meteorol. Soc.}, 129(589):1217--1236, 2003.
 
+\bibitem[DE85]{DE85}
+H.W. Detering and D.~Etling.
+\newblock Application of the "e"-$\varepsilon$ turbulence model to the
+  atmospheric boundary layer.
+\newblock {\em Boundary-Layer Meteorol.}, 1985.
+
 \bibitem[DH70]{DH70}
 B.J. Daly and F.H. Harlow.
 \newblock Transport equations in turbulence.

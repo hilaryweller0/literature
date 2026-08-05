@@ -1,0 +1,420 @@
+#LyX 2.4 created this file. For more info see https://www.lyx.org/
+\lyxformat 620
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\begin_preamble
+\usepackage{color}
+\newcommand{\nicefrac}[2]{\ensuremath ^{#1}\!\!/\!_{#2}}
+\usepackage { fancybox}
+
+\renewcommand{\floatpagefraction}{0.95}
+\renewcommand{\textfraction}{0}
+\renewcommand{\topfraction}{1}
+\renewcommand{\bottomfraction}{1}
+
+\usepackage{bibentry}
+\bibliographystyle{alpha}
+\nobibliography{numerics}
+\end_preamble
+\use_default_options false
+\maintain_unincluded_children no
+\language british
+\language_package default
+\inputencoding auto-legacy
+\fontencoding auto
+\font_roman "times" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_roman_osf false
+\font_sans_osf false
+\font_typewriter_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize 12
+\spacing single
+\use_hyperref false
+\papersize a4
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style alpha
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 0
+\use_formatted_ref 0
+\use_minted 0
+\use_lineno 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\paperwidth 15cm
+\paperheight 12cm
+\leftmargin 2cm
+\topmargin 2cm
+\rightmargin 2cm
+\bottommargin 2cm
+\secnumdepth 5
+\tocdepth 5
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle plain
+\tablestyle default
+\tracking_changes false
+\output_changes false
+\change_bars false
+\postpone_fragile_content false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\docbook_table_output 0
+\docbook_mathml_prefix 1
+\end_header
+
+\begin_body
+
+\begin_layout Title
+\begin_inset Formula $k-\varepsilon$
+\end_inset
+
+ models for the Stable Boundary Layer
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+nobibliography{numerics}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite{ZWM20} 
+\backslash
+bibentry{ZWM20}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\noindent
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "49col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-6pt}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\begin_inset Graphics
+	filename BLturbulence/kEpsilonZWM20/kEqn.png
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset space \hfill{}
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "49col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Plain Layout
+\noindent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+vspace{-6pt}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\begin_inset Graphics
+	filename BLturbulence/kEpsilonZWM20/epsilonEqn.png
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\begin_inset Graphics
+	filename BLturbulence/kEpsilonZWM20/B.png
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\noindent
+\begin_inset Graphics
+	filename BLturbulence/kEpsilonZWM20/RiN2.png
+	lyxscale 50
+	width 100text%
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+ 
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite{CHB+06} 
+\backslash
+bibentry{CHB+06}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{alignat}{4}
+\frac{\partial k}{\partial t} & =S & + & B & + & T & - & D\\
+ & =-\overline{u^{\prime}w^{\prime}}\frac{\partial u}{\partial z}-\overline{v^{\prime}w^{\prime}}\frac{\partial v}{\partial z} & + & \frac{g}{\theta_{\text{ref}}}\overline{w^{\prime}\theta^{\prime}} & - & \frac{\partial\overline{w^{\prime}k}}{\partial z} & - & c_{\varepsilon}\frac{k^{2/2}}{\ell_{\varepsilon}}\\
+ & =K_{m}\left[\left(\frac{\partial u}{\partial z}\right)^{2}+\left(\frac{\partial v}{\partial z}\right)^{2}\right] & - & \frac{g}{\theta_{\text{ref}}}K_{h}\frac{\partial\theta}{\partial z} & + & \frac{\partial}{\partial z}\left(K_{k}\frac{\partial k}{\partial z}\right) & - & \varepsilon\\
+K_{m} & =c_{m}\frac{k^{2}}{\varepsilon}f_{m} & K_{h} & =c_{h}\frac{k^{2}}{\varepsilon}f_{h}
+\end{alignat}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Somrath Kanoksirirath
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\frac{\partial\varepsilon}{\partial t} & =-\frac{\partial\overline{w^{\prime}\varepsilon}}{\partial z} & +\frac{\varepsilon}{k} & \left(c_{1}S+c_{2}B+c_{c}T-c_{4}\varepsilon\right)\\
+ & =\frac{\partial}{\partial z}\left(c_{\varepsilon}K_{m}\frac{\partial\varepsilon}{\partial z}\right) & +\frac{\varepsilon}{k} & \left(1.75S+\left(0.5+\frac{B}{\varepsilon}\right)B-2\varepsilon\right) & \text{Wyngaard (1975)}\\
+ & =\frac{\partial}{\partial z}\left(c_{\varepsilon}K_{m}\frac{\partial\varepsilon}{\partial z}\right) & +\frac{\varepsilon}{k} & \left(1.46S+1.46\max\left(B,0\right)+1.45\max\left(T,0\right)-1.83\varepsilon\right) & \text{Duynkerke (1988)}\\
+ & =\frac{\partial}{\partial z}\left(c_{\varepsilon}K_{m}\frac{\partial\varepsilon}{\partial z}\right) & +\frac{\varepsilon}{k} & \left(1.44S+1.44\times0.09B-1.92\varepsilon\right) & \text{Fu et al (2016)}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+QNSE 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite[]{SGP05}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\frac{Dk}{Dt} & =\nabla\cdot K_{q}\nabla k & + & \nu_{t}\nabla\mathbf{u}:\nabla\mathbf{u} & - & \frac{\nu_{t}}{\sigma_{k}}\frac{1}{\theta_{0}}\mathbf{g}\cdot\nabla\theta & - & \varepsilon\\
+\frac{D\varepsilon}{Dt} & =\nabla\cdot K_{\varepsilon}\nabla\varepsilon & + & c_{1}\frac{\varepsilon}{k}\nu_{t}\nabla\mathbf{u}:\nabla\mathbf{u} & - & c_{3}\frac{\nu_{t}}{\sigma_{k}}\frac{1}{\theta_{0}}\mathbf{g}\cdot\nabla\theta & - & c_{2}\frac{\varepsilon^{2}}{k}
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+OpenFOAM bouyant 
+\begin_inset Formula $k-\varepsilon$
+\end_inset
+
+ (citing 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite{HvH91}
+\end_layout
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\frac{\partial k}{\partial t}+\mathbf{u}\cdot\nabla k & =T_{k} & + & S_{k} & + & B_{k} & - & \varepsilon\\
+ & =\nabla\cdot\frac{\nu_{t}}{\sigma_{k}}\nabla k & + & \nu_{t}\nabla\mathbf{u}:\nabla\mathbf{u} & + & \frac{\nu_{t}}{\sigma_{k}}\beta\mathbf{g}\cdot\nabla T & - & \varepsilon & \text{Henkes et al}\\
+ &  &  &  & - & c_{\mu}\frac{k^{2}}{\varepsilon}\frac{\mathbf{g}\cdot\nabla\rho}{\rho} &  &  & \text{OpenFOAM}\\
+\frac{\partial\varepsilon}{\partial t}+\mathbf{u}\cdot\nabla\varepsilon & =\nabla\cdot\frac{\nu_{t}}{\sigma_{\varepsilon}}\nabla\varepsilon & + & \frac{\varepsilon}{k}c_{1\varepsilon}f_{1}S_{k} & + & \frac{\varepsilon}{k}c_{1\varepsilon}f_{1}c_{3g}B_{k} & -\frac{\varepsilon}{k} & c_{1\varepsilon}f_{1}c_{2a}f_{2}\varepsilon & \text{Henkes et al}\\
+ & =\nabla\cdot\frac{\nu_{t}}{\sigma_{\varepsilon}}\nabla\varepsilon & + & \frac{\varepsilon}{k}c_{1\varepsilon}S_{k} & + & c_{1\varepsilon}c_{3g}\frac{\varepsilon}{k}B_{k} & -\frac{\varepsilon}{k} & c_{1\varepsilon}c_{2a}\varepsilon & \text{OpenFOAM}\\
+\nu_{t} & =c_{\mu}k^{2}/\varepsilon &  &  & c_{3g} & =\tanh\left|w/\left|\mathbf{v}_{h}\right|\right|
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+New AtmosFOAM Stable Boundary Layer 
+\begin_inset Formula $k-\varepsilon$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\frac{\partial k}{\partial t}+\mathbf{u}\cdot\nabla k & =T_{k} & + & S_{k} & + & B_{k} & - & \varepsilon\\
+ & =\nabla\cdot\frac{\nu_{t}}{\sigma_{k}}\nabla k & + & \nu_{t}\nabla\mathbf{u}:\nabla\mathbf{u} & - & \frac{\nu_{t}}{\sigma_{k}}\frac{\mathbf{g}\cdot\nabla\theta}{\theta} & - & \varepsilon\\
+\frac{\partial\varepsilon}{\partial t}+\mathbf{u}\cdot\nabla\varepsilon & =\nabla\cdot\frac{\nu_{t}}{\sigma_{\varepsilon}}\nabla\varepsilon & + & \frac{\varepsilon}{k}c_{1\varepsilon}S_{k} & + & c_{1\varepsilon}\frac{\varepsilon}{k}\max\left(B_{k},0\right) & -\frac{\varepsilon}{k} & c_{1\varepsilon}c_{2a}\varepsilon
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
