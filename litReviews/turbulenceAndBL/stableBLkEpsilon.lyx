@@ -318,7 +318,7 @@ Somrath Kanoksirirath
 \begin_layout Standard
 \begin_inset Formula 
 \begin{align*}
-\frac{\partial\varepsilon}{\partial t} & =-\frac{\partial\overline{w^{\prime}\varepsilon}}{\partial z} & +\frac{\varepsilon}{k} & \left(c_{1}S+c_{2}B+c_{c}T-c_{4}\varepsilon\right)\\
+\frac{\partial\varepsilon}{\partial t} & =-\frac{\partial\overline{w^{\prime}\varepsilon}}{\partial z} & +\frac{\varepsilon}{k} & \left(c_{1}S+c_{2}B+c_{3}T-c_{4}\varepsilon\right)\\
  & =\frac{\partial}{\partial z}\left(c_{\varepsilon}K_{m}\frac{\partial\varepsilon}{\partial z}\right) & +\frac{\varepsilon}{k} & \left(1.75S+\left(0.5+\frac{B}{\varepsilon}\right)B-2\varepsilon\right) & \text{Wyngaard (1975)}\\
  & =\frac{\partial}{\partial z}\left(c_{\varepsilon}K_{m}\frac{\partial\varepsilon}{\partial z}\right) & +\frac{\varepsilon}{k} & \left(1.46S+1.46\max\left(B,0\right)+1.45\max\left(T,0\right)-1.83\varepsilon\right) & \text{Duynkerke (1988)}\\
  & =\frac{\partial}{\partial z}\left(c_{\varepsilon}K_{m}\frac{\partial\varepsilon}{\partial z}\right) & +\frac{\varepsilon}{k} & \left(1.44S+1.44\times0.09B-1.92\varepsilon\right) & \text{Fu et al (2016)}
@@ -385,8 +385,8 @@ cite{HvH91}
 \frac{\partial k}{\partial t}+\mathbf{u}\cdot\nabla k & =T_{k} & + & S_{k} & + & B_{k} & - & \varepsilon\\
  & =\nabla\cdot\frac{\nu_{t}}{\sigma_{k}}\nabla k & + & \nu_{t}\nabla\mathbf{u}:\nabla\mathbf{u} & + & \frac{\nu_{t}}{\sigma_{k}}\beta\mathbf{g}\cdot\nabla T & - & \varepsilon & \text{Henkes et al}\\
  &  &  &  & - & c_{\mu}\frac{k^{2}}{\varepsilon}\frac{\mathbf{g}\cdot\nabla\rho}{\rho} &  &  & \text{OpenFOAM}\\
-\frac{\partial\varepsilon}{\partial t}+\mathbf{u}\cdot\nabla\varepsilon & =\nabla\cdot\frac{\nu_{t}}{\sigma_{\varepsilon}}\nabla\varepsilon & + & \frac{\varepsilon}{k}c_{1\varepsilon}f_{1}S_{k} & + & \frac{\varepsilon}{k}c_{1\varepsilon}f_{1}c_{3g}B_{k} & -\frac{\varepsilon}{k} & c_{1\varepsilon}f_{1}c_{2a}f_{2}\varepsilon & \text{Henkes et al}\\
- & =\nabla\cdot\frac{\nu_{t}}{\sigma_{\varepsilon}}\nabla\varepsilon & + & \frac{\varepsilon}{k}c_{1\varepsilon}S_{k} & + & c_{1\varepsilon}c_{3g}\frac{\varepsilon}{k}B_{k} & -\frac{\varepsilon}{k} & c_{1\varepsilon}c_{2a}\varepsilon & \text{OpenFOAM}\\
+\frac{\partial\varepsilon}{\partial t}+\mathbf{u}\cdot\nabla\varepsilon & =\nabla\cdot\frac{\nu_{t}}{\sigma_{\varepsilon}}\nabla\varepsilon & + & \frac{\varepsilon}{k}c_{1\varepsilon}f_{1}S_{k} & + & \frac{\varepsilon}{k}c_{1\varepsilon}f_{1}c_{3g}B_{k} & -\frac{\varepsilon}{k} & c_{1\varepsilon}f_{1}c_{2}f_{2}\varepsilon & \text{Henkes et al}\\
+ & =\nabla\cdot\frac{\nu_{t}}{\sigma_{\varepsilon}}\nabla\varepsilon & + & \frac{\varepsilon}{k}c_{1}S_{k} & + & c_{1}c_{g}\frac{\varepsilon}{k}B_{k} & -\frac{\varepsilon}{k} & c_{2}\varepsilon & \text{OpenFOAM}\\
 \nu_{t} & =c_{\mu}k^{2}/\varepsilon &  &  & c_{3g} & =\tanh\left|w/\left|\mathbf{v}_{h}\right|\right|
 \end{align*}
 
@@ -410,6 +410,245 @@ New AtmosFOAM Stable Boundary Layer
  & =\nabla\cdot\frac{\nu_{t}}{\sigma_{k}}\nabla k & + & \nu_{t}\nabla\mathbf{u}:\nabla\mathbf{u} & - & \frac{\nu_{t}}{\sigma_{k}}\frac{\mathbf{g}\cdot\nabla\theta}{\theta} & - & \varepsilon\\
 \frac{\partial\varepsilon}{\partial t}+\mathbf{u}\cdot\nabla\varepsilon & =\nabla\cdot\frac{\nu_{t}}{\sigma_{\varepsilon}}\nabla\varepsilon & + & \frac{\varepsilon}{k}c_{1\varepsilon}S_{k} & + & c_{1\varepsilon}\frac{\varepsilon}{k}\max\left(B_{k},0\right) & -\frac{\varepsilon}{k} & c_{1\varepsilon}c_{2a}\varepsilon
 \end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Boundary Conditions (Wall Functions)
+\end_layout
+
+\begin_layout Standard
+The boundary conditions of the Cuxart et al case are:
+\begin_inset Formula 
+\begin{align}
+\frac{\partial u}{\partial z} & =\frac{u_{*}}{\kappa z}\left(1+\beta_{m}\frac{z}{L}\right)\label{eq:uBC}\\
+\frac{\partial\theta}{\partial z} & =\frac{\theta_{*}}{\kappa z}\left(1+\beta_{h}\frac{z}{L}\right)\label{eq:thetaBC}
+\end{align}
+
+\end_inset
+
+with 
+\begin_inset Formula $\beta_{m}=4.8$
+\end_inset
+
+,
+ 
+\begin_inset Formula $\beta_{h}=7.8$
+\end_inset
+
+,
+ 
+\begin_inset Formula $g=9.81$
+\end_inset
+
+,
+ 
+\begin_inset Formula $\kappa=0.4$
+\end_inset
+
+ is von-Karmen's constant,
+ 
+\begin_inset Formula $\theta_{0}=263.5\text{ K}$
+\end_inset
+
+ and 
+\begin_inset Formula $L$
+\end_inset
+
+ is the Monin-Obukhov length
+\begin_inset Formula 
+\begin{equation}
+L=\frac{\theta_{0}u_{*}^{2}}{g\theta_{*}\kappa}.
+\end{equation}
+
+\end_inset
+
+Integrating (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:uBC"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+) and (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:thetaBC"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+) these gives
+\begin_inset Formula 
+\begin{align}
+u_{z} & =\frac{u_{*}}{\kappa}\left(\ln\frac{z}{z_{0}}+\beta_{m}\frac{z}{L}\right)\label{eq:uz}\\
+\Delta\theta_{z} & =\frac{\theta_{*}}{\kappa}\left(\ln\frac{z}{z_{0}}+\beta_{h}\frac{z}{L}\right)\label{eq:thetaz}
+\end{align}
+
+\end_inset
+
+(
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:uz"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+) and (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:thetaz"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+) give us equations to calculate 
+\begin_inset Formula $u_{*}$
+\end_inset
+
+ and 
+\begin_inset Formula $\theta_{*}$
+\end_inset
+
+:
+\begin_inset Formula 
+\begin{align}
+u_{*} & =\frac{\kappa u_{z}}{\ln\frac{z}{z_{0}}+\beta_{m}\frac{z}{L}}\label{eq:us}\\
+\theta_{*} & =\frac{\kappa\Delta\theta_{z}}{\ln\frac{z}{z_{0}}+\beta_{h}\frac{z}{L}}.\label{eq:thetas}
+\end{align}
+
+\end_inset
+
+The friction velocity,
+ 
+\begin_inset Formula $u_{*}$
+\end_inset
+
+ is related to the wall shear stress and 
+\begin_inset Formula $\theta_{*}$
+\end_inset
+
+ is related to the wall heat flux:
+\begin_inset Formula 
+\begin{align}
+u_{*}^{2} & =\nu\frac{\partial u}{\partial z}=\nu_{t}\frac{\Delta u}{z}\label{eq:wallShear}\\
+\theta_{*}^{2} & =\alpha\frac{\partial\theta}{\partial z}=\alpha_{t}\frac{\Delta\theta}{z}.\label{eq:wallHeatFlux}
+\end{align}
+
+\end_inset
+
+Combining (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:uz"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+) and (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:wallShear"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+),
+ and (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:thetaz"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+) and (
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "eq:wallHeatFlux"
+plural "false"
+caps "false"
+noprefix "false"
+nolink "false"
+
+\end_inset
+
+) gives
+\begin_inset Formula 
+\begin{align}
+u_{*}^{2} & =\nu_{t}\frac{\frac{u_{*}}{\kappa}\left(\ln\frac{z}{z_{0}}+\beta_{m}\frac{z}{L}\right)}{z}\implies & \nu_{t} & =\frac{u_{*}\kappa z}{\ln\frac{z}{z_{0}}+\beta_{m}\frac{z}{L}}v\\
+\theta_{*}^{2} & =\alpha_{t}\frac{\frac{\theta_{*}}{\kappa}\left(\ln\frac{z}{z_{0}}+\beta_{h}\frac{z}{L}\right)}{z}\implies & \alpha_{t} & =\frac{\theta_{*}\kappa z}{\ln\frac{z}{z_{0}}+\beta_{h}\frac{z}{L}}.
+\end{align}
+
+\end_inset
+
+whereas in OpenFOAM
+\begin_inset Formula 
+\begin{equation}
+u_{*}=C_{\mu}^{\frac{1}{4}}k^{\frac{1}{2}}
+\end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Boundary Condition for 
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Somrath says
+\begin_inset Formula 
+\begin{equation}
+\varepsilon=u_{*}^{3}\left(\frac{1+\beta_{m}\frac{z}{L}}{\kappa z}-\frac{1}{\kappa L}\right)=u_{*}^{3}\left(\frac{1}{\kappa z}+\frac{\beta_{m}}{\kappa L}-\frac{1}{\kappa L}\right)=\frac{u_{*}^{3}}{\kappa}\left(\frac{1}{z}+\frac{\beta_{m}-1}{L}\right).
+\end{equation}
+
+\end_inset
+
+OpenFOAM uses
+\begin_inset Formula 
+\begin{equation}
+\varepsilon=\frac{C_{\mu}^{\frac{3}{4}}k^{\frac{3}{2}}}{\kappa z}=\frac{u_{*}^{3}}{\kappa z}.
+\end{equation}
+
+\end_inset
+
+Make this into a correction
+\begin_inset Formula 
+\begin{equation}
+\varepsilon=\frac{C_{\mu}^{\frac{3}{4}}k^{\frac{3}{2}}}{\kappa z}\left(1+\frac{z}{L}\left(\beta_{m}-1\right)\right)
+\end{equation}
 
 \end_inset
 
