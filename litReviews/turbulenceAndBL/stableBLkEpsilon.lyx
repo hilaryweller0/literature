@@ -549,7 +549,7 @@ The friction velocity,
 \begin_inset Formula 
 \begin{align}
 u_{*}^{2} & =\nu\frac{\partial u}{\partial z}=\nu_{t}\frac{\Delta u}{z}\label{eq:wallShear}\\
-\theta_{*}^{2} & =\alpha\frac{\partial\theta}{\partial z}=\alpha_{t}\frac{\Delta\theta}{z}.\label{eq:wallHeatFlux}
+u_{*}\theta_{*}= & \alpha\frac{\partial\theta}{\partial z}=\alpha_{t}\frac{\Delta\theta}{z}.\label{eq:wallHeatFlux}
 \end{align}
 
 \end_inset
@@ -602,17 +602,18 @@ nolink "false"
 ) gives
 \begin_inset Formula 
 \begin{align}
-u_{*}^{2} & =\nu_{t}\frac{\frac{u_{*}}{\kappa}\left(\ln\frac{z}{z_{0}}+\beta_{m}\frac{z}{L}\right)}{z}\implies & \nu_{t} & =\frac{u_{*}\kappa z}{\ln\frac{z}{z_{0}}+\beta_{m}\frac{z}{L}}v\\
-\theta_{*}^{2} & =\alpha_{t}\frac{\frac{\theta_{*}}{\kappa}\left(\ln\frac{z}{z_{0}}+\beta_{h}\frac{z}{L}\right)}{z}\implies & \alpha_{t} & =\frac{\theta_{*}\kappa z}{\ln\frac{z}{z_{0}}+\beta_{h}\frac{z}{L}}.
+u_{*}^{2} & =\nu_{t}\frac{\frac{u_{*}}{\kappa}\left(\ln\frac{z}{z_{0}}+\beta_{m}\frac{z}{L}\right)}{z}\implies & \nu_{t} & =\frac{u_{*}\kappa z}{\ln\frac{z}{z_{0}}+\beta_{m}\frac{z}{L}}\\
+\alpha_{t} & =\frac{u_{*}z}{\Delta\theta_{z}}\frac{\kappa\Delta\theta_{z}}{\ln\frac{z}{z_{0}}+\beta_{h}\frac{z}{L}}\implies & \alpha_{t} & =\nu_{t}\frac{\ln\frac{z}{z_{0}}+\beta_{m}\frac{z}{L}}{\ln\frac{z}{z_{0}}+\beta_{h}\frac{z}{L}}
 \end{align}
 
 \end_inset
 
 whereas in OpenFOAM
 \begin_inset Formula 
-\begin{equation}
-u_{*}=C_{\mu}^{\frac{1}{4}}k^{\frac{1}{2}}
-\end{equation}
+\begin{align}
+u_{*} & =C_{\mu}^{\frac{1}{4}}k^{\frac{1}{2}}\\
+\alpha_{t} & =\nu_{t}/\text{Pr}_{t}
+\end{align}
 
 \end_inset
 
