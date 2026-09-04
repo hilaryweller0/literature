@@ -385,8 +385,8 @@ cite{HvH91}
 \frac{\partial k}{\partial t}+\mathbf{u}\cdot\nabla k & =T_{k} & + & S_{k} & + & B_{k} & - & \varepsilon\\
  & =\nabla\cdot\frac{\nu_{t}}{\sigma_{k}}\nabla k & + & \nu_{t}\nabla\mathbf{u}:\nabla\mathbf{u} & + & \frac{\nu_{t}}{\sigma_{k}}\beta\mathbf{g}\cdot\nabla T & - & \varepsilon & \text{Henkes et al}\\
  &  &  &  & - & c_{\mu}\frac{k^{2}}{\varepsilon}\frac{\mathbf{g}\cdot\nabla\rho}{\rho} &  &  & \text{OpenFOAM}\\
-\frac{\partial\varepsilon}{\partial t}+\mathbf{u}\cdot\nabla\varepsilon & =\nabla\cdot\frac{\nu_{t}}{\sigma_{\varepsilon}}\nabla\varepsilon & + & \frac{\varepsilon}{k}c_{1\varepsilon}f_{1}S_{k} & + & \frac{\varepsilon}{k}c_{1\varepsilon}f_{1}c_{3g}B_{k} & -\frac{\varepsilon}{k} & c_{1\varepsilon}f_{1}c_{2}f_{2}\varepsilon & \text{Henkes et al}\\
- & =\nabla\cdot\frac{\nu_{t}}{\sigma_{\varepsilon}}\nabla\varepsilon & + & \frac{\varepsilon}{k}c_{1}S_{k} & + & c_{1}c_{g}\frac{\varepsilon}{k}B_{k} & -\frac{\varepsilon}{k} & c_{2}\varepsilon & \text{OpenFOAM}\\
+\frac{\partial\varepsilon}{\partial t}+\mathbf{u}\cdot\nabla\varepsilon & =\nabla\cdot\frac{\nu_{t}}{\sigma_{\varepsilon}}\nabla\varepsilon & + & \frac{\varepsilon}{k}c_{1}f_{1}S_{k} & + & \frac{\varepsilon}{k}c_{1\varepsilon}f_{1}c_{3g}B_{k} & -\frac{\varepsilon}{k} & c_{1\varepsilon}f_{1}c_{2}f_{2}\varepsilon & \text{Henkes et al}\\
+ & =\nabla\cdot\frac{\nu_{t}}{\sigma_{\varepsilon}}\nabla\varepsilon & + & \frac{\varepsilon}{k}c_{1}S_{k} & + & c_{3g}\frac{\varepsilon}{k}B_{k} & -\frac{\varepsilon}{k} & c_{2}\varepsilon & \text{OpenFOAM}\\
 \nu_{t} & =c_{\mu}k^{2}/\varepsilon &  &  & c_{3g} & =\tanh\left|w/\left|\mathbf{v}_{h}\right|\right|
 \end{align*}
 
@@ -408,7 +408,793 @@ New AtmosFOAM Stable Boundary Layer
 \begin{align*}
 \frac{\partial k}{\partial t}+\mathbf{u}\cdot\nabla k & =T_{k} & + & S_{k} & + & B_{k} & - & \varepsilon\\
  & =\nabla\cdot\frac{\nu_{t}}{\sigma_{k}}\nabla k & + & \nu_{t}\nabla\mathbf{u}:\nabla\mathbf{u} & - & \frac{\nu_{t}}{\sigma_{k}}\frac{\mathbf{g}\cdot\nabla\theta}{\theta} & - & \varepsilon\\
-\frac{\partial\varepsilon}{\partial t}+\mathbf{u}\cdot\nabla\varepsilon & =\nabla\cdot\frac{\nu_{t}}{\sigma_{\varepsilon}}\nabla\varepsilon & + & \frac{\varepsilon}{k}c_{1\varepsilon}S_{k} & + & c_{1\varepsilon}\frac{\varepsilon}{k}\max\left(B_{k},0\right) & -\frac{\varepsilon}{k} & c_{1\varepsilon}c_{2a}\varepsilon
+\frac{\partial\varepsilon}{\partial t}+\mathbf{u}\cdot\nabla\varepsilon & =\nabla\cdot\frac{\nu_{t}}{\sigma_{\varepsilon}}\nabla\varepsilon & + & \frac{\varepsilon}{k}c_{1\varepsilon}S_{k} & + & c_{3g}\frac{\varepsilon}{k}\max\left(B_{k},0\right) & -\frac{\varepsilon}{k} & c_{2}\varepsilon
+\end{align*}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+Parameters
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="8" columns="9">
+<features tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="left" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{m}/c_{\mu}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\frac{1}{c_{\varepsilon}}=\sigma_{\varepsilon}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{1}$
+\end_inset
+
+ (for S)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{2}$
+\end_inset
+
+ (for B)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{3}$
+\end_inset
+
+ (for T)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{4}$
+\end_inset
+
+ (for 
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\text{Pr}_{t}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\kappa$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Wyngard
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.033
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+3.5
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.75
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.5+B/\varepsilon$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.4
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Duynkerke
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.033
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+2.38
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.46
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.46 
+\begin_inset Formula $\left(B>0\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.46
+\begin_inset Formula $\left(T>0\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.83
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Fu et al.
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.09
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.44
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.13
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.92
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Somrath
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.033
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $2+3-\frac{3}{4}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.4\pm0.1$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $0.2\pm0.4$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.3\pm0.4$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $1.8\pm0.2$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Zeng et al
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+varies
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.2
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+varies
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.46,
+ 0.44,0.08
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.9
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.74
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.41
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+OpenFOAM
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{1}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{3g}$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $c_{2}$
+\end_inset
+
+ (for 
+\begin_inset Formula $\varepsilon$
+\end_inset
+
+)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.09
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.44
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+\begin_inset Formula $\left(B>0\right)$
+\end_inset
+
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+1.92
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.85
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+0.41
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite{ZWM20}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align*}
+\frac{\partial\varepsilon}{\partial t}+\mathbf{u}\cdot\nabla\varepsilon & =\nabla\cdot\frac{\nu_{t}}{\sigma_{\varepsilon}}\nabla\varepsilon & + & \frac{\varepsilon}{k}c_{1\varepsilon}S_{k} & + & c_{3g}\frac{\varepsilon}{k}B_{k}+C_{4}\min\left(1,\sqrt{\frac{R_{i}}{C_{5}}}\right)N\varepsilon & -\frac{\varepsilon}{k} & c_{2}\varepsilon
 \end{align*}
 
 \end_inset
@@ -611,9 +1397,36 @@ u_{*}^{2} & =\nu_{t}\frac{\frac{u_{*}}{\kappa}\left(\ln\frac{z}{z_{0}}+\beta_{m}
 whereas in OpenFOAM
 \begin_inset Formula 
 \begin{align}
-u_{*} & =C_{\mu}^{\frac{1}{4}}k^{\frac{1}{2}}\\
-\alpha_{t} & =\nu_{t}/\text{Pr}_{t}
+u_{*} & =C_{\mu}^{\frac{1}{4}}k^{\frac{1}{2}} & \nu_{t} & =\frac{\nu y_{+}\kappa}{\ln\left(Ey_{+}\right)}=\frac{u_{*}\kappa z}{\ln\left(Eu_{*}z/\nu\right)}\\
+\alpha_{t} & =\nu_{t}/\text{Pr}_{t} & \varepsilon & =\frac{C_{\mu}^{\frac{3}{4}}k^{\frac{3}{2}}}{\kappa z}=\frac{u_{*}^{3}}{\kappa z}
 \end{align}
+
+\end_inset
+
+In OpenFOAM,
+ for large 
+\begin_inset Formula $y_{+}$
+\end_inset
+
+,
+ 
+\begin_inset Formula $z_{0}=C_{s}K_{s}/E$
+\end_inset
+
+ so set 
+\begin_inset Formula $C_{s}=E=1$
+\end_inset
+
+,
+ 
+\begin_inset Formula $K_{s}=z_{0}$
+\end_inset
+
+.
+\begin_inset Formula 
+\begin{equation}
+y_{+}=\max\left(u_{*}y/\nu,\ e/E\right)
+\end{equation}
 
 \end_inset
 
@@ -637,19 +1450,74 @@ Somrath says
 
 \end_inset
 
-OpenFOAM uses
-\begin_inset Formula 
-\begin{equation}
-\varepsilon=\frac{C_{\mu}^{\frac{3}{4}}k^{\frac{3}{2}}}{\kappa z}=\frac{u_{*}^{3}}{\kappa z}.
-\end{equation}
-
-\end_inset
-
 Make this into a correction
 \begin_inset Formula 
 \begin{equation}
 \varepsilon=\frac{C_{\mu}^{\frac{3}{4}}k^{\frac{3}{2}}}{\kappa z}\left(1+\frac{z}{L}\left(\beta_{m}-1\right)\right)
 \end{equation}
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsubsection*
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+cite{ZWM20}
+\end_layout
+
+\end_inset
+
+ Boundary Conditions
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula 
+\begin{align}
+k=u_{*}^{2}/\sqrt{C_{\mu}},\  & \varepsilon=\frac{u_{*}^{3}}{\kappa}\left(\frac{1}{z_{0}}+\frac{\beta}{L}\right)
+\end{align}
+
+\end_inset
+
+where 
+\begin_inset Formula $\beta=4.7$
+\end_inset
+
+.
+ These give
+\begin_inset Formula 
+\begin{equation}
+\nu_{t}=C_{\mu}\frac{k^{2}}{\varepsilon}=\frac{u_{*}\kappa z_{0}}{1+\beta z_{0}/L}
+\end{equation}
+
+\end_inset
+
+at the wall.
+\end_layout
+
+\begin_layout Subsubsection*
+Modifications for OpenFOAM Boundary Conditions
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $k$
+\end_inset
+
+ remains zero gradient.
+\begin_inset Formula 
+\begin{align*}
+\varepsilon & =\frac{C_{\mu}^{\frac{3}{4}}k^{\frac{3}{2}}}{\kappa z}\left(1+\frac{z}{L}\left(\beta_{m}-1\right)\right)\\
+\nu_{t} & =\frac{u_{*}\kappa z}{\ln\frac{z}{z_{0}}+\beta_{m}\frac{z}{L}}\\
+u_{*} & =C_{\mu}^{\frac{1}{4}}k^{\frac{1}{2}}\\
+\theta_{*} & =\frac{\kappa\Delta\theta_{z}}{\ln\frac{z}{z_{0}}+\beta_{h}\frac{z}{L}}.\\
+L & =\frac{\theta_{0}u_{*}^{2}}{g\theta_{*}\kappa}
+\end{align*}
 
 \end_inset
 
